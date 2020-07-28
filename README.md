@@ -1,5 +1,7 @@
 # EUREC4A Intake catalogue (unofficial)
 
+![eurec4a_intake](https://github.com/leifdenby/eurec4a-intake/workflows/eurec4a_intake/badge.svg)
+
 This repository contains an [intake](https://github.com/intake/intake)
 catalogue for data from the [EUREC4A field campaign](http://eurec4a.eu/)
 accessing data directly from the
