@@ -23,4 +23,7 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
+        # the intake-xarray puts it's source in src/ because we're installing
+        # from github directly, but we don't want to run its tests
+        rm -rf src/intake-xarray/
         python -m pytest
