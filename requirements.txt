@@ -1,0 +1,4 @@
+xarray
+netcdf4
+intake
+-e git+https://github.com/leifdenby/intake-xarray#egg=intake-xarray
