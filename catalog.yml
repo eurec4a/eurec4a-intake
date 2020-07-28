@@ -25,3 +25,10 @@ sources:
       urlpath: simplecache::s3://eurec4a-environment/dropsondes
     description: JOANNE Gridded sounding dataset
     driver: zarr
+
+  specmacs:
+    args:
+      path: specmacs.yaml
+    description: 'Data from the specMACS sensors'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
