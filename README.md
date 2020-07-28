@@ -14,7 +14,7 @@ https://github.com/leifdenby/intake-xarray:
 
 ```bash
 pip install intake opendap netcdf4
-pip install git+https://https://github.com/leifdenby/intake-xarray#egg=intake-xarray
+pip install git+https://github.com/leifdenby/intake-xarray#egg=intake-xarray
 ```
 
 You will then need to provide the OPeNDAP authentication information by setting
@@ -28,8 +28,8 @@ export DAP_PASSWORD=<aeris-password>
 The catalogue (and underlying data) can then be accessed directly from python:
 
 ```python
-> from intake import open_catalogo
-> cat = open_catalog("https://raw.githubusercontent.com/leifdenby/eurec4a-intake/catalog.yml")
+> from intake import open_catalog
+> cat = open_catalog("https://raw.githubusercontent.com/leifdenby/eurec4a-intake/master/catalog.yml")
 ```
 
 You can list the available sources with:
