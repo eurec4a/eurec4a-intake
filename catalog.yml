@@ -28,7 +28,7 @@ sources:
 
   specmacs:
     args:
-      path: specmacs.yaml
+      path: "{{CATALOG_DIR}}/specmacs.yaml"
     description: 'Data from the specMACS sensors'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
