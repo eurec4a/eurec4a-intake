@@ -26,6 +26,13 @@ sources:
     description: JOANNE Gridded sounding dataset
     driver: zarr
 
+  halo:
+    args:
+      path: "{{CATALOG_DIR}}/halo/main.yaml"
+    description: 'Data from the HALO aircraft'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
   specmacs:
     args:
       path: "{{CATALOG_DIR}}/specmacs/main.yaml"
