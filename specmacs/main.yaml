@@ -122,3 +122,24 @@ sources:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200218T101500-20200218T174459_v1.1.nc
       auth: null
       chunks: {}
+
+  points:
+    args:
+      path: "{{CATALOG_DIR}}/points.yaml"
+    description: points on cloud surface located by stereo method
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  centroids:
+    args:
+      path: "{{CATALOG_DIR}}/centroids.yaml"
+    description: reduced form of points
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  mesh:
+    args:
+      path: "{{CATALOG_DIR}}/mesh.yaml"
+    description: cloud surfaces as determined by poisson reconstruction
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}

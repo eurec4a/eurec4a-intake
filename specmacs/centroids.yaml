@@ -1,0 +1,33 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  HALO-0205_sl1:
+    description: reduced form of points
+    driver: opendap
+    args:
+      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloud_geometry/centroids_HALO-0205_sl1.nc
+      auth: null
+      chunks: {}
+  HALO-0205_sl2:
+    description: reduced form of points
+    driver: opendap
+    args:
+      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloud_geometry/centroids_HALO-0205_sl2.nc
+      auth: null
+      chunks: {}
+  HALO-0205_sl3:
+    description: reduced form of points
+    driver: opendap
+    args:
+      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloud_geometry/centroids_HALO-0205_sl3.nc
+      auth: null
+      chunks: {}
+  HALO-0205_sl4:
+    description: reduced form of points
+    driver: opendap
+    args:
+      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloud_geometry/centroids_HALO-0205_sl4.nc
+      auth: null
+      chunks: {}
