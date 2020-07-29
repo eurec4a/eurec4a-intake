@@ -10,10 +10,10 @@ accessing data from a zarr-backed object-store (using
 
 ## Usage
 
-To use you will need to install `intake`, `zarr` and `s3fs`
+To use you will need to install `intake`, `intake-xarray`, `zarr` and `s3fs`
 
 ```bash
-pip install intake zarr s3fs
+pip install intake intake-xarray zarr s3fs
 ```
 
 The catalogue (and underlying data) can then be accessed directly from python:
