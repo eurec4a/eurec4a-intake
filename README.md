@@ -26,7 +26,7 @@ The catalogue (and underlying data) can then be accessed directly from python:
 You can list the available sources with:
 ```python
 >> list(cat)
-['radiosondes']
+['radiosondes', 'dropsondes']
 
 >> list(cat.radiosondes)
 ['atalante_meteomodem',
