@@ -1,15 +1,11 @@
-# place-holder intake data-catalogue for EUREC4A campaign data for making
-# development of this project easier
+description: "Leif's EUREC4A Data Catalog"
 
-plugins:
-  source:
-    - module: intake_xarray
 sources:
 
-  specmacs_cloudmask:
-    description: cloud mask derived from specMACS SWIR camera data captured
-    driver: opendap
+  radiosondes:
+    description: Radiosondes
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/SPECMACS-CLOUDMASK/EUREC4A_HALO_specMACS_cloud_mask_20200218T101500-20200218T174459_v1.1.nc
-      auth: generic_http
-      chunks: {}
+      path: "{{CATALOG_DIR}}/radiosondes.yml"
+    #description: 'EUREC4A Radiosondes Catalog'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}

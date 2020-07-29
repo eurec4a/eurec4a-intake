@@ -1,3 +1,4 @@
 src/
 .*.sw*
 *.pyc
+init.sh

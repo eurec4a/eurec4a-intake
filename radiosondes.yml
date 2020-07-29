@@ -1,0 +1,67 @@
+sources:
+  atalante_meteomodem:
+    args:
+      consolidated: true
+      storage_options:
+        s3:
+          anon: true
+          client_kwargs:
+            endpoint_url: https://minio.denby.eu
+      urlpath: simplecache::s3://eurec4a-environment/radiosondes/atalante_meteomodem
+    description: Meteomodem-RS on Atalante
+    driver: zarr
+  atalante_vaisala:
+    args:
+      consolidated: true
+      storage_options:
+        s3:
+          anon: true
+          client_kwargs:
+            endpoint_url: https://minio.denby.eu
+      urlpath: simplecache::s3://eurec4a-environment/radiosondes/atalante_vaisala
+    description: Vaisala-RS on Atalante
+    driver: zarr
+  bco:
+    args:
+      consolidated: true
+      storage_options:
+        s3:
+          anon: true
+          client_kwargs:
+            endpoint_url: https://minio.denby.eu
+      urlpath: simplecache::s3://eurec4a-environment/radiosondes/bco
+    description: Vaisala-RS on BCO
+    driver: zarr
+  meteor:
+    args:
+      consolidated: true
+      storage_options:
+        s3:
+          anon: true
+          client_kwargs:
+            endpoint_url: https://minio.denby.eu
+      urlpath: simplecache::s3://eurec4a-environment/radiosondes/meteor
+    description: Vaisala-RS on Meteor
+    driver: zarr
+  ms_merian:
+    args:
+      consolidated: true
+      storage_options:
+        s3:
+          anon: true
+          client_kwargs:
+            endpoint_url: https://minio.denby.eu
+      urlpath: simplecache::s3://eurec4a-environment/radiosondes/ms_merian
+    description: Vaisala-RS on MS-Merian
+    driver: zarr
+  ronbrown:
+    args:
+      consolidated: true
+      storage_options:
+        s3:
+          anon: true
+          client_kwargs:
+            endpoint_url: https://minio.denby.eu
+      urlpath: simplecache::s3://eurec4a-environment/radiosondes/ronbrown
+    description: Vaisala-RS on RonBrown
+    driver: zarr
