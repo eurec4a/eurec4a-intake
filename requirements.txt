@@ -1,4 +1,5 @@
 xarray
-netcdf4
 intake
+fsspec>=0.7.4
+s3fs
 -e git+https://github.com/leifdenby/intake-xarray#egg=intake-xarray
