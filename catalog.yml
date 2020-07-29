@@ -1,4 +1,8 @@
-description: "Leif's EUREC4A Data Catalog"
+description: "Leif's (unofficial) EUREC4A Data Catalog"
+
+plugins:
+  source:
+    - module: intake_xarray
 
 sources:
 
@@ -9,3 +13,15 @@ sources:
     #description: 'EUREC4A Radiosondes Catalog'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
+
+  dropsondes:
+    args:
+      consolidated: true
+      storage_options:
+        s3:
+          anon: true
+          client_kwargs:
+            endpoint_url: https://minio.denby.eu
+      urlpath: simplecache::s3://eurec4a-environment/dropsondes
+    description: JOANNE Gridded sounding dataset
+    driver: zarr
