@@ -7,7 +7,7 @@ sources:
     description: Standard meteorological in-situ measurements at the Barbados Cloud Observatory.
     driver: opendap
     args:
-      urlpath: http://observations.mpimet.mpg.de/repository/opendap/db17c922-7c72-4883-8038-c8eb6ae65dcd/entry.das
+      urlpath: http://observations.mpimet.mpg.de/repository/opendap/db17c922-7c72-4883-8038-c8eb6ae65dcd/entry
       auth: null
       chunks: {}
 
@@ -15,6 +15,6 @@ sources:
     description: Cloud base height measurements from the ceilometer at the Barbados Cloud Observatory.
     driver: opendap
     args:
-      urlpath: http://observations.mpimet.mpg.de/repository/opendap/f921b45b-4857-4ac0-857c-548fc149b5cc/entry.das
+      urlpath: http://observations.mpimet.mpg.de/repository/opendap/f921b45b-4857-4ac0-857c-548fc149b5cc/entry
       auth: null
       chunks: {}
