@@ -14,7 +14,8 @@ To use you will need to install `intake`, `intake-xarray`, `zarr`, `pydap`
 and `s3fs`
 
 ```bash
-pip install intake intake-xarray zarr pydap s3fs
+pip install intake zarr pydap s3fs
+pip install git+https://github.com/leifdenby/intake-xarray#egg=intake-xarray
 ```
 
 The catalogue (and underlying data) can then be accessed directly from python:
