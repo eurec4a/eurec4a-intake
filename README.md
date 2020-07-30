@@ -42,7 +42,7 @@ that you have access to all the available variables and attributes in the
 dataset:
 
 ```python
->> ds = cat.ronbrown.to_dask()
+>> ds = cat.radiosondes.ronbrown.to_dask()
 >> ds
 <xarray.Dataset>
 Dimensions:      (alt: 3100, nv: 2, sounding: 329)
