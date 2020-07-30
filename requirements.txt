@@ -3,4 +3,5 @@ intake
 intake-xarray
 fsspec>=0.7.4
 s3fs
+pydap
 -e git+https://github.com/leifdenby/intake-xarray#egg=intake-xarray
