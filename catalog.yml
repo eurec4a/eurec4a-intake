@@ -39,3 +39,10 @@ sources:
     description: 'Data from the specMACS sensors'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
+
+   bco:
+    args:
+      path: "{{CATALOG_DIR}}/bco.yaml"
+    description: 'Data from the Barbados Cloud Observatory'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
