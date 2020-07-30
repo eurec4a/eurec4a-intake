@@ -40,7 +40,7 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
-   bco:
+  bco:
     args:
       path: "{{CATALOG_DIR}}/bco.yaml"
     description: 'Data from the Barbados Cloud Observatory'
