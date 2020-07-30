@@ -25,3 +25,17 @@ sources:
       urlpath: simplecache::s3://eurec4a-environment/dropsondes
     description: JOANNE Gridded sounding dataset
     driver: zarr
+
+  halo:
+    args:
+      path: "{{CATALOG_DIR}}/halo/main.yaml"
+    description: 'Data from the HALO aircraft'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  specmacs:
+    args:
+      path: "{{CATALOG_DIR}}/specmacs/main.yaml"
+    description: 'Data from the specMACS sensors'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
