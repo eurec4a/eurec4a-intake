@@ -1,0 +1,7 @@
+sources:
+  by_flight_id:
+    args:
+      path: "{{CATALOG_DIR}}/bahamas_ql_by_flight_id.yaml"
+    description: 'BAHAMAS QL data by flight id'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
