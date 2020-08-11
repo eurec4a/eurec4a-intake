@@ -1,4 +1,4 @@
-# EUREC4A Intake catalogue (unofficial)
+# EUREC4A Intake catalogue
 
 ![eurec4a_intake](https://github.com/eurec4a/eurec4a-intake/workflows/eurec4a_intake/badge.svg)
 
