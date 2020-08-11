@@ -100,3 +100,10 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200215a.nc
       auth: null
       chunks: {}
+
+  HALO-0218:
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200218a.nc
+      auth: null
+      chunks: {}
