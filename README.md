@@ -1,11 +1,13 @@
 # EUREC4A Intake catalogue (unofficial)
 
-![eurec4a_intake](https://github.com/leifdenby/eurec4a-intake/workflows/eurec4a_intake/badge.svg)
+![eurec4a_intake](https://github.com/eurec4a/eurec4a-intake/workflows/eurec4a_intake/badge.svg)
 
 This repository contains an [intake](https://github.com/intake/intake)
-catalogue for data from the [EUREC4A field campaign](http://eurec4a.eu/)
-accessing data from a zarr-backed object-store (using
-[minio](https://min.io)) at https://minio.denby.eu.
+catalogue for acessing data from  the [EUREC4A field
+campaign](http://eurec4a.eu/) stored on: 1)
+[AERIS](https://observations.ipsl.fr/aeris/eurec4a/#/) and 2) Munich
+University (via OPeNDAP) and 3) a zarr-backed
+object-store (using [minio](https://min.io)) at https://minio.denby.eu.
 
 
 ## Usage
@@ -17,12 +19,14 @@ To use you will need to install `intake`, `xarray`, `intake-xarray`,
 pip install intake xarray zarr pydap s3fs requests
 pip install git+https://github.com/leifdenby/intake-xarray#egg=intake-xarray
 ```
+(a fork of `intake-xarray` is required so OPeNDAP servers which don't require
+authentication can be used)
 
 The catalogue (and underlying data) can then be accessed directly from python:
 
 ```python
 > from intake import open_catalog
-> cat = open_catalog("https://raw.githubusercontent.com/leifdenby/eurec4a-intake/master/catalog.yml")
+> cat = open_catalog("https://raw.githubusercontent.com/eure4a/eurec4a-intake/master/catalog.yml")
 ```
 
 You can list the available sources with:
@@ -63,3 +67,11 @@ Data variables:
 ```
 
 You can then slice and access the data as if you had it available locally
+
+## Adding data-sources
+
+If you would like to add a data source please [fork]() this repository,
+follow the [intake documentation]() to create an entry in
+[catalog.yaml](catalog.yaml) (or a separate yaml-file if you are adding many
+new data sources) and finally make a pull-request. Tests are automatically run
+on pull-requests to ensure that all defined data sources can be accessed.
