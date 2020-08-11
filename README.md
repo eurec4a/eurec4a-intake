@@ -11,10 +11,10 @@ accessing data from a zarr-backed object-store (using
 ## Usage
 
 To use you will need to install `intake`, `xarray`, `intake-xarray`,
-`zarr`, `pydap` and `s3fs`
+`zarr`, `pydap`, `requests` and `s3fs`
 
 ```bash
-pip install intake xarray zarr pydap s3fs
+pip install intake xarray zarr pydap s3fs requests
 pip install git+https://github.com/leifdenby/intake-xarray#egg=intake-xarray
 ```
 

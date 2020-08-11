@@ -3,6 +3,13 @@ plugins:
     - module: intake_xarray
 
 sources:
+  ql:
+    args:
+      path: "{{CATALOG_DIR}}/bahamas_ql.yaml"
+    description: 'BAHAMAS QL data'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
   unified_20200119:
     driver: opendap
     args:
