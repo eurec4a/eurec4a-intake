@@ -1,0 +1,9 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  Level_3:
+    driver: netcdf
+    args:
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/AXBT/Level_3/P3_AXBT_Level_3_v0.7.nc
