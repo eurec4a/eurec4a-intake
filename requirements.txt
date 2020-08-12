@@ -7,4 +7,5 @@ fsspec>=0.7.4
 pydap
 s3fs
 requests
+aiohttp
 -e git+https://github.com/leifdenby/intake-xarray#egg=intake-xarray
