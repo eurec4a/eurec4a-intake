@@ -6,54 +6,54 @@ sources:
   P3-0117:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200117_v0.0.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200117_v0.0.nc
 
   P3-0119:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200119_v0.0.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200119_v0.0.nc
 
   P3-0123:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200123_v0.0.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200123_v0.0.nc
 
   P3-0124:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200124_v0.0.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200124_v0.0.nc
 
   P3-0131:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200131_v0.0.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200131_v0.0.nc
 
   P3-0203:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200203_v0.0.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200203_v0.0.nc
 
   P3-0204:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200204_v0.0.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200204_v0.0.nc
 
   P3-0205:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200205_v0.0.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200205_v0.0.nc
 
   P3-0209:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200209_v0.0.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200209_v0.0.nc
 
   P3-0210:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200210_v0.0.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200210_v0.0.nc
 
   P3-0211:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200211_v0.0.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/IsotopeAnalyzer/EUREC4A_ATOMIC_P3_IsotopeAnalyzer_20200211_v0.0.nc
