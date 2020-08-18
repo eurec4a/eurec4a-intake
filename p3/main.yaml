@@ -36,7 +36,7 @@ sources:
 
   wsra:
     args:
-      path: "{{CATALOG_DIR}}/WSRA.yaml"
+      path: "{{CATALOG_DIR}}/wsra.yaml"
     description: 'Wide swath radar altimeter data'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
