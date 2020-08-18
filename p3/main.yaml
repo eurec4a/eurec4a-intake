@@ -1,4 +1,11 @@
 sources:
+  AXBT:
+    args:
+      path: "{{CATALOG_DIR}}/axbts.yaml"
+    description: 'AXBT data'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
   flight_level:
     args:
       path: "{{CATALOG_DIR}}/flight-level.yaml"
@@ -6,10 +13,10 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
-  AXBT:
+  isotope_analyzer:
     args:
-      path: "{{CATALOG_DIR}}/axbts.yaml"
-    description: 'AXBT data'
+      path: "{{CATALOG_DIR}}/isotope-analyzer.yaml"
+    description: 'Water vapor concentration and isotopic composition'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 

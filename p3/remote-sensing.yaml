@@ -6,54 +6,54 @@ sources:
   P3-0117:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/Level_3/P3_Remote-sensing_20200117_v0.5.2.nc
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/EUREC4A_ATOMIC_P3_Remote-sensing_20200117_v0.6.nc
 
   P3-0119:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/Level_3/P3_Remote-sensing_20200119_v0.5.2.nc
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/EUREC4A_ATOMIC_P3_Remote-sensing_20200119_v0.6.nc
 
   P3-0123:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/Level_3/P3_Remote-sensing_20200123_v0.5.2.nc
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/EUREC4A_ATOMIC_P3_Remote-sensing_20200123_v0.6.nc
 
   P3-0124:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/Level_3/P3_Remote-sensing_20200124_v0.5.2.nc
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/EUREC4A_ATOMIC_P3_Remote-sensing_20200124_v0.6.nc
 
   P3-0131:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/Level_3/P3_Remote-sensing_20200131_v0.5.2.nc
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/EUREC4A_ATOMIC_P3_Remote-sensing_20200131_v0.6.nc
 
   P3-0203:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/Level_3/P3_Remote-sensing_20200203_v0.5.2.nc
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/EUREC4A_ATOMIC_P3_Remote-sensing_20200203_v0.6.nc
 
   P3-0204:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/Level_3/P3_Remote-sensing_20200204_v0.5.2.nc
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/EUREC4A_ATOMIC_P3_Remote-sensing_20200204_v0.6.nc
 
   P3-0205:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/Level_3/P3_Remote-sensing_20200205_v0.5.2.nc
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/EUREC4A_ATOMIC_P3_Remote-sensing_20200205_v0.6.nc
 
   P3-0209:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/Level_3/P3_Remote-sensing_20200209_v0.5.2.nc
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/EUREC4A_ATOMIC_P3_Remote-sensing_20200209_v0.6.nc
 
   P3-0210:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/Level_3/P3_Remote-sensing_20200210_v0.5.2.nc
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/EUREC4A_ATOMIC_P3_Remote-sensing_20200210_v0.6.nc
 
   P3-0211:
     driver: netcdf
     args:
-      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/Level_3/P3_Remote-sensing_20200211_v0.5.2.nc
+      urlpath: http://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/Remote-sensing/EUREC4A_ATOMIC_P3_Remote-sensing_20200211_v0.6.nc
