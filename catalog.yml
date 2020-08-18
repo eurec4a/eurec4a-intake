@@ -14,6 +14,13 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
+  ships:
+    args:
+      path: "{{CATALOG_DIR}}/ships/main.yaml"
+    description: 'Data from ship-based observations'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
   dropsondes:
     args:
       consolidated: true
