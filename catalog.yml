@@ -14,6 +14,13 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
+  barbados:
+    args:
+      path: "{{CATALOG_DIR}}/barbados/main.yaml"
+    description: 'Data from observations on Barbados'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
   dropsondes:
     args:
       consolidated: true
