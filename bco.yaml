@@ -34,3 +34,11 @@ sources:
       urlpath: https://observations.mpimet.mpg.de/repository/opendap/efe0c2f5-9f47-458b-bc0b-16fdbc4b8e19/entry
       auth: null
       chunks: {}
+
+  radar_reflectivity:
+    description: Radar reflectivities measured with the Ka-Band radar at the Barbados Cloud Observatory.
+    driver: opendap
+    args:
+      urlpath: https://observations.mpimet.mpg.de/repository/opendap/c4822999-dcf3-4c22-8557-c2a17e4ed59f/entry
+      auth: null
+      chunks: {}
