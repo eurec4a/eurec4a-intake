@@ -26,3 +26,11 @@ sources:
       urlpath: https://observations.mpimet.mpg.de/repository/opendap/f921b45b-4857-4ac0-857c-548fc149b5cc/entry
       auth: null
       chunks: {}
+ 
+  vertical_velocity:
+    description: Profiles of vertical velocity measured with the wind lidar at the Barbados Cloud Observatory.
+    driver: opendap
+    args:
+      urlpath: https://observations.mpimet.mpg.de/repository/opendap/efe0c2f5-9f47-458b-bc0b-16fdbc4b8e19/entry
+      auth: null
+      chunks: {}
