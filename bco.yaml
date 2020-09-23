@@ -11,6 +11,14 @@ sources:
       auth: null
       chunks: {}
 
+  surface_radiation:
+    description: Downwelling radiation measured in-situ at the Barbados Cloud Observatory.
+    driver: opendap
+    args:
+      urlpath: http://ramadda.mpimet.mpg.de:8080/repository/opendap/ff5d2659-0ef3-4716-a702-7f0799779043/entry
+      auth: null
+      chunks: {}
+
   cloud_base_height:
     description: Cloud base height measurements from the ceilometer at the Barbados Cloud Observatory.
     driver: opendap
