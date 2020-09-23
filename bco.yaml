@@ -1,0 +1,45 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  surface_meteorology:
+    description: Standard meteorological in-situ measurements at the Barbados Cloud Observatory.
+    driver: opendap
+    args:
+      urlpath: https://observations.mpimet.mpg.de/repository/opendap/db17c922-7c72-4883-8038-c8eb6ae65dcd/entry
+      auth: null
+      chunks: {}
+
+  surface_radiation:
+    description: Downwelling radiation measured in-situ at the Barbados Cloud Observatory.
+    driver: opendap
+    args:
+      urlpath: https://observations.mpimet.mpg.de/repository/opendap/ff5d2659-0ef3-4716-a702-7f0799779043/entry
+      auth: null
+      chunks: {}
+
+  cloud_base_height:
+    description: Cloud base height measurements from the ceilometer at the Barbados Cloud Observatory.
+    driver: opendap
+    args:
+      urlpath: https://observations.mpimet.mpg.de/repository/opendap/f921b45b-4857-4ac0-857c-548fc149b5cc/entry
+      auth: null
+      chunks: {}
+
+# Some int64 in the data might cause an issue
+#   vertical_velocity:
+#     description: Profiles of vertical velocity measured with the wind lidar at the Barbados Cloud Observatory.
+#     driver: opendap
+#     args:
+#       urlpath: https://observations.mpimet.mpg.de/repository/opendap/efe0c2f5-9f47-458b-bc0b-16fdbc4b8e19/entry
+#       auth: null
+#       chunks: {}
+
+#   radar_reflectivity:
+#     description: Radar reflectivities measured with the Ka-Band radar at the Barbados Cloud Observatory.
+#     driver: opendap
+#     args:
+#       urlpath: https://observations.mpimet.mpg.de/repository/opendap/c4822999-dcf3-4c22-8557-c2a17e4ed59f/entry
+#       auth: null
+#       chunks: {}
