@@ -1,0 +1,7 @@
+sources:
+  ronbrown:
+    args:
+      path: "{{CATALOG_DIR}}/ronbrown.yaml"
+    description: 'Observations from the R/V Ron H Brown'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
