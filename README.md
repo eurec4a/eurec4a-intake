@@ -7,7 +7,9 @@ catalogue for acessing data from  the [EUREC4A field
 campaign](http://eurec4a.eu/) stored on: 1)
 [AERIS](https://observations.ipsl.fr/aeris/eurec4a/#/) and 2) Munich
 University (via OPeNDAP) and 3) a zarr-backed
-object-store (using [minio](https://min.io)) at https://minio.denby.eu.
+object-store (using [minio](https://min.io)) at https://minio.denby.eu
+and 4) OPeNDAP access to files at
+[NOAA's Physical Sciences Lab](https://psl.noaa.gov/thredds/catalog/Datasets/ATOMIC/data/catalog.html).
 
 
 ## Usage
@@ -16,11 +18,8 @@ To use you will need to install `intake`, `xarray`, `intake-xarray`,
 `zarr`, `pydap`, `requests` and `s3fs`
 
 ```bash
-pip install intake xarray zarr pydap s3fs requests
-pip install git+https://github.com/leifdenby/intake-xarray#egg=intake-xarray
+pip install intake xarray intake-xarray zarr pydap s3fs requests
 ```
-(a fork of `intake-xarray` is required so OPeNDAP servers which don't require
-authentication can be used)
 
 The catalogue (and underlying data) can then be accessed directly from python:
 
@@ -32,7 +31,7 @@ The catalogue (and underlying data) can then be accessed directly from python:
 You can list the available sources with:
 ```python
 >> list(cat)
-['radiosondes', 'dropsondes']
+['radiosondes', 'barbados', 'dropsondes', 'halo', 'p3', 'specmacs']
 
 >> list(cat.radiosondes)
 ['atalante_meteomodem',
