@@ -40,6 +40,13 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
+  p3:
+    args:
+      path: "{{CATALOG_DIR}}/p3/main.yaml"
+    description: 'Data from the P3 aircraft'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
   specmacs:
     args:
       path: "{{CATALOG_DIR}}/specmacs/main.yaml"
