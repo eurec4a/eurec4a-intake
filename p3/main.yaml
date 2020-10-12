@@ -13,6 +13,13 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
+  isotope_analyzer:
+    args:
+      path: "{{CATALOG_DIR}}/isotope-analyzer.yaml"
+    description: 'Isotope analyzer data'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
   remote_sensing:
     args:
       path: "{{CATALOG_DIR}}/remote-sensing.yaml"
