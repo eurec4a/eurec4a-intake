@@ -1,16 +1,12 @@
 plugins:
   source:
     - module: intake_xarray
+    - module: ipfsspec
 
 sources:
   level3:
     args:
       consolidated: true
-      storage_options:
-        s3:
-          anon: true
-          client_kwargs:
-            endpoint_url: https://minio.denby.eu
-      urlpath: simplecache::s3://eurec4a-environment/dropsondes
-    description: JOANNE Gridded sounding dataset
+      urlpath: ipfs://QmWcdcXqTQhyfwtttqh2DT2BiEk67uXxuGdskghDpuXYUw
+    description: EUREC4A/ATOMIC JOANNE Level-3 gridded dropsonde dataset
     driver: zarr
