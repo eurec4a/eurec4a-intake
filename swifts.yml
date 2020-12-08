@@ -3,42 +3,42 @@ plugins:
     - module: intake_xarray
 
 sources:
-  SWIFT_16:
+  SWIFT-16:
     driver: opendap
     args:
       auth: null
       chunks: {}
       urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT16_All_v1.1.nc
 
-  SWIFT_17:
+  SWIFT-17:
     driver: opendap
     args:
       auth: null
       chunks: {}
       urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT17_All_v1.1.nc
 
-  SWIFT_22:
+  SWIFT-22:
     driver: opendap
     args:
       auth: null
       chunks: {}
       urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT22_All_v1.1.nc
 
-  SWIFT_23:
+  SWIFT-23:
     driver: opendap
     args:
       auth: null
       chunks: {}
       urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT23_All_v1.1.nc
 
-  SWIFT_24:
+  SWIFT-24:
     driver: opendap
     args:
       auth: null
       chunks: {}
       urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT24_All_v1.1.nc
 
-  SWIFT_25:
+  SWIFT-25:
     driver: opendap
     args:
       auth: null
