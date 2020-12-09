@@ -9,7 +9,7 @@ campaign](http://eurec4a.eu/) stored on: 1)
 University (via OPeNDAP) and 3) a zarr-backed
 object-store (using [minio](https://min.io)) at https://minio.denby.eu
 and 4) OPeNDAP access to files at
-[NOAA's Physical Sciences Lab](https://psl.noaa.gov/thredds/catalog/Datasets/ATOMIC/data/catalog.html).
+[NOAA's Physical Sciences Lab](https://psl.noaa.gov/thredds/catalog/Datasets/ATOMIC/data/catalog.html) and 5) data linked via [IPFS](https://ipfs.io/).
 
 
 ## Usage
