@@ -48,3 +48,10 @@ sources:
       path: "{{CATALOG_DIR}}/swifts.yml"
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
+
+  dropsondes:
+    args:
+      path: "{{CATALOG_DIR}}/dropsondes.yaml"
+    description: 'Dropsonde dataset JOANNE.'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
