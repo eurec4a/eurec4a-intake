@@ -5,6 +5,7 @@ xarray
 zarr
 fsspec>=0.7.4
 pydap
+netCDF4
 s3fs
 requests
 intake-xarray>=0.3.2
