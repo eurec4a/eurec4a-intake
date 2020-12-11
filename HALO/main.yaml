@@ -1,8 +1,15 @@
 sources:
-  bahamas:
+  BAHAMAS:
     args:
-      path: "{{CATALOG_DIR}}/bahamas.yaml"
+      path: "{{CATALOG_DIR}}/BAHAMAS.yaml"
     description: 'Basic instrumentation data'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  specMACS:
+    args:
+      path: "{{CATALOG_DIR}}/specmacs/main.yaml"
+    description: specMACS cloud imager data
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 

@@ -1,0 +1,25 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  points:
+    args:
+      path: "{{CATALOG_DIR}}/points.yaml"
+    description: points on cloud surface located by stereo method
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  centroids:
+    args:
+      path: "{{CATALOG_DIR}}/centroids.yaml"
+    description: reduced form of points
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  mesh:
+    args:
+      path: "{{CATALOG_DIR}}/mesh.yaml"
+    description: cloud surfaces as determined by poisson reconstruction
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
