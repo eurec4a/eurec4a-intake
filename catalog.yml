@@ -35,13 +35,6 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
-  specmacs:
-    args:
-      path: "{{CATALOG_DIR}}/specmacs/main.yaml"
-    description: 'Data from the specMACS sensors'
-    driver: intake.catalog.local.YAMLFileCatalog
-    metadata: {}
-
   swifts:
     description: SWIFT ocean surface drifters
     args:

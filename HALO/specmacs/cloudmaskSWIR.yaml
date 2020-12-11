@@ -3,7 +3,7 @@ plugins:
     - module: intake_xarray
 
 sources:
-  cloudmask_20200119:
+  HALO-0119:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -11,7 +11,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200122:
+  HALO-0122:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -19,7 +19,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200124:
+  HALO-0124:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -27,7 +27,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200126:
+  HALO-0126:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -35,7 +35,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200128:
+  HALO-0128:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -43,7 +43,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200130:
+  HALO-0130:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -51,7 +51,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200131:
+  HALO-0131:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -59,7 +59,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200202:
+  HALO-0202:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -67,7 +67,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200205:
+  HALO-0205:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -75,7 +75,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200207:
+  HALO-0207:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -83,7 +83,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200209:
+  HALO-0209:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -91,7 +91,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200211:
+  HALO-0211:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -99,7 +99,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200213:
+  HALO-0213:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -107,7 +107,7 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200215:
+  HALO-0215:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
@@ -115,31 +115,10 @@ sources:
       auth: null
       chunks: {}
 
-  cloudmask_20200218:
+  HALO-0218:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200218T101500-20200218T174459_v1.1.nc
       auth: null
       chunks: {}
-
-  points:
-    args:
-      path: "{{CATALOG_DIR}}/points.yaml"
-    description: points on cloud surface located by stereo method
-    driver: intake.catalog.local.YAMLFileCatalog
-    metadata: {}
-
-  centroids:
-    args:
-      path: "{{CATALOG_DIR}}/centroids.yaml"
-    description: reduced form of points
-    driver: intake.catalog.local.YAMLFileCatalog
-    metadata: {}
-
-  mesh:
-    args:
-      path: "{{CATALOG_DIR}}/mesh.yaml"
-    description: cloud surfaces as determined by poisson reconstruction
-    driver: intake.catalog.local.YAMLFileCatalog
-    metadata: {}
