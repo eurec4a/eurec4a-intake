@@ -21,16 +21,16 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
-  halo:
+  HALO:
     args:
-      path: "{{CATALOG_DIR}}/halo/main.yaml"
+      path: "{{CATALOG_DIR}}/HALO/main.yaml"
     description: 'Data from the HALO aircraft'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
-  p3:
+  P3:
     args:
-      path: "{{CATALOG_DIR}}/p3/main.yaml"
+      path: "{{CATALOG_DIR}}/P3/main.yaml"
     description: 'Data from the P3 aircraft'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
