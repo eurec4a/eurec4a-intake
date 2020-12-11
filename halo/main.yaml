@@ -5,3 +5,10 @@ sources:
     description: 'Basic instrumentation data'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
+
+  UNIFIED:
+    args:
+      path: "{{CATALOG_DIR}}/unified.yaml"
+    description: Heike Konows UNIFIED dataset
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
