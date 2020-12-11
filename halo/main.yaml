@@ -5,10 +5,3 @@ sources:
     description: 'Basic instrumentation data'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
-
-  dropsondes:
-    args:
-      path: "{{CATALOG_DIR}}/dropsondes.yaml"
-    description: 'Dropsonde dataset JOANNE.'
-    driver: intake.catalog.local.YAMLFileCatalog
-    metadata: {}
