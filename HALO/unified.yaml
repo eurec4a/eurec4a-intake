@@ -1,0 +1,32 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  dropsondes:
+    args:
+      path: "{{CATALOG_DIR}}/dropsondes_unified.yaml"
+    description: dropsondes in HALO UNIFIED dataset.
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  HAMPradar:
+    args:
+      path: "{{CATALOG_DIR}}/radar_unified.yaml"
+    description: radar data in HALO UNIFIED dataset.
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  HAMPradiometer:
+    args:
+      path: "{{CATALOG_DIR}}/radiometer_unified.yaml"
+    description: radiometer data in HALO UNIFIED dataset.
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  BAHAMAS:
+    args:
+      path: "{{CATALOG_DIR}}/bahamas_unified.yaml"
+    description: BAHAMAS data in HALO UNIFIED dataset.
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
