@@ -1,0 +1,7 @@
+sources:
+    radiative_profiles:
+        args:
+            path: "{{CATALOG_DIR}}/radiative_profiles.yml"
+        description: Atmospheric radiative profiles during EUREC4A
+        driver: intake.catalog.local.YAMLFileCatalog
+        metadata: {}

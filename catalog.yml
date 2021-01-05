@@ -48,3 +48,10 @@ sources:
     description: 'Dropsonde dataset JOANNE.'
     driver: yaml_file_cat
     metadata: {}
+
+  products:
+    args:
+      path: "{{CATALOG_DIR}}/products/main.yml"
+    description: Additional datasets or combinations of such, that go beyond single instrument measurements.
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
