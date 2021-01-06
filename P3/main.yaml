@@ -3,40 +3,40 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/axbts.yaml"
     description: 'AXBT data'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   flight_level:
     args:
       path: "{{CATALOG_DIR}}/flight-level.yaml"
     description: 'Flight level data'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   isotope_analyzer:
     args:
       path: "{{CATALOG_DIR}}/isotope-analyzer.yaml"
     description: 'Isotope analyzer data'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   remote_sensing:
     args:
       path: "{{CATALOG_DIR}}/remote-sensing.yaml"
     description: 'W-band and SFMR data'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   w_band_radar:
     args:
       path: "{{CATALOG_DIR}}/w-band-radar.yaml"
     description: 'W-band radar data'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   wsra:
     args:
       path: "{{CATALOG_DIR}}/WSRA.yaml"
     description: 'Wide swath radar altimeter data'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}

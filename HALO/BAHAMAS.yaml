@@ -7,5 +7,5 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/BAHAMAS_QL.yaml"
     description: 'BAHAMAS QL data'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
