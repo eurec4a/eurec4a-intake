@@ -16,7 +16,7 @@ sources:
   adepg:
     args:
       path: "{{CATALOG_DIR}}/wales_adepg.yaml"
-    description: 'WALES Lidar Particle Depolarisation at 532 nm'
+    description: 'WALES Lidar aerosol depolarisation at 532 nm'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
