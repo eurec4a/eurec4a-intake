@@ -19,3 +19,10 @@ sources:
     description: Heike Konows UNIFIED dataset
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
+
+  WALES:
+    args:
+      path: "{{CATALOG_DIR}}/wales/main.yaml"
+    description: WALES Lidar data
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}

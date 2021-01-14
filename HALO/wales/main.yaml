@@ -1,0 +1,35 @@
+sources:
+  cloudparameter:
+    args:
+      path: "{{CATALOG_DIR}}/wales_cloudtop.yaml"
+    description: 'WALES Lidar cloud top heights'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  wv:
+    args:
+      path: "{{CATALOG_DIR}}/wales_wv.yaml"
+    description: 'WALES Lidar Water Vapour Mixing Ratio in g/kg'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  adepg:
+    args:
+      path: "{{CATALOG_DIR}}/wales_adepg.yaml"
+    description: 'WALES Lidar Particle Depolarisation at 532 nm'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  bsri:
+    args:
+      path: "{{CATALOG_DIR}}/wales_bsri.yaml"
+    description: 'WALES Lidar Backscatter Ratio at 1064 nm (parallel polarisation)'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  bsrg:
+    args:
+      path: "{{CATALOG_DIR}}/wales_bsrg.yaml"
+    description: 'WALES Lidar Backscatter Ratio at 532 nm (parallel polarisation)'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}

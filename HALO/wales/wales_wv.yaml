@@ -1,0 +1,95 @@
+plugins:
+  source:
+    - module: intake_xarray
+sources:
+  HALO-0122:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_22/EUREC4A_HALO_WALES_wv_20200122a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0124:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_24/EUREC4A_HALO_WALES_wv_20200124a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0126:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_26/EUREC4A_HALO_WALES_wv_20200126a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0128:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_28/EUREC4A_HALO_WALES_wv_20200128a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0130:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_30/EUREC4A_HALO_WALES_wv_20200130a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0131:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_31/EUREC4A_HALO_WALES_wv_20200131a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0202:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_02/EUREC4A_HALO_WALES_wv_20200202a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0205:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_05/EUREC4A_HALO_WALES_wv_20200205a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0207:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_07/EUREC4A_HALO_WALES_wv_20200207a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0209:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_09/EUREC4A_HALO_WALES_wv_20200209a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0211:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_11/EUREC4A_HALO_WALES_wv_20200211a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0213:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_13/EUREC4A_HALO_WALES_wv_20200213a_V1.nc
+      auth: null
+      chunks: {}
+  HALO-0215:
+    description: WALES-Lidar Water Vapour Mixing Ratio in g/kg.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_15/EUREC4A_HALO_WALES_wv_20200215a_V1.nc
+      auth: null
+      chunks: {}
