@@ -2,7 +2,7 @@ sources:
   cloudparameter:
     args:
       path: "{{CATALOG_DIR}}/wales_cloudtop.yaml"
-    description: 'WALES Lidar cloud top heights'
+    description: 'WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
