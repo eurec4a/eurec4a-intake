@@ -5,6 +5,6 @@ sources:
     description: Observations at BCO (Barbados Cloud Observatory)
     args:
       path: "{{CATALOG_DIR}}/bco.yaml"
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata:
       website: https://barbados.mpimet.mpg.de/
