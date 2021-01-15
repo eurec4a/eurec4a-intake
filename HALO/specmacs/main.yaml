@@ -7,12 +7,12 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/cloudmaskSWIR.yaml"
     description: "specMACS cloudmask based on SWIR camera, see [description](https://macsserver.physik.uni-muenchen.de/campaigns/EUREC4A/products/cloudmask/)"
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   experimental:
     args:
       path: "{{CATALOG_DIR}}/experimental.yaml"
     description: centroids, point surface, and mesh for a case study for February 5
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}

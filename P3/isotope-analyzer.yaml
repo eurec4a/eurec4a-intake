@@ -3,12 +3,12 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-1hz.yaml"
     description: 'Isotope analyzer 1Hz humidity data'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   water_vapor_5hz:
     args:
       path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-5hz.yaml"
     description: 'Isotope analyzer 5 Hzhumidity data'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}

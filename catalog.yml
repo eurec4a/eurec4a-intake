@@ -11,40 +11,40 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/radiosondes.yml"
     #description: 'EUREC4A Radiosondes Catalog'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   barbados:
     args:
       path: "{{CATALOG_DIR}}/barbados/main.yaml"
     description: 'Data from observations on Barbados'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   HALO:
     args:
       path: "{{CATALOG_DIR}}/HALO/main.yaml"
     description: 'Data from the HALO aircraft'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   P3:
     args:
       path: "{{CATALOG_DIR}}/P3/main.yaml"
     description: 'Data from the P3 aircraft'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   swifts:
     description: SWIFT ocean surface drifters
     args:
       path: "{{CATALOG_DIR}}/swifts.yml"
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   dropsondes:
     args:
       path: "{{CATALOG_DIR}}/dropsondes.yaml"
     description: 'Dropsonde dataset JOANNE.'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
