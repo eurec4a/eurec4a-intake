@@ -3,33 +3,33 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/wales_cloudtop.yaml"
     description: 'WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat 
     metadata: {}
 
   wv:
     args:
       path: "{{CATALOG_DIR}}/wales_wv.yaml"
-    description: 'WALES Lidar Water Vapour Mixing Ratio in g/kg'
-    driver: intake.catalog.local.YAMLFileCatalog
+    description: 'WALES Lidar water wapour volume mixing ratio in ppm'
+    driver: yaml_file_cat
     metadata: {}
 
   adepg:
     args:
       path: "{{CATALOG_DIR}}/wales_adepg.yaml"
     description: 'WALES Lidar aerosol depolarisation at 532 nm'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   bsri:
     args:
       path: "{{CATALOG_DIR}}/wales_bsri.yaml"
     description: 'WALES Lidar Backscatter Ratio at 1064 nm (parallel polarisation)'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
 
   bsrg:
     args:
       path: "{{CATALOG_DIR}}/wales_bsrg.yaml"
     description: 'WALES Lidar Backscatter Ratio at 532 nm (parallel polarisation)'
-    driver: intake.catalog.local.YAMLFileCatalog
+    driver: yaml_file_cat
     metadata: {}
