@@ -20,6 +20,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  SMART:
+    args:
+      path: "{{CATALOG_DIR}}/SMART.yaml"
+    description: SMART dataset
+    driver: yaml_file_cat
+    metadata: {}
+
   WALES:
     args:
       path: "{{CATALOG_DIR}}/wales/main.yaml"
