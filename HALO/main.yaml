@@ -22,7 +22,7 @@ sources:
 
   SMART:
     args:
-      path: "{{CATALOG_DIR}}/SMART.yaml"
+      path: "{{CATALOG_DIR}}/smart.yaml"
     description: SMART dataset
     driver: yaml_file_cat
     metadata: {}
