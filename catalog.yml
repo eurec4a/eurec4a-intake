@@ -49,9 +49,9 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  products:
+  radiative_profiles:
     args:
-      path: "{{CATALOG_DIR}}/products/main.yml"
-    description: Additional datasets or combinations of such, that go beyond single instrument measurements.
+      path: "{{CATALOG_DIR}}/radiative_profiles.yml"
+    description: Atmospheric radiative profiles during EUREC4A
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}

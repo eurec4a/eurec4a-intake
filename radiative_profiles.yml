@@ -2,7 +2,7 @@ plugins:
     source:
         - module: intake_xarray
 sources:
-    albright2020:
+    clear_sky:
         description: Atmospheric radiative profiles from dropsondes and radiosondes published in Albright et al., 2020.
         driver: opendap
         args:
