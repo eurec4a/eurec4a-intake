@@ -8,39 +8,39 @@ sources:
     args:
       auth: null
       chunks: {}
-      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT16_All_v1.1.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT16_All_v2.1.nc
 
   SWIFT17:
     driver: opendap
     args:
       auth: null
       chunks: {}
-      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT17_All_v1.1.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT17_All_v2.1.nc
 
   SWIFT22:
     driver: opendap
     args:
       auth: null
       chunks: {}
-      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT22_All_v1.1.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT22_All_v2.1.nc
 
   SWIFT23:
     driver: opendap
     args:
       auth: null
       chunks: {}
-      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT23_All_v1.1.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT23_All_v2.1.nc
 
   SWIFT24:
     driver: opendap
     args:
       auth: null
       chunks: {}
-      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT24_All_v1.1.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT24_All_v2.1.nc
 
   SWIFT25:
     driver: opendap
     args:
       auth: null
       chunks: {}
-      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT25_All_v1.1.nc
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT25_All_v2.1.nc
