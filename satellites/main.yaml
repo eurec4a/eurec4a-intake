@@ -1,0 +1,8 @@
+
+sources:
+
+  sat:
+    description: Satellite data and products from different sources
+    args:
+      path: "{{CATALOG_DIR}}/satellites.yaml"
+    driver: yaml_file_cat
