@@ -48,3 +48,11 @@ sources:
     description: 'Dropsonde dataset JOANNE.'
     driver: yaml_file_cat
     metadata: {}
+
+  satellites:
+    args:
+      path: "{{CATALOG_DIR}}/satellites/main.yaml"
+    description: 'Satellite products'
+    driver: yaml_file_cat
+    metadata: {}
+
