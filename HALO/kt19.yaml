@@ -1,0 +1,7 @@
+sources:
+  cloudmask:
+    args:
+      path: "{{CATALOG_DIR}}/kt19_cloudmask.yaml"
+    description: 'KT-19 thermal radiometer cloud mask product'
+    driver: yaml_file_cat
+    metadata: {}

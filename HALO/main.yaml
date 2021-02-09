@@ -34,6 +34,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  KT19:
+    args:
+      path: "{{CATALOG_DIR}}/kt19.yaml"
+    description: KT-19 thermal infrared radiometer data
+    driver: yaml_file_cat
+    metadata: {}
+
   WALES:
     args:
       path: "{{CATALOG_DIR}}/wales/main.yaml"
