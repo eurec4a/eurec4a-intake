@@ -4,7 +4,8 @@ intake
 xarray
 zarr
 fsspec>=0.7.4
-pydap
+-e git+https://github.com/pydap/pydap#egg=pydap
+-e git+https://github.com/Pylons/webob#egg=webob
 s3fs
 ipfsspec
 requests

@@ -1,0 +1,25 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  HALO:
+    description: HALO track
+    driver: opendap
+    args:
+      urlpath: https://observations.mpimet.mpg.de/repository/opendap/cf207812-20fa-4c87-bf7d-f6a7f8dcbc38/entry
+      auth: null
+      chunks: {}
+    metadata:
+      tags:
+        - track
+  ATR:
+    description: ATR track
+    driver: opendap
+    args:
+      urlpath: https://observations.mpimet.mpg.de/repository/opendap/16b222a4-0ce5-42ac-95f6-3625add76175/entry
+      auth: null
+      chunks: {}
+    metadata:
+      tags:
+        - tracks
