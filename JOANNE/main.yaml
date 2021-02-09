@@ -1,0 +1,12 @@
+plugins:
+  source:
+    - module: intake_xarray
+    - module: ipfsspec
+
+sources:
+  level3:
+    args:
+      consolidated: true
+      urlpath: ipfs://QmWcdcXqTQhyfwtttqh2DT2BiEk67uXxuGdskghDpuXYUw
+    description: EUREC4A/ATOMIC JOANNE Level-3 gridded dropsonde dataset
+    driver: zarr

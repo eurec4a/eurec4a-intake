@@ -1,0 +1,7 @@
+sources:
+  spectral_irradiances:
+    args:
+      path: "{{CATALOG_DIR}}/smart_irradiances.yaml"
+    description: 'SMART spectral irradiances'
+    driver: yaml_file_cat
+    metadata: {}
