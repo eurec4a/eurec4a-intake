@@ -1,0 +1,89 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  HALO-0124:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_03_20200124/EUREC4A_HALO_VELOX_cloudmask_20200124_v2.0.nc
+      auth: null
+      chunks: {}
+  HALO-0126:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_04_20200126/EUREC4A_HALO_VELOX_cloudmask_20200126_v2.0.nc
+      auth: null
+      chunks: {}
+  HALO-0128:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_05_20200128/EUREC4A_HALO_VELOX_cloudmask_20200128_v2.0.nc
+      auth: null
+      chunks: {}
+  HALO-0130:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_06_20200130/EUREC4A_HALO_VELOX_cloudmask_20200130_v2.0.nc
+      auth: null
+      chunks: {}
+  HALO-0131:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_07_20200131/EUREC4A_HALO_VELOX_cloudmask_20200131_v2.0.nc
+      auth: null
+      chunks: {}
+  HALO-0202:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_08_20200202/EUREC4A_HALO_VELOX_cloudmask_20200202_v2.0.nc
+      auth: null
+      chunks: {}
+  HALO-0205:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_09_20200205/EUREC4A_HALO_VELOX_cloudmask_20200205_v2.0.nc
+      auth: null
+      chunks: {}
+  HALO-0207:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_10_20200207/EUREC4A_HALO_VELOX_cloudmask_20200207_v2.0.nc
+      auth: null
+      chunks: {}
+  HALO-0209:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_11_20200209/EUREC4A_HALO_VELOX_cloudmask_20200209_v2.0.nc
+      auth: null
+      chunks: {}
+  HALO-0211:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_12_20200211/EUREC4A_HALO_VELOX_cloudmask_20200211_v2.0.nc
+      auth: null
+      chunks: {}
+  HALO-0213:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_13_20200213/EUREC4A_HALO_VELOX_cloudmask_20200213_v2.0.nc
+      auth: null
+      chunks: {}
+  HALO-0215:
+    description: VELOX cloud mask 
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_14_20200215/EUREC4A_HALO_VELOX_cloudmask_20200215_v2.0.nc
+      auth: null
+      chunks: {}

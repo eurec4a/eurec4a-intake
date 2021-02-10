@@ -27,6 +27,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  VELOX:
+    args:
+      path: "{{CATALOG_DIR}}/velox.yaml"
+    description: VELOX dataset
+    driver: yaml_file_cat
+    metadata: {}
+
   WALES:
     args:
       path: "{{CATALOG_DIR}}/wales/main.yaml"
