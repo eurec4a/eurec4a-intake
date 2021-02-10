@@ -35,3 +35,30 @@ sources:
         - brightness temperature
         - satellite image
         - reflectivity
+  GOES16_regridded_30min:
+    description: Gridded products of reflectivity and brightness temperature  measured with the Advanced Baseline Imager (ABI) onboard GOES16 (meso-region scans)
+    driver: opendap
+    args:
+      urlpath: https://observations.mpimet.mpg.de/repository/opendap/f8edc99e-fbc6-4f35-b2d3-5891f3dd12cb/entry
+      auth: null
+      chunks: {}
+    parameters:
+      channel:
+        description: Advanced Baseline imager channel
+        type: int
+        default: 13
+        allowed: [13]
+      date:
+        description: date of observation
+        default: 2020-02-02
+        type: datetime
+        min: 2020-01-01
+        max: 2020-12-31
+    metadata:
+      documentation: https://www.goes-r.gov/spacesegment/abi.html
+      processing: https://github.com/observingClouds/satdownload
+      tags:
+        - brightness temperature
+        - satellite image
+        - reflectivity
+
