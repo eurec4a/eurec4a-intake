@@ -3,7 +3,7 @@ plugins:
     - module: intake_xarray
 
 sources:
-  GOES16_regridded:
+  latlongrid:
     description: Gridded products of reflectivity and brightness temperature  measured with the Advanced Baseline Imager (ABI) onboard GOES16 (meso-region scans)
     driver: opendap
     args:

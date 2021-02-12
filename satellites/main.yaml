@@ -1,8 +1,8 @@
 
 sources:
 
-  sat:
+  GOES16:
     description: Satellite data and products from different sources
     args:
-      path: "{{CATALOG_DIR}}/satellites.yaml"
+      path: "{{CATALOG_DIR}}/goes16.yaml"
     driver: yaml_file_cat
