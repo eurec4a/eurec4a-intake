@@ -1,6 +1,4 @@
-
 sources:
-
   GOES16:
     description: Satellite data and products from different sources
     args:
