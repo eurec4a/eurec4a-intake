@@ -9,3 +9,10 @@ sources:
     description: 'BAHAMAS QL data'
     driver: yaml_file_cat
     metadata: {}
+
+  subset:
+    args:
+      path: "{{CATALOG_DIR}}/BAHAMAS_subset.yaml"
+    description: 'BAHAMAS subset for ESSD publication'
+    driver: yaml_file_cat
+    metadata: {}
