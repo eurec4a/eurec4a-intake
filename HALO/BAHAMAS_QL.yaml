@@ -6,104 +6,104 @@ sources:
   HALO-0119:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200119a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200119a.nc
       auth: null
       chunks: {}
 
   HALO-0122:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200122a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200122a.nc
       auth: null
       chunks: {}
 
   HALO-0124:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200124a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200124a.nc
       auth: null
       chunks: {}
 
   HALO-0126:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200126a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200126a.nc
       auth: null
       chunks: {}
 
   HALO-0128:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200128a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200128a.nc
       auth: null
       chunks: {}
 
   HALO-0130:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200130a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200130a.nc
       auth: null
       chunks: {}
 
   HALO-0131:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200131a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200131a.nc
       auth: null
       chunks: {}
 
   HALO-0202:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200202a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200202a.nc
       auth: null
       chunks: {}
 
   HALO-0205:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200205a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200205a.nc
       auth: null
       chunks: {}
 
   HALO-0207:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200207a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200207a.nc
       auth: null
       chunks: {}
 
   HALO-0209:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200209a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200209a.nc
       auth: null
       chunks: {}
 
   HALO-0211:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200211a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200211a.nc
       auth: null
       chunks: {}
 
   HALO-0213:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200213a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200213a.nc
       auth: null
       chunks: {}
 
   HALO-0215:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200215a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200215a.nc
       auth: null
       chunks: {}
 
   HALO-0218:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/2020/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200218a.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200218a.nc
       auth: null
       chunks: {}
