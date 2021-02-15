@@ -1,0 +1,7 @@
+sources:
+  track:
+    args:
+      path: "{{CATALOG_DIR}}/track.yaml"
+    description: ATR flight track
+    driver: yaml_file_cat
+    metadata: {}

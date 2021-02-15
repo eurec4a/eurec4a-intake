@@ -33,3 +33,10 @@ sources:
     description: WALES Lidar data
     driver: yaml_file_cat
     metadata: {}
+
+  track:
+    args:
+      path: "{{CATALOG_DIR}}/track.yaml"
+    description: HALO flight track
+    driver: yaml_file_cat
+    metadata: {}
