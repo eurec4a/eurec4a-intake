@@ -49,13 +49,6 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  tracks:
-    args:
-      path: "{{CATALOG_DIR}}/tracks.yaml"
-    description: 'Tracks/Movements of platforms'
-    driver: yaml_file_cat
-    metadata: {}
-
   satellites:
     args:
       path: "{{CATALOG_DIR}}/satellites/main.yaml"
