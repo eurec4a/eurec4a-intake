@@ -21,6 +21,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  ATR:
+    args:
+      path: "{{CATALOG_DIR}}/ATR/main.yaml"
+    description: 'Data from the ATR aircraft'
+    driver: yaml_file_cat
+    metadata: {}
+
   HALO:
     args:
       path: "{{CATALOG_DIR}}/HALO/main.yaml"
