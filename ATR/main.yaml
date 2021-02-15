@@ -9,4 +9,4 @@ sources:
       engine: netcdf4
     metadata:
       tags:
-        - tracks
+        - track
