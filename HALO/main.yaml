@@ -36,7 +36,12 @@ sources:
 
   track:
     args:
-      path: "{{CATALOG_DIR}}/track.yaml"
-    description: HALO flight track
-    driver: yaml_file_cat
-    metadata: {}
+      urlpath: https://observations.mpimet.mpg.de/repository/opendap/cf207812-20fa-4c87-bf7d-f6a7f8dcbc38/entry
+      auth: null
+      chunks: {}
+      engine: netcdf4
+    driver: opendap
+    description: HALO track
+    metadata:
+      tags:
+        - track
