@@ -10,9 +10,9 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  subset:
+  PositionAttitude:
     args:
-      path: "{{CATALOG_DIR}}/BAHAMAS_subset.yaml"
-    description: 'BAHAMAS subset for ESSD publication'
+      path: "{{CATALOG_DIR}}/BAHAMAS_PositionAttitude.yaml"
+    description: 'BAHAMAS subset containint Position and Attitude data for ESSD publication'
     driver: yaml_file_cat
     metadata: {}
