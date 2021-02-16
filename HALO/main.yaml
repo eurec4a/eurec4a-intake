@@ -50,7 +50,7 @@ sources:
 
   BACARDI:
     args:
-      path: "{{CATALOG_DIR}}/smart.yaml"
+      path: "{{CATALOG_DIR}}/bacardi.yaml"
     description: 'Broadband radiometers'
     driver: yaml_file_cat
     metadata: {}
