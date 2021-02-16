@@ -7,104 +7,104 @@ sources:
     description: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200119/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200119_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200119/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200119_R1.nc
       auth: null
       chunks: {}
   HALO-0122:
     description: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200122/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200122_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200122/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200122_R1.nc
       auth: null
       chunks: {}
   HALO-0124:
     escription: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200124/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200124_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200124/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200124_R1.nc
       auth: null
       chunks: {}
   HALO-0126:
     escription: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200126/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200126_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200126/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200126_R1.nc
       auth: null
       chunks: {}
   HALO-0128:
     description: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200128/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200128_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200128/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200128_R1.nc
       auth: null
       chunks: {}
   HALO-0130:
     escription: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200130/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200130_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200130/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200130_R1.nc
       auth: null
       chunks: {}
   HALO-0131:
     escription: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200131/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200131_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200131/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200131_R1.nc
       auth: null
       chunks: {}
   HALO-0202:
     escription: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200202/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200202_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200202/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200202_R1.nc
       auth: null
       chunks: {}
   HALO-0205:
     escription: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200205/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200205_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200205/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200205_R1.nc
       auth: null
       chunks: {}
   HALO-0207:
     escription: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200207/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200207_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200207/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200207_R1.nc
       auth: null
       chunks: {}
   HALO-0209:
     escription: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200209/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200209_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200209/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200209_R1.nc
       auth: null
       chunks: {}
   HALO-0211:
     description: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200211/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200211_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200211/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200211_R1.nc
       auth: null
       chunks: {}
   HALO-0213:
     escription: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200213/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200213_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200213/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200213_R1.nc
       auth: null
       chunks: {}
   HALO-0215:
     escription: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200215/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200215_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200215/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200215_R1.nc
       auth: null
       chunks: {}
   HALO-0218:
     escription: BACARDI irradiances.
     driver: opendap
     args:
-      urlpath: https://thredds-x.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200218/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200218_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BACARDI/RF00_20200218/EUREC4A_HALO_BACARDI_BroadbandFluxes_20200218_R1.nc
       auth: null
       chunks: {}
