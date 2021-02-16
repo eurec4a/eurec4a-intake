@@ -3,13 +3,6 @@ plugins:
     - module: intake_xarray
 
 sources:
-  HALO-0119:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF01_20200119/EUREC4A_HALO_SMART_spectral_irradiances_20200119_R1.nc 
-      auth: null
-      chunks: {}
   HALO-0122:
     description: SMART spectral irradiances.
     driver: opendap
@@ -99,12 +92,5 @@ sources:
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF14_20200215/EUREC4A_HALO_SMART_spectral_irradiances_20200215_R3.nc
-      auth: null
-      chunks: {}
-  HALO-0118:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF00_20200118/EUREC4A_HALO_SMART_spectral_irradiances_20200118_R1.nc
       auth: null
       chunks: {}
