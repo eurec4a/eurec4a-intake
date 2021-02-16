@@ -14,91 +14,91 @@ sources:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF02_20200122/EUREC4A_HALO_SMART_spectral_irradiances_20200122_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF02_20200122/EUREC4A_HALO_SMART_spectral_irradiances_20200122_R3.nc
       auth: null
       chunks: {}
   HALO-0124:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF03_20200124/EUREC4A_HALO_SMART_spectral_irradiances_20200124_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF03_20200124/EUREC4A_HALO_SMART_spectral_irradiances_20200124_R3.nc
       auth: null
       chunks: {}
   HALO-0126:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF04_20200126/EUREC4A_HALO_SMART_spectral_irradiances_20200126_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF04_20200126/EUREC4A_HALO_SMART_spectral_irradiances_20200126_R3.nc
       auth: null
       chunks: {}
   HALO-0128:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF05_20200128/EUREC4A_HALO_SMART_spectral_irradiances_20200128_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF05_20200128/EUREC4A_HALO_SMART_spectral_irradiances_20200128_R3.nc
       auth: null
       chunks: {}
   HALO-0130:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF06_20200130/EUREC4A_HALO_SMART_spectral_irradiances_20200130_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF06_20200130/EUREC4A_HALO_SMART_spectral_irradiances_20200130_R3.nc
       auth: null
       chunks: {}
   HALO-0131:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF07_20200131/EUREC4A_HALO_SMART_spectral_irradiances_20200131_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF07_20200131/EUREC4A_HALO_SMART_spectral_irradiances_20200131_R3.nc
       auth: null
       chunks: {}
   HALO-0202:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF08_20200202/EUREC4A_HALO_SMART_spectral_irradiances_20200202_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF08_20200202/EUREC4A_HALO_SMART_spectral_irradiances_20200202_R3.nc
       auth: null
       chunks: {}
   HALO-0205:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF09_20200205/EUREC4A_HALO_SMART_spectral_irradiances_20200205_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF09_20200205/EUREC4A_HALO_SMART_spectral_irradiances_20200205_R3.nc
       auth: null
       chunks: {}
   HALO-0207:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF10_20200207/EUREC4A_HALO_SMART_spectral_irradiances_20200207_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF10_20200207/EUREC4A_HALO_SMART_spectral_irradiances_20200207_R3.nc
       auth: null
       chunks: {}
   HALO-0209:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF11_20200209/EUREC4A_HALO_SMART_spectral_irradiances_20200209_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF11_20200209/EUREC4A_HALO_SMART_spectral_irradiances_20200209_R3.nc
       auth: null
       chunks: {}
   HALO-0211:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF12_20200211/EUREC4A_HALO_SMART_spectral_irradiances_20200211_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF12_20200211/EUREC4A_HALO_SMART_spectral_irradiances_20200211_R3.nc
       auth: null
       chunks: {}
   HALO-0213:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF13_20200213/EUREC4A_HALO_SMART_spectral_irradiances_20200213_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF13_20200213/EUREC4A_HALO_SMART_spectral_irradiances_20200213_R3.nc
       auth: null
       chunks: {}
   HALO-0215:
     description: SMART spectral irradiances.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF14_20200215/EUREC4A_HALO_SMART_spectral_irradiances_20200215_R1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF14_20200215/EUREC4A_HALO_SMART_spectral_irradiances_20200215_R3.nc
       auth: null
       chunks: {}
   HALO-0118:
