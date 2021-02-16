@@ -21,6 +21,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  ATR:
+    args:
+      path: "{{CATALOG_DIR}}/ATR/main.yaml"
+    description: 'Data from the ATR aircraft'
+    driver: yaml_file_cat
+    metadata: {}
+
   HALO:
     args:
       path: "{{CATALOG_DIR}}/HALO/main.yaml"
@@ -46,6 +53,13 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/dropsondes.yaml"
     description: 'Dropsonde dataset JOANNE.'
+    driver: yaml_file_cat
+    metadata: {}
+
+  satellites:
+    args:
+      path: "{{CATALOG_DIR}}/satellites/main.yaml"
+    description: 'Satellite products'
     driver: yaml_file_cat
     metadata: {}
 
