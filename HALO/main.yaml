@@ -48,6 +48,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  BACARDI:
+    args:
+      path: "{{CATALOG_DIR}}/bacardi.yaml"
+    description: 'Broadband radiometers'
+    driver: yaml_file_cat
+    metadata: {}
+
   track:
     args:
       urlpath: https://observations.mpimet.mpg.de/repository/opendap/cf207812-20fa-4c87-bf7d-f6a7f8dcbc38/entry
