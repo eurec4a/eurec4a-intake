@@ -1,6 +1,6 @@
 # the most recent version of intake-xarray (v3.2.2) only supports the OPeNDAP
 # servers by URS and ESGF, the fork bellow allows for connecting to general OPeNDAP servers
-intake[dataframe]
+intake[dataframe] # since intake 0.6.1 to_dask() doesn't work anymore without the [dataframe] specification due to a missing msgpack dependency
 xarray
 zarr
 fsspec>=0.7.4
