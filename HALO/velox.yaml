@@ -1,0 +1,7 @@
+sources:
+  cloudmask:
+    args:
+      path: "{{CATALOG_DIR}}/velox_cloudmask.yaml"
+    description: 'VELOX IR imager cloud mask product'
+    driver: yaml_file_cat
+    metadata: {}

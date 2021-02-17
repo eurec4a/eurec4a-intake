@@ -27,9 +27,42 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  VELOX:
+    args:
+      path: "{{CATALOG_DIR}}/velox.yaml"
+    description: VELOX dataset
+    driver: yaml_file_cat
+    metadata: {}
+
+  KT19:
+    args:
+      path: "{{CATALOG_DIR}}/kt19.yaml"
+    description: KT-19 thermal infrared radiometer data
+    driver: yaml_file_cat
+    metadata: {}
+
   WALES:
     args:
       path: "{{CATALOG_DIR}}/wales/main.yaml"
     description: WALES Lidar data
     driver: yaml_file_cat
     metadata: {}
+
+  BACARDI:
+    args:
+      path: "{{CATALOG_DIR}}/bacardi.yaml"
+    description: 'Broadband radiometers'
+    driver: yaml_file_cat
+    metadata: {}
+
+  track:
+    args:
+      urlpath: https://observations.mpimet.mpg.de/repository/opendap/cf207812-20fa-4c87-bf7d-f6a7f8dcbc38/entry
+      auth: null
+      chunks: {}
+      engine: netcdf4
+    driver: opendap
+    description: HALO track
+    metadata:
+      tags:
+        - track
