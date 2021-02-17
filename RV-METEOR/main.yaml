@@ -1,0 +1,7 @@
+sources:
+  cloudradar:
+    args:
+      path: "{{CATALOG_DIR}}/cloudradar.yaml"
+    description: 'W-band radar data'
+    driver: yaml_file_cat
+    metadata: {}
