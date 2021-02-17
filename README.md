@@ -70,7 +70,7 @@ You can then slice and access the data as if you had it available locally
 ## Adding data-sources
 
 If you would like to add a data source please [fork](https://github.com/eurec4a/eurec4a-intake/fork) this repository,
-follow the [intake documentation]()https://intake.readthedocs.io/en/latest/catalog.html#remote-access
+follow the [intake documentation](https://intake.readthedocs.io/en/latest/catalog.html#remote-access)
 to create an entry in [catalog.yaml](catalog.yaml) (or a separate
 yaml-file if you are adding many new data sources) and finally make
 a pull-request. Tests are automatically run on pull-requests to ensure
