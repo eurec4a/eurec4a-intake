@@ -72,7 +72,7 @@ sources:
 
   Meteor:
     args:
-      path: "{{CATALOG_DIR}}/RV-METEOR/main.yaml"
+      path: "{{CATALOG_DIR}}/Meteor/main.yaml"
     description: Measurements from the RV-Meteor
     driver: yaml_file_cat
     metadata: {}
