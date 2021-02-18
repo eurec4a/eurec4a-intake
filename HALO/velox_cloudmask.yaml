@@ -28,7 +28,7 @@ sources:
     description: VELOX cloud mask 
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_06_20200130/EUREC4A_HALO_VELOX_cloudmask_20200130_v3.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_06_20200130/EUREC4A_HALO_VELOX_cloudmask_20200130_v3.1.nc
       auth: null
       chunks: {}
   HALO-0131:
@@ -77,7 +77,7 @@ sources:
     description: VELOX cloud mask 
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_13_20200213/EUREC4A_HALO_VELOX_cloudmask_20200213_v3.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_13_20200213/EUREC4A_HALO_VELOX_cloudmask_20200213_v3.1.nc
       auth: null
       chunks: {}
   HALO-0215:
