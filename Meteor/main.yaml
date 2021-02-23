@@ -1,0 +1,8 @@
+sources:
+  LIMRAD94:
+    args:
+      path: "{{CATALOG_DIR}}/LIMRAD94.yaml"
+    description: 'W-band radar data'
+    driver: yaml_file_cat
+    metadata: {}
+    
