@@ -8,4 +8,5 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220436/EUREC4A_ATOMIC_P3_AXBT_v1.0.nc

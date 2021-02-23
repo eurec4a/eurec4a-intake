@@ -8,6 +8,7 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220631/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200117_v1.0.nc
 
   P3-0119:
@@ -15,6 +16,7 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220631/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200119_v1.0.nc
 
   P3-0123:
@@ -22,6 +24,7 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220631/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200123_v1.0.nc
 
   P3-0124:
@@ -29,6 +32,7 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220631/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200124_v1.0.nc
 
   P3-0131:
@@ -36,6 +40,7 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220631/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200131_v1.0.nc
 
   P3-0203:
@@ -43,6 +48,7 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220631/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200203_v1.0.nc
 
   P3-0204:
@@ -50,6 +56,7 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220631/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200204_v1.0.nc
 
   P3-0205:
@@ -57,6 +64,7 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220631/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200205_v1.0.nc
 
   P3-0209:
@@ -64,6 +72,7 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220631/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200209_v1.0.nc
 
   P3-0210:
@@ -71,6 +80,7 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220631/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200210_v1.0.nc
 
   P3-0211:
@@ -78,4 +88,5 @@ sources:
     args:
       auth: null
       chunks: {}
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220631/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200211_v1.0.nc
