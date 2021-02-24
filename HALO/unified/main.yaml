@@ -44,3 +44,10 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: yaml_file_cat
     metadata: {}
+
+  HAMP_MWR_retrievals:
+    args:
+      path: "{{CATALOG_DIR}}/MWR_retrievals_unified.yaml"
+    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
+    driver: yaml_file_cat
+    metadata: {}
