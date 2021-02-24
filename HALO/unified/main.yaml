@@ -31,21 +31,21 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  HAMP_MWR_cloud_mask:
+  HAMPradiometer_cloudmask:
     args:
       path: "{{CATALOG_DIR}}/MWR_cloud_mask_unified.yaml"
     description: HAMP Microwave Radiometer Cloud Mask with unified time coordinate.
     driver: yaml_file_cat
     metadata: {}
 
-  HAMP_Radar_cloud_mask:
+  HAMPradar_cloudmask:
     args:
       path: "{{CATALOG_DIR}}/Radar_cloud_mask_unified.yaml"
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: yaml_file_cat
     metadata: {}
 
-  HAMP_MWR_retrievals:
+  HAMPradiometer_retrievals:
     args:
       path: "{{CATALOG_DIR}}/MWR_retrievals_unified.yaml"
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
