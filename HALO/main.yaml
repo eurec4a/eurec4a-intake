@@ -15,7 +15,7 @@ sources:
 
   UNIFIED:
     args:
-      path: "{{CATALOG_DIR}}/unified.yaml"
+      path: "{{CATALOG_DIR}}/unified/main.yaml"
     description: Heike Konows UNIFIED dataset
     driver: yaml_file_cat
     metadata: {}
