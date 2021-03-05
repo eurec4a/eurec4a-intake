@@ -14,3 +14,10 @@ sources:
     metadata:
       tags:
       - track
+
+  FMCW94_RPG:
+    args:
+      path: "{{CATALOG_DIR}}/FMCW94_RPG.yaml"
+    description: 'W-band radar data'
+    driver: yaml_file_cat
+    metadata: {}
