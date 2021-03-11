@@ -6,118 +6,118 @@ sources:
   HALO-0115:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200115_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200115_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0118:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200118_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200118_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0119:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200119_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200119_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0122:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200122_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200122_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0124:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200124_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200124_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0126:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200126_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200126_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0128:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200128_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200128_v1.1.nc
       auth: null
       chunks: {}
 
-  HALO-0130:
+  HALO-01.1:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200130_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200130_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0131:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200131_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200131_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0202:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200202_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200202_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0205:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200205_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200205_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0207:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200207_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200207_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0209:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200209_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200209_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0211:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200211_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200211_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0213:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200213_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200213_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0215:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200215_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200215_v1.1.nc
       auth: null
       chunks: {}
 
   HALO-0218:
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200218_v1.0.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200218_v1.1.nc
       auth: null
       chunks: {}
