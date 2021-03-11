@@ -3,19 +3,18 @@ plugins:
     - module: intake_xarray
 
 sources:
-  GOES16_regridded:
-    description: Gridded products of reflectivity and brightness temperature  measured with the Advanced Baseline Imager (ABI) onboard GOES16 (meso-region scans)
+  latlongrid:
+    description: Gridded products of reflectivity and brightness temperature measured with the Advanced Baseline Imager (ABI) onboard GOES16 (meso-region scans)
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SATELLITES/GOES-E/{{product}}/{{date.strftime("%Y")}}/{{date.strftime("%Y_%m_%d")}}/GOES_{{'%02d' % (channel)}}_8N-18N-62W-50W_{{date.strftime("%Y%m%d")}}.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SATELLITES/GOES-E/{{resolution}}/{{date.strftime("%Y")}}/{{date.strftime("%Y_%m_%d")}}/GOES_{{'%02d' % (channel)}}_8N-18N-62W-50W_{{date.strftime("%Y%m%d")}}.nc
       auth: null
       chunks: {}
     parameters:
-      product:
-        description: resolution dependent scan
+      resolution:
+        description: temporal and spacial resolution of gridded product
         type: str
         default: 0.5km_01min
-        # there are other products but they all follow a different filenaming scheme
         allowed: [0.5km_01min]
       channel:
         description: Advanced Baseline imager channel

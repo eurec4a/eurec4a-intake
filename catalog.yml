@@ -21,6 +21,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  ATR:
+    args:
+      path: "{{CATALOG_DIR}}/ATR/main.yaml"
+    description: 'Data from the ATR aircraft'
+    driver: yaml_file_cat
+    metadata: {}
+
   HALO:
     args:
       path: "{{CATALOG_DIR}}/HALO/main.yaml"
@@ -49,13 +56,6 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  tracks:
-    args:
-      path: "{{CATALOG_DIR}}/tracks.yaml"
-    description: 'Tracks/Movements of platforms'
-    driver: yaml_file_cat
-    metadata: {}
-
   satellites:
     args:
       path: "{{CATALOG_DIR}}/satellites/main.yaml"
@@ -68,4 +68,11 @@ sources:
       path: "{{CATALOG_DIR}}/radiative_profiles.yml"
     description: Atmospheric radiative profiles during EUREC4A
     driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  Meteor:
+    args:
+      path: "{{CATALOG_DIR}}/Meteor/main.yaml"
+    description: Measurements from the RV-Meteor
+    driver: yaml_file_cat
     metadata: {}
