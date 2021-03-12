@@ -52,7 +52,7 @@ sources:
       auth: null
       chunks: {}
 
-  HALO-01.1:
+  HALO-0130:
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/ESSD_HALO_BAHAMAS_Subset/EUREC4A_HALO_BAHAMAS_PositionAttitude_20200130_v1.1.nc
