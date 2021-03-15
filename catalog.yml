@@ -175,13 +175,6 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  SD-1062:
-    description: SD-1062
-    args:
-      path: "{{CATALOG_DIR}}/SD/SD-1062.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
   SD-1063:
     description: SD-1063
     args:
