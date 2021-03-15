@@ -58,7 +58,7 @@ sources:
 
   HALO:
     args:
-      path: "{{CATALOG_DIR}}/HALO/Skywalker07.yaml"
+      path: "{{CATALOG_DIR}}/HALO/main.yaml"
     description: 'Data from the HALO aircraft'
     driver: yaml_file_cat
     metadata: {}
@@ -135,7 +135,7 @@ sources:
 
   P3:
     args:
-      path: "{{CATALOG_DIR}}/P3/Skywalker07.yaml"
+      path: "{{CATALOG_DIR}}/P3/main.yaml"
     description: 'Data from the P3 aircraft'
     driver: yaml_file_cat
     metadata: {}

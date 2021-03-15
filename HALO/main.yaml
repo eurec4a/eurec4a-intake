@@ -8,14 +8,14 @@ sources:
 
   specMACS:
     args:
-      path: "{{CATALOG_DIR}}/specmacs/Skywalker07.yaml"
+      path: "{{CATALOG_DIR}}/specmacs/main.yaml"
     description: specMACS cloud imager data
     driver: yaml_file_cat
     metadata: {}
 
   UNIFIED:
     args:
-      path: "{{CATALOG_DIR}}/unified/Skywalker07.yaml"
+      path: "{{CATALOG_DIR}}/unified/main.yaml"
     description: Heike Konows UNIFIED dataset
     driver: yaml_file_cat
     metadata: {}
@@ -43,7 +43,7 @@ sources:
 
   WALES:
     args:
-      path: "{{CATALOG_DIR}}/wales/Skywalker07.yaml"
+      path: "{{CATALOG_DIR}}/wales/main.yaml"
     description: WALES Lidar data
     driver: yaml_file_cat
     metadata: {}
