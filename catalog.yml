@@ -21,6 +21,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  Atalante:
+    args:
+      path: "{{CATALOG_DIR}}/Atalante/main.yaml"
+    description: "Data from the RV L'Atalante"
+    driver: yaml_file_cat
+    metadata: {}
+
   ATR:
     args:
       path: "{{CATALOG_DIR}}/ATR/main.yaml"
@@ -28,24 +35,402 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  BOREAL:
+    args:
+      path: "{{CATALOG_DIR}}/BOREAL/main.yaml"
+    description: 'Data from the BOREAL UAS'
+    driver: yaml_file_cat
+    metadata: {}
+
+  CU-RAAVEN:
+    args:
+      path: "{{CATALOG_DIR}}/CU-RAAVEN/main.yaml"
+    description: 'Data from the CU-RAAVEN UAS'
+    driver: yaml_file_cat
+    metadata: {}
+
+  Caravela:
+    args:
+      path: "{{CATALOG_DIR}}/Caravela/main.yaml"
+    description: 'Data from the Caravela wave glider'
+    driver: yaml_file_cat
+    metadata: {}
+
   HALO:
     args:
-      path: "{{CATALOG_DIR}}/HALO/main.yaml"
+      path: "{{CATALOG_DIR}}/HALO/Skywalker07.yaml"
     description: 'Data from the HALO aircraft'
+    driver: yaml_file_cat
+    metadata: {}
+
+  Humpback:
+    args:
+      path: "{{CATALOG_DIR}}/Humpback/main.yaml"
+    description: 'Data from the Humpback sea glider'
+    driver: yaml_file_cat
+    metadata: {}
+
+  IFM03:
+    description: IFM03
+    args:
+      path: "{{CATALOG_DIR}}/IFM/IFM03.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  IFM09:
+    description: IFM09
+    args:
+      path: "{{CATALOG_DIR}}/IFM/IFM09.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  IFM12:
+    description: IFM12
+    args:
+      path: "{{CATALOG_DIR}}/IFM/IFM12.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  Kracken:
+    args:
+      path: "{{CATALOG_DIR}}/Kracken/main.yaml"
+    description: 'Data from the Kracken sea glider'
+    driver: yaml_file_cat
+    metadata: {}
+
+  Melonhead:
+    args:
+      path: "{{CATALOG_DIR}}/Melonhead/main.yaml"
+    description: 'Data from the Melonhead sea glider'
+    driver: yaml_file_cat
+    metadata: {}
+
+  mini-MPCK:
+    description: Miniaturized Max Planck CloudKite
+    args:
+      path: "{{CATALOG_DIR}}/MPCK/mini-MPCK.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  MPCK-plus:
+    description: Max Planck CloudKite
+    args:
+      path: "{{CATALOG_DIR}}/MPCK/MPCK-plus.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  MS-Merian:
+    description: RV Maria S. Merian
+    args:
+      path: "{{CATALOG_DIR}}/MS-Merian/main.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  Omura:
+    args:
+      path: "{{CATALOG_DIR}}/Omura/main.yaml"
+    description: 'Data from the Omura sea glider'
     driver: yaml_file_cat
     metadata: {}
 
   P3:
     args:
-      path: "{{CATALOG_DIR}}/P3/main.yaml"
+      path: "{{CATALOG_DIR}}/P3/Skywalker07.yaml"
     description: 'Data from the P3 aircraft'
     driver: yaml_file_cat
     metadata: {}
 
-  swifts:
-    description: SWIFT ocean surface drifters
+  QuadCopter:
     args:
-      path: "{{CATALOG_DIR}}/swifts.yml"
+      path: "{{CATALOG_DIR}}/QuadCopter/main.yaml"
+    description: 'Data from the QuadCopter UAS'
+    driver: yaml_file_cat
+    metadata: {}
+
+  RonBrown:
+    description: RV Ronald H. Brown
+    args:
+      path: "{{CATALOG_DIR}}/RonBrown/main.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SD-1026:
+    description: SD-1026
+    args:
+      path: "{{CATALOG_DIR}}/SD/SD-1026.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SD-1060:
+    description: SD-1060
+    args:
+      path: "{{CATALOG_DIR}}/SD/SD-1060.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SD-1061:
+    description: SD-1061
+    args:
+      path: "{{CATALOG_DIR}}/SD/SD-1061.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SD-1062:
+    description: SD-1062
+    args:
+      path: "{{CATALOG_DIR}}/SD/SD-1062.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SD-1063:
+    description: SD-1063
+    args:
+      path: "{{CATALOG_DIR}}/SD/SD-1063.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SD-1064:
+    description: SD-1064
+    args:
+      path: "{{CATALOG_DIR}}/SD/SD-1064.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  Skywalker07:
+    description: Skywalker07
+    args:
+      path: "{{CATALOG_DIR}}/Skywalker/Skywalker07.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  Skywalker10:
+    description: Skywalker10
+    args:
+      path: "{{CATALOG_DIR}}/Skywalker/Skywalker10.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  Skywalker12:
+    description: Skywalker12
+    args:
+      path: "{{CATALOG_DIR}}/Skywalker/Skywalker12.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-B-4101696:
+    description: SVP-B-4101696
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-B-4101696.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-B-4101697:
+    description: SVP-B-4101697
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-B-4101697.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-B-4101698:
+    description: SVP-B-4101698
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-B-4101698.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-B-4101699:
+    description: SVP-B-4101699
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-B-4101699.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-B-4101780:
+    description: SVP-B-4101780
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-B-4101780.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BRST-4402505:
+    description: SVP-BRST-4402505
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BRST-4402505.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BRST-4402506:
+    description: SVP-BRST-4402506
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BRST-4402506.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BRST-4402507:
+    description: SVP-BRST-4402507
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BRST-4402507.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BRST-4402508:
+    description: SVP-BRST-4402508
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BRST-4402508.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BRST-6203717:
+    description: SVP-BRST-6203717
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BRST-6203717.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BS-4101757:
+    description: SVP-BS-4101757
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BS-4101757.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BS-4101758:
+    description: SVP-BS-4101758
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BS-4101758.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BSW-3101569:
+    description: SVP-BSW-3101569
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101569.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BSW-3101570:
+    description: SVP-BSW-3101570
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101570.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BSW-3101571:
+    description: SVP-BSW-3101571
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101571.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BSW-3101572:
+    description: SVP-BSW-3101572
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101572.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BSW-3101573:
+    description: SVP-BSW-3101573
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101573.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BSW-3101574:
+    description: SVP-BSW-3101574
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101574.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BSW-3101575:
+    description: SVP-BSW-3101575
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101575.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BSW-3101576:
+    description: SVP-BSW-3101576
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101576.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BSW-3101577:
+    description: SVP-BSW-3101577
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101577.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SVP-BSW-3101578:
+    description: SVP-BSW-3101578
+    args:
+      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101578.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SWIFT16:
+    description: Drifting Buoy SWIFT16
+    args:
+      path: "{{CATALOG_DIR}}/SWIFT/SWIFT16.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SWIFT17:
+    description: Drifting Buoy SWIFT17
+    args:
+      path: "{{CATALOG_DIR}}/SWIFT/SWIFT17.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SWIFT22:
+    description: Drifting Buoy SWIFT22
+    args:
+      path: "{{CATALOG_DIR}}/SWIFT/SWIFT22.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SWIFT23:
+    description: Drifting Buoy SWIFT23
+    args:
+      path: "{{CATALOG_DIR}}/SWIFT/SWIFT23.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SWIFT24:
+    description: Drifting Buoy SWIFT24
+    args:
+      path: "{{CATALOG_DIR}}/SWIFT/SWIFT24.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SWIFT25:
+    description: Drifting Buoy SWIFT25
+    args:
+      path: "{{CATALOG_DIR}}/SWIFT/SWIFT25.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  TO:
+    description: Twin Otter
+    args:
+      path: "{{CATALOG_DIR}}/TO/main.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  WG245:
+    description: Wave Glider WG245
+    args:
+      path: "{{CATALOG_DIR}}/WG/WG245.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  WG247:
+    description: Wave Glider WG247
+    args:
+      path: "{{CATALOG_DIR}}/WG/WG247.yaml"
     driver: yaml_file_cat
     metadata: {}
 
