@@ -9,7 +9,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200119T092900-20200119T184859_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0122:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -17,7 +17,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200122T150000-20200122T215959_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0124:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -25,7 +25,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200124T101000-20200124T183959_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0126:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -33,7 +33,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200126T120530-20200126T212049_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0128:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -41,7 +41,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200128T150000-20200128T214959_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0130:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -49,7 +49,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200130T111500-20200130T150947_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0131:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -57,7 +57,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200131T150900-20200131T214959_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0202:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -65,7 +65,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200202T112800-20200202T201459_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0205:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -73,7 +73,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200205T100000-20200205T182359_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0207:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -81,7 +81,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200207T120200-20200207T211059_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0209:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -89,7 +89,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200209T101000-20200209T180459_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0211:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -97,7 +97,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200211T123000-20200211T212959_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0213:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -105,7 +105,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200213T100800-20200213T171659_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0215:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -113,7 +113,7 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200215T150800-20200215T215959_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null
 
   HALO-0218:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
@@ -121,4 +121,4 @@ sources:
     args:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200218T101500-20200218T174459_v1.1.nc
       auth: null
-      chunks: {}
+      chunks: null

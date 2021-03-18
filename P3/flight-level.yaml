@@ -7,7 +7,7 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220621/EUREC4A_ATOMIC_P3_Flight-level_20200117_v1.0.nc
 
@@ -15,7 +15,7 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220621/EUREC4A_ATOMIC_P3_Flight-level_20200119_v1.0.nc
 
@@ -23,7 +23,7 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220621/EUREC4A_ATOMIC_P3_Flight-level_20200123_v1.0.nc
 
@@ -31,7 +31,7 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220621/EUREC4A_ATOMIC_P3_Flight-level_20200124_v1.0.nc
 
@@ -39,7 +39,7 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220621/EUREC4A_ATOMIC_P3_Flight-level_20200131_v1.0.nc
 
@@ -47,7 +47,7 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220621/EUREC4A_ATOMIC_P3_Flight-level_20200203_v1.0.nc
 
@@ -55,7 +55,7 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220621/EUREC4A_ATOMIC_P3_Flight-level_20200204_v1.0.nc
 
@@ -63,7 +63,7 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220621/EUREC4A_ATOMIC_P3_Flight-level_20200205_v1.0.nc
 
@@ -71,7 +71,7 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220621/EUREC4A_ATOMIC_P3_Flight-level_20200209_v1.0.nc
 
@@ -79,7 +79,7 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220621/EUREC4A_ATOMIC_P3_Flight-level_20200210_v1.0.nc
 
@@ -87,6 +87,6 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/ncei/archive/data/0220621/EUREC4A_ATOMIC_P3_Flight-level_20200211_v1.0.nc

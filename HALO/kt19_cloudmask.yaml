@@ -8,88 +8,88 @@ sources:
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_02_20200122/EUREC4A_HALO_KT19_cloudmask_20200122_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0124:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_03_20200124/EUREC4A_HALO_KT19_cloudmask_20200124_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0126:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_04_20200126/EUREC4A_HALO_KT19_cloudmask_20200126_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0128:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_05_20200128/EUREC4A_HALO_KT19_cloudmask_20200128_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0130:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_06_20200130/EUREC4A_HALO_KT19_cloudmask_20200130_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0131:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_07_20200131/EUREC4A_HALO_KT19_cloudmask_20200131_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0202:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_08_20200202/EUREC4A_HALO_KT19_cloudmask_20200202_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0205:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_09_20200205/EUREC4A_HALO_KT19_cloudmask_20200205_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0207:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_10_20200207/EUREC4A_HALO_KT19_cloudmask_20200207_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0209:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_11_20200209/EUREC4A_HALO_KT19_cloudmask_20200209_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0211:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_12_20200211/EUREC4A_HALO_KT19_cloudmask_20200211_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0213:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_13_20200213/EUREC4A_HALO_KT19_cloudmask_20200213_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0215:
     description: KT-19 cloud mask.
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/KT-19/RF_14_20200215/EUREC4A_HALO_KT19_cloudmask_20200215_v4.0.nc
       auth: null
-      chunks: {}
+      chunks: null

@@ -8,4 +8,4 @@ sources:
         args:
             urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/RADIATIVE-PROFILES/rad_profiles.nc
             auth: null
-            chunks: {}
+            chunks: null
