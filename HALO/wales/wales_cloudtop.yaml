@@ -9,6 +9,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_22/EUREC4A_HALO_WALES_cloudtop_20200122_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0124:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -16,6 +17,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_24/EUREC4A_HALO_WALES_cloudtop_20200124_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0126:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -23,6 +25,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_26/EUREC4A_HALO_WALES_cloudtop_20200126_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0128:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -30,6 +33,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_28/EUREC4A_HALO_WALES_cloudtop_20200128_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0130:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -37,6 +41,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_30/EUREC4A_HALO_WALES_cloudtop_20200130_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0131:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -44,6 +49,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_31/EUREC4A_HALO_WALES_cloudtop_20200131_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0202:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -51,6 +57,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_02/EUREC4A_HALO_WALES_cloudtop_20200202_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0205:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -58,6 +65,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_05/EUREC4A_HALO_WALES_cloudtop_20200205_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0207:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -65,6 +73,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_07/EUREC4A_HALO_WALES_cloudtop_20200207_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0209:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -72,6 +81,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_09/EUREC4A_HALO_WALES_cloudtop_20200209_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0211:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -79,6 +89,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_11/EUREC4A_HALO_WALES_cloudtop_20200211_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0213:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -86,6 +97,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_13/EUREC4A_HALO_WALES_cloudtop_20200213_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0215:
     description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
     driver: opendap
@@ -93,3 +105,4 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_15/EUREC4A_HALO_WALES_cloudtop_20200215_V1.1.nc
       auth: null
       chunks: null
+      engine: netcdf4
