@@ -8,102 +8,102 @@ sources:
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200119093425.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0122:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200122145736.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0124:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200124092931.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0126:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200126120530.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0128:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200128145834.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0130:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200130111934.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0131:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200131150836.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0202:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200202112802.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0205:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200205091552.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0207:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200207120224.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0209:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200209091432.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0211:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200211122905.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0213:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200213075611.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0215:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200215150731.nc
       auth: null
-      chunks: {}
+      chunks: null
   HALO-0218:
     description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.8/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.8_20200218101105.nc
       auth: null
-      chunks: {}
+      chunks: null
