@@ -7,7 +7,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200119T092900-20200119T184859_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200119_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -16,7 +16,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200122T150000-20200122T215959_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200122_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -25,7 +25,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200124T101000-20200124T183959_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200124_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -34,7 +34,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200126T120530-20200126T212049_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200126_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -43,7 +43,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200128T150000-20200128T214959_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200128_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -52,7 +52,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200130T111500-20200130T150947_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200130_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -61,7 +61,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200131T150900-20200131T214959_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200131_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -70,7 +70,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200202T112800-20200202T201459_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200202_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -79,7 +79,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200205T100000-20200205T182359_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200205_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -88,7 +88,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200207T120200-20200207T211059_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200207_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -97,7 +97,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200209T101000-20200209T180459_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200209_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -106,7 +106,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200211T123000-20200211T212959_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200211_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -115,7 +115,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200213T100800-20200213T171659_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200213_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -124,7 +124,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200215T150800-20200215T215959_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200215_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -133,7 +133,7 @@ sources:
     description: The cloud mask was derived from radiance measurements of the SWIR camera of the specMACS instrument.
     driver: opendap
     args:
-      urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloudmask/EUREC4A_HALO_specMACS_cloud_mask_20200218T101500-20200218T174459_v1.1.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/ESSD_HALO_SPECMACS_CLOUDMASK/EUREC4A_HALO_specMACS-SWIR_cloudmask_20200218_v2.1.nc
       auth: null
       chunks: null
       engine: netcdf4
