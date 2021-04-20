@@ -448,13 +448,6 @@ sources:
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
-  swifts:
-    description: SWIFT ocean surface drifters
-    args:
-      path: "{{CATALOG_DIR}}/swifts.yml"
-    driver: yaml_file_cat
-    metadata: {}
-
   Meteor:
     args:
       path: "{{CATALOG_DIR}}/Meteor/main.yaml"

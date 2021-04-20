@@ -14,3 +14,11 @@ sources:
     metadata:
       tags:
       - track
+
+  all:
+    args:
+      auth: null
+      chunks: null
+      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT17_All_v2.1.nc
+    description: SWIFT 17, all data fields
+    driver: opendap
