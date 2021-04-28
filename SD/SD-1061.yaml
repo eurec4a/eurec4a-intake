@@ -14,3 +14,19 @@ sources:
     metadata:
       tags:
       - track
+
+  1min:
+    args:
+      auth: null
+      chunks: null
+      urlpath: https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/saildrone/Atomic/saildrone-gen_5-atomic_eurec4a_2020-sd1061-20200117T000000-20200302T235959-1_minutes-v1.1595707641693.nc
+    description: Saildrone 1061, one minute data
+    driver: opendap
+
+  5min:
+    args:
+      auth: null
+      chunks: null
+      urlpath: https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/saildrone/Atomic/saildrone-gen_5-atomic_eurec4a_2020-sd1061-20200117T000000-20200302T235959-5_minutes-v1.1595997706709.nc
+    description: Saildrone 1061, five minute data 
+    driver: opendap
