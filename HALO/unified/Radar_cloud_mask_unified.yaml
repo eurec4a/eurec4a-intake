@@ -6,7 +6,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200119_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200119_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -14,7 +14,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200122_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200122_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -22,7 +22,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200124_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200124_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -30,7 +30,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200126_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200126_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -38,7 +38,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200128_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200128_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -46,7 +46,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200130_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200130_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -54,7 +54,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200131_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200131_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -62,7 +62,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200202_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200202_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -70,7 +70,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200205_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200205_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -78,7 +78,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200207_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200207_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -86,7 +86,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200209_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200209_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -94,7 +94,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200211_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200211_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -102,7 +102,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200213_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200213_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -110,7 +110,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200215_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200215_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
@@ -118,7 +118,7 @@ sources:
     description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
     driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/cloudmask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200218_v0.9.nc
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200218_v0.9.nc
       auth: null
       chunks: null
       engine: netcdf4
