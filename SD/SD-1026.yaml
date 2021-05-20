@@ -1,0 +1,32 @@
+plugins:
+   source:
+     - module: intake_xarray
+
+sources:
+  track:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_SD-1026_v1.0.nc
+    description: SD-1026 track
+    driver: opendap
+    metadata:
+      tags:
+      - track
+
+  1min:
+    args:
+      auth: null
+      chunks: null
+      urlpath: https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/saildrone/Atomic/saildrone-gen_5-atomic_eurec4a_2020-sd1026-20200117T000000-20200302T235959-1_minutes-v1.1595708344687.nc
+    description: Saildrone 1026, one minute data
+    driver: opendap
+
+  5min:
+    args:
+      auth: null
+      chunks: null
+      urlpath: https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/saildrone/Atomic/saildrone-gen_5-atomic_eurec4a_2020-sd1026-20200117T000000-20200302T235959-5_minutes-v1.1595997001389.nc
+    description: Saildrone 1026, five minute data 
+    driver: opendap

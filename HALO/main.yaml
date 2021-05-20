@@ -1,3 +1,7 @@
+plugins:
+   source:
+     - module: intake_xarray
+
 sources:
   BAHAMAS:
     args:
@@ -57,9 +61,9 @@ sources:
 
   track:
     args:
-      urlpath: https://observations.mpimet.mpg.de/repository/opendap/cf207812-20fa-4c87-bf7d-f6a7f8dcbc38/entry
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_HALO_v1.0.nc
       auth: null
-      chunks: {}
+      chunks: null
       engine: netcdf4
     driver: opendap
     description: HALO track

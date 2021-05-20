@@ -1,0 +1,16 @@
+plugins:
+   source:
+     - module: intake_xarray
+
+sources:
+  track:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_SVP-BSW-3101570_v1.0.nc
+    description: SVP-BSW-3101570 track
+    driver: opendap
+    metadata:
+      tags:
+      - track
