@@ -6,12 +6,12 @@ sources:
         description: Atmospheric radiative profiles from dropsondes and radiosondes published in Albright et al., 2020.
         driver: opendap
         args:
-            urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/RADIATIVE-PROFILES/rad_profiles{{version}}.nc
+            urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/RADIATIVE-PROFILES/rad_profiles_{{version}}.nc
             auth: null
             chunks: {}
         parameters:
             version:
                 description: "dataset version"
-                default: "_v1.0"
+                default: "v1.2"
                 type: str
-                allowed: ["", "_v1.0"]
+                allowed: ["v1.0", "v1.2"]
