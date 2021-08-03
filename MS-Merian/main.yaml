@@ -3,6 +3,13 @@ plugins:
      - module: intake_xarray
 
 sources:
+  MRR_PRO:
+    args:
+      path: "{{CATALOG_DIR}}/MRR_PRO.yaml"
+    description: 'micro rain radar data'
+    driver: yaml_file_cat
+    metadata: {}
+
   track:
     args:
       auth: null

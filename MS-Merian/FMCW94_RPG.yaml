@@ -7,7 +7,7 @@ sources:
     description: daily ship motion corrected Wband radar data
     driver: opendap
     args:
-      urlpath:  https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SHIPS/RV-MARIASMERIAN/wband_radar/corrected_from_ship_motions/eurec4a_intake/{{date.strftime("%Y%m%d")}}_wband_radar_msm_eurec4a_intake.nc
+      urlpath:  https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SHIPS/RV-MARIASMERIAN/wband_radar/final_dataset/daily_intake/{{date.strftime("%Y%m%d")}}_wband_radar_msm_eurec4a_intake.nc
       auth: null
       chunks: null
       engine: netcdf4
