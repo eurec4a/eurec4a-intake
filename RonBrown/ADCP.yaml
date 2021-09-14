@@ -1,0 +1,13 @@
+plugins:
+   source:
+     - module: intake_xarray
+
+sources:
+  ADCP_20200107-20200212:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ADCP/EUREC4A_ATOMIC_RonBrown_ADCP_20200107-20200212_v1.2.nc
+    description: Vertical profiles of ocean currents
+    driver: opendap

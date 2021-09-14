@@ -14,3 +14,10 @@ sources:
     metadata:
       tags:
       - track
+
+  1min:
+    args:
+      auth: null
+      chunks: null
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/saildrones_noaa/ATOMIC_Saildrone-1063_AirSea_2020_v1.1.nc
+    driver: opendap

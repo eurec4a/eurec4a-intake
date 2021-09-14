@@ -126,6 +126,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  NTAS:
+    args:
+      path: "{{CATALOG_DIR}}/NTAS/main.yaml"
+    description: 'Data from the NTAS mooring'
+    driver: yaml_file_cat
+    metadata: {}
+    
   Omura:
     args:
       path: "{{CATALOG_DIR}}/Omura/main.yaml"

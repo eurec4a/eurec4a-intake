@@ -1,0 +1,13 @@
+plugins:
+   source:
+     - module: intake_xarray
+
+sources:
+  UCTD_20200107-20200212:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/UCTD/EUREC4A_ATOMIC_RonBrown_UCTD_20200107-20200212_v1.3.nc
+    description: Vertical profiles of ocean temperature and salinity estimated from the underway CTD
+    driver: opendap

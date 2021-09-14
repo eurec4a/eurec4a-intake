@@ -1,0 +1,13 @@
+plugins:
+   source:
+     - module: intake_xarray
+
+sources:
+  ROSR_sea_skin_temp_20200109_20200126:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ROSR/EUREC4A_ATOMIC_RonBrown_ROSR_sea_skin_temp_20200109_20200126_v1.3.nc
+    description: Ocean skin surface temperature from ROSR
+    driver: opendap

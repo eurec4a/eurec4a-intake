@@ -14,3 +14,11 @@ sources:
     metadata:
       tags:
       - track
+      
+TSWindPres:
+    args:
+      auth: null
+      chunks: null
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/svp-s_drifters/EUREC4A_ATOMIC_drifter3101569_TSWindPres_v1.nc
+    description: Temperature, Salinity, wind and pressure data
+    driver: opendap

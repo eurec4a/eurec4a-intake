@@ -1,8 +1,78 @@
 plugins:
-   source:
+  source:
      - module: intake_xarray
 
 sources:
+  ADCP:
+    args:
+      path: "{{CATALOG_DIR}}/ADCP.yaml"
+    description: 'ADCP data'
+    driver: yaml_file_cat
+    metadata: {}   
+    
+  atmos-chem:
+    args:
+      path: "{{CATALOG_DIR}}/atmos-chem.yaml"
+    description: 'Atmospheric chemistry and composition properties'
+    driver: yaml_file_cat
+    metadata: {}       
+
+  ceilometer:
+    args:
+      path: "{{CATALOG_DIR}}/ceilometer.yaml"
+    description: 'Cloud base height and vertical profiles of visible light backscattered from aerosols and clouds'
+    driver: yaml_file_cat
+    metadata: {}  
+    
+  CTD:
+    args:
+      path: "{{CATALOG_DIR}}/CTD.yaml"
+    description: 'CTD data'
+    driver: yaml_file_cat
+    metadata: {}  
+
+  disdrometer:
+    args:
+      path: "{{CATALOG_DIR}}/disdrometer.yaml"
+    description: 'Rain rate, rain accumulation, raindrop count, and equivalent radar reflectivity from disdrometer'
+    driver: yaml_file_cat
+    metadata: {} 
+    
+  doppler-lidar:
+    args:
+      path: "{{CATALOG_DIR}}/doppler-lidar.yaml"
+    description: 'Continuous profiles of vertical velocity and uncalibrated aerosol backscatter intensity'
+    driver: yaml_file_cat
+    metadata: {}   
+        
+  isotope-PICARRO:
+    args:
+      path: "{{CATALOG_DIR}}/isotope-PICARRO.yaml"
+    description: 'Near-surface humidity and water vapor isotopologue ratios'
+    driver: yaml_file_cat
+    metadata: {}
+
+  MAERI:
+    args:
+      path: "{{CATALOG_DIR}}/MAERI.yaml"
+    description: 'MAERI skin surface temperature and near-surface air temperature data'
+    driver: yaml_file_cat
+    metadata: {}   
+
+  nav-met-sea-flux:
+    args:
+      path: "{{CATALOG_DIR}}/nav-met-sea-flux.yaml"
+    description: 'ship navigation, meteorology, seawater, flux data'
+    driver: yaml_file_cat
+    metadata: {}
+    
+  ROSR:
+    args:
+      path: "{{CATALOG_DIR}}/ROSR.yaml"
+    description: 'ROSR skin surface temperature data'
+    driver: yaml_file_cat
+    metadata: {}           
+    
   track:
     args:
       auth: null
@@ -14,3 +84,18 @@ sources:
     metadata:
       tags:
       - track
+
+  UCTD:
+    args:
+      path: "{{CATALOG_DIR}}/UCTD.yaml"
+    description: 'Underway CTD data'
+    driver: yaml_file_cat
+    metadata: {}    
+    
+  w-band-radar:
+    args:
+      path: "{{CATALOG_DIR}}/w-band-radar.yaml"
+    description: 'Vertical Profiles of cloud, vertical velocity, and precipitation parameters from W-band radar'
+    driver: yaml_file_cat
+    metadata: {}  
+    
