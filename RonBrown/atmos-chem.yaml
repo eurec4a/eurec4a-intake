@@ -10,77 +10,77 @@ sources:
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_XRF_Chem_v2.nc
     driver: opendap
-    
+
   PMEL_Seawater:
     args:
       auth: null
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_Seawater_v0.nc
-    driver: opendap   
-    
+    driver: opendap
+
   PMEL_Radon:
     args:
       auth: null
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_Radon_v0.nc
-    driver: opendap      
-    
+    driver: opendap
+
   PMEL_Optics:
     args:
       auth: null
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_Optics_v1.nc
-    driver: opendap         
-    
+    driver: opendap
+
   PMEL_Optics_Intensive:
     args:
       auth: null
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_Optics_Intensive_v0.nc
-    driver: opendap       
- 
+    driver: opendap
+
   PMEL_OCEC:
     args:
       auth: null
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_OCEC_v0.nc
-    driver: opendap          
-  
+    driver: opendap
+
   PMEL_Met_Nav:
     args:
       auth: null
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_Met_Nav_v1.nc
-    driver: opendap        
-   
+    driver: opendap
+
   PMEL_IC_Chem:
     args:
       auth: null
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_IC_Chem_v1.nc
-    driver: opendap    
-     
+    driver: opendap
+
   PMEL_CN_O3:
     args:
       auth: null
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_CN_O3_v1.nc
-     
+
   PMEL_CCN:
     args:
       auth: null
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_CCN_v2.nc
-      
+
   PMEL_AOD:
     args:
       auth: null
@@ -88,10 +88,3 @@ sources:
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_AOD_v1.nc
    
-    
-    
-    
-    
-       
-    
-        
