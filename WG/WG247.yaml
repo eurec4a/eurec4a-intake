@@ -18,6 +18,7 @@ sources:
     args:
       auth: null
       chunks: null
+      engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/wavegliders/EUREC4A_ATOMIC_WG247_All_v2.1.nc
     description: WG 247, all data fields
     driver: opendap

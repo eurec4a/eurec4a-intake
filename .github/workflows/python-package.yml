@@ -2,7 +2,7 @@ name: eurec4a_intake
 
 on:
   push:
-    branches: [ master, no-level-1-lidar ]
+    branches: [ master ]
   pull_request:
     branches: [ master ]
 
