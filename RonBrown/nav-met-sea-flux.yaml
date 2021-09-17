@@ -18,7 +18,7 @@ sources:
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/nav_met_sea_flux/EUREC4A_ATOMIC_RonBrown_1min_nav_met_sea_20200109-20200212_v1.3.nc
-      description: Surface meteorological, near-surface seawater, ship navigation, one minute data
+    description: Surface meteorological, near-surface seawater, ship navigation, one minute data
     driver: opendap
 
   10min:
@@ -27,5 +27,5 @@ sources:
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/nav_met_sea_flux/EUREC4A_ATOMIC_RonBrown_10min_nav_met_sea_flux_20200109-20200212_v1.3.nc
-      description: Surface meteorological, near-surface seawater, ship navigation, ten minute data
+    description: Surface meteorological, near-surface seawater, ship navigation, ten minute data
     driver: opendap

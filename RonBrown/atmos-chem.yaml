@@ -73,6 +73,7 @@ sources:
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_CN_O3_v1.nc
+    driver: opendap
 
   PMEL_CCN:
     args:
@@ -80,6 +81,7 @@ sources:
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_CCN_v2.nc
+    driver: opendap
 
   PMEL_AOD:
     args:
@@ -87,4 +89,5 @@ sources:
       chunks: null
       engine: netcdf4
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/atmos-chem/EUREC4A_ATOMIC_RonBrown_PMEL_AOD_v1.nc
+    driver: opendap
    
