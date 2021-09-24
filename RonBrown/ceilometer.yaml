@@ -3,7 +3,7 @@ plugins:
     - module: intake_xarray
 
 sources:
-  15-s:
+  15_s:
     args:
       auth: null
       chunks: null
@@ -11,7 +11,7 @@ sources:
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ceilometer/EUREC4A_ATOMIC_RonBrown_Ceilometer_15s_20200109-20200212_v1.1.nc
     driver: opendap
 
-  10-min:
+  10_min:
     args:
       auth: null
       chunks: null
@@ -19,7 +19,7 @@ sources:
       urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ceilometer/EUREC4A_ATOMIC_RonBrown_Ceilometer_10min_20200109-20200212_v1.1.nc
     driver: opendap
     
-  1-hour:
+  1_hour:
     args:
       auth: null
       chunks: null

@@ -6,7 +6,7 @@ sources:
   ADCP:
     args:
       path: "{{CATALOG_DIR}}/ADCP.yaml"
-    description: 'ADCP data'
+    description: 'Acoustic Doppler Current Profiler data'
     driver: yaml_file_cat
     metadata: {}   
     

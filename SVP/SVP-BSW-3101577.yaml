@@ -20,5 +20,5 @@ TSWindPres:
       auth: null
       chunks: null
       urlpath: null
-    description: no data
+    description: no data acquired
     driver: opendap
