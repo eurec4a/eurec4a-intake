@@ -47,7 +47,7 @@ sources:
         
   isotope-PICARRO:
     args:
-      path: "{{CATALOG_DIR}}/isotope-PICARRO.yaml"
+      path: "{{CATALOG_DIR}}/isotope-Picarro.yaml"
     description: 'Near-surface humidity and water vapor isotopologue ratios'
     driver: yaml_file_cat
     metadata: {}
