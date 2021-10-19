@@ -27,4 +27,4 @@ jobs:
         pip install pytest
         # the intake-xarray puts it's source in src/ because we're installing
         # from github directly, but we don't want to run its tests
-        python -m pytest --ignore=src/ -k {{matrix.platform}}
+        python -m pytest --ignore=src/ -k "${{ matrix.platform }}""
