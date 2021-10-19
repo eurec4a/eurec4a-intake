@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        platform: [radiosondes, barbados, Atalante, ATR, BOREAL, CU-RAAVEN, Caravela, HALO, Humpback, IFM, Kracken, Melonhead, MPCK, Merian, Omura, P3, QuadCopter, RonBrown, SD-, Skywalker, SVP-, SWIFT, TO, WG, dropsondes, satellites, radiative_profiles, Meteor]
+        platform: [radiosondes or dropsondes, barbados, Atalante, ATR, BOREAL, CU-RAAVEN, Caravela, HALO, Humpback, IFM, Kracken or Melonhead, MPCK, Merian, Omura, P3, QuadCopter, RonBrown, SD-, Skywalker, SVP-, SWIFT, TO, WG, satellites, radiative_profiles, Meteor]
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python
