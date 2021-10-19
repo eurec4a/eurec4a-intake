@@ -8,8 +8,19 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [radiosondes or dropsondes or radiative_profiles,
+                   barbados,
+                   satellites,
+                   Atalante, RonBrown, Meteor or Merian,
+                   BOREAL or CU-RAAVEN or Skywalker or QuadCopter,
+                   Caravela or Humpback or Kracken or Melonhead or Omura,
+                   IFM, MPCK,
+                   ATR, HALO, P3, TO,
+                   SD-, SVP-, SWIFT or WG]
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python
@@ -25,4 +36,4 @@ jobs:
         pip install pytest
         # the intake-xarray puts it's source in src/ because we're installing
         # from github directly, but we don't want to run its tests
-        python -m pytest --ignore=src/
+        python -m pytest --ignore=src/ -k "${{ matrix.platform }}"
