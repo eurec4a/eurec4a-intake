@@ -1,4 +1,5 @@
 from pathlib import Path
+from itertools import cycle
 
 
 import intake
@@ -18,8 +19,9 @@ def catalog():
 
 
 ALL_ENTRIES = list(get_master_catalog().walk(depth=10))
-@pytest.mark.parametrize("dataset_name", ALL_ENTRIES)
-def test_get_intake_source(catalog, dataset_name):
+GROUPED_ENTRIES = list(zip(ALL_ENTRIES, (f"test_group_{i}" for i in cycle(range(10)))))
+@pytest.mark.parametrize("dataset_name,group_id", GROUPED_ENTRIES)
+def test_get_intake_source(catalog, dataset_name, group_id):
     item = catalog[dataset_name]
     if item.container == "catalog":
         item.reload()
