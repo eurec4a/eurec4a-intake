@@ -2,7 +2,6 @@ name: eurec4a_intake
 
 on:
   push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 
