@@ -3,7 +3,7 @@ plugins:
      - module: intake_xarray
 
 sources:
-  ROSR_sea_skin_temp_20200109_20200126:
+  SSTskin:
     args:
       auth: null
       chunks: null

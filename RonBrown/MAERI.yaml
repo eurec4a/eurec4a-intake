@@ -3,7 +3,7 @@ plugins:
      - module: intake_xarray
 
 sources:
-  M-AERI_SSTskin20200106171410:
+  SSTskin:
     args:
       auth: null
       chunks: null

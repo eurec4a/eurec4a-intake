@@ -3,13 +3,6 @@ plugins:
      - module: intake_xarray
 
 sources:
-  ADCP:
-    args:
-      path: "{{CATALOG_DIR}}/ADCP.yaml"
-    description: 'Acoustic Doppler Current Profiler data'
-    driver: yaml_file_cat
-    metadata: {}   
-    
   atmos-chem:
     args:
       path: "{{CATALOG_DIR}}/atmos-chem.yaml"
@@ -21,13 +14,6 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/ceilometer.yaml"
     description: 'Cloud base height and vertical profiles of visible light backscattered from aerosols and clouds'
-    driver: yaml_file_cat
-    metadata: {}  
-    
-  CTD:
-    args:
-      path: "{{CATALOG_DIR}}/CTD.yaml"
-    description: 'CTD data'
     driver: yaml_file_cat
     metadata: {}  
 
@@ -45,7 +31,7 @@ sources:
     driver: yaml_file_cat
     metadata: {}   
         
-  isotope-PICARRO:
+  isotope-Picarro:
     args:
       path: "{{CATALOG_DIR}}/isotope-Picarro.yaml"
     description: 'Near-surface humidity and water vapor isotopologue ratios'
@@ -65,6 +51,13 @@ sources:
     description: 'ship navigation, meteorology, seawater, flux data'
     driver: yaml_file_cat
     metadata: {}
+  
+  ocean_profiles:
+    args:
+      path: "{{CATALOG_DIR}}/ocean_profiles.yaml"
+    description: 'Vertical profiles of ocean temperature, salinity, pressure from ADCP, CTD and UCTD'
+    driver: yaml_file_cat
+    metadata: {}  
     
   ROSR:
     args:
@@ -83,14 +76,7 @@ sources:
     driver: opendap
     metadata:
       tags:
-      - track
-
-  UCTD:
-    args:
-      path: "{{CATALOG_DIR}}/UCTD.yaml"
-    description: 'Underway CTD data'
-    driver: yaml_file_cat
-    metadata: {}    
+      - track 
     
   w-band-radar:
     args:
