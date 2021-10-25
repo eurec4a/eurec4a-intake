@@ -15,11 +15,11 @@ jobs:
         platform: [radiosondes or JOANNE or radiative_profiles,
                    barbados,
                    satellites,
-                   Atalante, RonBrown, Meteor or Merian,
+                   RonBrown, Meteor or Merian,
                    BOREAL or CU-RAAVEN or Skywalker or QuadCopter,
                    Caravela or Humpback or Kracken or Melonhead or Omura,
-                   IFM, MPCK,
-                   ATR, HALO, P3, TO and not isotope,
+                   Atalante or IFM or MPCK or ATR,
+                   HALO, P3, TO and not isotope,
                    SD-, SVP-, SWIFT or WG]
     steps:
     - uses: actions/checkout@v2
