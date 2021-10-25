@@ -1,12 +1,21 @@
 plugins:
   source:
     - module: intake_xarray
-    - module: ipfsspec
 
 sources:
   level3:
-    args:
-      consolidated: true
-      urlpath: ipfs://QmWcdcXqTQhyfwtttqh2DT2BiEk67uXxuGdskghDpuXYUw
+    driver: opendap
     description: EUREC4A/ATOMIC JOANNE Level-3 gridded dropsonde dataset
-    driver: zarr
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/JOANNE/v2.0.0/Level_3/EUREC4A_JOANNE_Dropsonde-RD41_Level_3_v2.0.0.nc
+  level4:
+    driver: opendap
+    description: EUREC4A/ATOMIC JOANNE Level-4 gridded dropsonde dataset
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/JOANNE/v2.0.0/Level_4/EUREC4A_JOANNE_Dropsonde-RD41_Level_4_v2.0.0.nc
