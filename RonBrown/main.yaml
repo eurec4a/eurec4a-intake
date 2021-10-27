@@ -31,7 +31,7 @@ sources:
     driver: yaml_file_cat
     metadata: {}   
         
-  water_vapor_5hz:
+  isotope-analyzer-water-vapor-5Hz:
     args:
       path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-5Hz.yaml"
     description: 'Near-surface humidity and water vapor isotopologue ratios - 5Hz data'
