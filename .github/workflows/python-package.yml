@@ -9,18 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        platform: [radiosondes or JOANNE or radiative_profiles,
-                   barbados,
-                   satellites,
-                   RonBrown, Meteor or Merian,
-                   BOREAL or CU-RAAVEN or Skywalker or QuadCopter,
-                   Caravela or Humpback or Kracken or Melonhead or Omura,
-                   Atalante or IFM or MPCK or ATR,
-                   HALO, P3, TO and not isotope,
-                   SD-, SVP-, SWIFT or WG]
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python
@@ -33,7 +21,7 @@ jobs:
         pip install -r requirements.txt
     - name: Test with pytest
       run: |
-        pip install pytest
+        pip install pytest pytest-xdist
         # the intake-xarray puts it's source in src/ because we're installing
         # from github directly, but we don't want to run its tests
-        python -m pytest --ignore=src/ -k "${{ matrix.platform }}"
+        python -m pytest --ignore=src/ -n 20
