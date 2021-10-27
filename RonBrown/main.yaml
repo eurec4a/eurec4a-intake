@@ -31,10 +31,10 @@ sources:
     driver: yaml_file_cat
     metadata: {}   
         
-  isotope-Picarro:
+  water_vapor_5hz:
     args:
-      path: "{{CATALOG_DIR}}/isotope-Picarro.yaml"
-    description: 'Near-surface humidity and water vapor isotopologue ratios'
+      path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-5Hz.yaml"
+    description: 'Near-surface humidity and water vapor isotopologue ratios - 5Hz data'
     driver: yaml_file_cat
     metadata: {}
 
