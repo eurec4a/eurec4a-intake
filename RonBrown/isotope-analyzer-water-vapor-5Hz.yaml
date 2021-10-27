@@ -1,6 +1,6 @@
 plugins:
-   source:
-     - module: intake_xarray
+  source:
+    - module: intake_xarray
 
 sources:
   RHB-0126:
