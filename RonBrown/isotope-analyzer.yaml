@@ -1,5 +1,5 @@
 sources:
-  isotope-analyzer-water-vapor-5hz:
+  water_vapor_5hz:
     args:
       path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-5hz.yaml"
     description: 'Isotope analyzer 5 Hz humidity data'
