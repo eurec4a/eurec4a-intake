@@ -14,3 +14,11 @@ sources:
     metadata:
       tags:
       - track
+      
+TSWindPres:
+    args:
+      auth: null
+      chunks: null
+      urlpath: null
+    description: no data acquired
+    driver: opendap
