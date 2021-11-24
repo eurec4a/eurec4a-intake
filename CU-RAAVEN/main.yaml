@@ -14,3 +14,315 @@ sources:
     metadata:
       tags:
       - track
+
+  CUR_0124_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200124_182849_B1.nc
+    driver: opendap
+
+  CUR_0125_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200125_161648_B1.nc
+    driver: opendap
+
+  CUR_0126_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200126_140807_B1.nc
+    driver: opendap
+
+  CUR_0126_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200126_182437_B1.nc
+    driver: opendap
+
+  CUR_0127_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200127_134726_B1.nc
+    driver: opendap
+
+  CUR_0127_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200127_171712_B1.nc
+    driver: opendap
+
+  CUR_0128_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200128_133449_B1.nc
+    driver: opendap
+
+  CUR_0128_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200128_181049_B1.nc
+    driver: opendap
+
+  CUR_0130_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200130_133207_B1.nc
+    driver: opendap
+
+  CUR_0130_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200130_174143_B1.nc
+    driver: opendap
+
+  CUR_0131_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200131_135219_B1.nc
+    driver: opendap
+
+  CUR_0131_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200131_171349_B1.nc
+    driver: opendap
+
+  CUR_0201_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200201_140937_B1.nc
+    driver: opendap
+
+  CUR_0201_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200201_171907_B1.nc
+    driver: opendap
+
+  CUR_0201_f03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200201_193637_B1.nc
+    driver: opendap
+
+  CUR_0202_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200202_131149_B1.nc
+    driver: opendap
+
+  CUR_0202_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200202_171848_B1.nc
+    driver: opendap
+
+  CUR_0203_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200203_140319_B1.nc
+    driver: opendap
+
+  CUR_0204_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200204_141707_B1.nc
+    driver: opendap
+
+  CUR_0204_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200204_173719_B1.nc
+    driver: opendap
+
+  CUR_0205_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200205_141913_B1.nc
+    driver: opendap
+
+  CUR_0205_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200205_172319_B1.nc
+    driver: opendap
+
+  CUR_0206_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200206_133307_B1.nc
+    driver: opendap
+
+  CUR_0206_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200206_174019_B1.nc
+    driver: opendap
+
+  CUR_0207_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200207_132518_B1.nc
+    driver: opendap
+
+  CUR_0207_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200207_163712_B1.nc
+    driver: opendap
+
+  CUR_0209_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200209_134507_B1.nc
+    driver: opendap
+
+  CUR_0209_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200209_171049_B1.nc
+    driver: opendap
+
+  CUR_0210_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200210_132019_B1.nc
+    driver: opendap
+
+  CUR_0210_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200210_164249_B1.nc
+    driver: opendap
+
+  CUR_0211_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200211_150449_B1.nc
+    driver: opendap
+
+  CUR_0211_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200211_182019_B1.nc
+    driver: opendap
+
+  CUR_0212_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200212_134818_B1.nc
+    driver: opendap
+
+  CUR_0212_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200212_165037_B1.nc
+    driver: opendap
+
+  CUR_0212_f03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200212_173335_B1.nc
+    driver: opendap
+
+  CUR_0214_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200214_134149_B1.nc
+    driver: opendap
+
+  CUR_0214_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200214_165107_B1.nc
+    driver: opendap
+
+  CUR_0215_f01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200215_135949_B1.nc
+    driver: opendap
+
+  CUR_0215_f02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200215_170907_B1.nc
+    driver: opendap

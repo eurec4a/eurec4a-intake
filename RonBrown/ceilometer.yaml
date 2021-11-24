@@ -1,0 +1,28 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  15_s:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ceilometer/EUREC4A_ATOMIC_RonBrown_Ceilometer_15s_20200109-20200212_v1.1.nc
+    driver: opendap
+
+  10_min:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ceilometer/EUREC4A_ATOMIC_RonBrown_Ceilometer_10min_20200109-20200212_v1.1.nc
+    driver: opendap
+    
+  1_hour:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ceilometer/EUREC4A_ATOMIC_RonBrown_Ceilometer_1hour_20200109-20200212_v1.1.nc
+    driver: opendap   

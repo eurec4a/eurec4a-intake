@@ -1,0 +1,20 @@
+plugins:
+   source:
+     - module: intake_xarray
+
+sources:
+  windProfs:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/doppler_lidar/Level_2/EUREC4A_ATOMIC_RonBrown_lidar_microDop02_lev2_windProfs_RTR_20200107_2100-20200211_2300.nc
+    driver: opendap
+
+  velStats:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/doppler_lidar/Level_2/EUREC4A_ATOMIC_RonBrown_lidar_microDop02_lev2_velStats_20200107_0730-20200212_1829.nc
+    driver: opendap
