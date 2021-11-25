@@ -26,7 +26,7 @@ def test_get_intake_source(catalog, dataset_name):
     else:
         item.discover()
         plugin = item.describe()['plugin'][0]
-        if plugin in ["opendap", "zarr"]:
+        if plugin in ["opendap", "zarr", "netcdf"]:
             _ = item.to_dask()
         elif plugin in ["intake_esm.esm_datastore", "parquet"]:
             _ = item.get()
