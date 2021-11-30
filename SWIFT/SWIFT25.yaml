@@ -19,6 +19,6 @@ sources:
     args:
       auth: null
       chunks: null
-      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/swift_drifters/EUREC4A_ATOMIC_SWIFT25_All_v2.3.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/swift_drifters/EUREC4A_ATOMIC_SWIFT25_All_v2.1.nc
     description: SWIFT 25, all data fields
     driver: opendap
