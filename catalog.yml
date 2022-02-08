@@ -436,7 +436,7 @@ sources:
 
   c3ontext:
     args:
-      path: "{{CATALOG_DIR}}/C3ONTEXT/c3ontext.yaml"
+      path: "{{CATALOG_DIR}}/C3ONTEXT/C3ONTEXT.yaml"
     description: Meso-scale pattern dataset C3ONTEXT.
     driver: yaml_file_cat
     metadata: {}
