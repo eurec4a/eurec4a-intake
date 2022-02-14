@@ -458,7 +458,7 @@ sources:
   simulations:
     args:
       path: "{{CATALOG_DIR}}/simulations/main.yaml"
-    description: 'Simulation outputs"
+    description: 'Simulation outputs'
     driver: yaml_file_cat
     metadata: {}
 
