@@ -1,0 +1,24 @@
+sources:
+
+  surface_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_surface.zarr
+    description: DOM01 surface fields
+    driver: zarr
+
+  radiation_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_radiation.zarr
+    description: DOM01 radiation fields
+    driver: zarr
+
+  surface_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM02_surface.zarr
+    description: DOM02 surface fields
+    driver: zarr
+
+

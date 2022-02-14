@@ -1,0 +1,11 @@
+plugins:
+  source:
+     - module: intake_xarray
+
+sources:
+  experiment_1:
+    args:
+      path: "{{CATALOG_DIR}}/experiment_1.yaml"
+    description: 'Experiment with higher aerosol concentrations'
+    driver: yaml_file_cat
+    metadata: {}
