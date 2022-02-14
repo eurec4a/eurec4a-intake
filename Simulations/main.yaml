@@ -8,4 +8,4 @@ sources:
       path: "{{CATALOG_DIR}}/ICON/main.yaml"
     description: 'ICON simulations'
     driver: yaml_file_cat
-    metadata: {}       
+    metadata: {} 
