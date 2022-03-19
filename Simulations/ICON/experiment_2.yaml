@@ -1,0 +1,13 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  surface_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/ICON_DOM01_surface.zarr
+    description: DOM01 surface fields
+    driver: zarr
+

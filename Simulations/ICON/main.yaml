@@ -9,3 +9,9 @@ sources:
     description: 'Experiment with higher aerosol concentrations'
     driver: yaml_file_cat
     metadata: {}
+  experiment_2:
+    args:
+      path: "{{CATALOG_DIR}}/experiment_2.yaml"
+    description: 'Experiment with realistic aerosol concentrations'
+    driver: yaml_file_cat
+    metadata: {}
