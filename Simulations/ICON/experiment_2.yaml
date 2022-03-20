@@ -11,3 +11,16 @@ sources:
     description: DOM01 surface fields
     driver: zarr
 
+  meteogram_BCO_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/ICON_meteogram_DOM01_BCO.zarr
+    description: DOM01 meteogram at the BCO
+    driver: zarr
+
+  meteogram_BCO_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/ICON_meteogram_DOM02_BCO.zarr
+    description: DOM02 meteogram at the BCO
+    driver: zarr
