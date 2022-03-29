@@ -25,11 +25,16 @@ sources:
     description: DOM01 synthetic satellite images via RTTOV
     driver: zarr
 
+  3D_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_3D.zarr
+    description: DOM01 3D fields
+    driver: zarr
+
   surface_DOM02:
     args:
       consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM02_surface.zarr
     description: DOM02 surface fields
     driver: zarr
-
-
