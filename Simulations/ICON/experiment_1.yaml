@@ -50,5 +50,89 @@ sources:
     args:
       consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_BCO.zarr
-    description: DOM01 meteogram at the BCO
+    description: DOM02 meteogram at the BCO
+    driver: zarr
+
+  meteogram_NTAS_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_NTAS-XVIII.zarr
+    description: DOM01 meteogram at the NTAS-XVIII position
+    driver: zarr
+
+  meteogram_NTAS_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_NTAS-XVIII.zarr
+    description: DOM02 meteogram at the NTAS-XVIII position
+    driver: zarr
+
+  meteogram_c_center_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_center.zarr
+    description: DOM01 meteogram at the HALO circle center position
+    driver: zarr
+
+  meteogram_c_center_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_center.zarr
+    description: DOM02 meteogram at the HALO circle center position
+    driver: zarr
+
+  meteogram_c_east_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_east.zarr
+    description: DOM01 meteogram at the HALO circle easternmost position
+    driver: zarr
+
+  meteogram_c_east_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_east.zarr
+    description: DOM01 meteogram at the HALO circle easternmost position
+    driver: zarr
+
+  meteogram_c_north_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_north.zarr
+    description: DOM01 meteogram at the HALO circle northernmost position
+    driver: zarr
+
+  meteogram_c_north_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_north.zarr
+    description: DOM01 meteogram at the HALO circle northernmost position
+    driver: zarr
+
+  meteogram_c_west_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_west.zarr
+    description: DOM01 meteogram at the HALO circle westernmost position
+    driver: zarr
+
+  meteogram_c_west_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_west.zarr
+    description: DOM02 meteogram at the HALO circle westernmost position
+    driver: zarr
+
+  meteogram_c_south_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_south.zarr
+    description: DOM01 meteogram at the HALO circle southernmost position
+    driver: zarr
+
+  meteogram_c_south_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_south.zarr
+    description: DOM02 meteogram at the HALO circle southernmost position
     driver: zarr
