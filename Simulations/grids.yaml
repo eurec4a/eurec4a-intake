@@ -1,0 +1,20 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  EUREC4A_PR1250m_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM01.zarr
+    description: ICON grid of DOM01
+    driver: zarr
+
+  EUREC4A_PR1250m_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM02.zarr
+    description: ICON grid of DOM02
+    driver: zarr
+
