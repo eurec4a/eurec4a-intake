@@ -34,7 +34,7 @@ sources:
 
   synthetic_radar_BCO_DOM01:
     args:
-     consolidated: true
+      consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/pamtra/Meteogram_Pamtra_DOM01_BCO.zarr
     description: Synthetic Ka-Band radar data based on DOM01 meteogram at the BCO
     driver: zarr
@@ -48,7 +48,7 @@ sources:
 
   synthetic_radar_BCO_DOM02:
     args:
-     consolidated: true
+      consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/pamtra/Meteogram_Pamtra_DOM02_BCO.zarr
     description: Synthetic Ka-Band radar data based on DOM02 meteogram at the BCO
     driver: zarr
@@ -62,7 +62,7 @@ sources:
 
   synthetic_radar_NTAS_DOM01:
     args:
-     consolidated: true
+      consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/pamtra/Meteogram_Pamtra_DOM01_NTAS-XVIII.zarr
     description: Synthetic Ka-Band radar data based on DOM01 meteogram at the NTAS-XVIII
     driver: zarr
@@ -76,7 +76,7 @@ sources:
 
   synthetic_radar_NTAS_DOM02:
     args:
-     consolidated: true
+      consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/pamtra/Meteogram_Pamtra_DOM02_NTAS-XVIII.zarr
     description: Synthetic Ka-Band radar data based on DOM02 meteogram at the NTAS-XVIII
     driver: zarr
