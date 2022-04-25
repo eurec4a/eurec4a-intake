@@ -1,7 +1,16 @@
 sources:
-  water_vapor_5hz:
+  water_vapor_d18o_5hz:
     args:
-      path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-5hz.yaml"
-    description: 'Isotope analyzer 5 Hz humidity data'
-    driver: yaml_file_cat
-    metadata: {}
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/Picarro/EUREC4A_ATOMIC_RonBrown_Isotope-Analyzer_5Hz_20200126-20200210_v1.0.nc
+    driver: opendap
+
+  water_vapor_d18o_1min:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/Picarro/EUREC4A_ATOMIC_RonBrown_Isotope-Analyzer_1min_20200126-20200210_v1.0.nc
+    driver: opendap
