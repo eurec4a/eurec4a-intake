@@ -3,15 +3,15 @@ plugins:
      - module: intake_xarray
 
 sources:
-  experiment_1:
+  LES_CampaignDomain_highCCN:
     args:
-      path: "{{CATALOG_DIR}}/experiment_1.yaml"
-    description: 'Experiment with higher aerosol concentrations'
+      path: "{{CATALOG_DIR}}/LES_CampaignDomain_highCCN.yaml"
+    description: 'ICON LES simulation with an CCN concentration of 1700cm-3 covering the entire campaign domain.'
     driver: yaml_file_cat
     metadata: {}
-  experiment_2:
+  LES_CampaignDomain_control:
     args:
-      path: "{{CATALOG_DIR}}/experiment_2.yaml"
-    description: 'Experiment with realistic aerosol concentrations'
+      path: "{{CATALOG_DIR}}/LES_CampaignDomain_control.yaml"
+    description: 'ICON LES simulation with a `realistic` CCN concentration of 130cm-3 covering the entire campaign domain.'
     driver: yaml_file_cat
     metadata: {}
