@@ -48,3 +48,8 @@ def test_get_intake_source(catalog, dataset_name):
             _ = item.get()
         else:
             raise Exception(plugin)
+
+@pytest.mark.modified_on_branch
+def test_make_ci_happy_if_no_test_is_selected():
+    """ pytest returns exit code 5 if no test is selected"""
+    pass
