@@ -37,3 +37,18 @@ sources:
       tags:
         - water-vapour profiles
         - temperature profiles
+
+  radar_reflectivity:
+    description: Radar reflectivities measured with the Ka-Band radar at the Barbados Cloud Observatory.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/BARBADOS/BCO/Radar_CORAL/{{version}}/EUREC4A_BCO_Ka-Band-Radar_SpectralMoments_2s_20200101-20200229_{{version}}.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    parameters:
+      version:
+        description: "dataset version"
+        default: "v2022.03.25"
+        type: str
+        allowed: ["v2022.03.25"]

@@ -1,0 +1,13 @@
+plugins:
+   source:
+     - module: intake_xarray
+
+sources:
+  SSTskin:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/M-AERI/EUREC4A_ATOMIC_M-AERI_SSTskin20200106171410-v0.1.nc
+    description: Ocean skin surface temperature and near-surface air temperature from M-AERI 
+    driver: opendap

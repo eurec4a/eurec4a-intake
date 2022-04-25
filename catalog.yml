@@ -126,6 +126,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  NTAS:
+    args:
+      path: "{{CATALOG_DIR}}/NTAS/main.yaml"
+    description: 'Data from the NTAS mooring'
+    driver: yaml_file_cat
+    metadata: {}
+    
   Omura:
     args:
       path: "{{CATALOG_DIR}}/Omura/main.yaml"
@@ -424,6 +431,13 @@ sources:
     description: Wave Glider WG247
     args:
       path: "{{CATALOG_DIR}}/WG/WG247.yaml"
+    driver: yaml_file_cat
+    metadata: {}
+
+  c3ontext:
+    args:
+      path: "{{CATALOG_DIR}}/C3ONTEXT/C3ONTEXT.yaml"
+    description: Meso-scale pattern dataset C3ONTEXT.
     driver: yaml_file_cat
     metadata: {}
 

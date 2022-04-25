@@ -1,0 +1,50 @@
+sources:
+
+  level2:
+    args:
+      consolidated: true
+      urlpath: ipfs://QmTHe5NYteNixxcjYVs49tSeGgrRBN8u8yJ5vmhaVXH16h
+    description: Level-2 dataset of manual classifications.
+    driver: zarr
+
+  level3_ICON-albedo_instant:
+    args:
+      consolidated: true
+      urlpath: ipfs://Qmck6BAwT53RmmqgMbKnfnQYz9nobkxouUtfLEmaL7NMGZ
+    description: Level-3 dataset of manual classifications based on pseudo-albedo from ICON simulation and composed on each timestep.
+    driver: zarr
+
+  level3_ICON-albedo_daily:
+    args:
+      consolidated: true
+      urlpath: ipfs://QmVeN9RRWmNkoXvH1u8p78ufzZqBw54meeB3TQFD7RJhGk
+    description: Level-3 dataset of manual classifications based on pseudo-albedo from ICON simulation and composed daily.
+    driver: zarr
+
+  level3_IR_instant:
+    args:
+      consolidated: true
+      urlpath: ipfs://QmRDFjQ7Gxu6cHWFKaQXrodaujCu1VmvNKM3dpZsJzYt88
+    description: Level-3 dataset of manual classifications based on infrared satellite images and composed on each timestep.
+    driver: zarr
+
+  level3_IR_daily:
+    args:
+      consolidated: true
+      urlpath: ipfs://QmWkQzqYMJMbFMGt6wy5jjYELmEx49QpwqXKa6aru2JMxj
+    description: Level-3 dataset of manual classifications based on infrared satellite images and composed daily.
+    driver: zarr
+
+  level3_VIS_instant:
+    args:
+      consolidated: true
+      urlpath: ipfs://Qma5WhX9XBCtoWRDWb25NyKEWASC3a7oGZ68pZeVRNaNp3
+    description: Level-3 dataset of manual classifications based on visible satellite images and composed on each timestep.
+    driver: zarr
+
+  level3_VIS_daily:
+    args:
+      consolidated: true
+      urlpath: ipfs://QmfHxHDRcqqkpah2WPBiaqwFMU3DS4hXYikmC8xYskus9W
+    description: Level-3 dataset of manual classifications based on visible satellite images and composed daily.
+    driver: zarr
