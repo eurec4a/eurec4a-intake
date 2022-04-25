@@ -455,6 +455,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  simulations:
+    args:
+      path: "{{CATALOG_DIR}}/Simulations/main.yaml"
+    description: Simulation outputs
+    driver: yaml_file_cat
+    metadata: {}
+
   radiative_profiles:
     args:
       path: "{{CATALOG_DIR}}/radiative_profiles.yml"

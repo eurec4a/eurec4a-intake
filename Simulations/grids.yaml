@@ -1,0 +1,20 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  6b59890b-99f3-939b-e76a-0a3ad2e43140:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM01.zarr
+    description: ICON LES grid of DOM01 (EUREC4A_PR1250m_DOM01)
+    driver: zarr
+
+  3c7523ba-f78c-c23e-6654-012805ba3300:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM02.zarr
+    description: ICON LES grid of DOM02 (EUREC4A_PR1250m_DOM02)
+    driver: zarr
+
