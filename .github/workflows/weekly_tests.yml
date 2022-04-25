@@ -1,10 +1,8 @@
 name: eurec4a_intake
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  schedule:
+    - cron: '17 3 * * 0'
 
 jobs:
   build:
@@ -26,4 +24,4 @@ jobs:
         pip install pytest pytest-xdist sh
         # the intake-xarray puts it's source in src/ because we're installing
         # from github directly, but we don't want to run its tests
-        python -m pytest --ignore=src/ -m modified_on_branch -n 20
+        python -m pytest --ignore=src/ -n 20
