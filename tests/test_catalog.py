@@ -17,7 +17,7 @@ def get_master_catalog():
 def catalog():
     return get_master_catalog()
 
-def all_entries(reference_branch="master"):
+def all_entries(reference_branch="origin/master"):
     from sh import git
     relevant_files = set(l.strip()
         for l in git.log("--oneline", "--name-only", f"{reference_branch}..HEAD", _tty_out=False, _iter=True))
