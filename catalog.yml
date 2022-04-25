@@ -434,6 +434,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  c3ontext:
+    args:
+      path: "{{CATALOG_DIR}}/C3ONTEXT/C3ONTEXT.yaml"
+    description: Meso-scale pattern dataset C3ONTEXT.
+    driver: yaml_file_cat
+    metadata: {}
+
   dropsondes:
     args:
       path: "{{CATALOG_DIR}}/dropsondes.yaml"
@@ -445,6 +452,13 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/satellites/main.yaml"
     description: 'Satellite products'
+    driver: yaml_file_cat
+    metadata: {}
+
+  simulations:
+    args:
+      path: "{{CATALOG_DIR}}/Simulations/main.yaml"
+    description: Simulation outputs
     driver: yaml_file_cat
     metadata: {}
 

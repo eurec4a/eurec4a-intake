@@ -9,7 +9,7 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200117_v1.0.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200117_v1.1.nc
 
   P3-0119:
     driver: opendap
@@ -17,7 +17,7 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200119_v1.0.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200119_v1.1.nc
 
   P3-0123:
     driver: opendap
@@ -25,7 +25,7 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200123_v1.0.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200123_v1.1.nc
 
   P3-0124:
     driver: opendap
@@ -33,7 +33,7 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200124_v1.0.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200124_v1.1.nc
 
   P3-0131:
     driver: opendap
@@ -41,7 +41,7 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200131_v1.0.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200131_v1.1.nc
 
   P3-0203:
     driver: opendap
@@ -49,7 +49,7 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200203_v1.0.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200203_v1.1.nc
 
   P3-0204:
     driver: opendap
@@ -57,7 +57,7 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200204_v1.0.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200204_v1.1.nc
 
   P3-0205:
     driver: opendap
@@ -65,7 +65,7 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200205_v1.0.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200205_v1.1.nc
 
   P3-0209:
     driver: opendap
@@ -73,7 +73,7 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200209_v1.0.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200209_v1.1.nc
 
   P3-0210:
     driver: opendap
@@ -81,7 +81,7 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200210_v1.0.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200210_v1.1.nc
 
   P3-0211:
     driver: opendap
@@ -89,4 +89,4 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200211_v1.0.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-1Hz_20200211_v1.1.nc
