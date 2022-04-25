@@ -21,7 +21,7 @@ jobs:
         pip install -r requirements.txt
     - name: Test with pytest
       run: |
-        pip install pytest pytest-xdist
+        pip install pytest pytest-xdist sh
         # the intake-xarray puts it's source in src/ because we're installing
         # from github directly, but we don't want to run its tests
         python -m pytest --ignore=src/ -m modified_on_branch -n 20
