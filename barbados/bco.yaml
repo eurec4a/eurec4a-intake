@@ -67,3 +67,10 @@ sources:
         default: "v2.0.0"
         type: str
         allowed: ["v1.1.2", "v2.0.0"]
+
+  MRR:
+    description: Microwave rain radar measurements taken at the Barbados Cloud Observatory
+    driver: zarr
+    args:
+      urlpath: ipfs://QmeAL3DLEbWS2c2bkyA7mSgopN2ANmtMAGu79mM5GFQGhR
+      consolidated: true
