@@ -52,3 +52,18 @@ sources:
         default: "v2022.03.25"
         type: str
         allowed: ["v2022.03.25"]
+
+  meteorology:
+    description: Basic meteorological measurements taken with a Vaisala WXT sensor at the Barbados Cloud Observatory.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/BARBADOS/BCO/WXT/EUREC4A_BCO_WXT_SurfaceMeteorology_20200101-20200229_{{version}}.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    parameters:
+      version:
+        description: "dataset version"
+        default: "v2.0.0"
+        type: str
+        allowed: ["v1.1.2", "v2.0.0"]
