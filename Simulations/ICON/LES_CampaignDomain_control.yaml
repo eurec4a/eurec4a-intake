@@ -32,6 +32,13 @@ sources:
     description: DOM02 synthetic satellite images via RTTOV (regridded)
     driver: zarr
 
+  pressure_level_DOM01:
+    args:
+      consolidated:
+      urlpath: ipfs://bafybeigxhybtz4gv4l6477ixfzi66n6mj4oecu3gc4wlpdlipk2fvscokm
+    description: DOM01 selected pressure fields
+    driver: zarr
+
   meteogram_BCO_DOM01:
     args:
       consolidated: true
