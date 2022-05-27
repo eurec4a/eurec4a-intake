@@ -39,6 +39,13 @@ sources:
     description: DOM01 selected pressure fields
     driver: zarr
 
+  pressure_level_DOM02:
+    args:
+      consolidated:
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/ICON_DOM02_pressure_lev.zarr
+    description: DOM02 selected pressure fields
+    driver: zarr
+
   meteogram_BCO_DOM01:
     args:
       consolidated: true
