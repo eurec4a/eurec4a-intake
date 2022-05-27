@@ -34,14 +34,14 @@ sources:
 
   pressure_level_DOM01:
     args:
-      consolidated:
+      consolidated: true
       urlpath: ipfs://bafybeigxhybtz4gv4l6477ixfzi66n6mj4oecu3gc4wlpdlipk2fvscokm
     description: DOM01 selected pressure fields
     driver: zarr
 
   pressure_level_DOM02:
     args:
-      consolidated:
+      consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/ICON_DOM02_pressure_lev.zarr
     description: DOM02 selected pressure fields
     driver: zarr
