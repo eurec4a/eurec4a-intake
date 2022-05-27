@@ -1,0 +1,26 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  meteogram_BCO:
+    args:
+      consolidated: true
+      urlpath: ipfs://bafybeidqwf7lcs4mo343ntgxiid7n6psvryicuqkppm3wmzad2wdamnpsu
+    description: Meteogram at the BCO
+    driver: zarr
+
+  meteogram_NTAS:
+    args:
+      consolidated: true
+      urlpath: ipfs://bafybeie4q37rvin3shn6cqncphnfhnyf5fe6y72dxq3572scsir3y6glfm
+    description: Meteogram at the NTAS buoy
+    driver: zarr
+
+  meteogram_HALO_circle:
+    args:
+      consolidated: true
+      urlpath: ipfs://bafybeiaafmvnpnq6r7hqwf6kqlgknmhejxyh4a3jfpdm6dsrycmj62m474
+    description: Meteogram at position 13.5N 57.5W within the HALO circle.
+    driver: zarr
