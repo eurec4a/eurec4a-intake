@@ -46,11 +46,25 @@ sources:
     description: DOM01 meteogram at the BCO
     driver: zarr
 
+  synthetic_radar_BCO_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_BCO.zarr
+    description: Synthetic Ka-Band radar data based on DOM01 meteogram at the BCO
+    driver: zarr
+
   meteogram_BCO_DOM02:
     args:
       consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_BCO.zarr
     description: DOM02 meteogram at the BCO
+    driver: zarr
+
+  synthetic_radar_BCO_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_BCO.zarr
+    description: Synthetic Ka-Band radar data based on DOM02 meteogram at the BCO
     driver: zarr
 
   meteogram_NTAS_DOM01:
