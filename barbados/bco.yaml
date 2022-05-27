@@ -68,6 +68,13 @@ sources:
         type: str
         allowed: ["v1.1.2", "v2.0.0"]
 
+  radiation:
+    description: Downwelling radiation measurements taken at the Barbados Cloud Observatory.
+    driver: zarr
+    args:
+      urlpath: ipfs://QmW7jRhQDCCFX6FSkyrTi4Ace71VeYRDin7s3b8oVHuhRP
+      consolidated: True
+
   MRR:
     description: Microwave rain radar measurements taken at the Barbados Cloud Observatory
     driver: zarr
