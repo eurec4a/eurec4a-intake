@@ -40,12 +40,10 @@ sources:
 
   radar_reflectivity:
     description: Radar reflectivities measured with the Ka-Band radar at the Barbados Cloud Observatory.
-    driver: opendap
+    driver: zarr
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/BARBADOS/BCO/Radar_CORAL/{{version}}/EUREC4A_BCO_Ka-Band-Radar_SpectralMoments_2s_20200101-20200229_{{version}}.nc
-      auth: null
-      chunks: null
-      engine: netcdf4
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/bco_data/CORAL/eurec4a/EUREC4A_BCO_Ka-Band-Radar_SpectralMoments_2s_20200101-20200229_{{version}}.zarr
+      consolidated: True
     parameters:
       version:
         description: "dataset version"
