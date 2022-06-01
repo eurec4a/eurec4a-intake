@@ -1,0 +1,11 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  CBH:
+    args:
+      consolidated: True
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/bco_data/eurec4a/EUREC4A_BCO_Ceilometer_CloudBaseHeight_10s_20200101-20200229_v1.0.0.zarr
+    driver: zarr
+    description: Cloud base height retrieved from ceilometer measurements taken at the Barbados Cloud Observatory. This product is combined with microwave rain radar (MRR) measurements to flag retrievals during rain events.
