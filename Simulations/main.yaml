@@ -9,6 +9,13 @@ sources:
     description: 'ICON simulations'
     driver: yaml_file_cat
     metadata: {}
+    
+  DALES:
+    args:
+      path: "{{CATALOG_DIR}}/DALES/main.yaml"
+    description: 'DALES simulations'
+    driver: yaml_file_cat
+    metadata: {}
 
   grids:
     args:

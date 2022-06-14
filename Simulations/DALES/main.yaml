@@ -1,0 +1,12 @@
+plugins:
+  source:
+     - module: intake_xarray
+
+sources:
+  botany:
+    args:
+      path: "{{CATALOG_DIR}}/botany.yaml"
+    description: 'Cloud botany LES ensemble'
+    driver: yaml_file_cat
+    metadata: {}
+    

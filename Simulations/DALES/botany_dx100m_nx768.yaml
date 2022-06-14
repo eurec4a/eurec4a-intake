@@ -1,0 +1,11 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  2D:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_5ca791c6-a171-4f68-9266-e87c682e80ff/botany/botany_768_2D.zarr
+    description: 2D fields
+    driver: zarr
