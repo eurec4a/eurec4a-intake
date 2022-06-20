@@ -1,0 +1,47 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  meteogram_BCO:
+    args:
+      consolidated: true
+      urlpath: ipfs://bafybeidqwf7lcs4mo343ntgxiid7n6psvryicuqkppm3wmzad2wdamnpsu
+    description: Meteogram at the BCO
+    driver: zarr
+
+  synthetic_radar_BCO:
+    args:
+      consolidated: true
+      urlpath: ipfs://QmTgNWjZfZR4kLPqP75W4N7fQHrsC1E5bQqiySCjSYGhJF
+    description: Synthetic radar at BCO
+    driver: zarr
+
+  meteogram_NTAS:
+    args:
+      consolidated: true
+      urlpath: ipfs://bafybeie4q37rvin3shn6cqncphnfhnyf5fe6y72dxq3572scsir3y6glfm
+    description: Meteogram at the NTAS buoy
+    driver: zarr
+
+  synthetic_radar_NTAS:
+    args:
+      consolidated: true
+      urlpath: ipfs://QmPywoK4Rt3NdF95XZoyXsdQDx5oAUeyHrknWZ2Z5ftv6d
+    description: Synthetic radar at BCO
+    driver: zarr
+
+  meteogram_HALO_circle:
+    args:
+      consolidated: true
+      urlpath: ipfs://bafybeiaafmvnpnq6r7hqwf6kqlgknmhejxyh4a3jfpdm6dsrycmj62m474
+    description: Meteogram at position 13.5N 57.5W within the HALO circle.
+    driver: zarr
+
+  synthetic_radar_HALO_circle:
+    args:
+      consolidated: true
+      urlpath: ipfs://QmSkWkGcEAgKWuPANxcyEBgwSvhFD8genV5191WBgZZLqb
+    description: Synthetic radar at BCO
+    driver: zarr

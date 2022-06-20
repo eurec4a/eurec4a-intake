@@ -15,3 +15,9 @@ sources:
     description: 'ICON LES simulation with a `realistic` CCN concentration of 130cm-3 covering the entire campaign domain.'
     driver: yaml_file_cat
     metadata: {}
+  SRM:
+    args:
+      path: "{{CATALOG_DIR}}/SRM.yaml"
+    description: 'ICON storm-resolving simulation with a horizontal grid-spacing of 1.25km'
+    driver: yaml_file_cat
+    metadata: {}
