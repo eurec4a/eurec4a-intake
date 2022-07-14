@@ -20,6 +20,7 @@ sources:
       auth: null
       chunks: null
       urlpath: https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/saildrone/Atomic/saildrone-gen_5-atomic_eurec4a_2020-sd1026-20200117T000000-20200302T235959-1_minutes-v1.1595708344687.nc
+      engine: netcdf4
     description: Saildrone 1026, one minute data
     driver: opendap
 
@@ -28,5 +29,6 @@ sources:
       auth: null
       chunks: null
       urlpath: https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/saildrone/Atomic/saildrone-gen_5-atomic_eurec4a_2020-sd1026-20200117T000000-20200302T235959-5_minutes-v1.1595997001389.nc
+      engine: netcdf4
     description: Saildrone 1026, five minute data 
     driver: opendap
