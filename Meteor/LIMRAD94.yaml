@@ -10,6 +10,7 @@ sources:
       auth: null
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SHIPS/RV-METEOR/cloudradar/low-res-reflectivity-ncfiles/RV-METEOR_LIMRAD94_Ze_{{date.strftime("%Y%m%d")}}.nc
       chunks: {time: 1000}
+      engine: netcdf4
     parameters:
       date:
         description: date of observation
@@ -25,6 +26,7 @@ sources:
       auth: null
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SHIPS/RV-METEOR/cloudradar/heave-corr-high-res-ncfiles/eurec4a_rv-meteor_cloudradar_{{date.strftime("%Y%m%d")}}_v{{version}}.nc
       chunks: {time: 1000}
+      engine: netcdf4
     parameters:
       date:
         description: date of observation

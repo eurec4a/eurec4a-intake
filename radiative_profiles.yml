@@ -9,6 +9,7 @@ sources:
             urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/RADIATIVE-PROFILES/rad_profiles_{{version}}.nc
             auth: null
             chunks: null
+            engine: netcdf4
         parameters:
             version:
                 description: "dataset version"
