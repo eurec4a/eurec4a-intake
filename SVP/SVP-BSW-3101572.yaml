@@ -20,6 +20,6 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/svp-s_drifters/EUREC4A_ATOMIC_drifter3101572_TSWindPres_v1.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/svp-s_drifters/EUREC4A_ATOMIC_drifter3101572_TSWindPres_v2.nc
     description: Temperature, Salinity, wind and pressure data from SVP drifters
     driver: opendap
