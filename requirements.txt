@@ -5,7 +5,7 @@ xarray
 zarr
 fsspec>=0.7.4
 pydap
-netcdf4!=1.5.4,!=1.5.5,!=1.5.5.1 # this is due to https://github.com/Unidata/netcdf4-python/issues/1052
+netcdf4!=1.5.4,!=1.5.5,!=1.5.5.1,!=1.6.0 # this is due to https://github.com/Unidata/netcdf4-python/issues/1052 and a CURL error in 1.6.0 (https://github.com/Unidata/netcdf-c/issues/2459)
 s3fs
 ipfsspec
 requests
