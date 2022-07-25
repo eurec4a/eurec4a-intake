@@ -5,12 +5,10 @@ plugins:
 sources:
   CORAL_LIDAR:
     description: Observations made with the CORAL LIDAR at BCO
-    driver: opendap
+    driver: netcdf
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/BARBADOS/BCO/Raman_Lidar_CORAL/lowResolution/version_{{version}}/T{{dt}}min/nc/coral_{{date.strftime("%y%m%d")}}_0002_0000_{{content_type}}.nc
-      auth: null
+      urlpath: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/BARBADOS/BCO/Raman_Lidar_CORAL/lowResolution/version_{{version}}/T{{dt}}min/nc/coral_{{date.strftime("%y%m%d")}}_0002_0000_{{content_type}}.nc
       chunks: null
-      engine: netcdf4
     parameters:
       version:
         description: dataset version to use
