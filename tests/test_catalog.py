@@ -40,7 +40,6 @@ def test_get_intake_source(catalog, dataset_name):
     if item.container == "catalog":
         item.reload()
     else:
-        item.discover()
         plugin = item.describe()['plugin'][0]
         if plugin in ["opendap", "zarr", "netcdf"]:
             _ = item.to_dask()
