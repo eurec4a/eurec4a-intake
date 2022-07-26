@@ -20,6 +20,6 @@ sources:
       auth: null
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/swift_drifters/EUREC4A_ATOMIC_SWIFT22_All_v2.3.nc
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/swift_drifters/EUREC4A_ATOMIC_SWIFT22_All_v2.4.nc
     description: SWIFT 22, all data fields
     driver: opendap
