@@ -10,6 +10,7 @@ sources:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloud_geometry/points_HALO-0205_sl1.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0205_sl2:
     description: points on cloud surface located by stereo method
     driver: opendap
@@ -17,6 +18,7 @@ sources:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloud_geometry/points_HALO-0205_sl2.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0205_sl3:
     description: points on cloud surface located by stereo method
     driver: opendap
@@ -24,6 +26,7 @@ sources:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloud_geometry/points_HALO-0205_sl3.nc
       auth: null
       chunks: null
+      engine: netcdf4
   HALO-0205_sl4:
     description: points on cloud surface located by stereo method
     driver: opendap
@@ -31,3 +34,4 @@ sources:
       urlpath: https://macsserver.physik.uni-muenchen.de/products/dap/eurec4a/cloud_geometry/points_HALO-0205_sl4.nc
       auth: null
       chunks: null
+      engine: netcdf4

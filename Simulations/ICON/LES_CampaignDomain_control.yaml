@@ -32,20 +32,6 @@ sources:
     description: DOM02 synthetic satellite images via RTTOV (regridded)
     driver: zarr
 
-  pressure_level_DOM01:
-    args:
-      consolidated: true
-      urlpath: ipfs://bafybeigxhybtz4gv4l6477ixfzi66n6mj4oecu3gc4wlpdlipk2fvscokm
-    description: DOM01 selected pressure fields
-    driver: zarr
-
-  pressure_level_DOM02:
-    args:
-      consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/ICON_DOM02_pressure_lev.zarr
-    description: DOM02 selected pressure fields
-    driver: zarr
-
   meteogram_BCO_DOM01:
     args:
       consolidated: true
@@ -148,7 +134,7 @@ sources:
     args:
       consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/ICON_meteogram_DOM02_c_east.zarr
-    description: DOM01 meteogram at the HALO circle easternmost position
+    description: DOM02 meteogram at the HALO circle easternmost position
     driver: zarr
 
   synthetic_radar_c_east_DOM02:
@@ -176,7 +162,7 @@ sources:
     args:
       consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/ICON_meteogram_DOM02_c_north.zarr
-    description: DOM01 meteogram at the HALO circle northernmost position
+    description: DOM02 meteogram at the HALO circle northernmost position
     driver: zarr
 
   synthetic_radar_c_north_DOM02:

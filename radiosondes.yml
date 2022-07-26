@@ -9,6 +9,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Atalante_Meteomodem-RS_L2_v3.0.0.nc
       auth: null
       chunks: null
+      engine: netcdf4
     description: Meteomodem-RS on Atalante
   atalante_vaisala:
     driver: opendap
@@ -16,6 +17,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Atalante_Vaisala-RS_L2_v3.0.0.nc
       auth: null
       chunks: null
+      engine: netcdf4
     description: Vaisala-RS on Atalante
   bco:
     driver: opendap
@@ -23,6 +25,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_BCO_Vaisala-RS_L2_v3.0.0.nc
       auth: null
       chunks: null
+      engine: netcdf4
     description: Vaisala-RS on BCO
   meteor:
     driver: opendap
@@ -30,6 +33,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Meteor_Vaisala-RS_L2_v3.0.0.nc
       auth: null
       chunks: null
+      engine: netcdf4
     description: Vaisala-RS on Meteor
   ms_merian:
     driver: opendap
@@ -37,6 +41,7 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_BCO_Vaisala-RS_L2_v3.0.0.nc
       auth: null
       chunks: null
+      engine: netcdf4
     description: Vaisala-RS on MS-Merian
   ronbrown:
     driver: opendap
@@ -44,4 +49,5 @@ sources:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_RonBrown_Vaisala-RS_L2_v3.0.0.nc
       auth: null
       chunks: null
+      engine: netcdf4
     description: Vaisala-RS on RonBrown
