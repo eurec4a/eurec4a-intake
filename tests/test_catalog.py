@@ -45,6 +45,8 @@ def test_get_intake_source(catalog, dataset_name):
             _ = item.to_dask()
         elif plugin in ["intake_esm.esm_datastore", "parquet"]:
             _ = item.get()
+        elif plugin in ["json"]:
+            _ = item.read()
         else:
             raise Exception(plugin)
 
