@@ -35,7 +35,7 @@ sources:
   radiation_DOM01:
     args:
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/EUREC4A_ICON-LES_Control_radiation_native.zarr
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/EUREC4A_ICON-LES_Control_DOM01_radiation_native.zarr
     description: DOM01 radiative fluxes and heating rates
     driver: zarr
 
