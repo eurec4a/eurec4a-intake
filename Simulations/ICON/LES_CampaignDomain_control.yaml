@@ -67,6 +67,13 @@ sources:
     description: DOM01 radiation fields
     driver: zarr
 
+  radiation_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/EUREC4A_ICON-LES_control_DOM02_radiation_native.zarr
+    description: DOM02 radiation fields
+    driver: zarr
+
   meteogram_BCO_DOM01:
     args:
       consolidated: true
