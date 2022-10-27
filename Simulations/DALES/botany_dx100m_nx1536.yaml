@@ -10,6 +10,13 @@ sources:
     description: profiles
     driver: zarr
 
+  timeseries:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_timeseries.zarr
+    description: timeseries
+    driver: zarr
+
   2D:
     args:
       consolidated: true
