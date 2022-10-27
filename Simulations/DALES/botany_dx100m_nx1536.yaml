@@ -3,6 +3,13 @@ plugins:
     - module: intake_xarray
 
 sources:
+  profiles:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_profiles.zarr
+    description: profiles
+    driver: zarr
+
   2D:
     args:
       consolidated: true
