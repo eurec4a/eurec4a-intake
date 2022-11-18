@@ -3,15 +3,9 @@ plugins:
     - module: intake_xarray
 
 sources:
-  nx768:
-    args:
-      path: "{{CATALOG_DIR}}/botany_dx100m_nx768.yaml"
-    description: 'Cloud botany LES ensemble at 100m grid spacing'
-    driver: yaml_file_cat
-    metadata: {}
   nx1536:
     args:
       path: "{{CATALOG_DIR}}/botany_dx100m_nx1536.yaml"
-    description: 'Cloud botany LES ensemble at 100m grid spacing'
+    description: 'Cloud botany: DALES LES ensemble with varied forcings at 100m grid spacing'
     driver: yaml_file_cat
     metadata: {}
