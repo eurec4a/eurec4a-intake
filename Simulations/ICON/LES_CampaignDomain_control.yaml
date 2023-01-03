@@ -269,3 +269,10 @@ sources:
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_south.zarr
     description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO circle southernmost position
     driver: zarr
+
+  rttov_DOM03:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/EUREC4A_ICON-LES_control_DOM03_synsat_native.zarr
+    description: DOM03 synthetic satellite images via RTTOV (regridded)
+    driver: zarr
