@@ -277,6 +277,13 @@ sources:
     description: DOM03 synthetic satellite images via RTTOV (regridded)
     driver: zarr
 
+  meteogram_BCO_DOM03:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/EUREC4A_ICON-LES_control_meteogram_DOM03_BCO.zarr
+    description: DOM03 meteogram at the BCO
+    driver: zarr
+
   synthetic_radar_BCO_DOM03:
     args:
       consolidated: true
