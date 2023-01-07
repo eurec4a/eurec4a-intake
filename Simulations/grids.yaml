@@ -18,6 +18,13 @@ sources:
     description: ICON LES horizontal grid of DOM02 (EUREC4A_PR1250m_DOM02)
     driver: zarr
 
+  88fe7c0a-f61d-e582-d5e1-b00866e33000:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM03.zarr
+    description: ICON LES horizontal grid of DOM03 (EUREC4A_PR1250m_DOM03)
+    driver: zarr
+
   ecf22d17-dcee-1510-a807-11ae4a612be0:
     args:
       consolidated: true
