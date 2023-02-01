@@ -8,7 +8,7 @@ Making a new release is currently a manual, multi-step process:
 4. create a git tag named `vX.Y.Z` according to the new version
 5. update the `CHANGELOG.md` such that it contains a new `(unreleased)` placeholder for upcoming changes
 6. create the release on github
-7. ensure the release is propadated to zenodo
+7. ensure the release is propagated to zenodo
 
 ## version number
 
