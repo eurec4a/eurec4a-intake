@@ -32,11 +32,25 @@ sources:
     description: DOM01 3D fields
     driver: zarr
 
+  effective_radius_DOM01:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/EUREC4A_ICON-LES_highCCN_DOM01_reff_native.zarr
+    description: DOM01 effective radius of cloud droplets
+    driver: zarr
+
   surface_DOM02:
     args:
       consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM02_surface.zarr
     description: DOM02 surface fields
+    driver: zarr
+
+  effective_radius_DOM02:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/EUREC4A_ICON-LES_highCCN_DOM02_reff_native.zarr
+    description: DOM02 effective radius of cloud droplets
     driver: zarr
 
   meteogram_BCO_DOM01:
