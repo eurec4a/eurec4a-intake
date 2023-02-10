@@ -158,6 +158,13 @@ sources:
     description: Synthetic Ka-Band radar data based on DOM02 meteogram at the NTAS-XVIII
     driver: zarr
 
+  meteogram_NTAS_DOM03:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/EUREC4A_ICON-LES_control_meteogram_DOM03_NTAS-XVIII.zarr
+    description: DOM03 meteogram at the NTAS-XVIII position
+    driver: zarr
+
   meteogram_c_center_DOM01:
     args:
       consolidated: true
@@ -184,6 +191,13 @@ sources:
       consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_center.zarr
     description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO circle center position
+    driver: zarr
+
+  meteogram_c_center_DOM03:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/EUREC4A_ICON-LES_control_meteogram_DOM03_c_center.zarr
+    description: DOM03 meteogram at the HALO circle center position
     driver: zarr
 
   meteogram_c_east_DOM01:
@@ -214,6 +228,13 @@ sources:
     description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO circle easternmost position
     driver: zarr
 
+  meteogram_c_east_DOM03:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/EUREC4A_ICON-LES_control_meteogram_DOM03_c_east.zarr
+    description: DOM03 meteogram at the HALO circle easternmost position
+    driver: zarr
+
   meteogram_c_north_DOM01:
     args:
       consolidated: true
@@ -240,6 +261,13 @@ sources:
       consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_north.zarr
     description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO circle northernmost position
+    driver: zarr
+
+  meteogram_c_north_DOM03:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/EUREC4A_ICON-LES_control_meteogram_DOM03_c_north.zarr
+    description: DOM03 meteogram at the HALO circle northernmost position
     driver: zarr
 
   meteogram_c_west_DOM01:
@@ -270,6 +298,13 @@ sources:
     description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO circle westernmost position
     driver: zarr
 
+  meteogram_c_west_DOM03:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/EUREC4A_ICON-LES_control_meteogram_DOM03_c_west.zarr
+    description: DOM03 meteogram at the HALO circle westernmost position
+    driver: zarr
+
   meteogram_c_south_DOM01:
     args:
       consolidated: true
@@ -296,6 +331,13 @@ sources:
       consolidated: true
       urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_south.zarr
     description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO circle southernmost position
+    driver: zarr
+
+  meteogram_c_south_DOM03:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_2/meteograms/EUREC4A_ICON-LES_control_meteogram_DOM03_c_south.zarr
+    description: DOM03 meteogram at the HALO circle southernmost position
     driver: zarr
 
   rttov_DOM03:
