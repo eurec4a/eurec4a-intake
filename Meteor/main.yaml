@@ -21,3 +21,13 @@ sources:
     metadata:
       tags:
         - track
+
+  surface_fluxes:
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SHIPS/RV-METEOR/surface_fluxes/EUREC4A_Meteor_surface_heat_fluxes_20200115_v1.0.nc
+      auth: null
+      chunks: { }
+      engine: netcdf4
+    driver: opendap
+    description: Surface heat fluxes measured on-board R/V Meteor
+    metadata: {}
