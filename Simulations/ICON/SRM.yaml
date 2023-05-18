@@ -35,7 +35,7 @@ sources:
   meteogram_HALO_circle:
     args:
       consolidated: true
-      urlpath: ipfs://bafybeiaafmvnpnq6r7hqwf6kqlgknmhejxyh4a3jfpdm6dsrycmj62m474
+      urlpath: ipfs://QmUZuLJ971M4DZpzXUcQdsiUEpDSeT3gVDCfzhV3XWYjKm
     description: Meteogram at position 13.5N 57.5W within the HALO circle.
     driver: zarr
 
