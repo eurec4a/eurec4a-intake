@@ -74,7 +74,7 @@ sources:
     description: Downwelling radiation measurements taken at the Barbados Cloud Observatory.
     driver: zarr
     args:
-      urlpath: ipfs://QmW7jRhQDCCFX6FSkyrTi4Ace71VeYRDin7s3b8oVHuhRP
+      urlpath: ipfs://Qmbw5eoJaSPgxZrJWbXug13KSXzm9vfYzDJzmrwBuv6qpU
       consolidated: True
 
   MRR:
