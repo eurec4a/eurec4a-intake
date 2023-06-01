@@ -13,21 +13,21 @@ jobs:
       with:
         fetch-depth: 0  # required to analyze which files are modified in this branch
     - name: Set up conda
-        uses: conda-incubator/setup-miniconda@v2.2.0
-        with:
-          auto-update-conda: false
-          channels: conda-forge
-          miniforge-variant: Mambaforge
-          activate-environment: eurec4a
-          python-version: "3.10"
-      - name: Set up conda environment
-        run: |
-          pip install -f requirements.txt
-          mamba install netCDF4
-      - name: Conda info
-        run: conda info
-      - name: Conda list
-        run: conda list
+      uses: conda-incubator/setup-miniconda@v2.2.0
+      with:
+        auto-update-conda: false
+        channels: conda-forge
+        miniforge-variant: Mambaforge
+        activate-environment: eurec4a
+        python-version: "3.10"
+    - name: Set up conda environment
+      run: |
+        pip install -f requirements.txt
+        mamba install netCDF4
+    - name: Conda info
+      run: conda info
+    - name: Conda list
+      run: conda list
     - name: Test with pytest
       run: |
         pip install pytest pytest-xdist sh pytest-timeout
