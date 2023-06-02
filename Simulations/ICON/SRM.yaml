@@ -7,7 +7,7 @@ sources:
   meteogram_BCO:
     args:
       consolidated: true
-      urlpath: ipfs://QmWaMWaJrzN3gAiSLJSHehSg8t4DMzdWzryw88p5z7zNia
+      urlpath: ipfs://QmPNo3e3B55mtiyF1gicPcRTkQc8Yyknkxt8zFwAnmYLMA
     description: Meteogram at the BCO
     driver: zarr
 
