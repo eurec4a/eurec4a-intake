@@ -17,14 +17,14 @@ sources:
 
   1min:
     args:
-      chunks: null
-      urlpath: simplecache::https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/saildrone/Atomic/saildrone-gen_5-atomic_eurec4a_2020-sd1060-20200117T000000-20200302T235959-1_minutes-v1.1595708144897.nc
+      urlpath: ipfsspec://QmUG4eH6fkYDXDZwihtcypfLCpto157EJ51RxHVYLRVr5R
+      consolidated: true
     description: Saildrone 1060, one minute data
-    driver: netcdf
+    driver: zarr
 
   5min:
     args:
-      chunks: null
-      urlpath: simplecache::https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/saildrone/Atomic/saildrone-gen_5-atomic_eurec4a_2020-sd1060-20200117T000000-20200302T235959-5_minutes-v1.1595997115384.nc
-    description: Saildrone 1060, five minute data 
-    driver: netcdf
+      urlpath: ipfsspec://QmRs63ayDUSPd5ZX1tXPxXUkwkFsnzfQnXUn99EP5XfhGV
+      consolidated: true
+    description: Saildrone 1060, five minute data
+    driver: zarr
