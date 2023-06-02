@@ -17,14 +17,14 @@ sources:
 
   1min:
     args:
-      urlpath: ipfs://QmUG4eH6fkYDXDZwihtcypfLCpto157EJ51RxHVYLRVr5R
+      urlpath: ipfs://QmNwCPyjcxUgWsKzKL4q47ZDu4cgXUtaDRVw24covQ2Ro9
       consolidated: true
     description: Saildrone 1060, one minute data
     driver: zarr
 
   5min:
     args:
-      urlpath: ipfs://QmRs63ayDUSPd5ZX1tXPxXUkwkFsnzfQnXUn99EP5XfhGV
+      urlpath: ipfs://QmYzUCKp5TQayE3F5fxKWn2HV8fWyDCdB6vNrp7b7PL9VC
       consolidated: true
     description: Saildrone 1060, five minute data
     driver: zarr
