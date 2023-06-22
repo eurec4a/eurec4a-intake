@@ -8,6 +8,11 @@ on:
 jobs:
   weekly_check:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ipfs-version: [0.12.0]
+    env:
+      IPFSSPEC_GATEWAYS: "http://127.0.0.1:8080"
     steps:
     - uses: actions/checkout@v3
       with:
@@ -28,9 +33,14 @@ jobs:
       run: conda info
     - name: Conda list
       run: conda list
+    - name: Install local ipfs node
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget curl jq
+        bash <(curl https://raw.githubusercontent.com/eurec4a/ipfs_tools/main/install_and_run_ipfs.sh) ${{ matrix.ipfs-version }}
     - name: Test with pytest
       run: |
         pip install pytest pytest-xdist sh pytest-timeout
         # the intake-xarray puts it's source in src/ because we're installing
         # from github directly, but we don't want to run its tests
-        python -m pytest --ignore=src/ -n 1 --timeout=300
+        python -m pytest --ignore=src/ -n 20 --timeout=300
