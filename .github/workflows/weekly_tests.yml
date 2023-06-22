@@ -33,4 +33,4 @@ jobs:
         pip install pytest pytest-xdist sh pytest-timeout
         # the intake-xarray puts it's source in src/ because we're installing
         # from github directly, but we don't want to run its tests
-        python -m pytest --ignore=src/ -n 20 --timeout=300
+        python -m pytest --ignore=src/ -n 1 --timeout=300
