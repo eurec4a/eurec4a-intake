@@ -6,6 +6,13 @@ sources:
   nx1536:
     args:
       path: "{{CATALOG_DIR}}/botany_dx100m_nx1536.yaml"
-    description: 'Cloud botany: DALES LES ensemble with varied forcings at 100m grid spacing'
+    description: 'Cloud botany: DALES LES ensemble with varied forcings at 100m grid spacing, 153.6 km domain'
+    driver: yaml_file_cat
+    metadata: {}
+
+  nx96:
+    args:
+      path: "{{CATALOG_DIR}}/botany_dx100m_nx96.yaml"
+    description: 'Cloud botany: DALES LES ensemble with varied forcings at 100m grid spacing, 9.6 km domain'
     driver: yaml_file_cat
     metadata: {}
