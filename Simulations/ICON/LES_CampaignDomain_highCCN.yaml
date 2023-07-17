@@ -14,8 +14,8 @@ sources:
   radiation_DOM01:
     args:
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_radiation.zarr
-    description: DOM01 radiation fields
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/EUREC4A_ICON-LES_highCCN_DOM01_radiation_native.zarr
+    description: DOM01 radiation fields (except 3D heating rates)
     driver: zarr
 
   rttov_DOM01:
