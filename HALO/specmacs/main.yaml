@@ -10,9 +10,9 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  experimental:
+  cloud_geometry:
     args:
-      path: "{{CATALOG_DIR}}/experimental.yaml"
-    description: centroids, point surface, and mesh for a case study for February 5
+      path: "{{CATALOG_DIR}}/geometrypoints.yaml"
+    description: "points on cloud surface from 3-D stereographic reconstruction"
     driver: yaml_file_cat
     metadata: {}
