@@ -5,7 +5,7 @@ plugins:
 sources:
 
   HALO-0119_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-19
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200119/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200119_HALO-0119_c1_tracks_v1.1.nc
@@ -14,7 +14,7 @@ sources:
       engine: netcdf4
 
   HALO-0119_rcw1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-01-19
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200119/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200119_HALO-0119_rcw1_tracks_v1.1.nc
@@ -23,7 +23,7 @@ sources:
       engine: netcdf4
 
   HALO-0119_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-19
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200119/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200119_HALO-0119_sl1_tracks_v1.1.nc
@@ -32,7 +32,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_bc1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for baccardi_calibration 1 (bc1) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_bc1_tracks_v1.1.nc
@@ -41,7 +41,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c1_tracks_v1.1.nc
@@ -50,7 +50,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c2_tracks_v1.1.nc
@@ -59,7 +59,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c3_tracks_v1.1.nc
@@ -68,7 +68,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c4_tracks_v1.1.nc
@@ -77,7 +77,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c5_tracks_v1.1.nc
@@ -86,7 +86,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_c6:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c6_tracks_v1.1.nc
@@ -95,7 +95,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_cb1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_cb1_tracks_v1.1.nc
@@ -104,7 +104,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_cb2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_cb2_tracks_v1.1.nc
@@ -113,7 +113,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_cb3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_cb3_tracks_v1.1.nc
@@ -122,7 +122,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_sl1_tracks_v1.1.nc
@@ -131,7 +131,7 @@ sources:
       engine: netcdf4
 
   HALO-0122_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-22
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_sl2_tracks_v1.1.nc
@@ -140,7 +140,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c1_tracks_v1.1.nc
@@ -149,7 +149,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c2_tracks_v1.1.nc
@@ -158,7 +158,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c3_tracks_v1.1.nc
@@ -167,7 +167,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c4_tracks_v1.1.nc
@@ -176,7 +176,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c5_tracks_v1.1.nc
@@ -185,7 +185,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_c6:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c6_tracks_v1.1.nc
@@ -194,7 +194,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_cb1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb1_tracks_v1.1.nc
@@ -203,7 +203,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_cb2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb2_tracks_v1.1.nc
@@ -212,7 +212,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_cb3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb3_tracks_v1.1.nc
@@ -221,7 +221,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_cb4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb4_tracks_v1.1.nc
@@ -230,7 +230,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_cb5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 5 (cb5) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb5_tracks_v1.1.nc
@@ -239,7 +239,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_ll1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_ll1_tracks_v1.1.nc
@@ -248,7 +248,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_sl1_tracks_v1.1.nc
@@ -257,7 +257,7 @@ sources:
       engine: netcdf4
 
   HALO-0124_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-24
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_sl2_tracks_v1.1.nc
@@ -266,7 +266,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c1_tracks_v1.1.nc
@@ -275,7 +275,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c2_tracks_v1.1.nc
@@ -284,7 +284,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c3_tracks_v1.1.nc
@@ -293,7 +293,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c4_tracks_v1.1.nc
@@ -302,7 +302,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c5_tracks_v1.1.nc
@@ -311,7 +311,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_c6:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c6_tracks_v1.1.nc
@@ -320,7 +320,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_cb1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb1_tracks_v1.1.nc
@@ -329,7 +329,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_cb2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb2_tracks_v1.1.nc
@@ -338,7 +338,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_cb3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb3_tracks_v1.1.nc
@@ -347,7 +347,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_cb4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb4_tracks_v1.1.nc
@@ -356,7 +356,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_ll1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_ll1_tracks_v1.1.nc
@@ -365,7 +365,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_rcw1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_rcw1_tracks_v1.1.nc
@@ -374,7 +374,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_sc1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sc1) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sc1_tracks_v1.1.nc
@@ -383,7 +383,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl1_tracks_v1.1.nc
@@ -392,7 +392,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl2_tracks_v1.1.nc
@@ -401,7 +401,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_sl3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl3_tracks_v1.1.nc
@@ -410,7 +410,7 @@ sources:
       engine: netcdf4
 
   HALO-0126_sl4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 4 (sl4) on 2020-01-26
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl4_tracks_v1.1.nc
@@ -419,7 +419,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c1_tracks_v1.1.nc
@@ -428,7 +428,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c2_tracks_v1.1.nc
@@ -437,7 +437,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c3_tracks_v1.1.nc
@@ -446,7 +446,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c4_tracks_v1.1.nc
@@ -455,7 +455,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c5_tracks_v1.1.nc
@@ -464,7 +464,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_cb1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb1_tracks_v1.1.nc
@@ -473,7 +473,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_cb2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb2_tracks_v1.1.nc
@@ -482,7 +482,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_cb3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb3_tracks_v1.1.nc
@@ -491,7 +491,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_cb4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb4_tracks_v1.1.nc
@@ -500,7 +500,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_rct1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_rct1_tracks_v1.1.nc
@@ -509,7 +509,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_sl1_tracks_v1.1.nc
@@ -518,7 +518,7 @@ sources:
       engine: netcdf4
 
   HALO-0128_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-28
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_sl2_tracks_v1.1.nc
@@ -527,7 +527,7 @@ sources:
       engine: netcdf4
 
   HALO-0130_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-30
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl1_tracks_v1.1.nc
@@ -536,7 +536,7 @@ sources:
       engine: netcdf4
 
   HALO-0130_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-30
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl2_tracks_v1.1.nc
@@ -545,7 +545,7 @@ sources:
       engine: netcdf4
 
   HALO-0130_sl3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-01-30
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl3_tracks_v1.1.nc
@@ -554,7 +554,7 @@ sources:
       engine: netcdf4
 
   HALO-0130_sl4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 4 (sl4) on 2020-01-30
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl4_tracks_v1.1.nc
@@ -563,7 +563,7 @@ sources:
       engine: netcdf4
 
   HALO-0130_sl5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 5 (sl5) on 2020-01-30
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl5_tracks_v1.1.nc
@@ -572,7 +572,7 @@ sources:
       engine: netcdf4
 
   HALO-0130_sl6:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 6 (sl6) on 2020-01-30
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl6_tracks_v1.1.nc
@@ -581,7 +581,7 @@ sources:
       engine: netcdf4
 
   HALO-0130_sl7:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 7 (sl7) on 2020-01-30
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl7_tracks_v1.1.nc
@@ -590,7 +590,7 @@ sources:
       engine: netcdf4
 
   HALO-0130_sl8:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 8 (sl8) on 2020-01-30
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl8_tracks_v1.1.nc
@@ -599,7 +599,7 @@ sources:
       engine: netcdf4
 
   HALO-0130_sl9:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 9 (sl9) on 2020-01-30
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl9_tracks_v1.1.nc
@@ -608,7 +608,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c1_tracks_v1.1.nc
@@ -617,7 +617,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c2_tracks_v1.1.nc
@@ -626,7 +626,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c3_tracks_v1.1.nc
@@ -635,7 +635,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c4_tracks_v1.1.nc
@@ -644,7 +644,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c5_tracks_v1.1.nc
@@ -653,7 +653,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_c6:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c6_tracks_v1.1.nc
@@ -662,7 +662,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_cb1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb1_tracks_v1.1.nc
@@ -671,7 +671,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_cb2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb2_tracks_v1.1.nc
@@ -680,7 +680,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_cb3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb3_tracks_v1.1.nc
@@ -689,7 +689,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_cb4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb4_tracks_v1.1.nc
@@ -698,7 +698,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_rct1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_rct1_tracks_v1.1.nc
@@ -707,7 +707,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_rcw1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_rcw1_tracks_v1.1.nc
@@ -716,7 +716,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_sl1_tracks_v1.1.nc
@@ -725,7 +725,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_sl2_tracks_v1.1.nc
@@ -734,7 +734,7 @@ sources:
       engine: netcdf4
 
   HALO-0131_sl3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-01-31
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_sl3_tracks_v1.1.nc
@@ -743,7 +743,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c1_tracks_v1.1.nc
@@ -752,7 +752,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c2_tracks_v1.1.nc
@@ -761,7 +761,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c3_tracks_v1.1.nc
@@ -770,7 +770,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c4_tracks_v1.1.nc
@@ -779,7 +779,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c5_tracks_v1.1.nc
@@ -788,7 +788,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_c6:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c6_tracks_v1.1.nc
@@ -797,7 +797,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_cb1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb1_tracks_v1.1.nc
@@ -806,7 +806,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_cb2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb2_tracks_v1.1.nc
@@ -815,7 +815,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_cb3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb3_tracks_v1.1.nc
@@ -824,7 +824,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_cb4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb4_tracks_v1.1.nc
@@ -833,7 +833,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_cl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for clover_leg 1 (cl1) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cl1_tracks_v1.1.nc
@@ -842,7 +842,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_cl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for clover_leg 2 (cl2) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cl2_tracks_v1.1.nc
@@ -851,7 +851,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_cl3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for clover_leg 3 (cl3) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cl3_tracks_v1.1.nc
@@ -860,7 +860,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_ct1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for clover_turn 1 (ct1) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_ct1_tracks_v1.1.nc
@@ -869,7 +869,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_ct2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for clover_turn 2 (ct2) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_ct2_tracks_v1.1.nc
@@ -878,7 +878,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_ll1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_ll1_tracks_v1.1.nc
@@ -887,7 +887,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_rct1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_rct1_tracks_v1.1.nc
@@ -896,7 +896,7 @@ sources:
       engine: netcdf4
 
   HALO-0202_rcw1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-02-02
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_rcw1_tracks_v1.1.nc
@@ -905,7 +905,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c1_tracks_v1.1.nc
@@ -914,7 +914,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c2_tracks_v1.1.nc
@@ -923,7 +923,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c3_tracks_v1.1.nc
@@ -932,7 +932,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c4_tracks_v1.1.nc
@@ -941,7 +941,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c5_tracks_v1.1.nc
@@ -950,7 +950,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_c6:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c6_tracks_v1.1.nc
@@ -959,7 +959,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_cb1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb1_tracks_v1.1.nc
@@ -968,7 +968,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_cb2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb2_tracks_v1.1.nc
@@ -977,7 +977,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_cb3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb3_tracks_v1.1.nc
@@ -986,7 +986,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_cb4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb4_tracks_v1.1.nc
@@ -995,7 +995,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_ll1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_ll1_tracks_v1.1.nc
@@ -1004,7 +1004,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl1_tracks_v1.1.nc
@@ -1013,7 +1013,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl2_tracks_v1.1.nc
@@ -1022,7 +1022,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_sl3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl3_tracks_v1.1.nc
@@ -1031,7 +1031,7 @@ sources:
       engine: netcdf4
 
   HALO-0205_sl4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 4 (sl4) on 2020-02-05
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl4_tracks_v1.1.nc
@@ -1040,7 +1040,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c1_tracks_v1.1.nc
@@ -1049,7 +1049,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c2_tracks_v1.1.nc
@@ -1058,7 +1058,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c3_tracks_v1.1.nc
@@ -1067,7 +1067,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c4_tracks_v1.1.nc
@@ -1076,7 +1076,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c5_tracks_v1.1.nc
@@ -1085,7 +1085,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_c6:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c6_tracks_v1.1.nc
@@ -1094,7 +1094,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_cb1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb1_tracks_v1.1.nc
@@ -1103,7 +1103,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_cb2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb2_tracks_v1.1.nc
@@ -1112,7 +1112,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_cb3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb3_tracks_v1.1.nc
@@ -1121,7 +1121,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_cb4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb4_tracks_v1.1.nc
@@ -1130,7 +1130,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_ll1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (ll1) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_ll1_tracks_v1.1.nc
@@ -1139,7 +1139,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_rct1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_rct1_tracks_v1.1.nc
@@ -1148,7 +1148,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_rcw1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_rcw1_tracks_v1.1.nc
@@ -1157,7 +1157,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_rcw2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_wiggle 2 (rcw2) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_rcw2_tracks_v1.1.nc
@@ -1166,7 +1166,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_sl1_tracks_v1.1.nc
@@ -1175,7 +1175,7 @@ sources:
       engine: netcdf4
 
   HALO-0207_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-07
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_sl2_tracks_v1.1.nc
@@ -1184,7 +1184,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c1_tracks_v1.1.nc
@@ -1193,7 +1193,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c2_tracks_v1.1.nc
@@ -1202,7 +1202,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c3_tracks_v1.1.nc
@@ -1211,7 +1211,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c4_tracks_v1.1.nc
@@ -1220,7 +1220,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c5_tracks_v1.1.nc
@@ -1229,7 +1229,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_c6:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c6_tracks_v1.1.nc
@@ -1238,7 +1238,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_cb1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb1_tracks_v1.1.nc
@@ -1247,7 +1247,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_cb2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb2_tracks_v1.1.nc
@@ -1256,7 +1256,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_cb3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb3_tracks_v1.1.nc
@@ -1265,7 +1265,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_cb4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb4_tracks_v1.1.nc
@@ -1274,7 +1274,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_ll1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (ll1) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_ll1_tracks_v1.1.nc
@@ -1283,7 +1283,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_rct1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_rct1_tracks_v1.1.nc
@@ -1292,7 +1292,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_rcw1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_rcw1_tracks_v1.1.nc
@@ -1301,7 +1301,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_rcw2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_wiggle 2 (rcw2) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_rcw2_tracks_v1.1.nc
@@ -1310,7 +1310,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_sl1_tracks_v1.1.nc
@@ -1319,7 +1319,7 @@ sources:
       engine: netcdf4
 
   HALO-0209_sl3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-02-09
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_sl3_tracks_v1.1.nc
@@ -1328,7 +1328,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c1_tracks_v1.1.nc
@@ -1337,7 +1337,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c2_tracks_v1.1.nc
@@ -1346,7 +1346,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c3_tracks_v1.1.nc
@@ -1355,7 +1355,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c4_tracks_v1.1.nc
@@ -1364,7 +1364,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c5_tracks_v1.1.nc
@@ -1373,7 +1373,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_cb1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb1_tracks_v1.1.nc
@@ -1382,7 +1382,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_cb2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb2_tracks_v1.1.nc
@@ -1391,7 +1391,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_cb3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb3_tracks_v1.1.nc
@@ -1400,7 +1400,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_cb4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb4_tracks_v1.1.nc
@@ -1409,7 +1409,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_ll1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_ll1_tracks_v1.1.nc
@@ -1418,7 +1418,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_rct1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_rct1_tracks_v1.1.nc
@@ -1427,7 +1427,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_rcw1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_rcw1_tracks_v1.1.nc
@@ -1436,7 +1436,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_rcw2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_wiggle 2 (rcw2) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_rcw2_tracks_v1.1.nc
@@ -1445,7 +1445,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_sl1_tracks_v1.1.nc
@@ -1454,7 +1454,7 @@ sources:
       engine: netcdf4
 
   HALO-0211_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-11
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_sl2_tracks_v1.1.nc
@@ -1463,7 +1463,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c2_tracks_v1.1.nc
@@ -1472,7 +1472,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c3_tracks_v1.1.nc
@@ -1481,7 +1481,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c4_tracks_v1.1.nc
@@ -1490,7 +1490,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c5_tracks_v1.1.nc
@@ -1499,7 +1499,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_c6:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c6_tracks_v1.1.nc
@@ -1508,7 +1508,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_cb2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_cb2_tracks_v1.1.nc
@@ -1517,7 +1517,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_cb3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_cb3_tracks_v1.1.nc
@@ -1526,7 +1526,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_cb4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_cb4_tracks_v1.1.nc
@@ -1535,7 +1535,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_ll1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_ll1_tracks_v1.1.nc
@@ -1544,7 +1544,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_rcw1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_rcw1_tracks_v1.1.nc
@@ -1553,7 +1553,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_sl1_tracks_v1.1.nc
@@ -1562,7 +1562,7 @@ sources:
       engine: netcdf4
 
   HALO-0213_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-13
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_sl2_tracks_v1.1.nc
@@ -1571,7 +1571,7 @@ sources:
       engine: netcdf4
 
   HALO-0215_c1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-15
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c1_tracks_v1.1.nc
@@ -1580,7 +1580,7 @@ sources:
       engine: netcdf4
 
   HALO-0215_c2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-15
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c2_tracks_v1.1.nc
@@ -1589,7 +1589,7 @@ sources:
       engine: netcdf4
 
   HALO-0215_c3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-15
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c3_tracks_v1.1.nc
@@ -1598,7 +1598,7 @@ sources:
       engine: netcdf4
 
   HALO-0215_c4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-15
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c4_tracks_v1.1.nc
@@ -1607,7 +1607,7 @@ sources:
       engine: netcdf4
 
   HALO-0215_c5:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-15
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c5_tracks_v1.1.nc
@@ -1616,7 +1616,7 @@ sources:
       engine: netcdf4
 
   HALO-0215_cb1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-15
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_cb1_tracks_v1.1.nc
@@ -1625,7 +1625,7 @@ sources:
       engine: netcdf4
 
   HALO-0215_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-15
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_sl1_tracks_v1.1.nc
@@ -1634,7 +1634,7 @@ sources:
       engine: netcdf4
 
   HALO-0215_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-15
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_sl2_tracks_v1.1.nc
@@ -1643,7 +1643,7 @@ sources:
       engine: netcdf4
 
   HALO-0218_sl1:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-18
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl1_tracks_v1.1.nc
@@ -1652,7 +1652,7 @@ sources:
       engine: netcdf4
 
   HALO-0218_sl2:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-18
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl2_tracks_v1.1.nc
@@ -1661,7 +1661,7 @@ sources:
       engine: netcdf4
 
   HALO-0218_sl3:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-02-18
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl3_tracks_v1.1.nc
@@ -1670,7 +1670,7 @@ sources:
       engine: netcdf4
 
   HALO-0218_sl4:
-    description: points on cloud surface located by stereo method
+    description: points on cloud surface located by stereo method for straight_leg 4 (sl4) on 2020-02-18
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl4_tracks_v1.1.nc
