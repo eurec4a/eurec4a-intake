@@ -3,15 +3,13 @@
 ## (unreleased)
 
 ### New Datasets
+* Stereographically derived cloud geometries from specMACS for all flight legs flown with HALO during the EUREC4A campaign are added, except those where no points could be found, i.e. due to darkness (#142). By [Lea Volkmer](https://github.com/lvol08)
 ### Updated Datasets
 ### Removed Datasets
+* The previously existing "experimental" dataset has been removed as it was not complete and only for testing reasons (#142). By [Lea Volkmer](https://github.com/lvol08)
 ### Fixes
 ### Internal Changes
 
 * add `CONTRIBUTING.md` describing how to contibute
 * add `RELEASING.md` describing how to make a new release
 * start of changelog
-
-This modification updates and completes the linked cloud geometry dataset of the 3-D stereographic cloud reconstruction from specMACS measurements.
-The new dataset includes the stereographically derived cloud geometry for all flight legs flown with HALO during the EUREC4A campaign except those where no points could be found, i.e. due to darkness.
-Moreover, the previously existing "experimental" dataset has been removed.
