@@ -19,6 +19,12 @@ To use you will need to install `intake`, `xarray`, `intake-xarray`, `zarr`,
 pip install intake xarray intake-xarray zarr pydap s3fs requests ipfsspec
 ```
 
+**Or**, if you feel courageous (and want the newest updates), you can also install the [`requirements.txt`](requirements.txt) directly:
+
+```bash
+pip install -r https://raw.githubusercontent.com/eurec4a/eurec4a-intake/master/requirements.txt
+```
+
 The catalogue (and underlying data) can then be accessed directly from python:
 
 ```python
