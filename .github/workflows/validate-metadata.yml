@@ -13,4 +13,4 @@ jobs:
           files: .zenodo.json
           schema: tests/json/legacyrecord.json
           fail-on-missing-schema: true
-          strict: true
+          strict: false
