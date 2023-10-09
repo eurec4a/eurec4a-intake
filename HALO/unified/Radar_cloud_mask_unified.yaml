@@ -1,0 +1,124 @@
+plugins:
+  source:
+    - module: intake_xarray
+sources:
+  HALO-0119:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200119_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0122:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200122_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0124:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200124_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0126:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200126_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0128:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200128_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0130:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200130_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0131:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200131_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0202:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200202_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0205:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200205_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0207:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200207_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0209:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200209_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0211:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200211_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0213:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200213_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0215:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200215_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0218:
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/Radar_cloud_mask_v0.9.1/EUREC4A_HALO_HAMP-Radar_cloud_mask_20200218_v0.9.1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4

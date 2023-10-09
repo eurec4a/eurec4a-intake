@@ -1,0 +1,20 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  motion_corrected:
+    description: daily ship motion corrected Wband radar data
+    driver: opendap
+    args:
+      urlpath:  https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SHIPS/RV-MARIASMERIAN/wband_radar/final_dataset/daily_intake/{{date.strftime("%Y%m%d")}}_wband_radar_msm_eurec4a_intake.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    parameters:
+      date:
+        description: 'daily observations from wband radar and its weather station'
+        default: '2020-01-19 20:00'
+        type: datetime
+        min: '2020-01-19 00:00'
+        max: '2020-02-19 14:00'

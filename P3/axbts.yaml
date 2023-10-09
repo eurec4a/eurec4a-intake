@@ -7,5 +7,6 @@ sources:
     driver: opendap
     args:
       auth: null
-      chunks: {}
-      urlpath: https://psl.noaa.gov/thredds/dodsC/Datasets/ATOMIC/data/p3/AXBT/Level_3/EUREC4A_ATOMIC_P3_AXBT_v1.0.nc
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/AXBT/EUREC4A_ATOMIC_P3_AXBT_v1.0.nc

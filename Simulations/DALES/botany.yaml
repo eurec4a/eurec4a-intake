@@ -1,0 +1,11 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  dx100m:
+    args:
+      path: "{{CATALOG_DIR}}/botany_dx100m.yaml"
+    description: 'Cloud botany LES ensemble at 100m grid spacing'
+    driver: yaml_file_cat
+    metadata: {}

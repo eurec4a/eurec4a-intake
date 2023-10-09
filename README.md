@@ -6,10 +6,8 @@ This repository contains an [intake](https://github.com/intake/intake)
 catalogue for acessing data from  the [EUREC4A field
 campaign](http://eurec4a.eu/) stored on: 1)
 [AERIS](https://observations.ipsl.fr/aeris/eurec4a/#/) and 2) Munich
-University (via OPeNDAP) and 3) a zarr-backed
-object-store (using [minio](https://min.io)) at https://minio.denby.eu
-and 4) OPeNDAP access to files at
-[NOAA's Physical Sciences Lab](https://psl.noaa.gov/thredds/catalog/Datasets/ATOMIC/data/catalog.html) and 5) data linked via [IPFS](https://ipfs.io/).
+University (via OPeNDAP) and 3) OPeNDAP access to files at
+[NOAA's National Center for Environmental Information](https://www.ncei.noaa.gov/thredds-ocean/catalog/psl/atomic/catalog.html) and 4) data linked via [IPFS](https://ipfs.io/).
 
 
 ## Usage
@@ -67,11 +65,6 @@ Data variables:
 
 You can then slice and access the data as if you had it available locally
 
-## Adding data-sources
+## Contributing
 
-If you would like to add a data source please [fork](https://github.com/eurec4a/eurec4a-intake/fork) this repository,
-follow the [intake documentation]()https://intake.readthedocs.io/en/latest/catalog.html#remote-access
-to create an entry in [catalog.yaml](catalog.yaml) (or a separate
-yaml-file if you are adding many new data sources) and finally make
-a pull-request. Tests are automatically run on pull-requests to ensure
-that all defined data sources can be accessed.
+Please have a look at our [contribution guide](CONTRIBUTING.md).

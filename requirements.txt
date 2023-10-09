@@ -1,10 +1,10 @@
 # the most recent version of intake-xarray (v3.2.2) only supports the OPeNDAP
 # servers by URS and ESGF, the fork bellow allows for connecting to general OPeNDAP servers
-intake
+intake[dataframe] # since intake 0.6.1 to_dask() doesn't work anymore without the [dataframe] specification due to a missing msgpack dependency
 xarray
 zarr
 fsspec>=0.7.4
-pydap
+netcdf4!=1.5.4,!=1.5.5,!=1.5.5.1,!=1.6.0,!=1.6.1,!=1.6.2,!=1.6.3,!=1.6.4 # this is due to https://github.com/Unidata/netcdf4-python/issues/1052 and a CURL error in 1.6.0 (https://github.com/Unidata/netcdf-c/issues/2459) and https://github.com/eurec4a/eurec4a-intake/issues/121
 s3fs
 ipfsspec
 requests

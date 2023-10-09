@@ -1,0 +1,124 @@
+plugins:
+  source:
+    - module: intake_xarray
+sources:
+  HALO-0119:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200119_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0122:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200122_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0124:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200124_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0126:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200126_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0128:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200128_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0130:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200130_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0131:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200131_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0202:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200202_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0205:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200205_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0207:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200207_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0209:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200209_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0211:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200211_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0213:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200213_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0215:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200215_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+  HALO-0218:
+    description: dropsondes data from the HALO unified dataset.
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200218_v0.9.nc
+      auth: null
+      chunks: null
+      engine: netcdf4

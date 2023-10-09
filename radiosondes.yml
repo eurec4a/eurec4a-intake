@@ -1,67 +1,53 @@
+plugins:
+  source:
+    - module: intake_xarray
+
 sources:
   atalante_meteomodem:
+    driver: opendap
     args:
-      consolidated: true
-      storage_options:
-        s3:
-          anon: true
-          client_kwargs:
-            endpoint_url: https://minio.denby.eu
-      urlpath: simplecache::s3://eurec4a-environment/radiosondes/atalante_meteomodem
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Atalante_Meteomodem-RS_L2_v3.0.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
     description: Meteomodem-RS on Atalante
-    driver: zarr
   atalante_vaisala:
+    driver: opendap
     args:
-      consolidated: true
-      storage_options:
-        s3:
-          anon: true
-          client_kwargs:
-            endpoint_url: https://minio.denby.eu
-      urlpath: simplecache::s3://eurec4a-environment/radiosondes/atalante_vaisala
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Atalante_Vaisala-RS_L2_v3.0.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
     description: Vaisala-RS on Atalante
-    driver: zarr
   bco:
+    driver: opendap
     args:
-      consolidated: true
-      storage_options:
-        s3:
-          anon: true
-          client_kwargs:
-            endpoint_url: https://minio.denby.eu
-      urlpath: simplecache::s3://eurec4a-environment/radiosondes/bco
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_BCO_Vaisala-RS_L2_v3.0.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
     description: Vaisala-RS on BCO
-    driver: zarr
   meteor:
+    driver: opendap
     args:
-      consolidated: true
-      storage_options:
-        s3:
-          anon: true
-          client_kwargs:
-            endpoint_url: https://minio.denby.eu
-      urlpath: simplecache::s3://eurec4a-environment/radiosondes/meteor
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Meteor_Vaisala-RS_L2_v3.0.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
     description: Vaisala-RS on Meteor
-    driver: zarr
   ms_merian:
+    driver: opendap
     args:
-      consolidated: true
-      storage_options:
-        s3:
-          anon: true
-          client_kwargs:
-            endpoint_url: https://minio.denby.eu
-      urlpath: simplecache::s3://eurec4a-environment/radiosondes/ms_merian
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_BCO_Vaisala-RS_L2_v3.0.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
     description: Vaisala-RS on MS-Merian
-    driver: zarr
   ronbrown:
+    driver: opendap
     args:
-      consolidated: true
-      storage_options:
-        s3:
-          anon: true
-          client_kwargs:
-            endpoint_url: https://minio.denby.eu
-      urlpath: simplecache::s3://eurec4a-environment/radiosondes/ronbrown
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_RonBrown_Vaisala-RS_L2_v3.0.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
     description: Vaisala-RS on RonBrown
-    driver: zarr

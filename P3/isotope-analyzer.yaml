@@ -12,3 +12,17 @@ sources:
     description: 'Isotope analyzer 5 Hzhumidity data'
     driver: yaml_file_cat
     metadata: {}
+
+  water_vapor_Isotope_Ratios_1hz:
+    args:
+      path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-Isotope-Ratios-1hz.yaml"
+    description: 'Isotope analyzer 1Hz humidity data'
+    driver: yaml_file_cat
+    metadata: {}
+
+  water_vapor_Isotope_Ratios_5hz:
+    args:
+      path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-Isotope-Ratios-5hz.yaml"
+    description: 'Isotope analyzer 5 Hzhumidity data'
+    driver: yaml_file_cat
+    metadata: {}

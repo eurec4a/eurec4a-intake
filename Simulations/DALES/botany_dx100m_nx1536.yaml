@@ -1,0 +1,53 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  profiles:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_profiles.zarr
+    description: Profiles, horizontally averaged
+    driver: zarr
+
+  timeseries:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_timeseries.zarr
+    description: Timeseries of domain means
+    driver: zarr
+
+  2D:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_2D/botany_1536_2D.zarr
+    description: 2D fields
+    driver: zarr
+
+  3D:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_3D/botany_1536_3D.zarr
+    description: 3D fields
+    driver: zarr
+
+  cross_xy:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_cross_xy/botany_1536_cross_xy.zarr
+    description: XY cross-sections
+    driver: zarr
+
+  radiation:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_radiation/botany_1536_radiation.zarr
+    description: Radiation fields
+    driver: zarr
+
+  parameters:
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_params_records.json.zip
+      compression: zip
+    description: Parameters of experiments
+    driver: json

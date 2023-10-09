@@ -1,0 +1,2525 @@
+plugins:
+  source:
+     - module: intake_xarray
+ 
+sources:
+  RHB-20200129T00-20200129T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T00-20200129T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T01-20200129T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T01-20200129T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T02-20200129T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T02-20200129T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T03-20200129T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T03-20200129T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T04-20200129T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T04-20200129T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T05-20200129T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T05-20200129T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T06-20200129T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T06-20200129T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T07-20200129T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T07-20200129T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T08-20200129T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T08-20200129T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T09-20200129T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T09-20200129T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T10-20200129T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T10-20200129T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T11-20200129T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T11-20200129T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T12-20200129T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T12-20200129T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T13-20200129T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T13-20200129T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T14-20200129T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T14-20200129T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T15-20200129T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T15-20200129T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T16-20200129T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T16-20200129T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T17-20200129T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T17-20200129T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T18-20200129T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T18-20200129T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T19-20200129T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T19-20200129T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T20-20200129T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T20-20200129T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T21-20200129T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T21-20200129T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T22-20200129T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T22-20200129T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200129T23-20200130T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200129T23-20200130T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T00-20200130T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T00-20200130T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T01-20200130T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T01-20200130T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T02-20200130T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T02-20200130T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T03-20200130T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T03-20200130T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T04-20200130T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T04-20200130T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T05-20200130T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T05-20200130T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T06-20200130T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T06-20200130T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T07-20200130T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T07-20200130T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T08-20200130T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T08-20200130T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T09-20200130T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T09-20200130T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T10-20200130T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T10-20200130T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T11-20200130T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T11-20200130T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T12-20200130T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T12-20200130T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T13-20200130T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T13-20200130T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T14-20200130T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T14-20200130T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T15-20200130T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T15-20200130T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T16-20200130T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T16-20200130T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T17-20200130T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T17-20200130T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T18-20200130T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T18-20200130T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T19-20200130T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T19-20200130T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T20-20200130T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T20-20200130T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T21-20200130T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T21-20200130T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T22-20200130T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T22-20200130T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200130T23-20200131T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200130T23-20200131T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T00-20200131T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T00-20200131T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T01-20200131T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T01-20200131T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T02-20200131T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T02-20200131T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T03-20200131T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T03-20200131T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T04-20200131T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T04-20200131T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T05-20200131T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T05-20200131T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T06-20200131T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T06-20200131T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T07-20200131T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T07-20200131T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T08-20200131T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T08-20200131T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T09-20200131T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T09-20200131T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T10-20200131T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T10-20200131T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T11-20200131T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T11-20200131T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T12-20200131T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T12-20200131T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T13-20200131T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T13-20200131T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T14-20200131T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T14-20200131T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T15-20200131T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T15-20200131T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T16-20200131T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T16-20200131T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T17-20200131T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T17-20200131T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T18-20200131T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T18-20200131T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T19-20200131T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T19-20200131T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T20-20200131T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T20-20200131T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T21-20200131T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T21-20200131T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T22-20200131T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T22-20200131T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200131T23-20200201T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200131T23-20200201T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T00-20200201T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T00-20200201T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T01-20200201T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T01-20200201T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T02-20200201T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T02-20200201T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T03-20200201T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T03-20200201T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T04-20200201T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T04-20200201T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T05-20200201T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T05-20200201T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T06-20200201T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T06-20200201T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T07-20200201T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T07-20200201T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T08-20200201T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T08-20200201T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T09-20200201T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T09-20200201T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T10-20200201T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T10-20200201T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T11-20200201T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T11-20200201T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T12-20200201T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T12-20200201T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T13-20200201T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T13-20200201T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T14-20200201T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T14-20200201T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T15-20200201T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T15-20200201T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T16-20200201T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T16-20200201T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T17-20200201T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T17-20200201T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T18-20200201T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T18-20200201T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T19-20200201T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T19-20200201T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T20-20200201T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T20-20200201T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T21-20200201T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T21-20200201T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T22-20200201T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T22-20200201T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200201T23-20200202T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200201T23-20200202T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T00-20200202T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T00-20200202T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T01-20200202T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T01-20200202T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T02-20200202T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T02-20200202T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T03-20200202T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T03-20200202T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T04-20200202T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T04-20200202T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T05-20200202T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T05-20200202T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T06-20200202T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T06-20200202T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T07-20200202T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T07-20200202T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T08-20200202T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T08-20200202T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T09-20200202T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T09-20200202T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T10-20200202T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T10-20200202T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T11-20200202T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T11-20200202T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T12-20200202T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T12-20200202T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T13-20200202T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T13-20200202T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T14-20200202T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T14-20200202T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T15-20200202T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T15-20200202T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T16-20200202T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T16-20200202T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T17-20200202T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T17-20200202T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T18-20200202T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T18-20200202T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T19-20200202T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T19-20200202T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T20-20200202T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T20-20200202T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T21-20200202T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T21-20200202T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T22-20200202T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T22-20200202T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200202T23-20200203T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200202T23-20200203T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T00-20200203T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T00-20200203T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T01-20200203T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T01-20200203T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T02-20200203T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T02-20200203T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T03-20200203T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T03-20200203T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T04-20200203T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T04-20200203T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T05-20200203T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T05-20200203T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T06-20200203T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T06-20200203T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T07-20200203T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T07-20200203T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T08-20200203T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T08-20200203T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T09-20200203T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T09-20200203T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T10-20200203T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T10-20200203T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T11-20200203T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T11-20200203T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T12-20200203T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T12-20200203T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T13-20200203T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T13-20200203T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T14-20200203T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T14-20200203T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T15-20200203T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T15-20200203T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T16-20200203T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T16-20200203T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T17-20200203T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T17-20200203T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T18-20200203T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T18-20200203T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T19-20200203T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T19-20200203T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T20-20200203T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T20-20200203T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T21-20200203T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T21-20200203T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T22-20200203T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T22-20200203T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200203T23-20200204T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200203T23-20200204T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T00-20200204T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T00-20200204T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T01-20200204T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T01-20200204T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T02-20200204T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T02-20200204T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T03-20200204T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T03-20200204T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T04-20200204T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T04-20200204T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T05-20200204T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T05-20200204T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T06-20200204T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T06-20200204T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T07-20200204T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T07-20200204T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T08-20200204T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T08-20200204T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T09-20200204T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T09-20200204T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T10-20200204T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T10-20200204T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T11-20200204T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T11-20200204T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T12-20200204T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T12-20200204T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T13-20200204T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T13-20200204T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T14-20200204T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T14-20200204T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T15-20200204T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T15-20200204T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T16-20200204T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T16-20200204T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T17-20200204T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T17-20200204T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T18-20200204T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T18-20200204T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T19-20200204T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T19-20200204T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T20-20200204T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T20-20200204T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200204T21-20200204T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200204T21-20200204T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200206T19-20200206T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200206T19-20200206T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200206T20-20200206T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200206T20-20200206T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200206T21-20200206T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200206T21-20200206T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200206T22-20200206T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200206T22-20200206T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200206T23-20200207T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200206T23-20200207T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T00-20200207T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T00-20200207T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T01-20200207T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T01-20200207T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T02-20200207T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T02-20200207T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T03-20200207T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T03-20200207T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T04-20200207T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T04-20200207T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T05-20200207T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T05-20200207T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T06-20200207T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T06-20200207T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T07-20200207T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T07-20200207T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T08-20200207T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T08-20200207T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T09-20200207T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T09-20200207T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T10-20200207T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T10-20200207T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T11-20200207T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T11-20200207T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T12-20200207T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T12-20200207T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T13-20200207T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T13-20200207T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T14-20200207T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T14-20200207T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T15-20200207T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T15-20200207T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T16-20200207T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T16-20200207T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T17-20200207T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T17-20200207T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T18-20200207T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T18-20200207T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T19-20200207T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T19-20200207T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T20-20200207T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T20-20200207T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T21-20200207T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T21-20200207T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T22-20200207T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T22-20200207T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200207T23-20200208T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200207T23-20200208T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T00-20200208T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T00-20200208T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T01-20200208T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T01-20200208T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T02-20200208T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T02-20200208T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T03-20200208T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T03-20200208T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T04-20200208T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T04-20200208T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T05-20200208T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T05-20200208T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T06-20200208T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T06-20200208T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T07-20200208T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T07-20200208T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T08-20200208T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T08-20200208T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T09-20200208T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T09-20200208T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T10-20200208T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T10-20200208T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T11-20200208T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T11-20200208T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T12-20200208T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T12-20200208T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T13-20200208T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T13-20200208T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T14-20200208T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T14-20200208T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T15-20200208T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T15-20200208T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T16-20200208T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T16-20200208T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T17-20200208T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T17-20200208T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T18-20200208T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T18-20200208T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T19-20200208T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T19-20200208T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T20-20200208T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T20-20200208T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T21-20200208T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T21-20200208T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T22-20200208T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T22-20200208T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200208T23-20200209T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200208T23-20200209T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T00-20200209T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T00-20200209T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T01-20200209T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T01-20200209T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T02-20200209T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T02-20200209T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T03-20200209T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T03-20200209T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T04-20200209T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T04-20200209T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T05-20200209T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T05-20200209T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T06-20200209T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T06-20200209T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T07-20200209T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T07-20200209T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T08-20200209T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T08-20200209T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T09-20200209T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T09-20200209T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T10-20200209T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T10-20200209T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T11-20200209T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T11-20200209T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T12-20200209T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T12-20200209T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T13-20200209T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T13-20200209T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T14-20200209T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T14-20200209T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T15-20200209T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T15-20200209T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T16-20200209T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T16-20200209T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T17-20200209T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T17-20200209T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T18-20200209T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T18-20200209T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T19-20200209T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T19-20200209T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T20-20200209T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T20-20200209T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T21-20200209T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T21-20200209T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T22-20200209T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T22-20200209T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200209T23-20200210T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200209T23-20200210T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T00-20200210T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T00-20200210T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T01-20200210T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T01-20200210T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T02-20200210T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T02-20200210T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T03-20200210T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T03-20200210T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T04-20200210T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T04-20200210T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T05-20200210T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T05-20200210T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T06-20200210T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T06-20200210T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T07-20200210T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T07-20200210T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T08-20200210T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T08-20200210T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T09-20200210T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T09-20200210T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T10-20200210T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T10-20200210T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T11-20200210T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T11-20200210T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T12-20200210T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T12-20200210T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T13-20200210T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T13-20200210T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T14-20200210T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T14-20200210T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T15-20200210T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T15-20200210T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T16-20200210T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T16-20200210T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T17-20200210T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T17-20200210T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T18-20200210T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T18-20200210T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T19-20200210T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T19-20200210T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T20-20200210T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T20-20200210T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T21-20200210T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T21-20200210T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T22-20200210T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T22-20200210T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200210T23-20200211T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200210T23-20200211T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T00-20200211T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T00-20200211T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T01-20200211T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T01-20200211T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T02-20200211T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T02-20200211T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T03-20200211T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T03-20200211T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T04-20200211T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T04-20200211T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T05-20200211T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T05-20200211T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T06-20200211T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T06-20200211T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T07-20200211T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T07-20200211T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T08-20200211T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T08-20200211T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T09-20200211T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T09-20200211T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T10-20200211T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T10-20200211T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T11-20200211T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T11-20200211T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T12-20200211T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T12-20200211T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T13-20200211T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T13-20200211T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T14-20200211T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T14-20200211T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T15-20200211T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T15-20200211T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T16-20200211T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T16-20200211T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T17-20200211T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T17-20200211T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T18-20200211T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T18-20200211T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T19-20200211T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T19-20200211T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T20-20200211T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T20-20200211T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T21-20200211T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T21-20200211T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T22-20200211T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T22-20200211T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200211T23-20200212T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200211T23-20200212T00_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T00-20200212T01:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T00-20200212T01_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T01-20200212T02:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T01-20200212T02_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T02-20200212T03:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T02-20200212T03_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T03-20200212T04:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T03-20200212T04_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T04-20200212T05:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T04-20200212T05_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T05-20200212T06:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T05-20200212T06_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T06-20200212T07:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T06-20200212T07_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T07-20200212T08:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T07-20200212T08_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T08-20200212T09:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T08-20200212T09_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T09-20200212T10:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T09-20200212T10_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T10-20200212T11:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T10-20200212T11_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T11-20200212T12:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T11-20200212T12_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T12-20200212T13:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T12-20200212T13_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T13-20200212T14:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T13-20200212T14_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T14-20200212T15:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T14-20200212T15_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T15-20200212T16:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T15-20200212T16_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T16-20200212T17:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T16-20200212T17_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T17-20200212T18:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T17-20200212T18_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T18-20200212T19:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T18-20200212T19_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T19-20200212T20:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T19-20200212T20_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T20-20200212T21:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T20-20200212T21_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T21-20200212T22:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T21-20200212T22_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T22-20200212T23:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T22-20200212T23_v2.0.nc
+    driver: opendap
+ 
+  RHB-20200212T23-20200213T00:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/W-band-radar/ATOMIC_RHB_W-band-radar_20200212T23-20200213T00_v2.0.nc
+    driver: opendap
+ 
