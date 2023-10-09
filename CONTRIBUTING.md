@@ -15,9 +15,3 @@ Please remember to put an entry into our changelog (`CHANGELOG.md`).
 
 We are keeping a changelog in the file `CHANGELOG.md`. Every pull request has to add a summary of what it's doing into that file.
 This description is meant as a high level overview of what has been changed, so it should be quick to read and in particular shouldn't be just a verbatim copy of all the commit messages. Another purpose of the changelog is to help with our process of releasing new versions: we'll have to check how severe the changes introduced since the last version are in order to come up with a sensible new version number.
-
-## Register you as an author
-
-Occasionally, a copy of the intake catalog is released via [Zenodo](https://zenodo.org/).
-When doing so, we are happy to include you as an author to the repository, but we need some information about you.
-If not yet the case, please insert your details into the `.zenodo.json` file.
