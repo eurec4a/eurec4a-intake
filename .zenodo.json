@@ -1,7 +1,14 @@
 {
-    "title": "EUREC4A Intake catalogue",
+    "title": "EUREC4A",
     "communities": [
         {"identifier": "eurec4a"}
     ],
-    "access_right": "open"
+    "access_right": "open",
+    "license": "cc-zero",
+    "upload_type": "dataset",
+    "creators": [
+        {
+            "name": "EUREC4A community"
+        }
+    ]
 }
