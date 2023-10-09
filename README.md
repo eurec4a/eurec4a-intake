@@ -12,11 +12,11 @@ University (via OPeNDAP) and 3) OPeNDAP access to files at
 
 ## Usage
 
-To use you will need to install `intake`, `xarray`, `intake-xarray`,
-`zarr`, `pydap`, `requests` and `s3fs`
+To use you will need to install `intake`, `xarray`, `intake-xarray`, `zarr`,
+`pydap`, `requests`, `s3fs` and `ipfsspec`
 
 ```bash
-pip install intake xarray intake-xarray zarr pydap s3fs requests
+pip install intake xarray intake-xarray zarr pydap s3fs requests ipfsspec
 ```
 
 The catalogue (and underlying data) can then be accessed directly from python:
