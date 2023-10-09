@@ -1,6 +1,6 @@
 # Changelog
 
-## (unreleased)
+## 1.0.0
 
 ### New Datasets
 * Stereographically derived cloud geometries from specMACS for all flight legs flown with HALO during the EUREC4A campaign are added, except those where no points could be found, i.e. due to darkness (#142). By [Lea Volkmer](https://github.com/lvol08)
