@@ -1,0 +1,16 @@
+{
+    "title": "EUREC4A",
+    "description": "The catalog describing the <a href=\"https://eurec4a.eu/\">EUREC4A</a> dataset.",
+    "communities": [
+        {"identifier": "eurec4a"}
+    ],
+    "access_right": "open",
+    "license": "cc-zero",
+    "notes": "The license (CC-0) applies to the dataset <b>catalog</b>. The individual datasets may be subject to different terms. When using the underlying data in publications, please give credit to the individual dataset creators and adhere to the <a href=\"https://eurec4a.eu/data-simulations/data\">EUREC4A data policy</a>.",
+    "upload_type": "dataset",
+    "creators": [
+        {
+            "name": "EUREC4A community"
+        }
+    ]
+}
