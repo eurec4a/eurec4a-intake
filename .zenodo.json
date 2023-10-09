@@ -2,5 +2,6 @@
     "title": "EUREC4A Intake catalogue",
     "communities": [
         {"identifier": "eurec4a"}
-    ]
+    ],
+    "access_right": "open"
 }
