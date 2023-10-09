@@ -19,7 +19,7 @@ Depending on the kind of changes since the last release, it will be a `MAJOR`, `
 If multiple kinds apply, the highest wins (e.g. on `MINOR` and `MAJOR` changes, it will be a `MAJOR` release).
 
 | change | (minimum) release kind |
-|:---:|:---:|:---:|
+|:---:|:---:|
 | add a new endpoint (🔵) | minor |
 | delete a previously existing endpoint | major |
 | change the content returned by an endpoint (e.g. data version updates) | major |
