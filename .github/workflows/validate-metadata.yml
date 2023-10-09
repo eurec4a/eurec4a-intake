@@ -11,6 +11,6 @@ jobs:
         uses: walbo/validate-json@v1.1.0
         with:
           files: .zenodo.json
-          schema: https://zenodo.org/schemas/deposits/records/legacyrecord.json
+          schema: http://zenodo.org/schemas/deposits/records/legacyrecord.json
           fail-on-missing-schema: true
           strict: true
