@@ -33,7 +33,7 @@ jobs:
         bash <(curl https://raw.githubusercontent.com/eurec4a/ipfs_tools/main/install_and_run_ipfs.sh) ${{ matrix.ipfs-version }}
     - name: Test with pytest
       run: |
-        pip install pytest pytest-xdist sh
+        pip install pytest pytest-xdist sh pytest-timeout
         # the intake-xarray puts it's source in src/ because we're installing
         # from github directly, but we don't want to run its tests
-        python -m pytest --ignore=src/ -m modified_on_branch -n 20
+        python -m pytest --ignore=src/ -m modified_on_branch -n 20 --timeout=300

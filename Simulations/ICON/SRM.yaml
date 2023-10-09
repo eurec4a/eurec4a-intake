@@ -7,7 +7,7 @@ sources:
   meteogram_BCO:
     args:
       consolidated: true
-      urlpath: ipfs://bafybeidqwf7lcs4mo343ntgxiid7n6psvryicuqkppm3wmzad2wdamnpsu
+      urlpath: ipfs://QmeDBcyYt3WV43xK9ZHgHUjqvmorWtkxSPd1WjEoHb9cpP
     description: Meteogram at the BCO
     driver: zarr
 
@@ -21,7 +21,7 @@ sources:
   meteogram_NTAS:
     args:
       consolidated: true
-      urlpath: ipfs://bafybeie4q37rvin3shn6cqncphnfhnyf5fe6y72dxq3572scsir3y6glfm
+      urlpath: ipfs://QmYnsmVTvzHjhjuyBhtjzvAmiobW1zXqxf9LjnVymZQtAR
     description: Meteogram at the NTAS buoy
     driver: zarr
 
@@ -35,7 +35,7 @@ sources:
   meteogram_HALO_circle:
     args:
       consolidated: true
-      urlpath: ipfs://bafybeiaafmvnpnq6r7hqwf6kqlgknmhejxyh4a3jfpdm6dsrycmj62m474
+      urlpath: ipfs://QmUZuLJ971M4DZpzXUcQdsiUEpDSeT3gVDCfzhV3XWYjKm
     description: Meteogram at position 13.5N 57.5W within the HALO circle.
     driver: zarr
 

@@ -8,21 +8,39 @@ on:
 jobs:
   weekly_check:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ipfs-version: [0.12.0]
+    env:
+      IPFSSPEC_GATEWAYS: "http://127.0.0.1:8080"
     steps:
     - uses: actions/checkout@v3
       with:
         fetch-depth: 0  # required to analyze which files are modified in this branch
-    - name: Set up Python
-      uses: actions/setup-python@v4
+    - name: Set up conda
+      uses: conda-incubator/setup-miniconda@v2.2.0
       with:
-        python-version: 3.8
-    - name: Install dependencies (pip)
+        auto-update-conda: false
+        channels: conda-forge
+        miniforge-variant: Mambaforge
+        activate-environment: eurec4a
+        python-version: "3.10"
+    - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
         pip install -r requirements.txt
+        mamba install netCDF4
+    - name: Conda info
+      run: conda info
+    - name: Conda list
+      run: conda list
+    - name: Install local ipfs node
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget curl jq
+        bash <(curl https://raw.githubusercontent.com/eurec4a/ipfs_tools/main/install_and_run_ipfs.sh) ${{ matrix.ipfs-version }}
     - name: Test with pytest
       run: |
-        pip install pytest pytest-xdist sh
+        pip install pytest pytest-xdist sh pytest-timeout
         # the intake-xarray puts it's source in src/ because we're installing
         # from github directly, but we don't want to run its tests
-        python -m pytest --ignore=src/ -n 20
+        python -m pytest --ignore=src/ -n 20 --timeout=300
