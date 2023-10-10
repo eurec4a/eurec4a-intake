@@ -4,6 +4,7 @@
 
 ### New Datasets
 * Add isotope data from BCO (#152). By [Hauke Schulz](https://github.com/observingClouds)
+* Add EUREC4A-MIP boundary conditions from ERA5 and COSMO for current and pseudo-global warming experiment (#135). By [torresalavez](https://github.com/torresalavez) and [Hauke Schulz](https://github.com/observingClouds)
 ### Updated Datasets
 ### Removed Datasets
 ### Fixes
