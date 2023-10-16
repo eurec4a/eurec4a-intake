@@ -1,6 +1,6 @@
 # EUREC4A Intake catalogue
 
-![weekly_tests.yml](https://img.shields.io/github/actions/workflow/status/eurec4a/eurec4a-intake/weekly_tests.yml?label=Weekly%20Dataset%20Availability%20Test&link=https%3A%2F%2Fgithub.com%2Feurec4a%2Feurec4a-intake%2Factions%2Fworkflows%2Fweekly_tests.yml)
+![weekly_tests.yml](https://github.com/eurec4a/eurec4a-intake/actions/workflows/weekly_tests.yml/badge.svg)
  [![](https://zenodo.org/badge/doi/10.5281/zenodo.8422321.svg)](https://doi.org/10.5281/zenodo.8422321)
 
 This repository contains an [intake](https://github.com/intake/intake)
