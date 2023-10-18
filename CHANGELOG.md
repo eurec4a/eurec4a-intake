@@ -3,6 +3,7 @@
 ## (unreleased)
 
 ### New Datasets
+* Add isotope data from BCO (#152). By [Hauke Schulz](https://github.com/observingClouds)
 ### Updated Datasets
 ### Removed Datasets
 ### Fixes
