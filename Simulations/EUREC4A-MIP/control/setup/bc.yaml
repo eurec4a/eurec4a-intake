@@ -1,0 +1,27 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  ERA5:
+    args:
+      urlpath: simplecache::swift://swift.dkrz.de/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/CTRL_ERA5/cas{{date.strftime("%Y%m%d%H%M%S")}}.nc
+      chunks: null
+    parameters:
+      date:
+        description: date
+        default: 2020-01-01
+        type: datetime
+        min: 2020-01-01
+        max: 2020-03-01
+    description: Boundary conditions for storm resolving models
+    driver: netcdf
+    metadata: {}
+
+  COSMO:
+    args:
+      path: "{{CATALOG_DIR}}/cosmo.yaml"
+    description: "Boundary conditions for large eddy models"
+    driver: yaml_file_cat
+    metadata: {}

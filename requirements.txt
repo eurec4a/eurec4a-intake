@@ -9,3 +9,4 @@ s3fs
 ipfsspec
 requests
 intake-xarray>=0.3.2
+git+https://github.com/fsspec/swiftspec.git@main#egg=swiftspec
