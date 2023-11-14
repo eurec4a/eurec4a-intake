@@ -1,4 +1,4 @@
-name: eurec4a_intake
+name: Weekly Dataset Availability Test
 
 on:
   schedule:

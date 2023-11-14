@@ -1,6 +1,7 @@
 # EUREC4A Intake catalogue
 
-![eurec4a_intake](https://github.com/eurec4a/eurec4a-intake/workflows/eurec4a_intake/badge.svg) [![](https://zenodo.org/badge/doi/10.5281/zenodo.8422321.svg)](https://doi.org/10.5281/zenodo.8422321)
+![weekly_tests.yml](https://github.com/eurec4a/eurec4a-intake/actions/workflows/weekly_tests.yml/badge.svg)
+ [![](https://zenodo.org/badge/doi/10.5281/zenodo.8422321.svg)](https://doi.org/10.5281/zenodo.8422321)
 
 This repository contains an [intake](https://github.com/intake/intake)
 catalogue for acessing data from  the [EUREC4A field
