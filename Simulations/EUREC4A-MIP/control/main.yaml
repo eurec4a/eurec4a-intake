@@ -1,0 +1,11 @@
+plugins:
+  source:
+     - module: intake_xarray
+
+sources:
+  setup:
+    args:
+      path: "{{CATALOG_DIR}}/setup/main.yaml"
+    description: "Simulation setups"
+    driver: yaml_file_cat
+    metadata: {}
