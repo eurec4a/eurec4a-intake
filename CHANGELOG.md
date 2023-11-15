@@ -3,7 +3,8 @@
 ## (unreleased)
 
 ### New Datasets
-* Add isotope data from BCO (#152). By [Hauke Schulz](https://github.com/observingClouds)
+* Add precipitation isotope data from BCO (#152). By [Hauke Schulz](https://github.com/observingClouds)
+* Add water vapor isotope data from BCO (#153). By [Hauke Schulz](https://github.com/observingClouds)
 ### Updated Datasets
 ### Removed Datasets
 ### Fixes
