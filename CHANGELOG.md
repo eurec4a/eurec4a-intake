@@ -9,6 +9,7 @@
 ### Fixes
 ### Internal Changes
 * update IPFS version in CI to 0.23.0 to improve access times and make weekly_test more reliable (#149). By [Hauke Schulz](https://github.com/observingClouds)
+* add citation recommendations (#155). By [Hauke Schulz](https://github.com/observingClouds)
 
 ## 1.0.0
 
