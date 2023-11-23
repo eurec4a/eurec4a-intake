@@ -463,6 +463,24 @@ sources:
       chunks: null
       engine: netcdf4
 
+  HALO-0131_cb1:
+    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 1 (cb1) on 2020-01-31
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_cb1_v1.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+
+  HALO-0131_cb2:
+    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 2 (cb2) on 2020-01-31
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_cb2_v1.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+
   HALO-0131_rct1:
     description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for radar_calibration_tilted 1 (rct1) on 2020-01-31
     driver: opendap
@@ -1089,6 +1107,15 @@ sources:
     driver: opendap
     args:
       urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_cb3_v1.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+
+  HALO-0213_cb4:
+    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-13
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_cb4_v1.0.nc
       auth: null
       chunks: null
       engine: netcdf4
