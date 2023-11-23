@@ -4,6 +4,7 @@
 
 ### New Datasets
 * Add isotope data from BCO (#152). By [Hauke Schulz](https://github.com/observingClouds)
+* Add cloud droplet size distribution from specMACS instrument. By [Veronika Pörtge](https://github.com/vpoertge)
 ### Updated Datasets
 ### Removed Datasets
 ### Fixes
