@@ -1,0 +1,17 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  ATR-0125:
+    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 02
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200125_as200002.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    metadata:
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      doi: https://doi.org/10.25326/244
+      note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF02_20200125_info_Picarro.yaml

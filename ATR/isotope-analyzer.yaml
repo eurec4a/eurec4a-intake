@@ -1,0 +1,11 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  water_vapor:
+    args:
+      path: "{{CATALOG_DIR}}/isotope-analyzer-wv.yaml"
+    description: 'Water vapor isotope measurements on board the ATR-42'
+    driver: yaml_file_cat
+    metadata: {}
