@@ -13,11 +13,8 @@ sources:
       maintainer: Leonie Villiger <leonie.villiger[at]env.ethz.ch>, Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/242
   water_vapor:
-    description: BCO LGR Continuous In-Situ Water Vapor Isotopic Composition
-    driver: netcdf
     args:
-      urlpath: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/BARBADOS/BCO/LGR/EUREC4A_BCO_LGR_1min_1.0.nc
-      chunks: null
-    metadata:
-      maintainer: Joseph Galewsky <galewsky[at]unm.edu>, Sebastian Los <slos[at]unm.edu>
-      doi: https://doi.org/10.25326/309
+      path: "{{CATALOG_DIR}}/isotope-analyzer-wv.yaml"
+    description: 'Water vapor isotope data measured at the BCO during EUREC4A'
+    driver: yaml_file_cat
+    metadata: {}
