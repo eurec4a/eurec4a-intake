@@ -83,6 +83,7 @@ sources:
     args:
       urlpath: ipfs://QmeAL3DLEbWS2c2bkyA7mSgopN2ANmtMAGu79mM5GFQGhR
       consolidated: true
+
   isotope_analyzer:
     args:
       path: "{{CATALOG_DIR}}/isotope-analyzer.yaml"
