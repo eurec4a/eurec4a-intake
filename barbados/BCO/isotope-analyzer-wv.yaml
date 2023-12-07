@@ -1,0 +1,27 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  CRDS:
+    description: BCO CRDS Continuous In-Situ Water Vapor Isotopic Composition
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/BARBADOS/BCO/PICARRO/EUREC4A_BCO_PICARRO_WVISOS_L1.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    metadata:
+      maintainer: Leonie Villiger <leonie.villiger[at]env.ethz.ch>, Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>
+      doi: https://doi.org/10.25326/245
+  OA_ICOS:
+    description: BCO LGR Continuous In-Situ Water Vapor Isotopic Composition
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/BARBADOS/BCO/LGR/EUREC4A_BCO_LGR_1min_1.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    metadata:
+      maintainer: Joseph Galewsky <galewsky[at]unm.edu>, Sebastian Los <slos[at]unm.edu>
+      doi: https://doi.org/10.25326/309
