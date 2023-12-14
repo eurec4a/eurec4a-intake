@@ -16,3 +16,17 @@ sources:
     description: "points on cloud surface from 3-D stereographic reconstruction"
     driver: yaml_file_cat
     metadata: {}
+
+  cdsd_polLL:
+    args:
+      path: "{{CATALOG_DIR}}/specMACS_polLL_cdsd.yaml"
+    description: "cloud droplet size distribution of liquid water clouds from cloudbow observations of lower left specMACS polarization camera"
+    driver: yaml_file_cat
+    metadata: {}
+
+  cdsd_polLR:
+    args:
+      path: "{{CATALOG_DIR}}/specMACS_polLR_cdsd.yaml"
+    description: "cloud droplet size distribution of liquid water clouds from cloudbow observations of lower right specMACS polarization camera"
+    driver: yaml_file_cat
+    metadata: {}
