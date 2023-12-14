@@ -5,18 +5,13 @@ plugins:
 sources:
 
   2D:
-    args:
-      urlpath: simplecache::swift://swift.dkrz.de/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/COSMO_CTRL_BC_2D/lffd{{date.strftime("%Y%m%d%H%M%S")}}.nc
-      chunks: null
-    parameters:
-      date:
-        description: date
-        default: 2020-01-01
-        type: datetime
-        min: 2020-01-01
-        max: 2020-03-01
+    driver: zarr
     description: 2D fields
-    driver: netcdf
+    args:
+      urlpath: reference://
+      storage_options:
+        fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/COSMO_CTRL_BC_2D/COSMO_CTRL_BC_2D.ref
+      consolidated: false
     metadata: {}
 
   3D:
