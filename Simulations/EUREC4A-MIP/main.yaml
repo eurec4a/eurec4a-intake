@@ -1,0 +1,18 @@
+plugins:
+  source:
+     - module: intake_xarray
+
+sources:
+  control:
+    args:
+      path: "{{CATALOG_DIR}}/control/main.yaml"
+    description: "EUREC4A-MIP simulations based on realistic boundary conditions"
+    driver: yaml_file_cat
+    metadata: {}
+
+  warming:
+    args:
+      path: "{{CATALOG_DIR}}/warming/main.yaml"
+    description: "EUREC4A-MIP simulations based on 4K warming"
+    driver: yaml_file_cat
+    metadata: {}

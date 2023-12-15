@@ -1,0 +1,11 @@
+plugins:
+  source:
+     - module: intake_xarray
+
+sources:
+  boundary_conditions:
+    args:
+      path: "{{CATALOG_DIR}}/bc.yaml"
+    description: "Boundary conditions"
+    driver: yaml_file_cat
+    metadata: {}
