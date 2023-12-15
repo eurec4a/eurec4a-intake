@@ -1,0 +1,22 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  ERA5:
+    driver: zarr
+    description: Boundary conditions for storm resolving models
+    args:
+      urlpath: reference://
+      storage_options:
+        fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/CTRL_ERA5/CTRL_ERA5.ref
+      consolidated: false
+    metadata: {}
+
+  COSMO:
+    args:
+      path: "{{CATALOG_DIR}}/cosmo.yaml"
+    description: "Boundary conditions for large eddy models"
+    driver: yaml_file_cat
+    metadata: {}

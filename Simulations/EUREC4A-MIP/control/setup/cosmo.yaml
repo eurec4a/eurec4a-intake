@@ -1,0 +1,25 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  2D:
+    driver: zarr
+    description: 2D fields
+    args:
+      urlpath: reference://
+      storage_options:
+        fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/COSMO_CTRL_BC_2D/COSMO_CTRL_BC_2D.ref
+      consolidated: false
+    metadata: {}
+
+  3D:
+    driver: zarr
+    description: 2D fields
+    args:
+      urlpath: reference://
+      storage_options:
+        fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/COSMO_CTRL_BC_3D/COSMO_CTRL_BC_3D.ref
+      consolidated: false
+    metadata: {}
