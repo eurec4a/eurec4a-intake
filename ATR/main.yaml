@@ -14,3 +14,12 @@ sources:
     metadata:
       tags:
         - track
+
+  turbulence:
+    description: ATR turbulence data
+    args:
+      path: "{{CATALOG_DIR}}/turbulence.yaml"
+    driver: yaml_file_cat
+    metadata:
+      tags:
+        - turbulence

@@ -1,0 +1,145 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+# longest legs
+  ATR-0126-03_LL1:
+    description: Turbulence flucations of ATR flight RF03 on 2020-01-26 along longest leg 1
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/SAFIRE-TURB/PROCESSED/TURB_FLUCTUATIONS/L3/{{version}}/longestlegs/RF03/EUREC4A_ATR_turbulent_fluctuations_20200126_RF03_LL1_L3_{{version}}.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    parameters:
+      version:
+        description: dataset version
+        type: str
+        default: v1.9
+    metadata:
+      maintainer: Marie Lothon <marie.lothon[at]aero.obs-mip.fr> and Pierre-Etienne Brilouet <pierre-etienne.brilouet[at]aero.obs-mip.fr>
+      doi: https://doi.org/10.25326/128
+
+  ATR-0126-03_LL2:
+    description: Turbulence flucations of ATR flight RF03 on 2020-01-26 along longest leg 2
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/SAFIRE-TURB/PROCESSED/TURB_FLUCTUATIONS/L3/{{version}}/longestlegs/RF03/EUREC4A_ATR_turbulent_fluctuations_20200126_RF03_LL2_L3_{{version}}.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    parameters:
+      version:
+        description: dataset version
+        type: str
+        default: v1.9
+    metadata:
+      maintainer: Marie Lothon <marie.lothon[at]aero.obs-mip.fr> and Pierre-Etienne Brilouet <pierre-etienne.brilouet[at]aero.obs-mip.fr>
+      doi: https://doi.org/10.25326/128
+
+  ATR-0126-03_LL3:
+    description: Turbulence flucations of ATR flight RF03 on 2020-01-26 along longest leg 3
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/SAFIRE-TURB/PROCESSED/TURB_FLUCTUATIONS/L3/{{version}}/longestlegs/RF03/EUREC4A_ATR_turbulent_fluctuations_20200126_RF03_LL3_L3_{{version}}.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    parameters:
+      version:
+        description: dataset version
+        type: str
+        default: v1.9
+    metadata:
+      maintainer: Marie Lothon <marie.lothon[at]aero.obs-mip.fr> and Pierre-Etienne Brilouet <pierre-etienne.brilouet[at]aero.obs-mip.fr>
+      doi: https://doi.org/10.25326/128
+
+  ATR-0126-03_LL4:
+    description: Turbulence flucations of ATR flight RF03 on 2020-01-26 along longest leg 4
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/SAFIRE-TURB/PROCESSED/TURB_FLUCTUATIONS/L3/{{version}}/longestlegs/RF03/EUREC4A_ATR_turbulent_fluctuations_20200126_RF03_LL4_L3_{{version}}.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    parameters:
+      version:
+        description: dataset version
+        type: str
+        default: v1.9
+    metadata:
+      maintainer: Marie Lothon <marie.lothon[at]aero.obs-mip.fr> and Pierre-Etienne Brilouet <pierre-etienne.brilouet[at]aero.obs-mip.fr>
+      doi: https://doi.org/10.25326/128
+
+  ATR-0126-03_RL1:
+    description: Turbulence flucations of ATR flight RF03 on 2020-01-26 along longest leg 1
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/SAFIRE-TURB/PROCESSED/TURB_FLUCTUATIONS/L3/{{version}}/longestlegs/RF03/EUREC4A_ATR_turbulent_fluctuations_20200126_RF03_RL1_L3_{{version}}.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    parameters:
+      version:
+        description: dataset version
+        type: str
+        default: v1.9
+    metadata:
+      maintainer: Marie Lothon <marie.lothon[at]aero.obs-mip.fr> and Pierre-Etienne Brilouet <pierre-etienne.brilouet[at]aero.obs-mip.fr>
+      doi: https://doi.org/10.25326/128
+
+  ATR-0126-03_SL1:
+    description: Turbulence flucations of ATR flight RF03 on 2020-01-26 along longest leg 1
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/SAFIRE-TURB/PROCESSED/TURB_FLUCTUATIONS/L3/{{version}}/longestlegs/RF03/EUREC4A_ATR_turbulent_fluctuations_20200126_RF03_SL1_L3_{{version}}.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    parameters:
+      version:
+        description: dataset version
+        type: str
+        default: v1.9
+    metadata:
+      maintainer: Marie Lothon <marie.lothon[at]aero.obs-mip.fr> and Pierre-Etienne Brilouet <pierre-etienne.brilouet[at]aero.obs-mip.fr>
+      doi: https://doi.org/10.25326/128
+
+# longlegs
+
+  ATR-0126-03_L1A:
+    description: Turbulence flucations of ATR flight RF03 on 2020-01-26 along long leg 1
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/SAFIRE-TURB/PROCESSED/TURB_FLUCTUATIONS/L3/{{version}}/longlegs/RF03/EUREC4A_ATR_turbulent_fluctuations_20200126_RF03_L1A_L3_{{version}}.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    parameters:
+      version:
+        description: dataset version
+        type: str
+        default: v1.9
+    metadata:
+      maintainer: Marie Lothon <marie.lothon[at]aero.obs-mip.fr> and Pierre-Etienne Brilouet <pierre-etienne.brilouet[at]aero.obs-mip.fr>
+      doi: https://doi.org/10.25326/128
+
+# shortlegs
+
+  ATR-0126-03_L1A:
+    description: Turbulence flucations of ATR flight RF03 on 2020-01-26 along short leg 1
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/SAFIRE-TURB/PROCESSED/TURB_FLUCTUATIONS/L3/{{version}}/shortlegs/RF03/EUREC4A_ATR_turbulent_fluctuations_20200126_RF03_l1a_L3_{{version}}.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    parameters:
+      version:
+        description: dataset version
+        type: str
+        default: v1.9
+    metadata:
+      maintainer: Marie Lothon <marie.lothon[at]aero.obs-mip.fr> and Pierre-Etienne Brilouet <pierre-etienne.brilouet[at]aero.obs-mip.fr>
+      doi: https://doi.org/10.25326/128
