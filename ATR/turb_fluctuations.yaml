@@ -127,7 +127,7 @@ sources:
 
 # shortlegs
 
-  ATR-0126-03_L1A:
+  ATR-0126-03_l1a:
     description: Turbulence flucations of ATR flight RF03 on 2020-01-26 along short leg 1
     driver: opendap
     args:
