@@ -6,6 +6,7 @@
 * Add isotope data from BCO (#152). By [Hauke Schulz](https://github.com/observingClouds)
 * Add EUREC4A-MIP boundary conditions from ERA5 and COSMO for current and pseudo-global warming experiment (#135). By [torresalavez](https://github.com/torresalavez) and [Hauke Schulz](https://github.com/observingClouds)
 * Add cloud droplet size distribution from specMACS instrument. By [Veronika Pörtge](https://github.com/vpoertge)
+* Add LICHT lidar data from RV Meteor as provided by the MPI-TCO catalog (#12). By [Leif Denby](https://github.com/leifdenby), [Hauke Schulz](https://github.com/observingClouds), [Tobias Kölling](https://github.com/d70-t) and [Nina Robbins](https://github.com/ninarobbins)
 ### Updated Datasets
 * Updated RV Meteor cloud radar data (LIMRAD94) to version 1.2, in which the variable hydrometeor_mask was added which tells you whether there is a signal in the processed reflectivity or not
 ### Removed Datasets
