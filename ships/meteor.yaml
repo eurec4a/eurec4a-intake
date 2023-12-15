@@ -1,34 +1,7 @@
-plugins:
-  source:
-    - module: intake_xarray
-
 sources:
   LICHT_LIDAR:
     description: Observations made with the LICHT LIDAR on R/V Meteor
-    driver: opendap
     args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SHIPS/RV-METEOR/Raman_Lidar_LICHT/version_{{version}}/nc/licht_{{date.strftime("%y%m%d")}}_0002_0000_{{content_type}}.nc
-      auth: null
-      chunks: {}
-    parameters:
-      version:
-        description: dataset version to use
-        type: str
-        default: 2020.07.31
-      date:
-        description: date of observation
-        default: 2020-01-18
-        type: datetime
-        min: 2020-01-18
-        max: 2020-03-01
-      content_type:
-        description: dataset-content
-        type: str
-        default: b
-        allowed: [b, t]
-    metadata:
-      maintainer: Leif Denby <l.c.denby[at]leeds.ac.uk>
-      documentation: https://wiki.mpimet.mpg.de/doku.php?id=analysis:data:bco:ramanlidars:raman-lidar-licht
-      tags:
-        - water-vapour profiles
-        - temperature profiles
+      path: "{{CATALOG_DIR}}/LICHT_lidar.yaml"
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
