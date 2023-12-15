@@ -35,6 +35,6 @@ sources:
   LICHT_LIDAR:
     description: Observations made with the LICHT LIDAR on R/V Meteor
     args:
-      path: "{{CATALOG_DIR}}/LICHT_lidar.yaml"
+      path: "https://tcodata.mpimet.mpg.de/METEOR/EUREC4A/catalog.yaml"
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
