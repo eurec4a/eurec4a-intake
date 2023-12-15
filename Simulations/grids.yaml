@@ -1,0 +1,33 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  6b59890b-99f3-939b-e76a-0a3ad2e43140:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM01.zarr
+    description: Horizontal grid of ICON-LES DOM01 (EUREC4A_PR1250m_DOM01) including information about cell, vertex and edge coordinates.
+    driver: zarr
+
+  3c7523ba-f78c-c23e-6654-012805ba3300:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM02.zarr
+    description: Horizontal grid of ICON-LES DOM02 (EUREC4A_PR1250m_DOM02) including information about cell, vertex and edge coordinates.
+    driver: zarr
+
+  88fe7c0a-f61d-e582-d5e1-b00866e33000:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM03.zarr
+    description: Horizontal grid of ICON-LES DOM03 (EUREC4A_PR1250m_DOM03) including information about cell, vertex and edge coordinates.
+    driver: zarr
+
+  ecf22d17-dcee-1510-a807-11ae4a612be0:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_constants_DOM01.zarr
+    description: Vertical grid of DOM01 (EUREC4A_PR1250m_DOM01) including geometric height information.
+    driver: zarr

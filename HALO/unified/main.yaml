@@ -1,0 +1,53 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  dropsondes:
+    args:
+      path: "{{CATALOG_DIR}}/dropsondes_unified.yaml"
+    description: dropsondes in HALO UNIFIED dataset.
+    driver: yaml_file_cat
+    metadata: {}
+
+  HAMPradar:
+    args:
+      path: "{{CATALOG_DIR}}/radar_unified.yaml"
+    description: radar data in HALO UNIFIED dataset.
+    driver: yaml_file_cat
+    metadata: {}
+
+  HAMPradiometer:
+    args:
+      path: "{{CATALOG_DIR}}/radiometer_unified.yaml"
+    description: radiometer data in HALO UNIFIED dataset.
+    driver: yaml_file_cat
+    metadata: {}
+
+  BAHAMAS:
+    args:
+      path: "{{CATALOG_DIR}}/bahamas_unified.yaml"
+    description: BAHAMAS data in HALO UNIFIED dataset.
+    driver: yaml_file_cat
+    metadata: {}
+
+  HAMPradiometer_cloudmask:
+    args:
+      path: "{{CATALOG_DIR}}/MWR_cloud_mask_unified.yaml"
+    description: HAMP Microwave Radiometer Cloud Mask with unified time coordinate.
+    driver: yaml_file_cat
+    metadata: {}
+
+  HAMPradar_cloudmask:
+    args:
+      path: "{{CATALOG_DIR}}/Radar_cloud_mask_unified.yaml"
+    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
+    driver: yaml_file_cat
+    metadata: {}
+
+  HAMPradiometer_retrievals:
+    args:
+      path: "{{CATALOG_DIR}}/MWR_retrievals_unified.yaml"
+    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
+    driver: yaml_file_cat
+    metadata: {}

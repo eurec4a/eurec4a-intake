@@ -1,0 +1,33 @@
+plugins:
+   source:
+     - module: intake_xarray
+
+sources:
+  LIMRAD94:
+    args:
+      path: "{{CATALOG_DIR}}/LIMRAD94.yaml"
+    description: 'W-band radar data'
+    driver: yaml_file_cat
+    metadata: {}
+
+  track:
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_Meteor_v1.0.nc
+      auth: null
+      chunks: { }
+      engine: netcdf4
+    driver: opendap
+    description: Meteor track
+    metadata:
+      tags:
+        - track
+
+  surface_fluxes:
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SHIPS/RV-METEOR/surface_fluxes/EUREC4A_Meteor_surface_heat_fluxes_20200115_v1.0.nc
+      auth: null
+      chunks: { }
+      engine: netcdf4
+    driver: opendap
+    description: Surface heat fluxes measured on-board R/V Meteor
+    metadata: {}

@@ -1,0 +1,95 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  CORAL_LIDAR:
+    description: Observations made with the CORAL LIDAR at BCO
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/BARBADOS/BCO/Raman_Lidar_CORAL/lowResolution/version_{{version}}/T{{dt}}min/nc/coral_{{date.strftime("%y%m%d")}}_0002_0000_{{content_type}}.nc
+      chunks: null
+    parameters:
+      version:
+        description: dataset version to use
+        type: str
+        default: 2020.07.27
+      date:
+        description: date of observation
+        default: 2020-01-09
+        type: datetime
+        min: 2020-01-09
+        max: 2020-02-29
+      dt:
+        description: time resolution
+        type: int
+        default: 10
+        allowed: [10, 20, 60]
+      content_type:
+        description: dataset-content
+        type: str
+        default: b
+        allowed: [b, t]
+    metadata:
+      maintainer: Leif Denby <l.c.denby[at]leeds.ac.uk>
+      documentation: https://wiki.mpimet.mpg.de/doku.php?id=analysis:data:bco:ramanlidars:raman-lidar-coral
+      tags:
+        - water-vapour profiles
+        - temperature profiles
+
+  ceilometer:
+    args:
+      path: "{{CATALOG_DIR}}/ceilometer.yaml"
+    description: 'Cloud base height and vertical profiles of visible light backscattered from aerosols and clouds'
+    driver: yaml_file_cat
+    metadata: {}
+
+  radar_reflectivity:
+    description: Radar reflectivities measured with the Ka-Band radar at the Barbados Cloud Observatory.
+    driver: zarr
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/bco_data/CORAL/eurec4a/EUREC4A_BCO_Ka-Band-Radar_SpectralMoments_2s_20200101-20200229_{{version}}.zarr
+      consolidated: True
+    parameters:
+      version:
+        description: "dataset version"
+        default: "v2022.03.25"
+        type: str
+        allowed: ["v2022.03.25"]
+
+  meteorology:
+    description: Basic meteorological measurements taken with a Vaisala WXT sensor at the Barbados Cloud Observatory.
+    driver: zarr
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/bco_data/CORAL/eurec4a/EUREC4A_BCO_WXT_SurfaceMeteorology_20200101-20200229_{{version}}.zarr
+      consolidated: True
+    parameters:
+      version:
+        description: "dataset version"
+        default: "v2.0.0"
+        type: str
+        allowed: ["v2.0.0"]
+
+  radiation:
+    description: Downwelling radiation measurements taken at the Barbados Cloud Observatory.
+    driver: zarr
+    args:
+      urlpath: ipfs://Qmbw5eoJaSPgxZrJWbXug13KSXzm9vfYzDJzmrwBuv6qpU
+      consolidated: True
+
+  MRR:
+    description: Microwave rain radar measurements taken at the Barbados Cloud Observatory
+    driver: zarr
+    args:
+      urlpath: ipfs://QmeAL3DLEbWS2c2bkyA7mSgopN2ANmtMAGu79mM5GFQGhR
+      consolidated: true
+  isotopes:
+    description: Calibrated stable water isotope data in precipitation from the BCO during EUREC4A
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/BARBADOS/BCO/precipitation/EUREC4A_BCO_stable_water_isotopes_precipitation.nc
+      chunks: null
+    metadata:
+      maintainer: Leonie Villiger <leonie.villiger[at]env.ethz.ch>, Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>
+      doi: https://doi.org/10.25326/242
+      

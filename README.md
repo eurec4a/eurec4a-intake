@@ -1,26 +1,30 @@
 # EUREC4A Intake catalogue
 
-![eurec4a_intake](https://github.com/eurec4a/eurec4a-intake/workflows/eurec4a_intake/badge.svg)
+![weekly_tests.yml](https://github.com/eurec4a/eurec4a-intake/actions/workflows/weekly_tests.yml/badge.svg)
+ [![](https://zenodo.org/badge/doi/10.5281/zenodo.8422321.svg)](https://doi.org/10.5281/zenodo.8422321)
 
 This repository contains an [intake](https://github.com/intake/intake)
 catalogue for acessing data from  the [EUREC4A field
 campaign](http://eurec4a.eu/) stored on: 1)
 [AERIS](https://observations.ipsl.fr/aeris/eurec4a/#/) and 2) Munich
-University (via OPeNDAP) and 3) a zarr-backed
-object-store (using [minio](https://min.io)) at https://minio.denby.eu.
+University (via OPeNDAP) and 3) OPeNDAP access to files at
+[NOAA's National Center for Environmental Information](https://www.ncei.noaa.gov/thredds-ocean/catalog/psl/atomic/catalog.html) and 4) data linked via [IPFS](https://ipfs.io/).
 
 
 ## Usage
 
-To use you will need to install `intake`, `xarray`, `intake-xarray`,
-`zarr`, `pydap`, `requests` and `s3fs`
+To use you will need to install `intake`, `xarray`, `intake-xarray`, `zarr`,
+`pydap`, `requests`, `s3fs` and `ipfsspec`
 
 ```bash
-pip install intake xarray zarr pydap s3fs requests
-pip install git+https://github.com/leifdenby/intake-xarray#egg=intake-xarray
+pip install intake xarray intake-xarray zarr pydap s3fs requests ipfsspec
 ```
-(a fork of `intake-xarray` is required so OPeNDAP servers which don't require
-authentication can be used)
+
+**Or**, if you feel courageous (and want the newest updates), you can also install the [`requirements.txt`](requirements.txt) directly:
+
+```bash
+pip install -r https://raw.githubusercontent.com/eurec4a/eurec4a-intake/master/requirements.txt
+```
 
 The catalogue (and underlying data) can then be accessed directly from python:
 
@@ -32,7 +36,7 @@ The catalogue (and underlying data) can then be accessed directly from python:
 You can list the available sources with:
 ```python
 >> list(cat)
-['radiosondes', 'dropsondes']
+['radiosondes', 'barbados', 'dropsondes', 'halo', 'p3', 'specmacs']
 
 >> list(cat.radiosondes)
 ['atalante_meteomodem',
@@ -68,11 +72,6 @@ Data variables:
 
 You can then slice and access the data as if you had it available locally
 
-## Adding data-sources
+## Contributing
 
-If you would like to add a data source please [fork](https://github.com/eurec4a/eurec4a-intake/fork) this repository,
-follow the [intake documentation]()https://intake.readthedocs.io/en/latest/catalog.html#remote-access
-to create an entry in [catalog.yaml](catalog.yaml) (or a separate
-yaml-file if you are adding many new data sources) and finally make
-a pull-request. Tests are automatically run on pull-requests to ensure
-that all defined data sources can be accessed.
+Please have a look at our [contribution guide](CONTRIBUTING.md).

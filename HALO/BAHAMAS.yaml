@@ -1,0 +1,18 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  QL:
+    args:
+      path: "{{CATALOG_DIR}}/BAHAMAS_QL.yaml"
+    description: 'BAHAMAS QL data'
+    driver: yaml_file_cat
+    metadata: {}
+
+  PositionAttitude:
+    args:
+      path: "{{CATALOG_DIR}}/BAHAMAS_PositionAttitude.yaml"
+    description: 'BAHAMAS subset containint Position and Attitude data for ESSD publication'
+    driver: yaml_file_cat
+    metadata: {}

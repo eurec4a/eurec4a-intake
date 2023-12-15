@@ -1,0 +1,28 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  rain_dropcount_dbz_10sec:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/disdrometer/EUREC4A_ATOMIC_RonBrown_disdrometer_rain_dropcount_dbz_10sec_20200109-20200212_v1.nc
+    driver: opendap
+
+  rain_1min:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/disdrometer/EUREC4A_ATOMIC_RonBrown_disdrometer_rain_1min_20200109-20200212_v1.nc
+    driver: opendap
+    
+  rain_10min:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/disdrometer/EUREC4A_ATOMIC_RonBrown_disdrometer_rain_10min_20200109-20200212_v1.nc
+    driver: opendap   

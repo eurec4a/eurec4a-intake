@@ -1,7 +1,0 @@
-sources:
-  bahamas:
-    args:
-      path: "{{CATALOG_DIR}}/bahamas.yaml"
-    description: 'Basic instrumentation data'
-    driver: intake.catalog.local.YAMLFileCatalog
-    metadata: {}

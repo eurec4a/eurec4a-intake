@@ -1,0 +1,17 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  level3:
+    driver: netcdf
+    description: EUREC4A/ATOMIC JOANNE Level-3 gridded dropsonde dataset
+    args:
+      chunks: null
+      urlpath: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/PRODUCTS/MERGED-MEASUREMENTS/JOANNE/v2.0.0/Level_3/EUREC4A_JOANNE_Dropsonde-RD41_Level_3_v2.0.0.nc
+  level4:
+    driver: netcdf
+    description: EUREC4A/ATOMIC JOANNE Level-4 dropsonde dataset
+    args:
+      chunks: null
+      urlpath: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/PRODUCTS/MERGED-MEASUREMENTS/JOANNE/v2.0.0/Level_4/EUREC4A_JOANNE_Dropsonde-RD41_Level_4_v2.0.0.nc

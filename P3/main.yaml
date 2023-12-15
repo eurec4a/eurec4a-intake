@@ -1,0 +1,58 @@
+plugins:
+   source:
+     - module: intake_xarray
+
+sources:
+  AXBT:
+    args:
+      path: "{{CATALOG_DIR}}/axbts.yaml"
+    description: 'AXBT data'
+    driver: yaml_file_cat
+    metadata: {}
+
+  flight_level:
+    args:
+      path: "{{CATALOG_DIR}}/flight-level.yaml"
+    description: 'Flight level data'
+    driver: yaml_file_cat
+    metadata: {}
+
+  isotope_analyzer:
+    args:
+      path: "{{CATALOG_DIR}}/isotope-analyzer.yaml"
+    description: 'Isotope analyzer data'
+    driver: yaml_file_cat
+    metadata: {}
+
+  remote_sensing:
+    args:
+      path: "{{CATALOG_DIR}}/remote-sensing.yaml"
+    description: 'W-band and SFMR data'
+    driver: yaml_file_cat
+    metadata: {}
+
+  track:
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_P3_v1.0.nc
+      auth: null
+      chunks: { }
+      engine: netcdf4
+    description: P3 track
+    driver: opendap
+    metadata:
+      tags:
+        - track
+
+  w_band_radar:
+    args:
+      path: "{{CATALOG_DIR}}/w-band-radar.yaml"
+    description: 'W-band radar data'
+    driver: yaml_file_cat
+    metadata: {}
+
+  wsra:
+    args:
+      path: "{{CATALOG_DIR}}/WSRA.yaml"
+    description: 'Wide swath radar altimeter data'
+    driver: yaml_file_cat
+    metadata: {}

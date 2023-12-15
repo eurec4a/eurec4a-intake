@@ -1,0 +1,7 @@
+sources:
+  irradiances:
+    args:
+      path: "{{CATALOG_DIR}}/bacardi_irradiances.yaml"
+    description: 'BACARDI upward and downward irradiances in the solar and terrestrial spctral range'
+    driver: yaml_file_cat
+    metadata: {}

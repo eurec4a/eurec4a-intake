@@ -1,0 +1,72 @@
+plugins:
+   source:
+     - module: intake_xarray
+
+sources:
+  BAHAMAS:
+    args:
+      path: "{{CATALOG_DIR}}/BAHAMAS.yaml"
+    description: 'Basic instrumentation data'
+    driver: yaml_file_cat
+    metadata: {}
+
+  specMACS:
+    args:
+      path: "{{CATALOG_DIR}}/specmacs/main.yaml"
+    description: specMACS cloud imager data
+    driver: yaml_file_cat
+    metadata: {}
+
+  UNIFIED:
+    args:
+      path: "{{CATALOG_DIR}}/unified/main.yaml"
+    description: Heike Konows UNIFIED dataset
+    driver: yaml_file_cat
+    metadata: {}
+
+  SMART:
+    args:
+      path: "{{CATALOG_DIR}}/smart.yaml"
+    description: SMART dataset
+    driver: yaml_file_cat
+    metadata: {}
+
+  VELOX:
+    args:
+      path: "{{CATALOG_DIR}}/velox.yaml"
+    description: VELOX dataset
+    driver: yaml_file_cat
+    metadata: {}
+
+  KT19:
+    args:
+      path: "{{CATALOG_DIR}}/kt19.yaml"
+    description: KT-19 thermal infrared radiometer data
+    driver: yaml_file_cat
+    metadata: {}
+
+  WALES:
+    args:
+      path: "{{CATALOG_DIR}}/wales/main.yaml"
+    description: WALES Lidar data
+    driver: yaml_file_cat
+    metadata: {}
+
+  BACARDI:
+    args:
+      path: "{{CATALOG_DIR}}/bacardi.yaml"
+    description: 'Broadband radiometers'
+    driver: yaml_file_cat
+    metadata: {}
+
+  track:
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_HALO_v1.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    driver: opendap
+    description: HALO track
+    metadata:
+      tags:
+        - track

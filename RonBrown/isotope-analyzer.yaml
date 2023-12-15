@@ -1,0 +1,16 @@
+sources:
+  water_vapor_d18o_5hz:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/Picarro/EUREC4A_ATOMIC_RonBrown_Isotope-Analyzer_5Hz_20200126-20200210_v1.0.nc
+    driver: opendap
+
+  water_vapor_d18o_1min:
+    args:
+      auth: null
+      chunks: null
+      engine: netcdf4
+      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/Picarro/EUREC4A_ATOMIC_RonBrown_Isotope-Analyzer_1min_20200126-20200210_v1.0.nc
+    driver: opendap
