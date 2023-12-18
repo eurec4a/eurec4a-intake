@@ -44,6 +44,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  POLDIRAD:
+    args:
+      path: "{{CATALOG_DIR}}/poldirad.yaml"
+    description: 'C-band Polarimetric Doppler radar (POLDIRAD)'
+    driver: yaml_file_cat
+    metadata: {}
+
   radar_reflectivity:
     description: Radar reflectivities measured with the Ka-Band radar at the Barbados Cloud Observatory.
     driver: zarr
@@ -91,5 +98,4 @@ sources:
       chunks: null
     metadata:
       maintainer: Leonie Villiger <leonie.villiger[at]env.ethz.ch>, Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>
-      doi: https://doi.org/10.25326/242
-      
+      doi: https://doi.org/10.25326/242      
