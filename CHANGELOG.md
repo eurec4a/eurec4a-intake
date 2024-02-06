@@ -9,6 +9,7 @@
 * Add LICHT lidar data from RV Meteor as provided by the MPI-TCO catalog (#12). By [Leif Denby](https://github.com/leifdenby), [Hauke Schulz](https://github.com/observingClouds), [Tobias Kölling](https://github.com/d70-t) and [Nina Robbins](https://github.com/ninarobbins)
 ### Updated Datasets
 * Updated RV Meteor cloud radar data (LIMRAD94) to version 1.2, in which the variable hydrometeor_mask was added which tells you whether there is a signal in the processed reflectivity or not
+* Add gridded POLDIRAD product with kerchunk references to provide a continous dataset (#160). By [Hauke Schulz](https://github.com/observingClouds)
 ### Removed Datasets
 ### Fixes
 ### Internal Changes
