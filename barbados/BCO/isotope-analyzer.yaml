@@ -1,0 +1,22 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  precipitation:
+    description: Calibrated stable water isotope data in precipitation from the BCO during EUREC4A
+    driver: opendap
+    args:
+      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/BARBADOS/BCO/precipitation/EUREC4A_BCO_stable_water_isotopes_precipitation_V2.0.nc
+      auth: null
+      chunks: null
+      engine: netcdf4
+    metadata:
+      maintainer: Leonie Villiger <leonie.villiger[at]env.ethz.ch>, Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>
+      doi: https://doi.org/10.25326/242
+  water_vapor:
+    args:
+      path: "{{CATALOG_DIR}}/isotope-analyzer-wv.yaml"
+    description: 'Water vapor isotope data measured at the BCO during EUREC4A'
+    driver: yaml_file_cat
+    metadata: {}
