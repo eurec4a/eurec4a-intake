@@ -23,3 +23,10 @@ sources:
     description: 'Grids of simulations'
     driver: yaml_file_cat
     metadata: {}
+
+  EUREC4A_MIP:
+    args:
+      path: "{{CATALOG_DIR}}/EUREC4A-MIP/main.yaml"
+    description: "EUREC4A Model intercomparison (MIP) simulations and setup"
+    driver: yaml_file_cat
+    metadata: {}

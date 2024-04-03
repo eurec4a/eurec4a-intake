@@ -1,0 +1,15 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  gridded:
+    driver: zarr
+    description: Poldirad measurements on Barbados during EUREC4A - Gridded data
+    args:
+      urlpath: reference::ipfs://QmRq663s4S9pwmRpbovzZJ7dRVXyoriSdBALxo7oCxGVUG
+      consolidated: false
+    metadata:
+      doi: https://doi.org/10.25326/217
+      maintainer: Martin Hagen <martin.hagen[at]dlr.de>, Florian Ewald <florian.ewald[at]dlr.de>
+      note: This catalog entry references the original data given at the DOI but includes additional processing steps to provide a joint dataset. Please access the original dataset to check if potential issues persist.
