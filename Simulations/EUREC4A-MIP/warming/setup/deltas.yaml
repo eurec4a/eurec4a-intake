@@ -1,0 +1,26 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  GFDL_CM4:
+    driver: zarr
+    description: Monthly mean climate deltas from CMIP6 output of the GFDL-CM4 model as the difference between the AMIP with patterned 4K SST increase experiment (AMIP-future 4K) and the AMIP historical (AMIP) simulation.
+    args:
+      urlpath: reference://
+      storage_options:
+        fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/DELTAS_ORI/DELTAS_ORI.ref
+      consolidated: false
+    metadata: {}
+
+  ERA5:
+    driver: zarr
+    description: Same as GFDL_CM4 but interpolated onto ERA5 horizontal and vertical grid.
+    args:
+      urlpath: reference://
+      storage_options:
+        fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/DELTAS_INT/DELTAS_INT.ref
+      decode_times: false
+      consolidated: false
+    metadata: {}
