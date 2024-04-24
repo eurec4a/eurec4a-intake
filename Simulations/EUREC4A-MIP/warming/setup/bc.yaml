@@ -4,6 +4,12 @@ plugins:
 
 sources:
 
+  deltas:
+    args:
+      path: "{{CATALOG_DIR}}/deltas.yaml"
+    description: "Boundary conditions differences of pseudo global warming experiment"
+    driver: yaml_file_cat
+    metadata: {}
   ERA5:
     driver: zarr
     description: Boundary conditions for storm resolving models

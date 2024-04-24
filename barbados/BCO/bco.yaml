@@ -44,6 +44,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  POLDIRAD:
+    args:
+      path: "{{CATALOG_DIR}}/poldirad.yaml"
+    description: 'C-band Polarimetric Doppler radar (POLDIRAD)'
+    driver: yaml_file_cat
+    metadata: {}
+
   radar_reflectivity:
     description: Radar reflectivities measured with the Ka-Band radar at the Barbados Cloud Observatory.
     driver: zarr
@@ -87,9 +94,8 @@ sources:
     description: Calibrated stable water isotope data in precipitation from the BCO during EUREC4A
     driver: netcdf
     args:
-      urlpath: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/BARBADOS/BCO/precipitation/EUREC4A_BCO_stable_water_isotopes_precipitation.nc
+      urlpath: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/BARBADOS/BCO/precipitation/EUREC4A_BCO_stable_water_isotopes_precipitation_V2.0.nc
       chunks: null
     metadata:
       maintainer: Leonie Villiger <leonie.villiger[at]env.ethz.ch>, Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>
-      doi: https://doi.org/10.25326/242
-      
+      doi: https://doi.org/10.25326/242      

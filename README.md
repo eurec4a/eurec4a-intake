@@ -17,7 +17,7 @@ To use you will need to install `intake`, `xarray`, `intake-xarray`, `zarr`,
 `pydap`, `requests`, `s3fs` and `ipfsspec`
 
 ```bash
-pip install intake xarray intake-xarray zarr pydap s3fs requests ipfsspec
+pip install "intake<2.0.0" xarray intake-xarray zarr pydap s3fs requests ipfsspec
 ```
 
 **Or**, if you feel courageous (and want the newest updates), you can also install the [`requirements.txt`](requirements.txt) directly:

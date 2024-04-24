@@ -31,3 +31,10 @@ sources:
     driver: opendap
     description: Surface heat fluxes measured on-board R/V Meteor
     metadata: {}
+
+  LICHT_LIDAR:
+    description: Observations made with the LICHT LIDAR on R/V Meteor
+    args:
+      path: "https://tcodata.mpimet.mpg.de/METEOR/EUREC4A/catalog.yaml"
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
