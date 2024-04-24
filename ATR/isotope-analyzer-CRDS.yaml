@@ -1,7 +1,3 @@
-plugins:
-  source:
-    - module: intake_xarray
-
 sources:
   ATR-0125-02:
     description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 02
