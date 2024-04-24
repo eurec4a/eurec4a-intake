@@ -14,7 +14,9 @@
 * Updated RV Meteor cloud radar data (LIMRAD94) to version 1.2, in which the variable hydrometeor_mask was added which tells you whether there is a signal in the processed reflectivity or not
 * Add gridded POLDIRAD product with kerchunk references to provide a continous dataset (#160). By [Hauke Schulz](https://github.com/observingClouds)
 ### Removed Datasets
+* Remove ICON-LES highCCN ddt_temp_radlw and ddt_temp_radsw data as part of the radiation datasets as it was incomplete and uses a lot of storage space while not being used. Data is still available on tape (#141). By [Hauke Schulz](https://github.com/observingClouds)
 ### Fixes
+* Fixes ICON-LES highCCN radiation dataset timeseries which was previously incomplete (#141). By [Hauke Schulz](https://github.com/observingClouds)
 ### Internal Changes
 * update IPFS version in CI to 0.23.0 to improve access times and make weekly_test more reliable (#149). By [Hauke Schulz](https://github.com/observingClouds)
 * add citation recommendations (#155). By [Hauke Schulz](https://github.com/observingClouds)
