@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
-        mamba install netCDF4
+        conda install netCDF4
     - name: Conda info
       run: conda info
     - name: Conda list
