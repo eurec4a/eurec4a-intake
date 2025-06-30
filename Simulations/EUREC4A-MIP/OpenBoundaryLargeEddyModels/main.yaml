@@ -1,0 +1,11 @@
+plugins:
+  source:
+     - module: intake_xarray
+
+sources:
+  harmonie_arome:
+    args:
+      path: "{{CATALOG_DIR}}/harmonie-arome.yaml"
+    description: "Harmonie-Arome"
+    driver: yaml_file_cat
+    metadata: {}
