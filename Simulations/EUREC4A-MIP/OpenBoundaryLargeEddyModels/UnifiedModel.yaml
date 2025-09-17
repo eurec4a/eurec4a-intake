@@ -1,0 +1,19 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  tab_3_avg:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MO_RAL3p3p1_km2p2/zarr/MO_RAL3p3p1_2dhourly.zarr
+    description: 2D fields at 60min output interval (mostly averaged)
+    driver: zarr
+  
+  tab_4_inst:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MO_RAL3p3p1_km2p2/zarr/MO_RAL3p3p1_2d5min.zarr
+    description: Instantaneous 2D fields at 5min output interval
+    driver: zarr

@@ -1,0 +1,11 @@
+plugins:
+  source:
+     - module: intake_xarray
+
+sources:
+  unifiedmodel:
+    args:
+      path: "{{CATALOG_DIR}}/UnifiedModel.yaml"
+    description: "UK Met Office Unified Model"
+    driver: yaml_file_cat
+    metadata: {}
