@@ -5,3 +5,9 @@ sources:
     description: 'VELOX IR imager cloud mask product'
     driver: yaml_file_cat
     metadata: {}
+  BT:
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A/HALO_VELOX_BT_v0.4.zarr
+      consolidated: True
+    description: VELOX brightness temperature
+    driver: zarr
