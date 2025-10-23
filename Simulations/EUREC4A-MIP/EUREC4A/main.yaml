@@ -1,0 +1,32 @@
+plugins:
+  source:
+     - module: intake_xarray
+
+sources:
+  setup:
+    args:
+      path: "{{CATALOG_DIR}}/setup/main.yaml"
+    description: "Simulation setups"
+    driver: yaml_file_cat
+    metadata: {}
+
+  SRM:
+    args:
+      path: "{{CATALOG_DIR}}/SRM/main.yaml"
+    description: "Storm-resolving simulations"
+    driver: yaml_file_cat
+    metadata: {}
+
+  periodicLEM:
+    args:
+      path: "{{CATALOG_DIR}}/periodicLEM/main.yaml"
+    description: "Periodic large-eddy simulations"
+    driver: yaml_file_cat
+    metadata: {}
+
+  openBoundaryLEM:
+    args:
+      path: "{{CATALOG_DIR}}/openBoundaryLEM/main.yaml"
+    description: "Open boundary large-eddy simulations"
+    driver: yaml_file_cat
+    metadata: {}
