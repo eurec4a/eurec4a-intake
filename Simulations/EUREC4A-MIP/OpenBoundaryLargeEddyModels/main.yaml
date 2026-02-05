@@ -9,3 +9,17 @@ sources:
     description: "Harmonie-Arome"
     driver: yaml_file_cat
     metadata: {}
+
+  harmonie_arome_new:
+    args:
+      path: "{{CATALOG_DIR}}/harmonie-arome-new.yaml"
+    description: "Harmonie-Arome"
+    driver: yaml_file_cat
+    metadata: {}
+
+  harmonie_arome_cdnc70:
+    args:
+      path: "{{CATALOG_DIR}}/harmonie-arome-cdnc70.yaml"
+    description: "Harmonie-Arome CDNC70"
+    driver: yaml_file_cat
+    metadata: {}
