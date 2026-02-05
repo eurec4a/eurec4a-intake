@@ -7,34 +7,41 @@ sources:
   tab_1_avg:
     args:
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_1_av_Jan.zarr
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_1_REF_JanFeb_av.zarr
     description: Average fields of Table 1
     driver: zarr
-  
+
   tab_1_inst:
     args:
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_1_inst_Jan.zarr
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_1_REF_JanFeb_inst.zarr
     description: Instantaneous fields of Table 1
     driver: zarr
-  
+
   tab_2_avg:
     args:
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_2_av_Jan.zarr
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_2_REF_JanFeb_av.zarr
     description: Average fields of Table 2
     driver: zarr
-  
+
   tab_2_inst:
     args:
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_2_inst_Jan.zarr
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_2_REF_JanFeb_inst.zarr
     description: Instantaneous fields of Table 2
     driver: zarr
-  
+
   tab_3_inst:
     args:
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_3_inst_Jan.zarr
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_3_REF_JanFeb_inst.zarr
     description: Instantaneous fields of Table 3
+    driver: zarr
+
+  tab_5:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_5_REF_JanFeb.zarr
+    description: Instantaneous fields of Table 5
     driver: zarr
