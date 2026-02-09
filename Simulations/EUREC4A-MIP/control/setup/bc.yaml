@@ -11,6 +11,7 @@ sources:
       urlpath: reference://
       storage_options:
         fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/CTRL_ERA5/CTRL_ERA5.ref
+        asynchronous: false
       consolidated: false
     metadata: {}
 

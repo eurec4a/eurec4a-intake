@@ -8,6 +8,8 @@ sources:
     description: Poldirad measurements on Barbados during EUREC4A - Gridded data
     args:
       urlpath: reference::ipfs://QmRq663s4S9pwmRpbovzZJ7dRVXyoriSdBALxo7oCxGVUG
+      storage_options:
+        asynchronous: false
       consolidated: false
     metadata:
       doi: https://doi.org/10.25326/217

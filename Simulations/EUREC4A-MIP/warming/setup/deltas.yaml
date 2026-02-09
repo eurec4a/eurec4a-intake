@@ -7,6 +7,7 @@ sources:
       urlpath: reference://
       storage_options:
         fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/DELTAS_ORI/DELTAS_ORI.ref
+        asynchronous: false
       consolidated: false
     metadata: {}
 
@@ -17,6 +18,7 @@ sources:
       urlpath: reference://
       storage_options:
         fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/DELTAS_INT/DELTAS_INT.ref
+        asynchronous: false
       decode_times: false
       consolidated: false
     metadata: {}
