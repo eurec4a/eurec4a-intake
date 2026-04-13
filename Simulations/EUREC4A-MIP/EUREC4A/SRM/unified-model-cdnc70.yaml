@@ -1,0 +1,40 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  2D_surface_toa:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MO_RAL3p3p1_km2p2/MO_RAL3p3p1_N70_km2p2.zarr/MO_RAL3p3p1_N70_2dhourly.zarr
+    description: Table 1 - Surface, top-of-atmosphere 2D fields
+    driver: zarr
+  
+  2D:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MO_RAL3p3p1_km2p2/MO_RAL3p3p1_N70_km2p2.zarr/MO_RAL3p3p1_N70_2d5min.zarr
+    description: Table 2 - 2D fields
+    driver: zarr
+
+  cross:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MO_RAL3p3p1_km2p2/MO_RAL3p3p1_N70_km2p2.zarr/MO_RAL3p3p1_N70_p2d.zarr
+    description: Table 3 - 2D cross-sections
+    driver: zarr
+
+  3D_circle:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MO_RAL3p3p1_km2p2/MO_RAL3p3p1_N70_km2p2.zarr/MO_RAL3p3p1_N70_inner.zarr
+    description: Table 4 - 3D fields over EUREC4A circle
+    driver: zarr
+
+  3D:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MO_RAL3p3p1_km2p2/MO_RAL3p3p1_N70_km2p2.zarr/MO_RAL3p3p1_N70_3d6hrly.zarr
+    description: Table 5 - 3D fields
+    driver: zarr
