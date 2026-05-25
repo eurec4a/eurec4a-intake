@@ -37,3 +37,10 @@ sources:
     description: "UK Met Office Unified Model CDNC70"
     driver: yaml_file_cat
     metadata: {}
+
+  wrf:
+    args:
+      path: "{{CATALOG_DIR}}/wrf.yaml"
+    description: "WRF CTL reference"
+    driver: yaml_file_cat
+    metadata: {}
