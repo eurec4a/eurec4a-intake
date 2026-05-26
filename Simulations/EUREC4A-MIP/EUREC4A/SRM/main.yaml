@@ -24,17 +24,24 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  unifiedmodel_ref:
+  unifiedmodel_ctl:
     args:
-      path: "{{CATALOG_DIR}}/unified-model.yaml"
-    description: "UK Met Office Unified Model"
+      path: "{{CATALOG_DIR}}/unified-model-ctl.yaml"
+    description: "UK Met Office Unified Model CTL reference"
+    driver: yaml_file_cat
+    metadata: {}
+
+  unifiedmodel_cdnc150:
+    args:
+      path: "{{CATALOG_DIR}}/unified-model-cdnc150.yaml"
+    description: "UK Met Office Unified Model CDNC=150 cm-3"
     driver: yaml_file_cat
     metadata: {}
 
   unifiedmodel_cdnc70:
     args:
       path: "{{CATALOG_DIR}}/unified-model-cdnc70.yaml"
-    description: "UK Met Office Unified Model CDNC70"
+    description: "UK Met Office Unified Model CDNC=70 cm-3"
     driver: yaml_file_cat
     metadata: {}
 
