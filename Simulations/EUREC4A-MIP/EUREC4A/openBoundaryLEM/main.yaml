@@ -1,1 +1,19 @@
-sources: {}
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  dales_coarse:
+    args:
+      path: "{{CATALOG_DIR}}/dales-coarse.yaml"
+    description: "DALES coarse-resolution open-boundary LEM"
+    driver: yaml_file_cat
+    metadata: {}
+
+  dales_fine:
+    args:
+      path: "{{CATALOG_DIR}}/dales-fine.yaml"
+    description: "DALES fine-resolution open-boundary LEM"
+    driver: yaml_file_cat
+    metadata: {}
