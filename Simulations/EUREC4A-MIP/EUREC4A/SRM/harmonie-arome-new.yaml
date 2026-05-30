@@ -13,21 +13,21 @@ sources:
   2D_surface_toa_5min:
     args:
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_NEW_2500m/Output_2D_Table_1_NEW_JanFeb_inst.zarr
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_NEW_2500m/Output_2D_Table_1_NEW_JanFeb_inst_uniquetime.zarr
     description: Table 1 - Surface, top-of-atmosphere 2D fields at 5 min time resolution
     driver: zarr
 
   2D:
     args:
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_NEW_2500m/Output_2D_Table_2_NEW_JanFeb_inst.zarr
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_NEW_2500m/Output_2D_Table_2_NEW_JanFeb_inst_uniquetime.zarr
     description: Table 2 - 2D fields
     driver: zarr
 
   cross:
     args:
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_NEW_2500m/Output_2D_Table_3_NEW_JanFeb.zarr
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_NEW_2500m/Output_2D_Table_3_NEW_JanFeb_uniquetime.zarr
     description: Table 3 - 2D cross-sections
     driver: zarr
 
