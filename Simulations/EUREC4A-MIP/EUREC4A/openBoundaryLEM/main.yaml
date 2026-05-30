@@ -17,3 +17,42 @@ sources:
     description: "DALES fine-resolution open-boundary LEM"
     driver: yaml_file_cat
     metadata: {}
+
+  icon_control:
+    args:
+      path: "{{CATALOG_DIR}}/../../../ICON/LES_CampaignDomain_control.yaml"
+    description: >
+      ICON open-boundary LEM, control CCN concentration (130 cm⁻³), on ICON's
+      native unstructured triangular grid (cell dimension, not lat/lon). Three
+      nested domains: DOM01 (624 m), DOM02 (312 m), DOM03 (156 m). Variable
+      names differ from MIP conventions. surface_DOM01/02/03 (~5-min) holds the
+      near-surface fields from LEM Table 4 (t_2m→t10m, qv_2m→q10m,
+      u_10m/v_10m→u10m/v10m, clct→tcc, rain_gsp_rate→pr, tqv_dia→prw,
+      tqc_dia→clwvi, tqi_dia→clivi) and the surface flux and SST fields from
+      Table 3 (lhfl_s→hfls, shfl_s→hfss, pres_sfc→psl, t_seasfc→sst); surface
+      fluxes use a negative-upward sign convention (opposite to MIP).
+      radiation_DOM01/02 (~10-min) holds TOA radiation from Table 3
+      (sod_t→rsdt, sou_t→rsut, sob_t→net SW TOA, thb_t→net LW TOA); no
+      surface radiation fields are available. 3D_DOM01/02/03 (~6-hourly) holds
+      the Table 7 full-domain 3D fields (temp→t3d, qv→q3d, u/v→u3d/v3d,
+      w→w3d, qc→clwc3d). pressure_lev_DOM03 holds Table 5 equivalent fields at
+      5 pressure levels (500/700/850/925/950 hPa) on DOM03 only (temp→t2d,
+      u/v→u2d/v2d, w→w2d, qv→q2d, qc→ql2d, rh→rh2d, geopot→g2d).
+      effective_radius_DOM01/02/03 holds cloud droplet effective radius (no MIP
+      equivalent). meteogram_*_DOM01/02/03 and synthetic_radar_*_DOM01/02/03
+      provide vertical profiles and synthetic Ka-band radar at fixed locations
+      (BCO, NTAS, and five HALO circle points). rttov_DOM01/02/03 provides
+      synthetic satellite images via RTTOV.
+    driver: yaml_file_cat
+    metadata: {}
+
+  icon_highccn:
+    args:
+      path: "{{CATALOG_DIR}}/../../../ICON/LES_CampaignDomain_highCCN.yaml"
+    description: >
+      ICON open-boundary LEM, high CCN concentration (1700 cm⁻³). Same domain
+      structure and variable naming as icon_control. Available output:
+      surface_DOM01/02, radiation_DOM01, 3D_DOM01, effective_radius_DOM01/02,
+      meteogram_*_DOM01/02, synthetic_radar_*_DOM01/02, rttov_DOM01.
+    driver: yaml_file_cat
+    metadata: {}
