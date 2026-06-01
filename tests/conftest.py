@@ -35,13 +35,14 @@ def _patch_zarr_scalar_dimension_handling():
 
     _orig = ZarrStore.open_store_variable
 
-    def _patched(self, name):
+    def _patched(self, *args, **kwargs):
         try:
-            return _orig(self, name)
+            return _orig(self, *args, **kwargs)
         except ValueError:
             # Re-raise unless this is the specific dimension/chunk length
             # mismatch that occurs for scalar zarr v2 arrays carrying
             # incorrect _ARRAY_DIMENSIONS metadata.
+            name = args[0] if args else kwargs.get("name")
             zarr_array = self.members[name]
             dims_from_attrs = list(zarr_array.attrs.get(DIMENSION_KEY, []))
             chunks = zarr_array.chunks  # tuple, e.g. () for scalars
