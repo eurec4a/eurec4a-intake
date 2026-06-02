@@ -10,17 +10,17 @@ data:
       storage_options: null
     metadata: {}
     user_parameters: {}
-  ede2777f58c9d6aa:
+  5808b982b67af263:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/barbados/BCO/ceilometer.yaml
+      url: '{CATALOG_DIR}/ceilometer.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  53d21fc743da7055:
+  a6959122ecfeaf12:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/barbados/BCO/poldirad.yaml
+      url: '{CATALOG_DIR}/poldirad.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -103,7 +103,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(ede2777f58c9d6aa)}'
+      - '{data(5808b982b67af263)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -113,7 +113,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(53d21fc743da7055)}'
+      - '{data(a6959122ecfeaf12)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

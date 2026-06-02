@@ -3,10 +3,10 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  3c0d9a56d487e4f4:
+  cc3c451edf68d133:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/EUREC4A-MIP/warming/setup/bc.yaml
+      url: '{CATALOG_DIR}/bc.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -15,7 +15,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(3c0d9a56d487e4f4)}'
+      - '{data(cc3c451edf68d133)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

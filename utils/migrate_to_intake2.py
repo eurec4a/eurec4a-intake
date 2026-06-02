@@ -67,12 +67,17 @@ def _v1_param_to_up(param: dict) -> dict:
     return up
 
 
-def _resolve_catalog_dir(url: str, catalog_dir: Path) -> str:
-    """Replace {{CATALOG_DIR}} with the actual catalog directory path."""
-    return url.replace("{{CATALOG_DIR}}", str(catalog_dir)).replace("{{ CATALOG_DIR }}", str(catalog_dir))
+def _convert_catalog_dir_template(url: str) -> str:
+    """Convert v1 {{CATALOG_DIR}} / {{ CATALOG_DIR }} Jinja syntax to intake 2 {CATALOG_DIR} format.
+
+    Intake 2 sets CATALOG_DIR as a user_parameter when loading a catalog file and substitutes
+    it via Python str.format_map(), so single-brace {CATALOG_DIR} is the correct syntax.
+    This preserves the template so catalogs work both locally and via remote URLs.
+    """
+    return url.replace("{{ CATALOG_DIR }}", "{CATALOG_DIR}").replace("{{CATALOG_DIR}}", "{CATALOG_DIR}")
 
 
-def _convert_source(name: str, src: dict, catalog_dir: Path | None = None) -> tuple[dict, dict]:
+def _convert_source(name: str, src: dict) -> tuple[dict, dict]:
     """
     Convert a single v1 source entry.
     Returns (data_entries_dict, reader_entry_dict).
@@ -92,7 +97,7 @@ def _convert_source(name: str, src: dict, catalog_dir: Path | None = None) -> tu
     data_entries = {}
 
     if driver in OPENDAP_DRIVERS:
-        url = _resolve_catalog_dir(args.get("urlpath", ""), catalog_dir) if catalog_dir else args.get("urlpath", "")
+        url = _convert_catalog_dir_template(args.get("urlpath", ""))
         data_kwargs = {"url": url, "options": {}}
         tok, data_entry = _make_data_entry(OPENDAP_DATATYPE, data_kwargs)
         data_entries[tok] = data_entry
@@ -110,7 +115,7 @@ def _convert_source(name: str, src: dict, catalog_dir: Path | None = None) -> tu
         }
 
     elif driver in ZARR_DRIVERS:
-        url = _resolve_catalog_dir(args.get("urlpath", ""), catalog_dir) if catalog_dir else args.get("urlpath", "")
+        url = _convert_catalog_dir_template(args.get("urlpath", ""))
         consolidated = args.get("consolidated", None)
         data_kwargs: dict = {"url": url, "storage_options": None, "root": ""}
         tok, data_entry = _make_data_entry(ZARR_DATATYPE, data_kwargs)
@@ -129,7 +134,7 @@ def _convert_source(name: str, src: dict, catalog_dir: Path | None = None) -> tu
         }
 
     elif driver in NETCDF_DRIVERS:
-        url = _resolve_catalog_dir(args.get("urlpath", ""), catalog_dir) if catalog_dir else args.get("urlpath", "")
+        url = _convert_catalog_dir_template(args.get("urlpath", ""))
         data_kwargs = {"url": url, "storage_options": None}
         tok, data_entry = _make_data_entry(NETCDF_DATATYPE, data_kwargs)
         data_entries[tok] = data_entry
@@ -145,9 +150,7 @@ def _convert_source(name: str, src: dict, catalog_dir: Path | None = None) -> tu
         }
 
     elif driver in YAML_CAT_DRIVERS:
-        path = args.get("path", args.get("urlpath", ""))
-        if catalog_dir:
-            path = _resolve_catalog_dir(path, catalog_dir)
+        path = _convert_catalog_dir_template(args.get("path", args.get("urlpath", "")))
         data_kwargs = {"url": path, "storage_options": None}
         tok, data_entry = _make_data_entry(YAML_DATATYPE, data_kwargs)
         data_entries[tok] = data_entry
@@ -163,9 +166,7 @@ def _convert_source(name: str, src: dict, catalog_dir: Path | None = None) -> tu
     elif driver in JSON_DRIVERS:
         # Keep json as a passthrough note — intake 2 has no direct json reader
         # that matches v1 semantics; emit a comment-style placeholder entry
-        json_url = args.get("urlpath", args.get("path", ""))
-        if catalog_dir:
-            json_url = _resolve_catalog_dir(json_url, catalog_dir)
+        json_url = _convert_catalog_dir_template(args.get("urlpath", args.get("path", "")))
         reader_entry = {
             "reader": "intake.readers.readers:JSONReader",
             "kwargs": {"url": json_url},
@@ -214,7 +215,7 @@ def migrate_file(path: Path, dry_run: bool = False) -> bool:
     for name, src in sources.items():
         if not isinstance(src, dict):
             continue
-        data_entries, reader_entry = _convert_source(name, src, catalog_dir=path.parent)
+        data_entries, reader_entry = _convert_source(name, src)
         all_data.update(data_entries)
         all_entries[name] = reader_entry
 

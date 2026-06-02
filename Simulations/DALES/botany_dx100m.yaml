@@ -3,17 +3,17 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  a8e1127551deb457:
+  c3fccec69ac256b9:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/DALES/botany_dx100m_nx1536.yaml
+      url: '{CATALOG_DIR}/botany_dx100m_nx1536.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  963812c9225add53:
+  00e787a85cc2104f:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/DALES/botany_dx100m_nx96.yaml
+      url: '{CATALOG_DIR}/botany_dx100m_nx96.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -22,7 +22,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(a8e1127551deb457)}'
+      - '{data(c3fccec69ac256b9)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -32,7 +32,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(963812c9225add53)}'
+      - '{data(00e787a85cc2104f)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

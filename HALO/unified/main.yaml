@@ -3,52 +3,52 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  1212a222d317d8ac:
+  c88a2aac92470f68:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/unified/dropsondes_unified.yaml
+      url: '{CATALOG_DIR}/dropsondes_unified.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  6a5fe34028a9e88b:
+  db5a8bfaa8b0f084:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/unified/radar_unified.yaml
+      url: '{CATALOG_DIR}/radar_unified.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  9fb63ed2157ceb27:
+  8c692be521f41c33:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/unified/radiometer_unified.yaml
+      url: '{CATALOG_DIR}/radiometer_unified.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  148203cfe234f161:
+  3aa794f5a613e90d:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/unified/bahamas_unified.yaml
+      url: '{CATALOG_DIR}/bahamas_unified.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  fc57c03e9e12b49d:
+  a2cd3c95458570e5:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/unified/MWR_cloud_mask_unified.yaml
+      url: '{CATALOG_DIR}/MWR_cloud_mask_unified.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  12aee4028be1c664:
+  65cbb1996e197347:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/unified/Radar_cloud_mask_unified.yaml
+      url: '{CATALOG_DIR}/Radar_cloud_mask_unified.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  f811f31bac60cfc2:
+  de0dadec44822699:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/unified/MWR_retrievals_unified.yaml
+      url: '{CATALOG_DIR}/MWR_retrievals_unified.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -57,7 +57,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(1212a222d317d8ac)}'
+      - '{data(c88a2aac92470f68)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -66,7 +66,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(6a5fe34028a9e88b)}'
+      - '{data(db5a8bfaa8b0f084)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -75,7 +75,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(9fb63ed2157ceb27)}'
+      - '{data(8c692be521f41c33)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -84,7 +84,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(148203cfe234f161)}'
+      - '{data(3aa794f5a613e90d)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -93,7 +93,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(fc57c03e9e12b49d)}'
+      - '{data(a2cd3c95458570e5)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -102,7 +102,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(12aee4028be1c664)}'
+      - '{data(65cbb1996e197347)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -111,7 +111,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(f811f31bac60cfc2)}'
+      - '{data(de0dadec44822699)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

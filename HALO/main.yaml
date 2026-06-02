@@ -3,59 +3,59 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  990d3d583c9bc05d:
+  9948ca6b68d476f4:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/BAHAMAS.yaml
+      url: '{CATALOG_DIR}/BAHAMAS.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  e90fd236d8afc60b:
+  fbae61171f32ae44:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/specmacs/main.yaml
+      url: '{CATALOG_DIR}/specmacs/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  be16677b9423a499:
+  e5e04deae0f7b580:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/unified/main.yaml
+      url: '{CATALOG_DIR}/unified/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  c569e6224b561498:
+  49c7323afa011489:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/smart.yaml
+      url: '{CATALOG_DIR}/smart.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  21abcf8b93bcaa53:
+  582a98b7a919f0f4:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/velox.yaml
+      url: '{CATALOG_DIR}/velox.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  c7f74540144f3695:
+  b80033969b749688:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/kt19.yaml
+      url: '{CATALOG_DIR}/kt19.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  0a43edd6e0e0c9cd:
+  4fc4ddf9905b1b77:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/wales/main.yaml
+      url: '{CATALOG_DIR}/wales/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  30a5175fda250709:
+  ead4eefbbb86c31a:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/bacardi.yaml
+      url: '{CATALOG_DIR}/bacardi.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -71,7 +71,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(990d3d583c9bc05d)}'
+      - '{data(9948ca6b68d476f4)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -80,7 +80,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(e90fd236d8afc60b)}'
+      - '{data(fbae61171f32ae44)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -89,7 +89,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(be16677b9423a499)}'
+      - '{data(e5e04deae0f7b580)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -98,7 +98,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(c569e6224b561498)}'
+      - '{data(49c7323afa011489)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -107,7 +107,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(21abcf8b93bcaa53)}'
+      - '{data(582a98b7a919f0f4)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -116,7 +116,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(c7f74540144f3695)}'
+      - '{data(b80033969b749688)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -125,7 +125,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(0a43edd6e0e0c9cd)}'
+      - '{data(4fc4ddf9905b1b77)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -134,7 +134,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(30a5175fda250709)}'
+      - '{data(ead4eefbbb86c31a)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

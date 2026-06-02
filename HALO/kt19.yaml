@@ -3,10 +3,10 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  24ac4791fa9347ed:
+  cc8ab948fbf02f80:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/kt19_cloudmask.yaml
+      url: '{CATALOG_DIR}/kt19_cloudmask.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -15,7 +15,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(24ac4791fa9347ed)}'
+      - '{data(cc8ab948fbf02f80)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

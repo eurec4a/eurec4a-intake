@@ -3,17 +3,17 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  355908f23a1591c2:
+  d2748a94c3989ec7:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/EUREC4A-MIP/control/main.yaml
+      url: '{CATALOG_DIR}/control/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  568465ad86950873:
+  4508b2b366f335e9:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/EUREC4A-MIP/warming/main.yaml
+      url: '{CATALOG_DIR}/warming/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -22,7 +22,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(355908f23a1591c2)}'
+      - '{data(d2748a94c3989ec7)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -31,7 +31,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(568465ad86950873)}'
+      - '{data(4508b2b366f335e9)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

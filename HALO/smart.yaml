@@ -3,10 +3,10 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  561182b386acabf1:
+  698fb39cdf60a289:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/smart_irradiances.yaml
+      url: '{CATALOG_DIR}/smart_irradiances.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -15,7 +15,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(561182b386acabf1)}'
+      - '{data(698fb39cdf60a289)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

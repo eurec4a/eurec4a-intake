@@ -4,472 +4,472 @@ metadata:
 user_parameters: {}
 aliases: {}
 data:
-  149fd4c9d68fcdd5:
+  1a203a9ef7c10dde:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/radiosondes.yml
+      url: '{CATALOG_DIR}/radiosondes.yml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  f49d3025273022b9:
+  4028bf71e3c7a941:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/barbados/main.yaml
+      url: '{CATALOG_DIR}/barbados/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  d508b94000820b88:
+  83a1ddbf7dbd9c51:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Atalante/main.yaml
+      url: '{CATALOG_DIR}/Atalante/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  a52d186fc1559b4a:
+  bcfb16219b6229da:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/ATR/main.yaml
+      url: '{CATALOG_DIR}/ATR/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  831308cb3f2e17a4:
+  3c1146860482539e:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/BOREAL/main.yaml
+      url: '{CATALOG_DIR}/BOREAL/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  85f85643c011acf3:
+  18910b93c260eb60:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/CU-RAAVEN/main.yaml
+      url: '{CATALOG_DIR}/CU-RAAVEN/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  e81deebdb7aaa47b:
+  1e44b4ba347c80ce:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Caravela/main.yaml
+      url: '{CATALOG_DIR}/Caravela/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  f064b4723300c2ac:
+  7c480b6957734bad:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/main.yaml
+      url: '{CATALOG_DIR}/HALO/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  87df149b116215c1:
+  a710f860bb1d609b:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Humpback/main.yaml
+      url: '{CATALOG_DIR}/Humpback/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  f8083ce8ec01413d:
+  30af10c365acb22f:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/IFM/IFM03.yaml
+      url: '{CATALOG_DIR}/IFM/IFM03.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  d5645de02b3c98e8:
+  396635572945320c:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/IFM/IFM09.yaml
+      url: '{CATALOG_DIR}/IFM/IFM09.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  0b78515f532f3c5c:
+  9d4ed6867cd31513:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/IFM/IFM12.yaml
+      url: '{CATALOG_DIR}/IFM/IFM12.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  2bafb8969ed94d63:
+  8b11743062834703:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Kracken/main.yaml
+      url: '{CATALOG_DIR}/Kracken/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  deceae4a77421a92:
+  50febfe65545ac93:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Melonhead/main.yaml
+      url: '{CATALOG_DIR}/Melonhead/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  d26298a22e9d32ca:
+  c5f8233bffdfdf6e:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/MPCK/mini-MPCK.yaml
+      url: '{CATALOG_DIR}/MPCK/mini-MPCK.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  fda6aab15789b01c:
+  0d2ab6d7fb93a933:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/MPCK/MPCK-plus.yaml
+      url: '{CATALOG_DIR}/MPCK/MPCK-plus.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  3d7747c42b462dbf:
+  aaf9b428244aeea1:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/MS-Merian/main.yaml
+      url: '{CATALOG_DIR}/MS-Merian/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  ed7d65f7131e8453:
+  a208f909df41bc7b:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/NTAS/main.yaml
+      url: '{CATALOG_DIR}/NTAS/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  aadebcbe3cb02ff7:
+  cbceaed438848d3b:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Omura/main.yaml
+      url: '{CATALOG_DIR}/Omura/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  028876abb4ec81a4:
+  8fa1d3163c814f33:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/P3/main.yaml
+      url: '{CATALOG_DIR}/P3/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  4481909b7cc44a87:
+  3c1c20a98b9d7bf1:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/QuadCopter/main.yaml
+      url: '{CATALOG_DIR}/QuadCopter/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  2d1ce331b3d415e1:
+  2fea650fe5405ec2:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/RonBrown/main.yaml
+      url: '{CATALOG_DIR}/RonBrown/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  152ce9807778ca9a:
+  cd70dad7565846b6:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SD/SD-1026.yaml
+      url: '{CATALOG_DIR}/SD/SD-1026.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  f80cc218fa0fa9e0:
+  ead85e0b76e2b09d:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SD/SD-1060.yaml
+      url: '{CATALOG_DIR}/SD/SD-1060.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  e552812e35ef5390:
+  9628abaaddd3a82f:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SD/SD-1061.yaml
+      url: '{CATALOG_DIR}/SD/SD-1061.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  3d957faf04c1bdc5:
+  8da1acbe5b99c4a1:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SD/SD-1063.yaml
+      url: '{CATALOG_DIR}/SD/SD-1063.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  6f8789407caed36e:
+  f67a7e40bcc74248:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SD/SD-1064.yaml
+      url: '{CATALOG_DIR}/SD/SD-1064.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  dfaf39a8cb4c2c46:
+  0aeeaec2cd905039:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Skywalker/Skywalker07.yaml
+      url: '{CATALOG_DIR}/Skywalker/Skywalker07.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  2f392dc141e92738:
+  6bcf11821921b732:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Skywalker/Skywalker10.yaml
+      url: '{CATALOG_DIR}/Skywalker/Skywalker10.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  51af721d18baeaa1:
+  0269e5a54cf63f62:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Skywalker/Skywalker12.yaml
+      url: '{CATALOG_DIR}/Skywalker/Skywalker12.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  cab8ca6cb10d18e4:
+  333243408d3cb01f:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-B-4101696.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-B-4101696.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  91e7fb5a01998fb2:
+  aa6bbdd77698843f:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-B-4101697.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-B-4101697.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  90a6669fd84b45ff:
+  9c0dc0ac6994eeb4:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-B-4101698.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-B-4101698.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  ac877765b7f67a50:
+  d7b6959271732ee1:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-B-4101699.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-B-4101699.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  a04e5b0710f3ca58:
+  b3b3845e18394a99:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-B-4101780.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-B-4101780.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  dc4a278d97d61abd:
+  245480a5424cb082:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BRST-4402505.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BRST-4402505.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  e456642a6f06622d:
+  4ce9a74457a48cc0:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BRST-4402506.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BRST-4402506.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  34dc3263907e6c49:
+  e3a667ad1375f0a3:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BRST-4402507.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BRST-4402507.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  dec0cf3b8c692194:
+  eedac93706605181:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BRST-4402508.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BRST-4402508.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  7092c0a3a6eff19d:
+  d8eb4598d5b1c5e0:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BRST-6203717.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BRST-6203717.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  81cd964f5181550f:
+  cf836cdce482dddf:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BS-4101757.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BS-4101757.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  3852f2cf84df4a65:
+  db19cd81c3cff3e4:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BS-4101758.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BS-4101758.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  4b62ce3b830770dd:
+  b99e1ac90b0e3bb4:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BSW-3101569.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BSW-3101569.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  813d10c2c9be9e07:
+  5742254d472615c6:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BSW-3101570.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BSW-3101570.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  20a1476a63b8482b:
+  4d1e4c5903841d77:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BSW-3101571.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BSW-3101571.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  31f94df146d22d29:
+  a78fbefdfad5beda:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BSW-3101572.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BSW-3101572.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  110207a852046337:
+  fe6e52f0903234e9:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BSW-3101573.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BSW-3101573.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  c83288d65c33b1ab:
+  4b0e1f61e8bf74ea:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BSW-3101574.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BSW-3101574.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  e523de949d1e9e06:
+  cde7b3b588b89d45:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BSW-3101575.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BSW-3101575.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  7446da7757feeedd:
+  444d79e749ec4b83:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BSW-3101576.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BSW-3101576.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  7b406808010dce2d:
+  96a661425b32e66a:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BSW-3101577.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BSW-3101577.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  43094e3c6118346b:
+  34ba09ef03f5e14e:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SVP/SVP-BSW-3101578.yaml
+      url: '{CATALOG_DIR}/SVP/SVP-BSW-3101578.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  7417fcb8d71cbf3a:
+  9167f2a0661ee0d0:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SWIFT/SWIFT16.yaml
+      url: '{CATALOG_DIR}/SWIFT/SWIFT16.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  4bc05ea4e344b168:
+  0b7e11546f5f55be:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SWIFT/SWIFT17.yaml
+      url: '{CATALOG_DIR}/SWIFT/SWIFT17.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  2fa9f4cc3042c615:
+  6c5210d8c337611f:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SWIFT/SWIFT22.yaml
+      url: '{CATALOG_DIR}/SWIFT/SWIFT22.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  9cb4227f6a0e06a5:
+  ce14793e26073258:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SWIFT/SWIFT23.yaml
+      url: '{CATALOG_DIR}/SWIFT/SWIFT23.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  2cf7228d6dacd8ec:
+  841415de371ff4b6:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SWIFT/SWIFT24.yaml
+      url: '{CATALOG_DIR}/SWIFT/SWIFT24.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  aaf5c534e4403a03:
+  bc492950c317e506:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/SWIFT/SWIFT25.yaml
+      url: '{CATALOG_DIR}/SWIFT/SWIFT25.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  23bbbab70a620e00:
+  bec2909c2c0d70a0:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/TO/main.yaml
+      url: '{CATALOG_DIR}/TO/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  a84ef875bc744651:
+  68c01d76d00fce50:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/WG/WG245.yaml
+      url: '{CATALOG_DIR}/WG/WG245.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  a7a942dfe1e7c0f1:
+  c65c6e3b904022ee:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/WG/WG247.yaml
+      url: '{CATALOG_DIR}/WG/WG247.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  96e752e611a658a9:
+  5cbc53a2a03427a0:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/C3ONTEXT/C3ONTEXT.yaml
+      url: '{CATALOG_DIR}/C3ONTEXT/C3ONTEXT.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  '8859959374826707':
+  2da9b7e556c7cc95:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/dropsondes.yaml
+      url: '{CATALOG_DIR}/dropsondes.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  0b2066f166dc3a4f:
+  aff6790cc0b36ff9:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/satellites/main.yaml
+      url: '{CATALOG_DIR}/satellites/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  035e7638860ff142:
+  915c5101376f38af:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/main.yaml
+      url: '{CATALOG_DIR}/Simulations/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  32cca34fd63b3ccf:
+  07f5d623d525712b:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/radiative_profiles.yml
+      url: '{CATALOG_DIR}/radiative_profiles.yml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  bf967240983fa1a6:
+  013b4874abf0a088:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Meteor/main.yaml
+      url: '{CATALOG_DIR}/Meteor/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -478,7 +478,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(149fd4c9d68fcdd5)}'
+      - '{data(1a203a9ef7c10dde)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -487,7 +487,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(f49d3025273022b9)}'
+      - '{data(4028bf71e3c7a941)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -496,7 +496,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(d508b94000820b88)}'
+      - '{data(83a1ddbf7dbd9c51)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -505,7 +505,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(a52d186fc1559b4a)}'
+      - '{data(bcfb16219b6229da)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -514,7 +514,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(831308cb3f2e17a4)}'
+      - '{data(3c1146860482539e)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -523,7 +523,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(85f85643c011acf3)}'
+      - '{data(18910b93c260eb60)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -532,7 +532,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(e81deebdb7aaa47b)}'
+      - '{data(1e44b4ba347c80ce)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -541,7 +541,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(f064b4723300c2ac)}'
+      - '{data(7c480b6957734bad)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -550,7 +550,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(87df149b116215c1)}'
+      - '{data(a710f860bb1d609b)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -559,7 +559,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(f8083ce8ec01413d)}'
+      - '{data(30af10c365acb22f)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -568,7 +568,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(d5645de02b3c98e8)}'
+      - '{data(396635572945320c)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -577,7 +577,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(0b78515f532f3c5c)}'
+      - '{data(9d4ed6867cd31513)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -586,7 +586,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(2bafb8969ed94d63)}'
+      - '{data(8b11743062834703)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -595,7 +595,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(deceae4a77421a92)}'
+      - '{data(50febfe65545ac93)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -604,7 +604,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(d26298a22e9d32ca)}'
+      - '{data(c5f8233bffdfdf6e)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -613,7 +613,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(fda6aab15789b01c)}'
+      - '{data(0d2ab6d7fb93a933)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -622,7 +622,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(3d7747c42b462dbf)}'
+      - '{data(aaf9b428244aeea1)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -631,7 +631,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(ed7d65f7131e8453)}'
+      - '{data(a208f909df41bc7b)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -640,7 +640,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(aadebcbe3cb02ff7)}'
+      - '{data(cbceaed438848d3b)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -649,7 +649,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(028876abb4ec81a4)}'
+      - '{data(8fa1d3163c814f33)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -658,7 +658,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(4481909b7cc44a87)}'
+      - '{data(3c1c20a98b9d7bf1)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -667,7 +667,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(2d1ce331b3d415e1)}'
+      - '{data(2fea650fe5405ec2)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -676,7 +676,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(152ce9807778ca9a)}'
+      - '{data(cd70dad7565846b6)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -685,7 +685,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(f80cc218fa0fa9e0)}'
+      - '{data(ead85e0b76e2b09d)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -694,7 +694,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(e552812e35ef5390)}'
+      - '{data(9628abaaddd3a82f)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -703,7 +703,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(3d957faf04c1bdc5)}'
+      - '{data(8da1acbe5b99c4a1)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -712,7 +712,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(6f8789407caed36e)}'
+      - '{data(f67a7e40bcc74248)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -721,7 +721,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(dfaf39a8cb4c2c46)}'
+      - '{data(0aeeaec2cd905039)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -730,7 +730,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(2f392dc141e92738)}'
+      - '{data(6bcf11821921b732)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -739,7 +739,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(51af721d18baeaa1)}'
+      - '{data(0269e5a54cf63f62)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -748,7 +748,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(cab8ca6cb10d18e4)}'
+      - '{data(333243408d3cb01f)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -757,7 +757,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(91e7fb5a01998fb2)}'
+      - '{data(aa6bbdd77698843f)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -766,7 +766,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(90a6669fd84b45ff)}'
+      - '{data(9c0dc0ac6994eeb4)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -775,7 +775,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(ac877765b7f67a50)}'
+      - '{data(d7b6959271732ee1)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -784,7 +784,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(a04e5b0710f3ca58)}'
+      - '{data(b3b3845e18394a99)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -793,7 +793,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(dc4a278d97d61abd)}'
+      - '{data(245480a5424cb082)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -802,7 +802,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(e456642a6f06622d)}'
+      - '{data(4ce9a74457a48cc0)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -811,7 +811,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(34dc3263907e6c49)}'
+      - '{data(e3a667ad1375f0a3)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -820,7 +820,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(dec0cf3b8c692194)}'
+      - '{data(eedac93706605181)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -829,7 +829,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(7092c0a3a6eff19d)}'
+      - '{data(d8eb4598d5b1c5e0)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -838,7 +838,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(81cd964f5181550f)}'
+      - '{data(cf836cdce482dddf)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -847,7 +847,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(3852f2cf84df4a65)}'
+      - '{data(db19cd81c3cff3e4)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -856,7 +856,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(4b62ce3b830770dd)}'
+      - '{data(b99e1ac90b0e3bb4)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -865,7 +865,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(813d10c2c9be9e07)}'
+      - '{data(5742254d472615c6)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -874,7 +874,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(20a1476a63b8482b)}'
+      - '{data(4d1e4c5903841d77)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -883,7 +883,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(31f94df146d22d29)}'
+      - '{data(a78fbefdfad5beda)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -892,7 +892,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(110207a852046337)}'
+      - '{data(fe6e52f0903234e9)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -901,7 +901,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(c83288d65c33b1ab)}'
+      - '{data(4b0e1f61e8bf74ea)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -910,7 +910,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(e523de949d1e9e06)}'
+      - '{data(cde7b3b588b89d45)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -919,7 +919,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(7446da7757feeedd)}'
+      - '{data(444d79e749ec4b83)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -928,7 +928,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(7b406808010dce2d)}'
+      - '{data(96a661425b32e66a)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -937,7 +937,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(43094e3c6118346b)}'
+      - '{data(34ba09ef03f5e14e)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -946,7 +946,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(7417fcb8d71cbf3a)}'
+      - '{data(9167f2a0661ee0d0)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -955,7 +955,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(4bc05ea4e344b168)}'
+      - '{data(0b7e11546f5f55be)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -964,7 +964,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(2fa9f4cc3042c615)}'
+      - '{data(6c5210d8c337611f)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -973,7 +973,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(9cb4227f6a0e06a5)}'
+      - '{data(ce14793e26073258)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -982,7 +982,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(2cf7228d6dacd8ec)}'
+      - '{data(841415de371ff4b6)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -991,7 +991,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(aaf5c534e4403a03)}'
+      - '{data(bc492950c317e506)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -1000,7 +1000,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(23bbbab70a620e00)}'
+      - '{data(bec2909c2c0d70a0)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -1009,7 +1009,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(a84ef875bc744651)}'
+      - '{data(68c01d76d00fce50)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -1018,7 +1018,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(a7a942dfe1e7c0f1)}'
+      - '{data(c65c6e3b904022ee)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -1027,7 +1027,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(96e752e611a658a9)}'
+      - '{data(5cbc53a2a03427a0)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -1036,7 +1036,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(8859959374826707)}'
+      - '{data(2da9b7e556c7cc95)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -1045,7 +1045,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(0b2066f166dc3a4f)}'
+      - '{data(aff6790cc0b36ff9)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -1054,7 +1054,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(035e7638860ff142)}'
+      - '{data(915c5101376f38af)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -1063,7 +1063,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(32cca34fd63b3ccf)}'
+      - '{data(07f5d623d525712b)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -1072,7 +1072,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(bf967240983fa1a6)}'
+      - '{data(013b4874abf0a088)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

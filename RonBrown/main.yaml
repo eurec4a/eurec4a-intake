@@ -3,66 +3,66 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  fcfa51fc94fce12a:
+  ae99118e63593007:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/RonBrown/atmos-chem.yaml
+      url: '{CATALOG_DIR}/atmos-chem.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  e00aee4145370551:
+  5808b982b67af263:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/RonBrown/ceilometer.yaml
+      url: '{CATALOG_DIR}/ceilometer.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  52af880d771e4b93:
+  b936bc1f86e1b7fd:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/RonBrown/disdrometer.yaml
+      url: '{CATALOG_DIR}/disdrometer.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  d99499f75f84346e:
+  eb685ce530b665c7:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/RonBrown/doppler-lidar.yaml
+      url: '{CATALOG_DIR}/doppler-lidar.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  3cc4add3026e4d69:
+  a60480c09d9c8d60:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/RonBrown/isotope-analyzer.yaml
+      url: '{CATALOG_DIR}/isotope-analyzer.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  271514eaffb2a07d:
+  115a0eecd87cca61:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/RonBrown/MAERI.yaml
+      url: '{CATALOG_DIR}/MAERI.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  e6c4bada172ac2f0:
+  34e62a04a434155f:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/RonBrown/nav-met-sea-flux.yaml
+      url: '{CATALOG_DIR}/nav-met-sea-flux.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  c9b8bc14ddbafd99:
+  55d760d3e96a39ac:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/RonBrown/ocean_profiles.yaml
+      url: '{CATALOG_DIR}/ocean_profiles.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  16b5d65451643383:
+  63f2ba1d03ac8b8d:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/RonBrown/ROSR.yaml
+      url: '{CATALOG_DIR}/ROSR.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -73,10 +73,10 @@ data:
       options: {}
     metadata: {}
     user_parameters: {}
-  8ddadc8444109026:
+  9c6b69b28cf99c97:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/RonBrown/w-band-radar.yaml
+      url: '{CATALOG_DIR}/w-band-radar.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -85,7 +85,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(fcfa51fc94fce12a)}'
+      - '{data(ae99118e63593007)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -94,7 +94,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(e00aee4145370551)}'
+      - '{data(5808b982b67af263)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -104,7 +104,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(52af880d771e4b93)}'
+      - '{data(b936bc1f86e1b7fd)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -114,7 +114,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(d99499f75f84346e)}'
+      - '{data(eb685ce530b665c7)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -124,7 +124,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(3cc4add3026e4d69)}'
+      - '{data(a60480c09d9c8d60)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -133,7 +133,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(271514eaffb2a07d)}'
+      - '{data(115a0eecd87cca61)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -143,7 +143,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(e6c4bada172ac2f0)}'
+      - '{data(34e62a04a434155f)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -152,7 +152,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(c9b8bc14ddbafd99)}'
+      - '{data(55d760d3e96a39ac)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -162,7 +162,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(16b5d65451643383)}'
+      - '{data(63f2ba1d03ac8b8d)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -184,7 +184,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(8ddadc8444109026)}'
+      - '{data(9c6b69b28cf99c97)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

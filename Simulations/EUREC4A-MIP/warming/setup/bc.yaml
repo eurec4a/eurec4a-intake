@@ -3,10 +3,10 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  8d5068bcc24bf091:
+  fc91abf52fd2c0fa:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/EUREC4A-MIP/warming/setup/deltas.yaml
+      url: '{CATALOG_DIR}/deltas.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -18,10 +18,10 @@ data:
       root: ''
     metadata: {}
     user_parameters: {}
-  8a6c89b99a774de5:
+  63ab004b4070c8dc:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/EUREC4A-MIP/warming/setup/cosmo.yaml
+      url: '{CATALOG_DIR}/cosmo.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -30,7 +30,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(8d5068bcc24bf091)}'
+      - '{data(fc91abf52fd2c0fa)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -50,7 +50,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(8a6c89b99a774de5)}'
+      - '{data(63ab004b4070c8dc)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

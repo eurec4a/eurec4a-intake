@@ -3,10 +3,10 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  a5daa25781e568d8:
+  4e7954623c52529e:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/barbados/BCO/bco.yaml
+      url: '{CATALOG_DIR}/BCO/bco.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -15,7 +15,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(a5daa25781e568d8)}'
+      - '{data(4e7954623c52529e)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

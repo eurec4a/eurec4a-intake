@@ -3,17 +3,17 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  d2a4d10a180dfa28:
+  89276b1cc7d1703b:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/BAHAMAS_QL.yaml
+      url: '{CATALOG_DIR}/BAHAMAS_QL.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
-  12b1688cde41f04c:
+  be93da16052141ef:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/HALO/BAHAMAS_PositionAttitude.yaml
+      url: '{CATALOG_DIR}/BAHAMAS_PositionAttitude.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -22,7 +22,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(d2a4d10a180dfa28)}'
+      - '{data(89276b1cc7d1703b)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -31,7 +31,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(12b1688cde41f04c)}'
+      - '{data(be93da16052141ef)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

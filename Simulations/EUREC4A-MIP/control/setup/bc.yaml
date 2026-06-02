@@ -11,10 +11,10 @@ data:
       root: ''
     metadata: {}
     user_parameters: {}
-  067e402f9422c39d:
+  63ab004b4070c8dc:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/EUREC4A-MIP/control/setup/cosmo.yaml
+      url: '{CATALOG_DIR}/cosmo.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -34,7 +34,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(067e402f9422c39d)}'
+      - '{data(63ab004b4070c8dc)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

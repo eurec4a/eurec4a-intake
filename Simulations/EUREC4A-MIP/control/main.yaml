@@ -3,10 +3,10 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  fb746512b8b80702:
+  a8d8bcbae1309b22:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/EUREC4A-MIP/control/setup/main.yaml
+      url: '{CATALOG_DIR}/setup/main.yaml'
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -15,7 +15,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(fb746512b8b80702)}'
+      - '{data(a8d8bcbae1309b22)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
