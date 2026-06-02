@@ -3,10 +3,10 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  f27127aa2bab2e7d:
+  13614b1bc1580b6a:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/botany_dx100m.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/DALES/botany_dx100m.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -15,7 +15,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(f27127aa2bab2e7d)}'
+      - '{data(13614b1bc1580b6a)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

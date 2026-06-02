@@ -3,31 +3,31 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  bb8caeba758fd184:
+  b47080c6a35abc17:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/ICON/main.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/ICON/main.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
-  b0941d372b8283fd:
+  62d49a7fa8140faa:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/DALES/main.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/DALES/main.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
-  a889baa4f080336b:
+  f40769fa9e763869:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/grids.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/grids.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
-  96ac972d80af28fc:
+  a41e55a39c1eb90a:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/EUREC4A-MIP/main.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/EUREC4A-MIP/main.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -36,7 +36,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(bb8caeba758fd184)}'
+      - '{data(b47080c6a35abc17)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -45,7 +45,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(b0941d372b8283fd)}'
+      - '{data(62d49a7fa8140faa)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -54,7 +54,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(a889baa4f080336b)}'
+      - '{data(f40769fa9e763869)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -63,7 +63,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(96ac972d80af28fc)}'
+      - '{data(a41e55a39c1eb90a)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

@@ -3,10 +3,10 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  9fb3560f8d601db9:
+  ea83bc489121f1e8:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/LIMRAD94.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Meteor/LIMRAD94.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -36,7 +36,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(9fb3560f8d601db9)}'
+      - '{data(ea83bc489121f1e8)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

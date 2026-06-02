@@ -3,10 +3,10 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  8f77ec2d060cf0ca:
+  1282ed3468574af3:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/MRR_PRO.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/MS-Merian/MRR_PRO.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -17,10 +17,10 @@ data:
       options: {}
     metadata: {}
     user_parameters: {}
-  95af3a1cb4b7a61a:
+  3524a0d9b381c6ec:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/FMCW94_RPG.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/MS-Merian/FMCW94_RPG.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -29,7 +29,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(8f77ec2d060cf0ca)}'
+      - '{data(1282ed3468574af3)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -51,7 +51,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(95af3a1cb4b7a61a)}'
+      - '{data(3524a0d9b381c6ec)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

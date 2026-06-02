@@ -3,24 +3,24 @@ metadata: {}
 user_parameters: {}
 aliases: {}
 data:
-  a248aa60561f32e5:
+  2d29795cfbdf5288:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/LES_CampaignDomain_highCCN.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/ICON/LES_CampaignDomain_highCCN.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
-  e7fcea2485e14238:
+  7a1ba58020d0a820:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/LES_CampaignDomain_control.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/ICON/LES_CampaignDomain_control.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
-  291c21067b57d8c2:
+  79f271b3e088237c:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/SRM.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/Simulations/ICON/SRM.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -29,7 +29,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(a248aa60561f32e5)}'
+      - '{data(2d29795cfbdf5288)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -39,7 +39,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(e7fcea2485e14238)}'
+      - '{data(7a1ba58020d0a820)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
@@ -49,7 +49,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(291c21067b57d8c2)}'
+      - '{data(79f271b3e088237c)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:

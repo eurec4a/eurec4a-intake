@@ -67,7 +67,12 @@ def _v1_param_to_up(param: dict) -> dict:
     return up
 
 
-def _convert_source(name: str, src: dict) -> tuple[dict, dict]:
+def _resolve_catalog_dir(url: str, catalog_dir: Path) -> str:
+    """Replace {{CATALOG_DIR}} with the actual catalog directory path."""
+    return url.replace("{{CATALOG_DIR}}", str(catalog_dir)).replace("{{ CATALOG_DIR }}", str(catalog_dir))
+
+
+def _convert_source(name: str, src: dict, catalog_dir: Path | None = None) -> tuple[dict, dict]:
     """
     Convert a single v1 source entry.
     Returns (data_entries_dict, reader_entry_dict).
@@ -87,7 +92,7 @@ def _convert_source(name: str, src: dict) -> tuple[dict, dict]:
     data_entries = {}
 
     if driver in OPENDAP_DRIVERS:
-        url = args.get("urlpath", "")
+        url = _resolve_catalog_dir(args.get("urlpath", ""), catalog_dir) if catalog_dir else args.get("urlpath", "")
         data_kwargs = {"url": url, "options": {}}
         tok, data_entry = _make_data_entry(OPENDAP_DATATYPE, data_kwargs)
         data_entries[tok] = data_entry
@@ -105,7 +110,7 @@ def _convert_source(name: str, src: dict) -> tuple[dict, dict]:
         }
 
     elif driver in ZARR_DRIVERS:
-        url = args.get("urlpath", "")
+        url = _resolve_catalog_dir(args.get("urlpath", ""), catalog_dir) if catalog_dir else args.get("urlpath", "")
         consolidated = args.get("consolidated", None)
         data_kwargs: dict = {"url": url, "storage_options": None, "root": ""}
         tok, data_entry = _make_data_entry(ZARR_DATATYPE, data_kwargs)
@@ -124,7 +129,7 @@ def _convert_source(name: str, src: dict) -> tuple[dict, dict]:
         }
 
     elif driver in NETCDF_DRIVERS:
-        url = args.get("urlpath", "")
+        url = _resolve_catalog_dir(args.get("urlpath", ""), catalog_dir) if catalog_dir else args.get("urlpath", "")
         data_kwargs = {"url": url, "storage_options": None}
         tok, data_entry = _make_data_entry(NETCDF_DATATYPE, data_kwargs)
         data_entries[tok] = data_entry
@@ -141,6 +146,8 @@ def _convert_source(name: str, src: dict) -> tuple[dict, dict]:
 
     elif driver in YAML_CAT_DRIVERS:
         path = args.get("path", args.get("urlpath", ""))
+        if catalog_dir:
+            path = _resolve_catalog_dir(path, catalog_dir)
         data_kwargs = {"url": path, "storage_options": None}
         tok, data_entry = _make_data_entry(YAML_DATATYPE, data_kwargs)
         data_entries[tok] = data_entry
@@ -156,9 +163,12 @@ def _convert_source(name: str, src: dict) -> tuple[dict, dict]:
     elif driver in JSON_DRIVERS:
         # Keep json as a passthrough note — intake 2 has no direct json reader
         # that matches v1 semantics; emit a comment-style placeholder entry
+        json_url = args.get("urlpath", args.get("path", ""))
+        if catalog_dir:
+            json_url = _resolve_catalog_dir(json_url, catalog_dir)
         reader_entry = {
             "reader": "intake.readers.readers:JSONReader",
-            "kwargs": {"url": args.get("urlpath", args.get("path", ""))},
+            "kwargs": {"url": json_url},
             "output_instance": "builtins:dict",
             "user_parameters": user_parameters,
             "metadata": {"description": description, **metadata},
@@ -204,7 +214,7 @@ def migrate_file(path: Path, dry_run: bool = False) -> bool:
     for name, src in sources.items():
         if not isinstance(src, dict):
             continue
-        data_entries, reader_entry = _convert_source(name, src)
+        data_entries, reader_entry = _convert_source(name, src, catalog_dir=path.parent)
         all_data.update(data_entries)
         all_entries[name] = reader_entry
 

@@ -10,10 +10,10 @@ data:
       options: {}
     metadata: {}
     user_parameters: {}
-  2449404c2d6178df:
+  3f8402f96cec51c9:
     datatype: intake.readers.datatypes:YAMLFile
     kwargs:
-      url: '{{CATALOG_DIR}}/isotope-analyzer.yaml'
+      url: /Users/haukeschulz/Documents/GitHub/eurec4a-intake/ATR/isotope-analyzer.yaml
       storage_options: null
     metadata: {}
     user_parameters: {}
@@ -35,7 +35,7 @@ entries:
     reader: intake.readers.readers:YAMLCatalogReader
     kwargs:
       args:
-      - '{data(2449404c2d6178df)}'
+      - '{data(3f8402f96cec51c9)}'
     output_instance: intake.readers.entry:Catalog
     user_parameters: {}
     metadata:
