@@ -1,108 +1,240 @@
-plugins:
-  source:
-    - module: intake_xarray
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  0023059095d0d495:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_22/EUREC4A_HALO_WALES_adepg_20200122a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ca21b28fcdddfd94:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_24/EUREC4A_HALO_WALES_adepg_20200124a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ba149bc5f22cb303:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_26/EUREC4A_HALO_WALES_adepg_20200126a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  cc857c5b63c0b6d8:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_28/EUREC4A_HALO_WALES_adepg_20200128a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c6f6a0fbf424f4de:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_30/EUREC4A_HALO_WALES_adepg_20200130a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  481161c09d18e3c4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_31/EUREC4A_HALO_WALES_adepg_20200131a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a6fc6a4fbdda5f78:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_02/EUREC4A_HALO_WALES_adepg_20200202a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  41e47a908950a311:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_05/EUREC4A_HALO_WALES_adepg_20200205a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  08d8373f8a9da5cf:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_07/EUREC4A_HALO_WALES_adepg_20200207a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a6506ffa5e5011a3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_09/EUREC4A_HALO_WALES_adepg_20200209a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e45016d5f96b6aa7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_11/EUREC4A_HALO_WALES_adepg_20200211a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9c76f6e1ae6f5e1f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_13/EUREC4A_HALO_WALES_adepg_20200213a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f75a95cc21eb5bda:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_15/EUREC4A_HALO_WALES_adepg_20200215a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0122:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_22/EUREC4A_HALO_WALES_adepg_20200122a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0023059095d0d495)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0124:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_24/EUREC4A_HALO_WALES_adepg_20200124a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ca21b28fcdddfd94)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0126:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_26/EUREC4A_HALO_WALES_adepg_20200126a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ba149bc5f22cb303)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0128:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_28/EUREC4A_HALO_WALES_adepg_20200128a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(cc857c5b63c0b6d8)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0130:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_30/EUREC4A_HALO_WALES_adepg_20200130a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c6f6a0fbf424f4de)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0131:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_31/EUREC4A_HALO_WALES_adepg_20200131a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(481161c09d18e3c4)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0202:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_02/EUREC4A_HALO_WALES_adepg_20200202a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a6fc6a4fbdda5f78)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0205:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_05/EUREC4A_HALO_WALES_adepg_20200205a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(41e47a908950a311)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0207:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_07/EUREC4A_HALO_WALES_adepg_20200207a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(08d8373f8a9da5cf)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0209:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_09/EUREC4A_HALO_WALES_adepg_20200209a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a6506ffa5e5011a3)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0211:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_11/EUREC4A_HALO_WALES_adepg_20200211a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e45016d5f96b6aa7)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0213:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_13/EUREC4A_HALO_WALES_adepg_20200213a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9c76f6e1ae6f5e1f)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.
   HALO-0215:
-    description: WALES-Lidar Particle Depolarisation at 532 nm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_15/EUREC4A_HALO_WALES_adepg_20200215a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f75a95cc21eb5bda)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Particle Depolarisation at 532 nm.

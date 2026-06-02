@@ -1,20 +1,42 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  e1a7701675c9228e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/doppler_lidar/Level_2/EUREC4A_ATOMIC_RonBrown_lidar_microDop02_lev2_windProfs_RTR_20200107_2100-20200211_2300.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  fa79cb272c71e74e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/doppler_lidar/Level_2/EUREC4A_ATOMIC_RonBrown_lidar_microDop02_lev2_velStats_20200107_0730-20200212_1829.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   windProfs:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e1a7701675c9228e)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/doppler_lidar/Level_2/EUREC4A_ATOMIC_RonBrown_lidar_microDop02_lev2_windProfs_RTR_20200107_2100-20200211_2300.nc
-    driver: opendap
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   velStats:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(fa79cb272c71e74e)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/doppler_lidar/Level_2/EUREC4A_ATOMIC_RonBrown_lidar_microDop02_lev2_velStats_20200107_0730-20200212_1829.nc
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''

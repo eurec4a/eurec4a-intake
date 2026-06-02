@@ -1,53 +1,128 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  c9ece5de8f3a2ee0:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_profiles.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  0beca7b443a5818b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_timeseries.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  ff7f162fdddb203e:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_2D/botany_1536_2D.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  41c58f347f67198e:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_3D/botany_1536_3D.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  e19c4254bdaedfb3:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_cross_xy/botany_1536_cross_xy.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  7b978187ac769bc7:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_radiation/botany_1536_radiation.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+entries:
   profiles:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c9ece5de8f3a2ee0)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_profiles.zarr
-    description: Profiles, horizontally averaged
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Profiles, horizontally averaged
   timeseries:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0beca7b443a5818b)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_timeseries.zarr
-    description: Timeseries of domain means
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Timeseries of domain means
   2D:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ff7f162fdddb203e)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_2D/botany_1536_2D.zarr
-    description: 2D fields
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: 2D fields
   3D:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(41c58f347f67198e)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_3D/botany_1536_3D.zarr
-    description: 3D fields
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: 3D fields
   cross_xy:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e19c4254bdaedfb3)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_cross_xy/botany_1536_cross_xy.zarr
-    description: XY cross-sections
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: XY cross-sections
   radiation:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7b978187ac769bc7)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_radiation/botany_1536_radiation.zarr
-    description: Radiation fields
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Radiation fields
   parameters:
-    args:
-      urlpath: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_params_records.json.zip
-      compression: zip
-    description: Parameters of experiments
-    driver: json
+    reader: intake.readers.readers:JSONReader
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_params_records.json.zip
+    output_instance: builtins:dict
+    user_parameters: {}
+    metadata:
+      description: Parameters of experiments

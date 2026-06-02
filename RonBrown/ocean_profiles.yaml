@@ -1,31 +1,62 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  fa8614e42a126e52:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ADCP/EUREC4A_ATOMIC_RonBrown_ADCP_20200107-20200212_v1.2.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  183ae2434b3e22b7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/CTD/EUREC4A_ATOMIC_RonBrown_CTD_v1.3_Level3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e18d4d3d07b9b32d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/UCTD/EUREC4A_ATOMIC_RonBrown_UCTD_20200107-20200212_v1.3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   ADCP:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(fa8614e42a126e52)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ADCP/EUREC4A_ATOMIC_RonBrown_ADCP_20200107-20200212_v1.2.nc
-    description: Vertical profiles of ocean currents
-    driver: opendap
-    
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Vertical profiles of ocean currents
   CTD:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(183ae2434b3e22b7)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/CTD/EUREC4A_ATOMIC_RonBrown_CTD_v1.3_Level3.nc
-    description: Vertical profiles of ocean temperature, salinity, pressure, chlorophyll-a, turbidity, and oxygen from the CTD 
-    driver: opendap    
-    
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Vertical profiles of ocean temperature, salinity, pressure, chlorophyll-a,
+        turbidity, and oxygen from the CTD
   UCTD:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e18d4d3d07b9b32d)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/UCTD/EUREC4A_ATOMIC_RonBrown_UCTD_20200107-20200212_v1.3.nc
-    description: Vertical profiles of ocean temperature and salinity estimated from the underway CTD
-    driver: opendap    
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Vertical profiles of ocean temperature and salinity estimated from
+        the underway CTD

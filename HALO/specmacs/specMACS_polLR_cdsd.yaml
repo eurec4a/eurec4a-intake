@@ -1,1184 +1,2502 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
-
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  730c12185a1164ce:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_bc1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2679bb25a7d87148:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_c1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6a64f8a2d4d8f69e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_c2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e41ef13cafaf501a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  efb68a4044a5b001:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_c4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  aee72cf920f63e7b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_cb2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  df6b2c34081d8e86:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_sl1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8a4e1b88d75816eb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_c2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  08f9af21fac00e7a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  02b646fe175b6c54:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_c4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  01e213c085eed43b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_c5_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  08a1464c381f16a2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_c6_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a2a41139dd946321:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_cb2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  535a62446920c633:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_cb3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  43c65bf14639e8f6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_cb4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ddad8ccb3780921b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_cb5_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  bcc88feb684eb624:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_ll1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4f2ed39ccd9ae235:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_sl1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9f5a7462cc13eaf9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_sl2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6dd2b02ff76135e8:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  580f0ad927b88286:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4117142972c06f47:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9f2ed129c9b49feb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5119d348db69a0c1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c5_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f52c07177628568b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c6_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  98acef23ca4d3fdd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_cb1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  53f1bc8bbcaf8a70:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_cb2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ab8c7c6316c69c1a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_cb3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e43c9aabc2f3b3a1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_cb4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  af9e8fcbe9e927e3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_sl1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8002720a9e8474bb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_sl2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  41ed4a7bcbbdd8d5:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_sl4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3d2953aeb9adbef3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_c1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  dcc527b06ad1068c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_c2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  cd90195f98e81e41:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b0b1d4a31cd68e57:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_c4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  35bac441f7ffbe6f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_cb1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ae7201d7d4a1c222:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_cb2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8efb68681b89db02:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_rct1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1fbdeec2a31857c6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_sl1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  dc04440183836a65:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_sl2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  90c3c04ecee60a61:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  34a99f0717bfafba:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  44a975f68a679360:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl5_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  74d8af4aefb65b3b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl7_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  25cbb6bd6b6bf0d7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl8_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1fdee695c16e7e69:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl9_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a369ae4deebd7735:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_c1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  824fa45701f9279b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_c2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  63adc9b4d65a15b9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  dd947e305a8fe153:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_c4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3dcb222c2f146c99:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_cb1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7b6750d0b66508bb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_cb2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  85755d3ff9f0ac73:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_rct1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e58b1e5834254cda:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_sl1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  785bdf91d11c4674:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_sl2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6ccbca630db09c3e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  883b96226964873d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f0aef196f8c30041:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  258648a11a75cb1c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8956e9f9597878e4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c5_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f7babe2a0089ee79:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c6_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  91395ed1a36095cf:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cb2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9bbc9a737ac9bd65:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cb3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7cc4547ccca53fa4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cb4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6df495e4cb649541:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cl1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  07a9d28b95fde7e2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cl2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6b4057456dfb5c62:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cl3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  25916a8991569faf:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_ct1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b486e09cdabb37cd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_ct2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  885fc9f54c683e5e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_c2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  73d3f25ff63368cc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  526ab70394f18e16:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_c4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6e6cf414b59f2b5d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_c5_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b5897438f4857aed:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_c6_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  0fbbd0122d52b8cf:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_cb2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  527d4ac3d12ed04b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_cb3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  859635578d217518:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_cb4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  03a0f2003d747f08:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_ll1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b7cb2cd24d734aa0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_sl2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7ccdbd677df7202e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_sl3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  28d9dcbc31b2741f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_sl4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c2188b7237102806:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c0334f03ff112391:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5cbffd5d770faa6a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5a94086a412549a4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3129d39d88025b9d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c5_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  29ab06488e3a89af:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c6_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  941db3f53d7a982a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_cb1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7abbf6e3468fc23e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_cb2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5baf4e2aadd9fc55:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_cb3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  229b1635d6797f68:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_cb4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e39c3f2a4e3f02d9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_rct1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5d7da15de46d4ed0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_rcw2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a9bc062d3b76db34:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_sl1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7202dc6e93ce9e6f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_sl2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6a9315c5ed48dfa3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_c2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e6ab100cd00bdb57:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  665db4e2f57c8dd2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_c4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  51ef3c08e95ec09f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_c5_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5199d1fc39883f2b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_c6_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  451c2f95db68e023:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_cb2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8b11373457cb9694:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_cb3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  76f944b90cdbf3b1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_cb4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  cb49b43aca17d6f1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_ll1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7fdb695bbeb5192d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_rct1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  fa136cbfa2a46319:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_rcw2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  025bd588a7987582:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_sl3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  17e566fa316abca6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_c1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2dafec9edc2341fc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_c2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  24a4079a18be44c1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e6c89d07faef2213:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_c4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  95ec1abd442867a6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_c5_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  786bae05ea6afbb4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_cb1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c868f4206ce3b745:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_cb2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3a04bc5bdce7f7de:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_cb3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9094062e5623cf37:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_cb4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a95ca8595bfa4ce3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_sl1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  55442e38643764ec:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ef4ee0305439640e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_c4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5950b086b43b91a6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_c5_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  17d386df403b7483:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_c6_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e4c747fa8c812d82:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_cb3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3307485fa7810bb4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_cb4_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f08c047ab7ef23b6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_ll1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  208c458a360bb8b3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_rcw1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  0d26aa8c6011c5fe:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_sl2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  df5bda2ca6801ac2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200215/EUREC4A_HALO_specMACS-polLR_cdsd_20200215_HALO-0215_c2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  10b3d77e24fa6661:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200215/EUREC4A_HALO_specMACS-polLR_cdsd_20200215_HALO-0215_c3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  374316d74c1be147:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200215/EUREC4A_HALO_specMACS-polLR_cdsd_20200215_HALO-0215_sl1_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  931c782f0ed66271:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200215/EUREC4A_HALO_specMACS-polLR_cdsd_20200215_HALO-0215_sl2_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0122_bc1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for baccardi_calibration 1 (bc1) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_bc1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(730c12185a1164ce)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for baccardi_calibration 1 (bc1) on 2020-01-22
   HALO-0122_c1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 1 (c1) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_c1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2679bb25a7d87148)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 1 (c1) on 2020-01-22
   HALO-0122_c2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 2 (c2) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_c2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6a64f8a2d4d8f69e)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 2 (c2) on 2020-01-22
   HALO-0122_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e41ef13cafaf501a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-01-22
   HALO-0122_c4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 4 (c4) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_c4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(efb68a4044a5b001)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 4 (c4) on 2020-01-22
   HALO-0122_cb2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 2 (cb2) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_cb2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(aee72cf920f63e7b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 2 (cb2) on 2020-01-22
   HALO-0122_sl1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200122/EUREC4A_HALO_specMACS-polLR_cdsd_20200122_HALO-0122_sl1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(df6b2c34081d8e86)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-01-22
   HALO-0124_c2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 2 (c2) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_c2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8a4e1b88d75816eb)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 2 (c2) on 2020-01-24
   HALO-0124_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(08f9af21fac00e7a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-01-24
   HALO-0124_c4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 4 (c4) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_c4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(02b646fe175b6c54)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 4 (c4) on 2020-01-24
   HALO-0124_c5:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 5 (c5) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_c5_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(01e213c085eed43b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 5 (c5) on 2020-01-24
   HALO-0124_c6:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 6 (c6) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_c6_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(08a1464c381f16a2)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 6 (c6) on 2020-01-24
   HALO-0124_cb2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 2 (cb2) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_cb2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a2a41139dd946321)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 2 (cb2) on 2020-01-24
   HALO-0124_cb3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 3 (cb3) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_cb3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(535a62446920c633)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 3 (cb3) on 2020-01-24
   HALO-0124_cb4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 4 (cb4) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_cb4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(43c65bf14639e8f6)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 4 (cb4) on 2020-01-24
   HALO-0124_cb5:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 5 (cb5) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_cb5_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ddad8ccb3780921b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 5 (cb5) on 2020-01-24
   HALO-0124_ll1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for lidar_leg 1 (ll1) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_ll1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bcc88feb684eb624)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for lidar_leg 1 (ll1) on 2020-01-24
   HALO-0124_sl1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_sl1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4f2ed39ccd9ae235)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-01-24
   HALO-0124_sl2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200124/EUREC4A_HALO_specMACS-polLR_cdsd_20200124_HALO-0124_sl2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9f5a7462cc13eaf9)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-01-24
   HALO-0126_c1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 1 (c1) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6dd2b02ff76135e8)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 1 (c1) on 2020-01-26
   HALO-0126_c2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 2 (c2) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(580f0ad927b88286)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 2 (c2) on 2020-01-26
   HALO-0126_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4117142972c06f47)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-01-26
   HALO-0126_c4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 4 (c4) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9f2ed129c9b49feb)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 4 (c4) on 2020-01-26
   HALO-0126_c5:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 5 (c5) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c5_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5119d348db69a0c1)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 5 (c5) on 2020-01-26
   HALO-0126_c6:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 6 (c6) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_c6_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f52c07177628568b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 6 (c6) on 2020-01-26
   HALO-0126_cb1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 1 (cb1) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_cb1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(98acef23ca4d3fdd)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 1 (cb1) on 2020-01-26
   HALO-0126_cb2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 2 (cb2) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_cb2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(53f1bc8bbcaf8a70)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 2 (cb2) on 2020-01-26
   HALO-0126_cb3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 3 (cb3) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_cb3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ab8c7c6316c69c1a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 3 (cb3) on 2020-01-26
   HALO-0126_cb4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 4 (cb4) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_cb4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e43c9aabc2f3b3a1)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 4 (cb4) on 2020-01-26
   HALO-0126_sl1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_sl1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(af9e8fcbe9e927e3)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-01-26
   HALO-0126_sl2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_sl2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8002720a9e8474bb)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-01-26
   HALO-0126_sl4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 4 (sl4) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200126/EUREC4A_HALO_specMACS-polLR_cdsd_20200126_HALO-0126_sl4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(41ed4a7bcbbdd8d5)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 4 (sl4) on 2020-01-26
   HALO-0128_c1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 1 (c1) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_c1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3d2953aeb9adbef3)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 1 (c1) on 2020-01-28
   HALO-0128_c2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 2 (c2) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_c2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(dcc527b06ad1068c)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 2 (c2) on 2020-01-28
   HALO-0128_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(cd90195f98e81e41)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-01-28
   HALO-0128_c4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 4 (c4) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_c4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b0b1d4a31cd68e57)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 4 (c4) on 2020-01-28
   HALO-0128_cb1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 1 (cb1) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_cb1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(35bac441f7ffbe6f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 1 (cb1) on 2020-01-28
   HALO-0128_cb2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 2 (cb2) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_cb2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ae7201d7d4a1c222)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 2 (cb2) on 2020-01-28
   HALO-0128_rct1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for radar_calibration_tilted 1 (rct1) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_rct1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8efb68681b89db02)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for radar_calibration_tilted 1 (rct1)
+        on 2020-01-28
   HALO-0128_sl1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_sl1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1fbdeec2a31857c6)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-01-28
   HALO-0128_sl2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200128/EUREC4A_HALO_specMACS-polLR_cdsd_20200128_HALO-0128_sl2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(dc04440183836a65)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-01-28
   HALO-0130_sl2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(90c3c04ecee60a61)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-01-30
   HALO-0130_sl4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 4 (sl4) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(34a99f0717bfafba)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 4 (sl4) on 2020-01-30
   HALO-0130_sl5:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 5 (sl5) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl5_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(44a975f68a679360)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 5 (sl5) on 2020-01-30
   HALO-0130_sl7:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 7 (sl7) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl7_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(74d8af4aefb65b3b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 7 (sl7) on 2020-01-30
   HALO-0130_sl8:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 8 (sl8) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl8_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(25cbb6bd6b6bf0d7)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 8 (sl8) on 2020-01-30
   HALO-0130_sl9:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 9 (sl9) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200130/EUREC4A_HALO_specMACS-polLR_cdsd_20200130_HALO-0130_sl9_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1fdee695c16e7e69)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 9 (sl9) on 2020-01-30
   HALO-0131_c1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 1 (c1) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_c1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a369ae4deebd7735)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 1 (c1) on 2020-01-31
   HALO-0131_c2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 2 (c2) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_c2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(824fa45701f9279b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 2 (c2) on 2020-01-31
   HALO-0131_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(63adc9b4d65a15b9)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-01-31
   HALO-0131_c4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 4 (c4) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_c4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(dd947e305a8fe153)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 4 (c4) on 2020-01-31
   HALO-0131_cb1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 1 (cb1) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_cb1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3dcb222c2f146c99)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 1 (cb1) on 2020-01-31
   HALO-0131_cb2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 2 (cb2) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_cb2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7b6750d0b66508bb)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 2 (cb2) on 2020-01-31
   HALO-0131_rct1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for radar_calibration_tilted 1 (rct1) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_rct1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(85755d3ff9f0ac73)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for radar_calibration_tilted 1 (rct1)
+        on 2020-01-31
   HALO-0131_sl1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_sl1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e58b1e5834254cda)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-01-31
   HALO-0131_sl2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200131/EUREC4A_HALO_specMACS-polLR_cdsd_20200131_HALO-0131_sl2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(785bdf91d11c4674)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-01-31
   HALO-0202_c1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 1 (c1) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6ccbca630db09c3e)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 1 (c1) on 2020-02-02
   HALO-0202_c2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 2 (c2) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(883b96226964873d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 2 (c2) on 2020-02-02
   HALO-0202_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f0aef196f8c30041)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-02-02
   HALO-0202_c4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 4 (c4) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(258648a11a75cb1c)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 4 (c4) on 2020-02-02
   HALO-0202_c5:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 5 (c5) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c5_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8956e9f9597878e4)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 5 (c5) on 2020-02-02
   HALO-0202_c6:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 6 (c6) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_c6_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f7babe2a0089ee79)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 6 (c6) on 2020-02-02
   HALO-0202_cb2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 2 (cb2) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cb2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(91395ed1a36095cf)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 2 (cb2) on 2020-02-02
   HALO-0202_cb3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cb3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9bbc9a737ac9bd65)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-02
   HALO-0202_cb4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cb4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7cc4547ccca53fa4)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-02
   HALO-0202_cl1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for clover_leg 1 (cl1) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cl1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6df495e4cb649541)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for clover_leg 1 (cl1) on 2020-02-02
   HALO-0202_cl2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for clover_leg 2 (cl2) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cl2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(07a9d28b95fde7e2)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for clover_leg 2 (cl2) on 2020-02-02
   HALO-0202_cl3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for clover_leg 3 (cl3) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_cl3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6b4057456dfb5c62)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for clover_leg 3 (cl3) on 2020-02-02
   HALO-0202_ct1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for clover_turn 1 (ct1) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_ct1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(25916a8991569faf)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for clover_turn 1 (ct1) on 2020-02-02
   HALO-0202_ct2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for clover_turn 2 (ct2) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200202/EUREC4A_HALO_specMACS-polLR_cdsd_20200202_HALO-0202_ct2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b486e09cdabb37cd)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for clover_turn 2 (ct2) on 2020-02-02
   HALO-0205_c2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 2 (c2) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_c2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(885fc9f54c683e5e)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 2 (c2) on 2020-02-05
   HALO-0205_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(73d3f25ff63368cc)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-02-05
   HALO-0205_c4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 4 (c4) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_c4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(526ab70394f18e16)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 4 (c4) on 2020-02-05
   HALO-0205_c5:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 5 (c5) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_c5_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6e6cf414b59f2b5d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 5 (c5) on 2020-02-05
   HALO-0205_c6:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 6 (c6) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_c6_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b5897438f4857aed)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 6 (c6) on 2020-02-05
   HALO-0205_cb2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 2 (cb2) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_cb2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0fbbd0122d52b8cf)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 2 (cb2) on 2020-02-05
   HALO-0205_cb3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_cb3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(527d4ac3d12ed04b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-05
   HALO-0205_cb4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_cb4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(859635578d217518)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-05
   HALO-0205_ll1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for lidar_leg 1 (ll1) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_ll1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(03a0f2003d747f08)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for lidar_leg 1 (ll1) on 2020-02-05
   HALO-0205_sl2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_sl2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b7cb2cd24d734aa0)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-02-05
   HALO-0205_sl3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 3 (sl3) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_sl3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7ccdbd677df7202e)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 3 (sl3) on 2020-02-05
   HALO-0205_sl4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 4 (sl4) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200205/EUREC4A_HALO_specMACS-polLR_cdsd_20200205_HALO-0205_sl4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(28d9dcbc31b2741f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 4 (sl4) on 2020-02-05
   HALO-0207_c1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 1 (c1) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c2188b7237102806)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 1 (c1) on 2020-02-07
   HALO-0207_c2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 2 (c2) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c0334f03ff112391)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 2 (c2) on 2020-02-07
   HALO-0207_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5cbffd5d770faa6a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-02-07
   HALO-0207_c4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 4 (c4) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5a94086a412549a4)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 4 (c4) on 2020-02-07
   HALO-0207_c5:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 5 (c5) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c5_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3129d39d88025b9d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 5 (c5) on 2020-02-07
   HALO-0207_c6:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 6 (c6) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_c6_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(29ab06488e3a89af)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 6 (c6) on 2020-02-07
   HALO-0207_cb1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 1 (cb1) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_cb1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(941db3f53d7a982a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 1 (cb1) on 2020-02-07
   HALO-0207_cb2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 2 (cb2) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_cb2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7abbf6e3468fc23e)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 2 (cb2) on 2020-02-07
   HALO-0207_cb3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_cb3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5baf4e2aadd9fc55)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-07
   HALO-0207_cb4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_cb4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(229b1635d6797f68)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-07
   HALO-0207_rct1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for radar_calibration_tilted 1 (rct1) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_rct1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e39c3f2a4e3f02d9)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for radar_calibration_tilted 1 (rct1)
+        on 2020-02-07
   HALO-0207_rcw2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for radar_calibration_wiggle 2 (rcw2) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_rcw2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5d7da15de46d4ed0)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for radar_calibration_wiggle 2 (rcw2)
+        on 2020-02-07
   HALO-0207_sl1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_sl1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a9bc062d3b76db34)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-02-07
   HALO-0207_sl2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200207/EUREC4A_HALO_specMACS-polLR_cdsd_20200207_HALO-0207_sl2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7202dc6e93ce9e6f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-02-07
   HALO-0209_c2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 2 (c2) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_c2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6a9315c5ed48dfa3)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 2 (c2) on 2020-02-09
   HALO-0209_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e6ab100cd00bdb57)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-02-09
   HALO-0209_c4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 4 (c4) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_c4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(665db4e2f57c8dd2)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 4 (c4) on 2020-02-09
   HALO-0209_c5:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 5 (c5) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_c5_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(51ef3c08e95ec09f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 5 (c5) on 2020-02-09
   HALO-0209_c6:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 6 (c6) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_c6_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5199d1fc39883f2b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 6 (c6) on 2020-02-09
   HALO-0209_cb2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 2 (cb2) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_cb2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(451c2f95db68e023)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 2 (cb2) on 2020-02-09
   HALO-0209_cb3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_cb3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8b11373457cb9694)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-09
   HALO-0209_cb4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_cb4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(76f944b90cdbf3b1)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-09
   HALO-0209_ll1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 1 (ll1) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_ll1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(cb49b43aca17d6f1)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 1 (ll1) on 2020-02-09
   HALO-0209_rct1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for radar_calibration_tilted 1 (rct1) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_rct1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7fdb695bbeb5192d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for radar_calibration_tilted 1 (rct1)
+        on 2020-02-09
   HALO-0209_rcw2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for radar_calibration_wiggle 2 (rcw2) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_rcw2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(fa136cbfa2a46319)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for radar_calibration_wiggle 2 (rcw2)
+        on 2020-02-09
   HALO-0209_sl3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 3 (sl3) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200209/EUREC4A_HALO_specMACS-polLR_cdsd_20200209_HALO-0209_sl3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(025bd588a7987582)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 3 (sl3) on 2020-02-09
   HALO-0211_c1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 1 (c1) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_c1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(17e566fa316abca6)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 1 (c1) on 2020-02-11
   HALO-0211_c2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 2 (c2) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_c2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2dafec9edc2341fc)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 2 (c2) on 2020-02-11
   HALO-0211_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(24a4079a18be44c1)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-02-11
   HALO-0211_c4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 4 (c4) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_c4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e6c89d07faef2213)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 4 (c4) on 2020-02-11
   HALO-0211_c5:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 5 (c5) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_c5_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(95ec1abd442867a6)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 5 (c5) on 2020-02-11
   HALO-0211_cb1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 1 (cb1) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_cb1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(786bae05ea6afbb4)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 1 (cb1) on 2020-02-11
   HALO-0211_cb2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 2 (cb2) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_cb2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c868f4206ce3b745)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 2 (cb2) on 2020-02-11
   HALO-0211_cb3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_cb3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3a04bc5bdce7f7de)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-11
   HALO-0211_cb4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_cb4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9094062e5623cf37)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-11
   HALO-0211_sl1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200211/EUREC4A_HALO_specMACS-polLR_cdsd_20200211_HALO-0211_sl1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a95ca8595bfa4ce3)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-02-11
   HALO-0213_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(55442e38643764ec)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-02-13
   HALO-0213_c4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 4 (c4) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_c4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ef4ee0305439640e)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 4 (c4) on 2020-02-13
   HALO-0213_c5:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 5 (c5) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_c5_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5950b086b43b91a6)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 5 (c5) on 2020-02-13
   HALO-0213_c6:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 6 (c6) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_c6_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(17d386df403b7483)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 6 (c6) on 2020-02-13
   HALO-0213_cb3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_cb3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e4c747fa8c812d82)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 3 (cb3) on 2020-02-13
   HALO-0213_cb4:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_cb4_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3307485fa7810bb4)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle_break 4 (cb4) on 2020-02-13
   HALO-0213_ll1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for lidar_leg 1 (ll1) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_ll1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f08c047ab7ef23b6)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for lidar_leg 1 (ll1) on 2020-02-13
   HALO-0213_rcw1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for radar_calibration_wiggle 1 (rcw1) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_rcw1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(208c458a360bb8b3)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for radar_calibration_wiggle 1 (rcw1)
+        on 2020-02-13
   HALO-0213_sl2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200213/EUREC4A_HALO_specMACS-polLR_cdsd_20200213_HALO-0213_sl2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0d26aa8c6011c5fe)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-02-13
   HALO-0215_c2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 2 (c2) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200215/EUREC4A_HALO_specMACS-polLR_cdsd_20200215_HALO-0215_c2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(df5bda2ca6801ac2)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 2 (c2) on 2020-02-15
   HALO-0215_c3:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for circle 3 (c3) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200215/EUREC4A_HALO_specMACS-polLR_cdsd_20200215_HALO-0215_c3_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(10b3d77e24fa6661)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for circle 3 (c3) on 2020-02-15
   HALO-0215_sl1:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200215/EUREC4A_HALO_specMACS-polLR_cdsd_20200215_HALO-0215_sl1_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(374316d74c1be147)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 1 (sl1) on 2020-02-15
   HALO-0215_sl2:
-    description: Cloud droplet size distribution derived from polarimetric cloudbow measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_DROPLET_SIZE_DISTRIBUTION/20200215/EUREC4A_HALO_specMACS-polLR_cdsd_20200215_HALO-0215_sl2_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(931c782f0ed66271)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud droplet size distribution derived from polarimetric cloudbow
+        measurements of liquid water clouds for straight_leg 2 (sl2) on 2020-02-15

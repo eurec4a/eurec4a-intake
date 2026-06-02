@@ -1,108 +1,240 @@
-plugins:
-  source:
-    - module: intake_xarray
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  98dff057d93975d4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_22/EUREC4A_HALO_WALES_wv_20200122a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  39aa5b6fc85844f3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_24/EUREC4A_HALO_WALES_wv_20200124a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  dbd95b63dbd1b079:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_26/EUREC4A_HALO_WALES_wv_20200126a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  adc84c7b101b3d49:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_28/EUREC4A_HALO_WALES_wv_20200128a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3a01ec3c856940d6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_30/EUREC4A_HALO_WALES_wv_20200130a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  27c6495c5114b394:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_31/EUREC4A_HALO_WALES_wv_20200131a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d696490259fab2d5:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_02/EUREC4A_HALO_WALES_wv_20200202a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7709f189b39dc421:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_05/EUREC4A_HALO_WALES_wv_20200205a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b9a1320c65ceb4bb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_07/EUREC4A_HALO_WALES_wv_20200207a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b2f03d4067041b95:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_09/EUREC4A_HALO_WALES_wv_20200209a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  86cf3da08c874fb7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_11/EUREC4A_HALO_WALES_wv_20200211a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ef2a0d35f75ea47b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_13/EUREC4A_HALO_WALES_wv_20200213a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3b9ae3ee001f81e6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_15/EUREC4A_HALO_WALES_wv_20200215a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0122:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_22/EUREC4A_HALO_WALES_wv_20200122a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(98dff057d93975d4)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0124:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_24/EUREC4A_HALO_WALES_wv_20200124a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(39aa5b6fc85844f3)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0126:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_26/EUREC4A_HALO_WALES_wv_20200126a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(dbd95b63dbd1b079)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0128:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_28/EUREC4A_HALO_WALES_wv_20200128a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(adc84c7b101b3d49)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0130:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_30/EUREC4A_HALO_WALES_wv_20200130a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3a01ec3c856940d6)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0131:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_31/EUREC4A_HALO_WALES_wv_20200131a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(27c6495c5114b394)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0202:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_02/EUREC4A_HALO_WALES_wv_20200202a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d696490259fab2d5)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0205:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_05/EUREC4A_HALO_WALES_wv_20200205a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7709f189b39dc421)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0207:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_07/EUREC4A_HALO_WALES_wv_20200207a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b9a1320c65ceb4bb)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0209:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_09/EUREC4A_HALO_WALES_wv_20200209a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b2f03d4067041b95)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0211:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_11/EUREC4A_HALO_WALES_wv_20200211a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(86cf3da08c874fb7)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0213:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_13/EUREC4A_HALO_WALES_wv_20200213a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ef2a0d35f75ea47b)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.
   HALO-0215:
-    description: WALES-Lidar water vapour volume mixing ratio in ppm.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_15/EUREC4A_HALO_WALES_wv_20200215a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3b9ae3ee001f81e6)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar water vapour volume mixing ratio in ppm.

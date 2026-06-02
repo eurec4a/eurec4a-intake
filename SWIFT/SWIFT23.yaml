@@ -1,25 +1,44 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  92557dc5e60f8687:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_SWIFT23_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b82fc423eef27b68:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/swift_drifters/EUREC4A_ATOMIC_SWIFT23_All_v2.4.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   track:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(92557dc5e60f8687)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_SWIFT23_v1.0.nc
-    description: SWIFT23 track
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
+      description: SWIFT23 track
       tags:
       - track
-
   all:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b82fc423eef27b68)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/swift_drifters/EUREC4A_ATOMIC_SWIFT23_All_v2.4.nc
-    description: SWIFT 23, all data fields
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SWIFT 23, all data fields

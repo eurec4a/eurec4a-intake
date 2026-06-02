@@ -1,25 +1,44 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  da97c81e75f7f1c4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_SVP-BSW-3101573_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a240b7db7f10837a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/svp-s_drifters/EUREC4A_ATOMIC_drifter3101573_TSWindPres_v1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   track:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(da97c81e75f7f1c4)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_SVP-BSW-3101573_v1.0.nc
-    description: SVP-BSW-3101573 track
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
+      description: SVP-BSW-3101573 track
       tags:
       - track
-      
   TSWindPres:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a240b7db7f10837a)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/svp-s_drifters/EUREC4A_ATOMIC_drifter3101573_TSWindPres_v1.nc
-    description: Temperature, Salinity, wind and pressure data from SVP drifters
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Temperature, Salinity, wind and pressure data from SVP drifters

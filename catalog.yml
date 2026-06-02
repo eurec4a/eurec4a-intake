@@ -1,477 +1,1079 @@
-description: "EUREC4A Intake Data Catalog"
-
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
-
+version: 2
+metadata:
+  description: EUREC4A Intake Data Catalog
+user_parameters: {}
+aliases: {}
+data:
+  65f5a407b65ffbc0:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/radiosondes.yml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  34788c0f74c57e8c:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/barbados/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  a1f948bc64066678:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Atalante/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  207d126135353546:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/ATR/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  4b8e496d18543b05:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/BOREAL/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  08e2bd2deaf4e0f6:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/CU-RAAVEN/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  8d14d499f6caff2b:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Caravela/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  bff8d3a5eaf9efb0:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/HALO/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  5c0f7a611b8f1fc3:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Humpback/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  41c0cf3ac8c8913e:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/IFM/IFM03.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  25bf58086c904771:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/IFM/IFM09.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  c9914685f7dab22f:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/IFM/IFM12.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  957f39425d2e4ddd:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Kracken/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  34c7981acd447123:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Melonhead/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  969a12701b8e5584:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/MPCK/mini-MPCK.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  de826450896de000:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/MPCK/MPCK-plus.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  4f37f6d1af18c399:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/MS-Merian/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  b493606005e3dbe3:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/NTAS/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  dc140521b9c9906a:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Omura/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  fd8027ad06d6d57b:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/P3/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  cbf6dce210621f3a:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/QuadCopter/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  54ee0534b8f094dc:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/RonBrown/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  543215fa28bab22f:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SD/SD-1026.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  ba2e5f443b2b6f84:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SD/SD-1060.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  22877d2c7b494bd0:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SD/SD-1061.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  f3fec6bd1584a8a1:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SD/SD-1063.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  ab6fd0cb9a172bed:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SD/SD-1064.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  2543e1c169ed9829:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Skywalker/Skywalker07.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  d64174098928b8c3:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Skywalker/Skywalker10.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  55558ee801b18ad0:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Skywalker/Skywalker12.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  8c440f69e0f0edb2:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-B-4101696.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  506df253ccb67292:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-B-4101697.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  f4326938ca329347:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-B-4101698.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  4455f38142643d3e:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-B-4101699.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  0ad5a33cf6efe1da:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-B-4101780.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  7b8b36e91ca16b46:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BRST-4402505.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  90e6c6bbd7f46d4d:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BRST-4402506.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  b0aa563250bb4fbc:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BRST-4402507.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  3ec4c995dfa6576a:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BRST-4402508.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  8eb5fa80bd5c0435:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BRST-6203717.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  99266d9e70ebf790:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BS-4101757.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  0c6db93a36a7598e:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BS-4101758.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  3442bf78e5f9c87f:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BSW-3101569.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  c752792b3f1cdc31:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BSW-3101570.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  f57da831139fe8b7:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BSW-3101571.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  45dcdb4dbe2a0084:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BSW-3101572.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  a1992750d3886695:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BSW-3101573.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  6f164aebd1b1c8ce:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BSW-3101574.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  7c226ea586d4279f:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BSW-3101575.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  c824393a9703102c:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BSW-3101576.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  d95e77c268c48283:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BSW-3101577.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  6c69366b479f99ed:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SVP/SVP-BSW-3101578.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  f04b8606a86bbb1a:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SWIFT/SWIFT16.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  43d69197520fc7e3:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SWIFT/SWIFT17.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  ed2f5520a732a1d6:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SWIFT/SWIFT22.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  7b9ab8785d64875d:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SWIFT/SWIFT23.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  3acb343d1e7c96f7:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SWIFT/SWIFT24.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  e0cc4bcacec45081:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/SWIFT/SWIFT25.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  06134584f93f0eab:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/TO/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  0c274108f90e4eda:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/WG/WG245.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  a04091793267d941:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/WG/WG247.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  8b8a7bf5d1f28d02:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/C3ONTEXT/C3ONTEXT.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  427df8b0cd496726:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/dropsondes.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  0ed1121b3350b7f3:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/satellites/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  5ab8d31b8b74965d:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Simulations/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  86b55829f08aa56e:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/radiative_profiles.yml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  e8205778a1b137cc:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Meteor/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   radiosondes:
-    description: Radiosondes
-    args:
-      path: "{{CATALOG_DIR}}/radiosondes.yml"
-    #description: 'EUREC4A Radiosondes Catalog'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(65f5a407b65ffbc0)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Radiosondes
   barbados:
-    args:
-      path: "{{CATALOG_DIR}}/barbados/main.yaml"
-    description: 'Data from observations on Barbados'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(34788c0f74c57e8c)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from observations on Barbados
   Atalante:
-    args:
-      path: "{{CATALOG_DIR}}/Atalante/main.yaml"
-    description: "Data from the RV L'Atalante"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(a1f948bc64066678)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the RV L'Atalante
   ATR:
-    args:
-      path: "{{CATALOG_DIR}}/ATR/main.yaml"
-    description: 'Data from the ATR aircraft'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(207d126135353546)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the ATR aircraft
   BOREAL:
-    args:
-      path: "{{CATALOG_DIR}}/BOREAL/main.yaml"
-    description: 'Data from the BOREAL UAS'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(4b8e496d18543b05)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the BOREAL UAS
   CU-RAAVEN:
-    args:
-      path: "{{CATALOG_DIR}}/CU-RAAVEN/main.yaml"
-    description: 'Data from the CU-RAAVEN UAS'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(08e2bd2deaf4e0f6)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the CU-RAAVEN UAS
   Caravela:
-    args:
-      path: "{{CATALOG_DIR}}/Caravela/main.yaml"
-    description: 'Data from the Caravela wave glider'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(8d14d499f6caff2b)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the Caravela wave glider
   HALO:
-    args:
-      path: "{{CATALOG_DIR}}/HALO/main.yaml"
-    description: 'Data from the HALO aircraft'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(bff8d3a5eaf9efb0)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the HALO aircraft
   Humpback:
-    args:
-      path: "{{CATALOG_DIR}}/Humpback/main.yaml"
-    description: 'Data from the Humpback sea glider'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(5c0f7a611b8f1fc3)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the Humpback sea glider
   IFM03:
-    description: IFM03
-    args:
-      path: "{{CATALOG_DIR}}/IFM/IFM03.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(41c0cf3ac8c8913e)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: IFM03
   IFM09:
-    description: IFM09
-    args:
-      path: "{{CATALOG_DIR}}/IFM/IFM09.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(25bf58086c904771)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: IFM09
   IFM12:
-    description: IFM12
-    args:
-      path: "{{CATALOG_DIR}}/IFM/IFM12.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(c9914685f7dab22f)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: IFM12
   Kracken:
-    args:
-      path: "{{CATALOG_DIR}}/Kracken/main.yaml"
-    description: 'Data from the Kracken sea glider'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(957f39425d2e4ddd)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the Kracken sea glider
   Melonhead:
-    args:
-      path: "{{CATALOG_DIR}}/Melonhead/main.yaml"
-    description: 'Data from the Melonhead sea glider'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(34c7981acd447123)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the Melonhead sea glider
   mini-MPCK:
-    description: Miniaturized Max Planck CloudKite
-    args:
-      path: "{{CATALOG_DIR}}/MPCK/mini-MPCK.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(969a12701b8e5584)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Miniaturized Max Planck CloudKite
   MPCK-plus:
-    description: Max Planck CloudKite
-    args:
-      path: "{{CATALOG_DIR}}/MPCK/MPCK-plus.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(de826450896de000)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Max Planck CloudKite
   MS-Merian:
-    description: RV Maria S. Merian
-    args:
-      path: "{{CATALOG_DIR}}/MS-Merian/main.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(4f37f6d1af18c399)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: RV Maria S. Merian
   NTAS:
-    args:
-      path: "{{CATALOG_DIR}}/NTAS/main.yaml"
-    description: 'Data from the NTAS mooring'
-    driver: yaml_file_cat
-    metadata: {}
-    
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(b493606005e3dbe3)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the NTAS mooring
   Omura:
-    args:
-      path: "{{CATALOG_DIR}}/Omura/main.yaml"
-    description: 'Data from the Omura sea glider'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(dc140521b9c9906a)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the Omura sea glider
   P3:
-    args:
-      path: "{{CATALOG_DIR}}/P3/main.yaml"
-    description: 'Data from the P3 aircraft'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(fd8027ad06d6d57b)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the P3 aircraft
   QuadCopter:
-    args:
-      path: "{{CATALOG_DIR}}/QuadCopter/main.yaml"
-    description: 'Data from the QuadCopter UAS'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(cbf6dce210621f3a)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Data from the QuadCopter UAS
   RonBrown:
-    description: RV Ronald H. Brown
-    args:
-      path: "{{CATALOG_DIR}}/RonBrown/main.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(54ee0534b8f094dc)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: RV Ronald H. Brown
   SD-1026:
-    description: SD-1026
-    args:
-      path: "{{CATALOG_DIR}}/SD/SD-1026.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(543215fa28bab22f)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SD-1026
   SD-1060:
-    description: SD-1060
-    args:
-      path: "{{CATALOG_DIR}}/SD/SD-1060.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(ba2e5f443b2b6f84)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SD-1060
   SD-1061:
-    description: SD-1061
-    args:
-      path: "{{CATALOG_DIR}}/SD/SD-1061.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(22877d2c7b494bd0)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SD-1061
   SD-1063:
-    description: SD-1063
-    args:
-      path: "{{CATALOG_DIR}}/SD/SD-1063.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(f3fec6bd1584a8a1)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SD-1063
   SD-1064:
-    description: SD-1064
-    args:
-      path: "{{CATALOG_DIR}}/SD/SD-1064.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(ab6fd0cb9a172bed)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SD-1064
   Skywalker07:
-    description: Skywalker07
-    args:
-      path: "{{CATALOG_DIR}}/Skywalker/Skywalker07.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(2543e1c169ed9829)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Skywalker07
   Skywalker10:
-    description: Skywalker10
-    args:
-      path: "{{CATALOG_DIR}}/Skywalker/Skywalker10.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(d64174098928b8c3)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Skywalker10
   Skywalker12:
-    description: Skywalker12
-    args:
-      path: "{{CATALOG_DIR}}/Skywalker/Skywalker12.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(55558ee801b18ad0)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Skywalker12
   SVP-B-4101696:
-    description: SVP-B-4101696
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-B-4101696.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(8c440f69e0f0edb2)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-B-4101696
   SVP-B-4101697:
-    description: SVP-B-4101697
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-B-4101697.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(506df253ccb67292)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-B-4101697
   SVP-B-4101698:
-    description: SVP-B-4101698
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-B-4101698.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(f4326938ca329347)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-B-4101698
   SVP-B-4101699:
-    description: SVP-B-4101699
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-B-4101699.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(4455f38142643d3e)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-B-4101699
   SVP-B-4101780:
-    description: SVP-B-4101780
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-B-4101780.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(0ad5a33cf6efe1da)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-B-4101780
   SVP-BRST-4402505:
-    description: SVP-BRST-4402505
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BRST-4402505.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(7b8b36e91ca16b46)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BRST-4402505
   SVP-BRST-4402506:
-    description: SVP-BRST-4402506
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BRST-4402506.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(90e6c6bbd7f46d4d)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BRST-4402506
   SVP-BRST-4402507:
-    description: SVP-BRST-4402507
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BRST-4402507.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(b0aa563250bb4fbc)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BRST-4402507
   SVP-BRST-4402508:
-    description: SVP-BRST-4402508
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BRST-4402508.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(3ec4c995dfa6576a)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BRST-4402508
   SVP-BRST-6203717:
-    description: SVP-BRST-6203717
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BRST-6203717.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(8eb5fa80bd5c0435)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BRST-6203717
   SVP-BS-4101757:
-    description: SVP-BS-4101757
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BS-4101757.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(99266d9e70ebf790)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BS-4101757
   SVP-BS-4101758:
-    description: SVP-BS-4101758
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BS-4101758.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(0c6db93a36a7598e)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BS-4101758
   SVP-BSW-3101569:
-    description: SVP-BSW-3101569
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101569.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(3442bf78e5f9c87f)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BSW-3101569
   SVP-BSW-3101570:
-    description: SVP-BSW-3101570
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101570.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(c752792b3f1cdc31)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BSW-3101570
   SVP-BSW-3101571:
-    description: SVP-BSW-3101571
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101571.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(f57da831139fe8b7)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BSW-3101571
   SVP-BSW-3101572:
-    description: SVP-BSW-3101572
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101572.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(45dcdb4dbe2a0084)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BSW-3101572
   SVP-BSW-3101573:
-    description: SVP-BSW-3101573
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101573.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(a1992750d3886695)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BSW-3101573
   SVP-BSW-3101574:
-    description: SVP-BSW-3101574
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101574.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(6f164aebd1b1c8ce)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BSW-3101574
   SVP-BSW-3101575:
-    description: SVP-BSW-3101575
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101575.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(7c226ea586d4279f)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BSW-3101575
   SVP-BSW-3101576:
-    description: SVP-BSW-3101576
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101576.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(c824393a9703102c)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BSW-3101576
   SVP-BSW-3101577:
-    description: SVP-BSW-3101577
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101577.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(d95e77c268c48283)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BSW-3101577
   SVP-BSW-3101578:
-    description: SVP-BSW-3101578
-    args:
-      path: "{{CATALOG_DIR}}/SVP/SVP-BSW-3101578.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(6c69366b479f99ed)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SVP-BSW-3101578
   SWIFT16:
-    description: Drifting Buoy SWIFT16
-    args:
-      path: "{{CATALOG_DIR}}/SWIFT/SWIFT16.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(f04b8606a86bbb1a)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Drifting Buoy SWIFT16
   SWIFT17:
-    description: Drifting Buoy SWIFT17
-    args:
-      path: "{{CATALOG_DIR}}/SWIFT/SWIFT17.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(43d69197520fc7e3)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Drifting Buoy SWIFT17
   SWIFT22:
-    description: Drifting Buoy SWIFT22
-    args:
-      path: "{{CATALOG_DIR}}/SWIFT/SWIFT22.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(ed2f5520a732a1d6)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Drifting Buoy SWIFT22
   SWIFT23:
-    description: Drifting Buoy SWIFT23
-    args:
-      path: "{{CATALOG_DIR}}/SWIFT/SWIFT23.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(7b9ab8785d64875d)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Drifting Buoy SWIFT23
   SWIFT24:
-    description: Drifting Buoy SWIFT24
-    args:
-      path: "{{CATALOG_DIR}}/SWIFT/SWIFT24.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(3acb343d1e7c96f7)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Drifting Buoy SWIFT24
   SWIFT25:
-    description: Drifting Buoy SWIFT25
-    args:
-      path: "{{CATALOG_DIR}}/SWIFT/SWIFT25.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(e0cc4bcacec45081)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Drifting Buoy SWIFT25
   TO:
-    description: Twin Otter
-    args:
-      path: "{{CATALOG_DIR}}/TO/main.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(06134584f93f0eab)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Twin Otter
   WG245:
-    description: Wave Glider WG245
-    args:
-      path: "{{CATALOG_DIR}}/WG/WG245.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(0c274108f90e4eda)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Wave Glider WG245
   WG247:
-    description: Wave Glider WG247
-    args:
-      path: "{{CATALOG_DIR}}/WG/WG247.yaml"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(a04091793267d941)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Wave Glider WG247
   c3ontext:
-    args:
-      path: "{{CATALOG_DIR}}/C3ONTEXT/C3ONTEXT.yaml"
-    description: Meso-scale pattern dataset C3ONTEXT.
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(8b8a7bf5d1f28d02)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Meso-scale pattern dataset C3ONTEXT.
   dropsondes:
-    args:
-      path: "{{CATALOG_DIR}}/dropsondes.yaml"
-    description: 'Dropsonde dataset JOANNE.'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(427df8b0cd496726)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Dropsonde dataset JOANNE.
   satellites:
-    args:
-      path: "{{CATALOG_DIR}}/satellites/main.yaml"
-    description: 'Satellite products'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(0ed1121b3350b7f3)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Satellite products
   simulations:
-    args:
-      path: "{{CATALOG_DIR}}/Simulations/main.yaml"
-    description: Simulation outputs
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(5ab8d31b8b74965d)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Simulation outputs
   radiative_profiles:
-    args:
-      path: "{{CATALOG_DIR}}/radiative_profiles.yml"
-    description: Atmospheric radiative profiles during EUREC4A
-    driver: intake.catalog.local.YAMLFileCatalog
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(86b55829f08aa56e)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Atmospheric radiative profiles during EUREC4A
   Meteor:
-    args:
-      path: "{{CATALOG_DIR}}/Meteor/main.yaml"
-    description: Measurements from the RV-Meteor
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(e8205778a1b137cc)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Measurements from the RV-Meteor

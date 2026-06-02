@@ -1,30 +1,64 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  fb7df9d92359e0f5:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_SD-1061_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e8a4e37afa585761:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://Qmdi5XJBsKvQ1NcVjnJEbERf245KyKRKX478BWAnjSC1v8
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  9dabcbfe866cc5b7:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmRVYwR4yer1Ms9TpRSK8ETpCViq972cN89hGQ46zzEBKG
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+entries:
   track:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(fb7df9d92359e0f5)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_SD-1061_v1.0.nc
-    description: SD-1061 track
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
+      description: SD-1061 track
       tags:
-        - track
-
+      - track
   1min:
-    args:
-      urlpath: ipfs://Qmdi5XJBsKvQ1NcVjnJEbERf245KyKRKX478BWAnjSC1v8
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e8a4e37afa585761)}'
+      chunks: {}
       consolidated: true
-    description: Saildrone 1061, one minute data
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Saildrone 1061, one minute data
   5min:
-    args:
-      urlpath: ipfs://QmRVYwR4yer1Ms9TpRSK8ETpCViq972cN89hGQ46zzEBKG
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9dabcbfe866cc5b7)}'
+      chunks: {}
       consolidated: true
-    description: Saildrone 1061, five minute data 
-    driver: zarr
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Saildrone 1061, five minute data

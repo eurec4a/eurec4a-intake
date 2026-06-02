@@ -1,250 +1,681 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
-
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  f8accba14af554f9:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_surface.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  3abe0a837a2fd370:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_radiation.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  672ba76abf97a1a9:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_RTTOV_latlon.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  3032e23b2f69036c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_3D.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  85e0e3574f2934a7:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/EUREC4A_ICON-LES_highCCN_DOM01_reff_native.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  5f070723e4f5f327:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM02_surface.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  eac227d1d99c6934:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/EUREC4A_ICON-LES_highCCN_DOM02_reff_native.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  d4b0811a6bf10d1f:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_BCO.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  b0d44a905f9934c4:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_BCO.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  a0b0b0ed843b01cc:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_BCO.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  843e5b9824a925a5:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_BCO.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  7566e64127e65b32:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_NTAS-XVIII.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  3e34dee2f20bfd97:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_NTAS-XVIII.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  8f2aa1adfe67a09c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_NTAS-XVIII.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  f80c7234703f6f3a:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_NTAS-XVIII.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  1ee21a6e794969e5:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_center.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  4436a29fc99614a7:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_c_center.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  4df8e5e81d038383:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_center.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  117d912f17ba6ac4:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_center.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  1a8e4640cfaefe70:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_east.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  da2776cb82f24c69:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_c_east.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  b457c3e3b45ff9ba:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_east.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  95f42c4cf8a1833f:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_east.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  93de6a9e7b62b194:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_north.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  0ce9117173d0af50:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_c_north.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  24107b22e4ff5729:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_north.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  efecf203f015341f:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_north.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  ea3d208e9cf6ab8a:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_west.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  de21f930b8bab5d5:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_c_west.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  aa36b966e38fefac:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_west.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  916fddb8b597ac5a:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_west.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  294ec1d80c980bf5:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_south.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  e4f5d3e69936fd70:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_c_south.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  a6b796efe29e5abb:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_south.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  d9c13f4d94445d33:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_south.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+entries:
   surface_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f8accba14af554f9)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_surface.zarr
-    description: DOM01 surface fields
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 surface fields
   radiation_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3abe0a837a2fd370)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_radiation.zarr
-    description: DOM01 radiation fields
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 radiation fields
   rttov_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(672ba76abf97a1a9)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_RTTOV_latlon.zarr
-    description: DOM01 synthetic satellite images via RTTOV
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 synthetic satellite images via RTTOV
   3D_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3032e23b2f69036c)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM01_3D.zarr
-    description: DOM01 3D fields
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 3D fields
   effective_radius_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(85e0e3574f2934a7)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/EUREC4A_ICON-LES_highCCN_DOM01_reff_native.zarr
-    description: DOM01 effective radius of cloud droplets
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 effective radius of cloud droplets
   surface_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5f070723e4f5f327)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/ICON_DOM02_surface.zarr
-    description: DOM02 surface fields
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM02 surface fields
   effective_radius_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(eac227d1d99c6934)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/EUREC4A_ICON-LES_highCCN_DOM02_reff_native.zarr
-    description: DOM02 effective radius of cloud droplets
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM02 effective radius of cloud droplets
   meteogram_BCO_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d4b0811a6bf10d1f)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_BCO.zarr
-    description: DOM01 meteogram at the BCO
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 meteogram at the BCO
   synthetic_radar_BCO_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b0d44a905f9934c4)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_BCO.zarr
-    description: Synthetic Ka-Band radar data based on DOM01 meteogram at the BCO
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM01 meteogram at the BCO
   meteogram_BCO_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a0b0b0ed843b01cc)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_BCO.zarr
-    description: DOM02 meteogram at the BCO
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM02 meteogram at the BCO
   synthetic_radar_BCO_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(843e5b9824a925a5)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_BCO.zarr
-    description: Synthetic Ka-Band radar data based on DOM02 meteogram at the BCO
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM02 meteogram at the BCO
   meteogram_NTAS_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7566e64127e65b32)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_NTAS-XVIII.zarr
-    description: DOM01 meteogram at the NTAS-XVIII position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 meteogram at the NTAS-XVIII position
   synthetic_radar_NTAS_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3e34dee2f20bfd97)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_NTAS-XVIII.zarr
-    description: Synthetic Ka-Band radar data based on DOM01 meteogram at the NTAS-XVIII
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM01 meteogram at the NTAS-XVIII
   meteogram_NTAS_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8f2aa1adfe67a09c)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_NTAS-XVIII.zarr
-    description: DOM02 meteogram at the NTAS-XVIII position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM02 meteogram at the NTAS-XVIII position
   synthetic_radar_NTAS_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f80c7234703f6f3a)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_NTAS-XVIII.zarr
-    description: Synthetic Ka-Band radar data based on DOM02 meteogram at the NTAS-XVIII
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM02 meteogram at the NTAS-XVIII
   meteogram_c_center_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1ee21a6e794969e5)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_center.zarr
-    description: DOM01 meteogram at the HALO circle center position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 meteogram at the HALO circle center position
   synthetic_radar_c_center_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4436a29fc99614a7)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_c_center.zarr
-    description: Synthetic Ka-Band radar data based on DOM01 meteogram at the HALO circle center position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM01 meteogram at the HALO
+        circle center position
   meteogram_c_center_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4df8e5e81d038383)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_center.zarr
-    description: DOM02 meteogram at the HALO circle center position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM02 meteogram at the HALO circle center position
   synthetic_radar_c_center_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(117d912f17ba6ac4)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_center.zarr
-    description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO circle center position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO
+        circle center position
   meteogram_c_east_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1a8e4640cfaefe70)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_east.zarr
-    description: DOM01 meteogram at the HALO circle easternmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 meteogram at the HALO circle easternmost position
   synthetic_radar_c_east_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(da2776cb82f24c69)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_c_east.zarr
-    description: Synthetic Ka-Band radar data based on DOM01 meteogram at the HALO circle easternmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM01 meteogram at the HALO
+        circle easternmost position
   meteogram_c_east_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b457c3e3b45ff9ba)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_east.zarr
-    description: DOM01 meteogram at the HALO circle easternmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 meteogram at the HALO circle easternmost position
   synthetic_radar_c_east_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(95f42c4cf8a1833f)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_east.zarr
-    description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO circle easternmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO
+        circle easternmost position
   meteogram_c_north_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(93de6a9e7b62b194)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_north.zarr
-    description: DOM01 meteogram at the HALO circle northernmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 meteogram at the HALO circle northernmost position
   synthetic_radar_c_north_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0ce9117173d0af50)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_c_north.zarr
-    description: Synthetic Ka-Band radar data based on DOM01 meteogram at the HALO circle northernmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM01 meteogram at the HALO
+        circle northernmost position
   meteogram_c_north_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(24107b22e4ff5729)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_north.zarr
-    description: DOM01 meteogram at the HALO circle northernmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 meteogram at the HALO circle northernmost position
   synthetic_radar_c_north_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(efecf203f015341f)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_north.zarr
-    description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO circle northernmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO
+        circle northernmost position
   meteogram_c_west_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ea3d208e9cf6ab8a)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_west.zarr
-    description: DOM01 meteogram at the HALO circle westernmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 meteogram at the HALO circle westernmost position
   synthetic_radar_c_west_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(de21f930b8bab5d5)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_c_west.zarr
-    description: Synthetic Ka-Band radar data based on DOM01 meteogram at the HALO circle westernmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM01 meteogram at the HALO
+        circle westernmost position
   meteogram_c_west_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(aa36b966e38fefac)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_west.zarr
-    description: DOM02 meteogram at the HALO circle westernmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM02 meteogram at the HALO circle westernmost position
   synthetic_radar_c_west_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(916fddb8b597ac5a)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_west.zarr
-    description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO circle westernmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO
+        circle westernmost position
   meteogram_c_south_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(294ec1d80c980bf5)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM01_c_south.zarr
-    description: DOM01 meteogram at the HALO circle southernmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM01 meteogram at the HALO circle southernmost position
   synthetic_radar_c_south_DOM01:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e4f5d3e69936fd70)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM01_c_south.zarr
-    description: Synthetic Ka-Band radar data based on DOM01 meteogram at the HALO circle southernmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM01 meteogram at the HALO
+        circle southernmost position
   meteogram_c_south_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a6b796efe29e5abb)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/ICON_meteogram_DOM02_c_south.zarr
-    description: DOM02 meteogram at the HALO circle southernmost position
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: DOM02 meteogram at the HALO circle southernmost position
   synthetic_radar_c_south_DOM02:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d9c13f4d94445d33)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A_LES/experiment_1/meteograms/pamtra/Meteogram_Pamtra_DOM02_c_south.zarr
-    description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO circle southernmost position
-    driver: zarr
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic Ka-Band radar data based on DOM02 meteogram at the HALO
+        circle southernmost position

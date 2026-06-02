@@ -1,24 +1,44 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  ca5b9313766880ba:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_SD-1063_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  fb4e1a292621471c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/saildrones_noaa/ATOMIC_Saildrone-1063_AirSea_2020_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   track:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ca5b9313766880ba)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_SD-1063_v1.0.nc
-    description: SD-1063 track
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
+      description: SD-1063 track
       tags:
       - track
-
   1min:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(fb4e1a292621471c)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/saildrones_noaa/ATOMIC_Saildrone-1063_AirSea_2020_v1.1.nc
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''

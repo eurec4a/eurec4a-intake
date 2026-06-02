@@ -1,37 +1,47 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  702cc1bf28038483:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SATELLITES/GOES-E/{{resolution}}/{{date.strftime("%Y")}}/{{date.strftime("%Y_%m_%d")}}/GOES_{{'%02d'
+        % (channel)}}_8N-18N-62W-50W_{{date.strftime("%Y%m%d")}}.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   latlongrid:
-    description: Gridded products of reflectivity and brightness temperature measured with the Advanced Baseline Imager (ABI) onboard GOES16 (meso-region scans)
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SATELLITES/GOES-E/{{resolution}}/{{date.strftime("%Y")}}/{{date.strftime("%Y_%m_%d")}}/GOES_{{'%02d' % (channel)}}_8N-18N-62W-50W_{{date.strftime("%Y%m%d")}}.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(702cc1bf28038483)}'
       chunks: null
       engine: netcdf4
-    parameters:
+    output_instance: xarray:Dataset
+    user_parameters:
       resolution:
-        description: temporal and spacial resolution of gridded product
-        type: str
+        cls: intake.readers.user_parameters:SimpleUserParameter
+        dtype: object
         default: 0.5km_01min
-        allowed: [0.5km_01min]
+        description: temporal and spacial resolution of gridded product
       channel:
+        cls: intake.readers.user_parameters:SimpleUserParameter
+        dtype: object
+        default: '13'
         description: Advanced Baseline imager channel
-        type: int
-        default: 13
-        allowed: [2,13]  
       date:
+        cls: intake.readers.user_parameters:SimpleUserParameter
+        dtype: object
+        default: '2020-02-02'
         description: date of observation
-        default: 2020-02-02
-        type: datetime
-        min: 2020-01-12
-        max: 2020-02-22
     metadata:
+      description: Gridded products of reflectivity and brightness temperature measured
+        with the Advanced Baseline Imager (ABI) onboard GOES16 (meso-region scans)
       documentation: https://www.goes-r.gov/spacesegment/abi.html
-      processing: https://github.com/observingClouds/satdownload 
+      processing: https://github.com/observingClouds/satdownload
       tags:
-        - brightness temperature
-        - satellite image
-        - reflectivity
+      - brightness temperature
+      - satellite image
+      - reflectivity

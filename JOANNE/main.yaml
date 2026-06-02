@@ -1,17 +1,40 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  5320d4ffd2496762:
+    datatype: intake.readers.datatypes:NetCDF3
+    kwargs:
+      url: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/PRODUCTS/MERGED-MEASUREMENTS/JOANNE/v2.0.0/Level_3/EUREC4A_JOANNE_Dropsonde-RD41_Level_3_v2.0.0.nc
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  c9d0e614005b0e7c:
+    datatype: intake.readers.datatypes:NetCDF3
+    kwargs:
+      url: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/PRODUCTS/MERGED-MEASUREMENTS/JOANNE/v2.0.0/Level_4/EUREC4A_JOANNE_Dropsonde-RD41_Level_4_v2.0.0.nc
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   level3:
-    driver: netcdf
-    description: EUREC4A/ATOMIC JOANNE Level-3 gridded dropsonde dataset
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5320d4ffd2496762)}'
       chunks: null
-      urlpath: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/PRODUCTS/MERGED-MEASUREMENTS/JOANNE/v2.0.0/Level_3/EUREC4A_JOANNE_Dropsonde-RD41_Level_3_v2.0.0.nc
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: EUREC4A/ATOMIC JOANNE Level-3 gridded dropsonde dataset
   level4:
-    driver: netcdf
-    description: EUREC4A/ATOMIC JOANNE Level-4 dropsonde dataset
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c9d0e614005b0e7c)}'
       chunks: null
-      urlpath: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/PRODUCTS/MERGED-MEASUREMENTS/JOANNE/v2.0.0/Level_4/EUREC4A_JOANNE_Dropsonde-RD41_Level_4_v2.0.0.nc
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: EUREC4A/ATOMIC JOANNE Level-4 dropsonde dataset

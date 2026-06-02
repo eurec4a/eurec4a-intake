@@ -1,13 +1,25 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  55a6518f917059b9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/M-AERI/EUREC4A_ATOMIC_M-AERI_SSTskin20200106171410-v0.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   SSTskin:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(55a6518f917059b9)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/M-AERI/EUREC4A_ATOMIC_M-AERI_SSTskin20200106171410-v0.1.nc
-    description: Ocean skin surface temperature and near-surface air temperature from M-AERI 
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Ocean skin surface temperature and near-surface air temperature
+        from M-AERI

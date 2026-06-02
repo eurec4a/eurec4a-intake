@@ -1,92 +1,204 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  17385c9e3989a112:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200117_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  92877aac2b16573b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200119_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  fc461c29f872c024:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200123_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  04619ad4f61f5861:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200124_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d8e04c9bb02e8d7c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200131_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1f13e81a0d7c99d0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200203_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d467eb6ec5d4920b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200204_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e44c08b8aabd50c0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200205_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ea9a0f2dbe84d0a2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200209_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  437352a251d27635:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200210_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4a9178a2ea3096c3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200211_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   P3-0117:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(17385c9e3989a112)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200117_v1.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0119:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(92877aac2b16573b)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200119_v1.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0123:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(fc461c29f872c024)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200123_v1.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0124:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(04619ad4f61f5861)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200124_v1.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0131:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d8e04c9bb02e8d7c)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200131_v1.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0203:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1f13e81a0d7c99d0)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200203_v1.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0204:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d467eb6ec5d4920b)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200204_v1.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0205:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e44c08b8aabd50c0)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200205_v1.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0209:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ea9a0f2dbe84d0a2)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200209_v1.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0210:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(437352a251d27635)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200210_v1.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0211:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4a9178a2ea3096c3)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/WSRA/EUREC4A_ATOMIC_P3_WSRA_20200211_v1.0.nc
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''

@@ -1,124 +1,276 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  7560eda72867cf51:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200119a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2e9f47f4a39f3b67:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200122a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c2bcc4a03e02fc83:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200124a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5ea630576f00e867:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200126a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c2a0a99a43c53906:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200128a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  412f8ce33d1f7e4f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200130a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f1d831c24073fc69:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200131a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  587c6830fc7e01a4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200202a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  133f94068518b9f3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200205a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  540b5d41c27c1e9f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200207a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  024da696ee6fea48:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200209a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  13b50f20c23e67d3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200211a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7c3dad2bd7cef7fd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200213a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  26abb5f1a3cbc0bb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200215a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5ce09f80eba2f9e6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200218a.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0119:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200119a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7560eda72867cf51)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0122:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200122a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2e9f47f4a39f3b67)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0124:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200124a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c2bcc4a03e02fc83)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0126:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200126a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5ea630576f00e867)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0128:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200128a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c2a0a99a43c53906)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0130:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200130a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(412f8ce33d1f7e4f)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0131:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200131a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f1d831c24073fc69)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0202:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200202a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(587c6830fc7e01a4)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0205:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200205a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(133f94068518b9f3)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0207:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200207a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(540b5d41c27c1e9f)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0209:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200209a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(024da696ee6fea48)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0211:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200211a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(13b50f20c23e67d3)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0213:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200213a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7c3dad2bd7cef7fd)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0215:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200215a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(26abb5f1a3cbc0bb)}'
       chunks: null
-
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   HALO-0218:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/BAHAMAS/data/EUREC4A_HALO_BAHAMAS-QL-10Hz_20200218a.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5ce09f80eba2f9e6)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''

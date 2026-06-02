@@ -1,16 +1,26 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  5869e9612c9c0d8f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_IFM09_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   track:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5869e9612c9c0d8f)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_IFM09_v1.0.nc
-    description: IFM09 track
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
+      description: IFM09 track
       tags:
       - track

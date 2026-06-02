@@ -1,53 +1,118 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  7d59688ca64f9325:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/dropsondes_unified.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  8479759e0f89776a:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/radar_unified.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  4a11876ea0f25d19:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/radiometer_unified.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  0060c9ca4d2a61cd:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/bahamas_unified.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  a6d76c5a6a5a5b01:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/MWR_cloud_mask_unified.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  1e2f2317e8d3c4c2:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/Radar_cloud_mask_unified.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  10a16d3b0a829adf:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/MWR_retrievals_unified.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   dropsondes:
-    args:
-      path: "{{CATALOG_DIR}}/dropsondes_unified.yaml"
-    description: dropsondes in HALO UNIFIED dataset.
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(7d59688ca64f9325)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: dropsondes in HALO UNIFIED dataset.
   HAMPradar:
-    args:
-      path: "{{CATALOG_DIR}}/radar_unified.yaml"
-    description: radar data in HALO UNIFIED dataset.
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(8479759e0f89776a)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: radar data in HALO UNIFIED dataset.
   HAMPradiometer:
-    args:
-      path: "{{CATALOG_DIR}}/radiometer_unified.yaml"
-    description: radiometer data in HALO UNIFIED dataset.
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(4a11876ea0f25d19)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: radiometer data in HALO UNIFIED dataset.
   BAHAMAS:
-    args:
-      path: "{{CATALOG_DIR}}/bahamas_unified.yaml"
-    description: BAHAMAS data in HALO UNIFIED dataset.
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(0060c9ca4d2a61cd)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: BAHAMAS data in HALO UNIFIED dataset.
   HAMPradiometer_cloudmask:
-    args:
-      path: "{{CATALOG_DIR}}/MWR_cloud_mask_unified.yaml"
-    description: HAMP Microwave Radiometer Cloud Mask with unified time coordinate.
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(a6d76c5a6a5a5b01)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer Cloud Mask with unified time coordinate.
   HAMPradar_cloudmask:
-    args:
-      path: "{{CATALOG_DIR}}/Radar_cloud_mask_unified.yaml"
-    description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(1e2f2317e8d3c4c2)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: HAMP Cloud Radar Cloud Mask with unified time coordinate.
   HAMPradiometer_retrievals:
-    args:
-      path: "{{CATALOG_DIR}}/MWR_retrievals_unified.yaml"
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(10a16d3b0a829adf)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV

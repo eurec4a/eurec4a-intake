@@ -1,6 +1,22 @@
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  c09a0ff6bf1d9558:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/goes16.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   GOES16:
-    description: Satellite data and products from different sources
-    args:
-      path: "{{CATALOG_DIR}}/goes16.yaml"
-    driver: yaml_file_cat
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(c09a0ff6bf1d9558)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Satellite data and products from different sources

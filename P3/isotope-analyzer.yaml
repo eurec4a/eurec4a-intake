@@ -1,28 +1,70 @@
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  8e472bc8fef8bf23:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/isotope-analyzer-water-vapor-1hz.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  fc58b85be6a27ee3:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/isotope-analyzer-water-vapor-5hz.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  3cfeb15e613e019e:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/isotope-analyzer-water-vapor-Isotope-Ratios-1hz.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  dbf0c94169568f7c:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/isotope-analyzer-water-vapor-Isotope-Ratios-5hz.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   water_vapor_1hz:
-    args:
-      path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-1hz.yaml"
-    description: 'Isotope analyzer 1Hz humidity data'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(8e472bc8fef8bf23)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Isotope analyzer 1Hz humidity data
   water_vapor_5hz:
-    args:
-      path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-5hz.yaml"
-    description: 'Isotope analyzer 5 Hzhumidity data'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(fc58b85be6a27ee3)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Isotope analyzer 5 Hzhumidity data
   water_vapor_Isotope_Ratios_1hz:
-    args:
-      path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-Isotope-Ratios-1hz.yaml"
-    description: 'Isotope analyzer 1Hz humidity data'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(3cfeb15e613e019e)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Isotope analyzer 1Hz humidity data
   water_vapor_Isotope_Ratios_5hz:
-    args:
-      path: "{{CATALOG_DIR}}/isotope-analyzer-water-vapor-Isotope-Ratios-5hz.yaml"
-    description: 'Isotope analyzer 5 Hzhumidity data'
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(dbf0c94169568f7c)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Isotope analyzer 5 Hzhumidity data

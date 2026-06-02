@@ -1,1679 +1,3540 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
-
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  0d45880c719a9596:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200119/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200119_HALO-0119_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  0dc94acbab11112c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200119/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200119_HALO-0119_rcw1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  15c2681a3976fedc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200119/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200119_HALO-0119_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b5f549e7b9a3f511:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_bc1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f1974688588bfc2b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d1c5b097e3f76b09:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  17c55386d01e8fe1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9b08cf2fee84bb84:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  bb719fa039f1d89c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f24d4a641f880825:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c6_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b79840bb7859372e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_cb1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  78c13609d07966d3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_cb2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9919a6c34d06ecbc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_cb3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a78cc6e1fe748701:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b52b5efff1f5127d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  daa164f8fe75ab66:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  0111c222d086a574:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  679c0efac08d29be:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ce342cb510074c75:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  36936d51a76a3e80:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d6de52a030e8eec5:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c6_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  94d25be351556e12:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d2276698694c2e49:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6666fc3a5ed60986:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e923112ef28d2bcc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  0be4ca7ebeacbbee:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7f029375ebeef103:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_ll1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7b53b44681a3b2f5:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  bd3bff95e624ae91:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  dc1ed70b53739550:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  259a3378d4597114:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  937980e480492428:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c10ec35ba4b17d05:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f2c3b6485e11fb06:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  982658c4e97510e1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c6_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  819bd2f8ec373e6d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6ef8554c669b0e1d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  abc311e2e8a3afa5:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8cb9a69fe5987d4d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1bbb6f000df4a329:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_ll1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  bd4bb5ec76f5fc8f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_rcw1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7a31514a9e7026dd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sc1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b270d8d9230d5b3a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2e30416e001ca4f0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3633ff6787218bd4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ded292d48bdc05dd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  dd74c5a0dc70d908:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  bcfbd3075a8b2820:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  bcb9e6ea1f1708e3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b47657927c7beabe:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  25d34572d772cbd6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1fbfc112b37b9b13:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d4c59ac82270ecde:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6428f776bcd97aae:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  267dc1af549abdbc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5f0f6150b4e0baf0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_rct1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7df7e3a59b46f5fc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a5187a96ae8dc0c7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ef3b84f382125720:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e87f9acca527bd59:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  56e3fde8399a129a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  487e6cf4ead66e11:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b8255fb7454e75fb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8e541c55c4dd7e4f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl6_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ae4eaa7b9c44f2bf:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl7_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f68536ff179d4ae1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl8_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9eb6235f8a099530:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl9_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  26459a3f378bb0e8:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ecf68085f4f6d1f0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f9992dfa33d8964a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  eaedb6f851c6e546:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e46338055349f23f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1ebd5e2df09aed6c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c6_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2026319f385087ab:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  03e6f806f6ef79be:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  acce02eb6376593b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6be514e112fa22be:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  0b24e72173db7840:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_rct1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  63a9829d7ff2b9df:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_rcw1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4cc450c0229529e3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  609444197c623d4a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  19fa45ff88d8de93:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_sl3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5166137c7185daf7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1a5b15c955a9a47b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1d67869a1d010e05:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7ea3d89c0d6637a2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ae0a1ed1745871cc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2f050f1944533fb1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c6_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6eb89205441f7944:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  fca05f3142f53599:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2f7ef1223d320aad:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  52451a4f72ec8022:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1cda5f12fbe5ae22:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2b460118e860b943:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c12ba2b2b430f629:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cl3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c762c9977946966c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_ct1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  051b001c9011240f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_ct2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  56b7332387ce7fcc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_ll1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3b93bc875f8dbd51:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_rct1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8b3b51b7bcecde55:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_rcw1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1dea39a3a199869f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f7fc76be4c7b3ad9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  fda61db21e54725f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a6fcc112d9ed804a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  924a1de54b84e75e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e219c8820e68c869:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c6_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3be9897fddbbfdee:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  349fd841e53891e4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e2cbcfa579bcd046:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4f0c6e3cd217880c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5366c9facdaecd1d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_ll1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d8b62025ae223bec:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9aebd59b300529d4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  10bb403c342a3662:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c9709cc533629551:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  010ccbe7b43563ce:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  bba2cd9f9111c7d8:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c921241857ade515:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  10e056abb2f7b163:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1330339b37c7e237:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  916452ae77010fb3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c6_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c99dc835f20cf046:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  946d2a1916df2f61:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  af5dc08581c2f92d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  eb40f72fa851c519:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  aec5335528bef6af:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_ll1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f49a6d9595a81dbb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_rct1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  62a6e733040ab17f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_rcw1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c647b5953e1cc934:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_rcw2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  814ac464698c8610:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  01094874aae4a0b4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  98c8c0bc211e8383:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  62b146ed239259e8:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3a0ce7806c6e674f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  256f73edd4127b69:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8a0172f1396afbee:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a495b7e349c6ec16:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c6_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3cdc7fd5d99c6489:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c940275e888d072a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3d398b2156d238c8:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8f3a361b1ee8c8c9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8ad180dcbe43d486:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_ll1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  267b5738448b9fdb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_rct1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  513272e9bbb9bd7e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_rcw1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  23636b9a0bea3f4c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_rcw2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c1d9e6b17a570f72:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  145f39063338e0b6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_sl3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ad333757f948544f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  196422dc6c6b54b1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  417f9689ef997bd2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3c0937d12720fcb9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  566dd85adae7e7d7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8367aeca787367cd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7981c0713c9296f3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f79daba96fd5cfff:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  56887d9381eec408:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4b31cbf85c3caca3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_ll1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  08efd19e3ccb046c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_rct1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b26d28c3e4d800d9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_rcw1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c393d36645c836a1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_rcw2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  03befc528a5e7076:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4a0e368e583ba033:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d1587c25ed6ce24f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9e42ace5bc6786ec:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8278bd4288af7d76:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  cbc72b9f0fedfbbf:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7ce7ae7218bdfd67:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c6_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9b53c30484553b8f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_cb2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e49930f782f29f2e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_cb3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b2aebd682577f92b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_cb4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4e5b593af8d2f783:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_ll1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c197e52bbfb6e1e9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_rcw1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5e75337791f7b11f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9bad37c46e9c727d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4e5a6c325faa8024:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f707e4f607339d27:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8b55fb548674eb2c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a96e130a8fbdec8a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  df53fa355791b166:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c5_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  50ef057c64b683ae:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_cb1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7b66ff17948f4ea9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  338c35362f187d3d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5da142a0f0bd8481:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl1_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c6114f8878d97664:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl2_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  576c77b165fa9bd4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl3_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  0c701f45f9a61ddd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl4_tracks_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0119_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-19
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200119/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200119_HALO-0119_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0d45880c719a9596)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-01-19
   HALO-0119_rcw1:
-    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-01-19
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200119/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200119_HALO-0119_rcw1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0dc94acbab11112c)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_wiggle
+        1 (rcw1) on 2020-01-19
   HALO-0119_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-19
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200119/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200119_HALO-0119_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(15c2681a3976fedc)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-01-19
   HALO-0122_bc1:
-    description: points on cloud surface located by stereo method for baccardi_calibration 1 (bc1) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_bc1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b5f549e7b9a3f511)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for baccardi_calibration
+        1 (bc1) on 2020-01-22
   HALO-0122_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f1974688588bfc2b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-01-22
   HALO-0122_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d1c5b097e3f76b09)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-01-22
   HALO-0122_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(17c55386d01e8fe1)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-01-22
   HALO-0122_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9b08cf2fee84bb84)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-01-22
   HALO-0122_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bb719fa039f1d89c)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-01-22
   HALO-0122_c6:
-    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_c6_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f24d4a641f880825)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 6 (c6)
+        on 2020-01-22
   HALO-0122_cb1:
-    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_cb1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b79840bb7859372e)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        1 (cb1) on 2020-01-22
   HALO-0122_cb2:
-    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_cb2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(78c13609d07966d3)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        2 (cb2) on 2020-01-22
   HALO-0122_cb3:
-    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_cb3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9919a6c34d06ecbc)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        3 (cb3) on 2020-01-22
   HALO-0122_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a78cc6e1fe748701)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-01-22
   HALO-0122_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-22
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200122/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200122_HALO-0122_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b52b5efff1f5127d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-01-22
   HALO-0124_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(daa164f8fe75ab66)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-01-24
   HALO-0124_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0111c222d086a574)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-01-24
   HALO-0124_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(679c0efac08d29be)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-01-24
   HALO-0124_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ce342cb510074c75)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-01-24
   HALO-0124_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(36936d51a76a3e80)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-01-24
   HALO-0124_c6:
-    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_c6_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d6de52a030e8eec5)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 6 (c6)
+        on 2020-01-24
   HALO-0124_cb1:
-    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(94d25be351556e12)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        1 (cb1) on 2020-01-24
   HALO-0124_cb2:
-    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d2276698694c2e49)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        2 (cb2) on 2020-01-24
   HALO-0124_cb3:
-    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6666fc3a5ed60986)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        3 (cb3) on 2020-01-24
   HALO-0124_cb4:
-    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e923112ef28d2bcc)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        4 (cb4) on 2020-01-24
   HALO-0124_cb5:
-    description: points on cloud surface located by stereo method for circle_break 5 (cb5) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_cb5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0be4ca7ebeacbbee)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        5 (cb5) on 2020-01-24
   HALO-0124_ll1:
-    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_ll1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7f029375ebeef103)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for lidar_leg
+        1 (ll1) on 2020-01-24
   HALO-0124_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7b53b44681a3b2f5)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-01-24
   HALO-0124_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-24
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200124/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200124_HALO-0124_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bd3bff95e624ae91)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-01-24
   HALO-0126_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(dc1ed70b53739550)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-01-26
   HALO-0126_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(259a3378d4597114)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-01-26
   HALO-0126_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(937980e480492428)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-01-26
   HALO-0126_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c10ec35ba4b17d05)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-01-26
   HALO-0126_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f2c3b6485e11fb06)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-01-26
   HALO-0126_c6:
-    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_c6_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(982658c4e97510e1)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 6 (c6)
+        on 2020-01-26
   HALO-0126_cb1:
-    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(819bd2f8ec373e6d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        1 (cb1) on 2020-01-26
   HALO-0126_cb2:
-    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6ef8554c669b0e1d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        2 (cb2) on 2020-01-26
   HALO-0126_cb3:
-    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(abc311e2e8a3afa5)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        3 (cb3) on 2020-01-26
   HALO-0126_cb4:
-    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_cb4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8cb9a69fe5987d4d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        4 (cb4) on 2020-01-26
   HALO-0126_ll1:
-    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_ll1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1bbb6f000df4a329)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for lidar_leg
+        1 (ll1) on 2020-01-26
   HALO-0126_rcw1:
-    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_rcw1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bd4bb5ec76f5fc8f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_wiggle
+        1 (rcw1) on 2020-01-26
   HALO-0126_sc1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sc1) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sc1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7a31514a9e7026dd)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sc1) on 2020-01-26
   HALO-0126_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b270d8d9230d5b3a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-01-26
   HALO-0126_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2e30416e001ca4f0)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-01-26
   HALO-0126_sl3:
-    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3633ff6787218bd4)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        3 (sl3) on 2020-01-26
   HALO-0126_sl4:
-    description: points on cloud surface located by stereo method for straight_leg 4 (sl4) on 2020-01-26
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200126/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200126_HALO-0126_sl4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ded292d48bdc05dd)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        4 (sl4) on 2020-01-26
   HALO-0128_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(dd74c5a0dc70d908)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-01-28
   HALO-0128_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bcfbd3075a8b2820)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-01-28
   HALO-0128_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bcb9e6ea1f1708e3)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-01-28
   HALO-0128_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b47657927c7beabe)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-01-28
   HALO-0128_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(25d34572d772cbd6)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-01-28
   HALO-0128_cb1:
-    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1fbfc112b37b9b13)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        1 (cb1) on 2020-01-28
   HALO-0128_cb2:
-    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d4c59ac82270ecde)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        2 (cb2) on 2020-01-28
   HALO-0128_cb3:
-    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6428f776bcd97aae)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        3 (cb3) on 2020-01-28
   HALO-0128_cb4:
-    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_cb4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(267dc1af549abdbc)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        4 (cb4) on 2020-01-28
   HALO-0128_rct1:
-    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_rct1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5f0f6150b4e0baf0)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_tilted
+        1 (rct1) on 2020-01-28
   HALO-0128_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7df7e3a59b46f5fc)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-01-28
   HALO-0128_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-28
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200128/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200128_HALO-0128_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a5187a96ae8dc0c7)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-01-28
   HALO-0130_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ef3b84f382125720)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-01-30
   HALO-0130_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e87f9acca527bd59)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-01-30
   HALO-0130_sl3:
-    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(56e3fde8399a129a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        3 (sl3) on 2020-01-30
   HALO-0130_sl4:
-    description: points on cloud surface located by stereo method for straight_leg 4 (sl4) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(487e6cf4ead66e11)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        4 (sl4) on 2020-01-30
   HALO-0130_sl5:
-    description: points on cloud surface located by stereo method for straight_leg 5 (sl5) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b8255fb7454e75fb)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        5 (sl5) on 2020-01-30
   HALO-0130_sl6:
-    description: points on cloud surface located by stereo method for straight_leg 6 (sl6) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl6_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8e541c55c4dd7e4f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        6 (sl6) on 2020-01-30
   HALO-0130_sl7:
-    description: points on cloud surface located by stereo method for straight_leg 7 (sl7) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl7_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ae4eaa7b9c44f2bf)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        7 (sl7) on 2020-01-30
   HALO-0130_sl8:
-    description: points on cloud surface located by stereo method for straight_leg 8 (sl8) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl8_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f68536ff179d4ae1)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        8 (sl8) on 2020-01-30
   HALO-0130_sl9:
-    description: points on cloud surface located by stereo method for straight_leg 9 (sl9) on 2020-01-30
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200130/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200130_HALO-0130_sl9_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9eb6235f8a099530)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        9 (sl9) on 2020-01-30
   HALO-0131_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(26459a3f378bb0e8)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-01-31
   HALO-0131_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ecf68085f4f6d1f0)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-01-31
   HALO-0131_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f9992dfa33d8964a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-01-31
   HALO-0131_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(eaedb6f851c6e546)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-01-31
   HALO-0131_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e46338055349f23f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-01-31
   HALO-0131_c6:
-    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_c6_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1ebd5e2df09aed6c)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 6 (c6)
+        on 2020-01-31
   HALO-0131_cb1:
-    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2026319f385087ab)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        1 (cb1) on 2020-01-31
   HALO-0131_cb2:
-    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(03e6f806f6ef79be)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        2 (cb2) on 2020-01-31
   HALO-0131_cb3:
-    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(acce02eb6376593b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        3 (cb3) on 2020-01-31
   HALO-0131_cb4:
-    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_cb4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6be514e112fa22be)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        4 (cb4) on 2020-01-31
   HALO-0131_rct1:
-    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_rct1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0b24e72173db7840)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_tilted
+        1 (rct1) on 2020-01-31
   HALO-0131_rcw1:
-    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_rcw1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(63a9829d7ff2b9df)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_wiggle
+        1 (rcw1) on 2020-01-31
   HALO-0131_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4cc450c0229529e3)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-01-31
   HALO-0131_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(609444197c623d4a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-01-31
   HALO-0131_sl3:
-    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-01-31
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200131/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200131_HALO-0131_sl3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(19fa45ff88d8de93)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        3 (sl3) on 2020-01-31
   HALO-0202_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5166137c7185daf7)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-02-02
   HALO-0202_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1a5b15c955a9a47b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-02-02
   HALO-0202_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1d67869a1d010e05)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-02-02
   HALO-0202_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7ea3d89c0d6637a2)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-02-02
   HALO-0202_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ae0a1ed1745871cc)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-02-02
   HALO-0202_c6:
-    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_c6_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2f050f1944533fb1)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 6 (c6)
+        on 2020-02-02
   HALO-0202_cb1:
-    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6eb89205441f7944)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        1 (cb1) on 2020-02-02
   HALO-0202_cb2:
-    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(fca05f3142f53599)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        2 (cb2) on 2020-02-02
   HALO-0202_cb3:
-    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2f7ef1223d320aad)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        3 (cb3) on 2020-02-02
   HALO-0202_cb4:
-    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cb4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(52451a4f72ec8022)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        4 (cb4) on 2020-02-02
   HALO-0202_cl1:
-    description: points on cloud surface located by stereo method for clover_leg 1 (cl1) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1cda5f12fbe5ae22)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for clover_leg
+        1 (cl1) on 2020-02-02
   HALO-0202_cl2:
-    description: points on cloud surface located by stereo method for clover_leg 2 (cl2) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2b460118e860b943)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for clover_leg
+        2 (cl2) on 2020-02-02
   HALO-0202_cl3:
-    description: points on cloud surface located by stereo method for clover_leg 3 (cl3) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_cl3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c12ba2b2b430f629)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for clover_leg
+        3 (cl3) on 2020-02-02
   HALO-0202_ct1:
-    description: points on cloud surface located by stereo method for clover_turn 1 (ct1) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_ct1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c762c9977946966c)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for clover_turn
+        1 (ct1) on 2020-02-02
   HALO-0202_ct2:
-    description: points on cloud surface located by stereo method for clover_turn 2 (ct2) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_ct2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(051b001c9011240f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for clover_turn
+        2 (ct2) on 2020-02-02
   HALO-0202_ll1:
-    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_ll1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(56b7332387ce7fcc)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for lidar_leg
+        1 (ll1) on 2020-02-02
   HALO-0202_rct1:
-    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_rct1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3b93bc875f8dbd51)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_tilted
+        1 (rct1) on 2020-02-02
   HALO-0202_rcw1:
-    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-02-02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200202/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200202_HALO-0202_rcw1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8b3b51b7bcecde55)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_wiggle
+        1 (rcw1) on 2020-02-02
   HALO-0205_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1dea39a3a199869f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-02-05
   HALO-0205_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f7fc76be4c7b3ad9)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-02-05
   HALO-0205_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(fda61db21e54725f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-02-05
   HALO-0205_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a6fcc112d9ed804a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-02-05
   HALO-0205_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(924a1de54b84e75e)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-02-05
   HALO-0205_c6:
-    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_c6_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e219c8820e68c869)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 6 (c6)
+        on 2020-02-05
   HALO-0205_cb1:
-    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3be9897fddbbfdee)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        1 (cb1) on 2020-02-05
   HALO-0205_cb2:
-    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(349fd841e53891e4)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        2 (cb2) on 2020-02-05
   HALO-0205_cb3:
-    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e2cbcfa579bcd046)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        3 (cb3) on 2020-02-05
   HALO-0205_cb4:
-    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_cb4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4f0c6e3cd217880c)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        4 (cb4) on 2020-02-05
   HALO-0205_ll1:
-    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_ll1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5366c9facdaecd1d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for lidar_leg
+        1 (ll1) on 2020-02-05
   HALO-0205_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d8b62025ae223bec)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-02-05
   HALO-0205_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9aebd59b300529d4)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-02-05
   HALO-0205_sl3:
-    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(10bb403c342a3662)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        3 (sl3) on 2020-02-05
   HALO-0205_sl4:
-    description: points on cloud surface located by stereo method for straight_leg 4 (sl4) on 2020-02-05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200205/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200205_HALO-0205_sl4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c9709cc533629551)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        4 (sl4) on 2020-02-05
   HALO-0207_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(010ccbe7b43563ce)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-02-07
   HALO-0207_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bba2cd9f9111c7d8)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-02-07
   HALO-0207_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c921241857ade515)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-02-07
   HALO-0207_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(10e056abb2f7b163)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-02-07
   HALO-0207_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1330339b37c7e237)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-02-07
   HALO-0207_c6:
-    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_c6_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(916452ae77010fb3)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 6 (c6)
+        on 2020-02-07
   HALO-0207_cb1:
-    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c99dc835f20cf046)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        1 (cb1) on 2020-02-07
   HALO-0207_cb2:
-    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(946d2a1916df2f61)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        2 (cb2) on 2020-02-07
   HALO-0207_cb3:
-    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(af5dc08581c2f92d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        3 (cb3) on 2020-02-07
   HALO-0207_cb4:
-    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_cb4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(eb40f72fa851c519)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        4 (cb4) on 2020-02-07
   HALO-0207_ll1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (ll1) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_ll1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(aec5335528bef6af)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (ll1) on 2020-02-07
   HALO-0207_rct1:
-    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_rct1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f49a6d9595a81dbb)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_tilted
+        1 (rct1) on 2020-02-07
   HALO-0207_rcw1:
-    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_rcw1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(62a6e733040ab17f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_wiggle
+        1 (rcw1) on 2020-02-07
   HALO-0207_rcw2:
-    description: points on cloud surface located by stereo method for radar_calibration_wiggle 2 (rcw2) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_rcw2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c647b5953e1cc934)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_wiggle
+        2 (rcw2) on 2020-02-07
   HALO-0207_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(814ac464698c8610)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-02-07
   HALO-0207_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200207/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200207_HALO-0207_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(01094874aae4a0b4)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-02-07
   HALO-0209_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(98c8c0bc211e8383)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-02-09
   HALO-0209_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(62b146ed239259e8)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-02-09
   HALO-0209_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3a0ce7806c6e674f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-02-09
   HALO-0209_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(256f73edd4127b69)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-02-09
   HALO-0209_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8a0172f1396afbee)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-02-09
   HALO-0209_c6:
-    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_c6_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a495b7e349c6ec16)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 6 (c6)
+        on 2020-02-09
   HALO-0209_cb1:
-    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3cdc7fd5d99c6489)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        1 (cb1) on 2020-02-09
   HALO-0209_cb2:
-    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c940275e888d072a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        2 (cb2) on 2020-02-09
   HALO-0209_cb3:
-    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3d398b2156d238c8)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        3 (cb3) on 2020-02-09
   HALO-0209_cb4:
-    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_cb4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8f3a361b1ee8c8c9)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        4 (cb4) on 2020-02-09
   HALO-0209_ll1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (ll1) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_ll1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8ad180dcbe43d486)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (ll1) on 2020-02-09
   HALO-0209_rct1:
-    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_rct1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(267b5738448b9fdb)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_tilted
+        1 (rct1) on 2020-02-09
   HALO-0209_rcw1:
-    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_rcw1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(513272e9bbb9bd7e)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_wiggle
+        1 (rcw1) on 2020-02-09
   HALO-0209_rcw2:
-    description: points on cloud surface located by stereo method for radar_calibration_wiggle 2 (rcw2) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_rcw2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(23636b9a0bea3f4c)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_wiggle
+        2 (rcw2) on 2020-02-09
   HALO-0209_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c1d9e6b17a570f72)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-02-09
   HALO-0209_sl3:
-    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-02-09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200209/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200209_HALO-0209_sl3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(145f39063338e0b6)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        3 (sl3) on 2020-02-09
   HALO-0211_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ad333757f948544f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-02-11
   HALO-0211_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(196422dc6c6b54b1)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-02-11
   HALO-0211_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(417f9689ef997bd2)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-02-11
   HALO-0211_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3c0937d12720fcb9)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-02-11
   HALO-0211_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(566dd85adae7e7d7)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-02-11
   HALO-0211_cb1:
-    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8367aeca787367cd)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        1 (cb1) on 2020-02-11
   HALO-0211_cb2:
-    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7981c0713c9296f3)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        2 (cb2) on 2020-02-11
   HALO-0211_cb3:
-    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f79daba96fd5cfff)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        3 (cb3) on 2020-02-11
   HALO-0211_cb4:
-    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_cb4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(56887d9381eec408)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        4 (cb4) on 2020-02-11
   HALO-0211_ll1:
-    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_ll1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4b31cbf85c3caca3)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for lidar_leg
+        1 (ll1) on 2020-02-11
   HALO-0211_rct1:
-    description: points on cloud surface located by stereo method for radar_calibration_tilted 1 (rct1) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_rct1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(08efd19e3ccb046c)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_tilted
+        1 (rct1) on 2020-02-11
   HALO-0211_rcw1:
-    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_rcw1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b26d28c3e4d800d9)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_wiggle
+        1 (rcw1) on 2020-02-11
   HALO-0211_rcw2:
-    description: points on cloud surface located by stereo method for radar_calibration_wiggle 2 (rcw2) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_rcw2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c393d36645c836a1)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_wiggle
+        2 (rcw2) on 2020-02-11
   HALO-0211_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(03befc528a5e7076)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-02-11
   HALO-0211_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200211/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200211_HALO-0211_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4a0e368e583ba033)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-02-11
   HALO-0213_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d1587c25ed6ce24f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-02-13
   HALO-0213_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9e42ace5bc6786ec)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-02-13
   HALO-0213_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8278bd4288af7d76)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-02-13
   HALO-0213_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(cbc72b9f0fedfbbf)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-02-13
   HALO-0213_c6:
-    description: points on cloud surface located by stereo method for circle 6 (c6) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_c6_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7ce7ae7218bdfd67)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 6 (c6)
+        on 2020-02-13
   HALO-0213_cb2:
-    description: points on cloud surface located by stereo method for circle_break 2 (cb2) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_cb2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9b53c30484553b8f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        2 (cb2) on 2020-02-13
   HALO-0213_cb3:
-    description: points on cloud surface located by stereo method for circle_break 3 (cb3) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_cb3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e49930f782f29f2e)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        3 (cb3) on 2020-02-13
   HALO-0213_cb4:
-    description: points on cloud surface located by stereo method for circle_break 4 (cb4) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_cb4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b2aebd682577f92b)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        4 (cb4) on 2020-02-13
   HALO-0213_ll1:
-    description: points on cloud surface located by stereo method for lidar_leg 1 (ll1) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_ll1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4e5b593af8d2f783)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for lidar_leg
+        1 (ll1) on 2020-02-13
   HALO-0213_rcw1:
-    description: points on cloud surface located by stereo method for radar_calibration_wiggle 1 (rcw1) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_rcw1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c197e52bbfb6e1e9)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for radar_calibration_wiggle
+        1 (rcw1) on 2020-02-13
   HALO-0213_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5e75337791f7b11f)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-02-13
   HALO-0213_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200213/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200213_HALO-0213_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9bad37c46e9c727d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-02-13
   HALO-0215_c1:
-    description: points on cloud surface located by stereo method for circle 1 (c1) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4e5a6c325faa8024)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 1 (c1)
+        on 2020-02-15
   HALO-0215_c2:
-    description: points on cloud surface located by stereo method for circle 2 (c2) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f707e4f607339d27)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 2 (c2)
+        on 2020-02-15
   HALO-0215_c3:
-    description: points on cloud surface located by stereo method for circle 3 (c3) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8b55fb548674eb2c)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 3 (c3)
+        on 2020-02-15
   HALO-0215_c4:
-    description: points on cloud surface located by stereo method for circle 4 (c4) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a96e130a8fbdec8a)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 4 (c4)
+        on 2020-02-15
   HALO-0215_c5:
-    description: points on cloud surface located by stereo method for circle 5 (c5) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_c5_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(df53fa355791b166)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle 5 (c5)
+        on 2020-02-15
   HALO-0215_cb1:
-    description: points on cloud surface located by stereo method for circle_break 1 (cb1) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_cb1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(50ef057c64b683ae)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for circle_break
+        1 (cb1) on 2020-02-15
   HALO-0215_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7b66ff17948f4ea9)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-02-15
   HALO-0215_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200215/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200215_HALO-0215_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(338c35362f187d3d)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-02-15
   HALO-0218_sl1:
-    description: points on cloud surface located by stereo method for straight_leg 1 (sl1) on 2020-02-18
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl1_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5da142a0f0bd8481)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        1 (sl1) on 2020-02-18
   HALO-0218_sl2:
-    description: points on cloud surface located by stereo method for straight_leg 2 (sl2) on 2020-02-18
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl2_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c6114f8878d97664)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        2 (sl2) on 2020-02-18
   HALO-0218_sl3:
-    description: points on cloud surface located by stereo method for straight_leg 3 (sl3) on 2020-02-18
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl3_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(576c77b165fa9bd4)}'
       chunks: null
       engine: netcdf4
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        3 (sl3) on 2020-02-18
   HALO-0218_sl4:
-    description: points on cloud surface located by stereo method for straight_leg 4 (sl4) on 2020-02-18
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SPECMACS/CLOUD_GEOMETRY/20200218/EUREC4A_HALO_specMACS-POL_cloud_geometry_20200218_HALO-0218_sl4_tracks_v1.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0c701f45f9a61ddd)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface located by stereo method for straight_leg
+        4 (sl4) on 2020-02-18

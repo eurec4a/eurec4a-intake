@@ -1,124 +1,276 @@
-plugins:
-  source:
-    - module: intake_xarray
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  841ad2efe0a444c6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200119_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  935c3af6183c6e0c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200122_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  fdd80f36024d66ad:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200124_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a0303a99e2c3a233:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200126_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9384ff77e96819cd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200128_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b4b38baad3578a6b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200130_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d102b6eb9dea360b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200131_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b48e9cc287f76aa6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200202_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a300af0afa30d5c2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200205_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  774ab49a3079a126:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200207_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  63f7a38ee3393639:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200209_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  68c8ef9110f77d29:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200211_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  303439ca47d17bba:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200213_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5a775fa6897271fb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200215_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3eacfbb43bf1dff7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200218_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0119:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200119_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(841ad2efe0a444c6)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0122:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200122_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(935c3af6183c6e0c)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0124:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200124_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(fdd80f36024d66ad)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0126:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200126_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a0303a99e2c3a233)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0128:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200128_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9384ff77e96819cd)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0130:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200130_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b4b38baad3578a6b)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0131:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200131_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d102b6eb9dea360b)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0202:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200202_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b48e9cc287f76aa6)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0205:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200205_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a300af0afa30d5c2)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0207:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200207_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(774ab49a3079a126)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0209:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200209_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(63f7a38ee3393639)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0211:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200211_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(68c8ef9110f77d29)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0213:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200213_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(303439ca47d17bba)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0215:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200215_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5a775fa6897271fb)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.
   HALO-0218:
-    description: dropsondes data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_dropsondes_20200218_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3eacfbb43bf1dff7)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: dropsondes data from the HALO unified dataset.

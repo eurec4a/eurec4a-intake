@@ -1,13 +1,41 @@
-sources:
-  cloudmask:
-    args:
-      path: "{{CATALOG_DIR}}/velox_cloudmask.yaml"
-    description: 'VELOX IR imager cloud mask product'
-    driver: yaml_file_cat
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  b1079d92d233826b:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/velox_cloudmask.yaml'
+      storage_options: null
     metadata: {}
+    user_parameters: {}
+  494c1c170d8b1a36:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A/HALO_VELOX_BT_v0.4.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+entries:
+  cloudmask:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(b1079d92d233826b)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: VELOX IR imager cloud mask product
   BT:
-    args:
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/EUREC4A/HALO_VELOX_BT_v0.4.zarr
-      consolidated: True
-    description: VELOX brightness temperature
-    driver: zarr
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(494c1c170d8b1a36)}'
+      chunks: {}
+      consolidated: true
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX brightness temperature

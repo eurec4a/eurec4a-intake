@@ -1,11 +1,22 @@
-plugins:
-  source:
-     - module: intake_xarray
-
-sources:
-  setup:
-    args:
-      path: "{{CATALOG_DIR}}/setup/main.yaml"
-    description: "Simulation setups"
-    driver: yaml_file_cat
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  c0c67e5c64cd0be9:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/setup/main.yaml'
+      storage_options: null
     metadata: {}
+    user_parameters: {}
+entries:
+  setup:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(c0c67e5c64cd0be9)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Simulation setups

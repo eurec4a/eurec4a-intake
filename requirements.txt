@@ -1,1 +1,6 @@
-eurec4a[data]>=0.0.6
+intake>=2.0
+xarray
+zarr
+pydap
+fsspec
+aiohttp

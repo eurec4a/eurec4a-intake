@@ -1,7 +1,22 @@
-sources:
-  water_vapor:
-    args:
-      path: "{{CATALOG_DIR}}/isotope-analyzer-wv.yaml"
-    description: 'Water vapor isotope measurements on board the ATR-42'
-    driver: yaml_file_cat
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  e9bb4827ab7822dc:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/isotope-analyzer-wv.yaml'
+      storage_options: null
     metadata: {}
+    user_parameters: {}
+entries:
+  water_vapor:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(e9bb4827ab7822dc)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Water vapor isotope measurements on board the ATR-42

@@ -1,92 +1,204 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  59cb8bd39f9a52a8:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200117_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  441cd60d7bdd45a0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200119_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  fb9f83e8f736f91c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200123_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  bc60872800548c80:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200124_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6387cd5cffa133e2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200131_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3ab20eef035a7b36:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200203_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  77c8e891e035b835:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200204_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f752138e762654fe:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200205_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8e7e4ecec173ca54:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200209_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  89e290da94a09316:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200210_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  28ed9ef3a8c57818:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200211_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   P3-0117:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(59cb8bd39f9a52a8)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200117_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0119:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(441cd60d7bdd45a0)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200119_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0123:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(fb9f83e8f736f91c)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200123_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0124:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bc60872800548c80)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200124_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0131:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6387cd5cffa133e2)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200131_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0203:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3ab20eef035a7b36)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200203_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0204:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(77c8e891e035b835)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200204_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0205:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f752138e762654fe)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200205_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0209:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8e7e4ecec173ca54)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200209_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0210:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(89e290da94a09316)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200210_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0211:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(28ed9ef3a8c57818)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/Picarro/EUREC4A_ATOMIC_P3_Isotope-Analyzer_Water-Vapor-5Hz_20200211_v1.1.nc
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''

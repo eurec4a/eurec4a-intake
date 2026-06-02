@@ -1,13 +1,24 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  7d49c3739359e92d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ROSR/EUREC4A_ATOMIC_RonBrown_ROSR_sea_skin_temp_20200109_20200126_v1.3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   SSTskin:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7d49c3739359e92d)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ROSR/EUREC4A_ATOMIC_RonBrown_ROSR_sea_skin_temp_20200109_20200126_v1.3.nc
-    description: Ocean skin surface temperature from ROSR
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Ocean skin surface temperature from ROSR

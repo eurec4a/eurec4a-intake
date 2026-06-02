@@ -1,7 +1,22 @@
-sources:
-  spectral_irradiances:
-    args:
-      path: "{{CATALOG_DIR}}/smart_irradiances.yaml"
-    description: 'SMART spectral irradiances'
-    driver: yaml_file_cat
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  90b6f89366f9e531:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/smart_irradiances.yaml'
+      storage_options: null
     metadata: {}
+    user_parameters: {}
+entries:
+  spectral_irradiances:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(90b6f89366f9e531)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances

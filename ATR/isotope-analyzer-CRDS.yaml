@@ -1,247 +1,443 @@
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  231d23964807173d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200125_as200002.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6d35e6d39518f231:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200126_as200003.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5fac84190978d7fa:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200126_as200004.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a19ced177cec6f5c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200128_as200005.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  56a28643b65483c6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200130_as200006.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d3ffe33507d238b4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200131_as200007.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  905f787fe7d2362a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200131_as200008.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2ee3f45fb7a4a9c0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200202_as200009.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1f3e2f440ca12b56:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200202_as200010.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7ff5a76307191690:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200205_as200011.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4f01022d23fdd821:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200205_as200012.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  652aad0f0ac0dfe7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200207_as200013.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7f3b3614980ae39d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200207_as200014.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  63d9a9cb62ab6189:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200209_as200015.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7c06f70aba2031a2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200209_as200016.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1e45af9a28cbed88:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200211_as200017.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e81de1215975a56e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200211_as200018.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  829b00ec8937cf80:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200213_as200019.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a7d51ddd38f6125a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200213_as200020.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   ATR-0125-02:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 02
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200125_as200002.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(231d23964807173d)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 02
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF02_20200125_info_Picarro.yaml
-
   ATR-0126-03:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 03
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200126_as200003.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6d35e6d39518f231)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 03
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF03_20200126_info_Picarro.yaml
-
   ATR-0126-04:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 04
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200126_as200004.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5fac84190978d7fa)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 04
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF04_20200126_info_Picarro.yaml
-
   ATR-0128-05:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 05
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200128_as200005.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a19ced177cec6f5c)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 05
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF05_20200128_info_Picarro.yaml
-
   ATR-0130-06:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 06
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200130_as200006.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(56a28643b65483c6)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 06
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF06_20200130_info_Picarro.yaml
-
   ATR-0131-07:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 07
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200131_as200007.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d3ffe33507d238b4)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 07
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF07_20200131_info_Picarro.yaml
-
   ATR-0131-08:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 08
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200131_as200008.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(905f787fe7d2362a)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 08
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF08_20200131_info_Picarro.yaml
-
   ATR-0202-09:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 09
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200202_as200009.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2ee3f45fb7a4a9c0)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 09
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF09_20200202_info_Picarro.yaml
-
   ATR-0202-10:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 10
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200202_as200010.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1f3e2f440ca12b56)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 10
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF10_20200202_info_Picarro.yaml
-
   ATR-0205-11:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 11
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200205_as200011.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7ff5a76307191690)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 11
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF11_20200205_info_Picarro.yaml
-
   ATR-0205-12:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 12
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200205_as200012.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4f01022d23fdd821)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 12
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF12_20200205_info_Picarro.yaml
-
   ATR-0207-13:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 13
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200207_as200013.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(652aad0f0ac0dfe7)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 13
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF13_20200207_info_Picarro.yaml
-
   ATR-0207-14:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 14
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200207_as200014.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7f3b3614980ae39d)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 14
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF14_20200207_info_Picarro.yaml
-
   ATR-0209-15:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 15
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200209_as200015.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(63d9a9cb62ab6189)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 15
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF15_20200209_info_Picarro.yaml
-
   ATR-0209-16:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 16
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200209_as200016.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7c06f70aba2031a2)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 16
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF16_20200209_info_Picarro.yaml
-
   ATR-0211-17:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 17
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200211_as200017.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1e45af9a28cbed88)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 17
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF17_20200211_info_Picarro.yaml
-
   ATR-0211-18:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 18
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200211_as200018.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e81de1215975a56e)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 18
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF18_20200211_info_Picarro.yaml
-
   ATR-0213-19:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 19
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200213_as200019.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(829b00ec8937cf80)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 19
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF19_20200213_info_Picarro.yaml
-
   ATR-0213-20:
-    description: Calibrated stable water vapour isotope measurements on board the ATR-42 during research flight 20
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/ATR/vapour/EUREC4A_ATR_PICARRO_L3.0_20200213_as200020.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a7d51ddd38f6125a)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: Calibrated stable water vapour isotope measurements on board the
+        ATR-42 during research flight 20
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244
       note: https://observations.ipsl.fr/aeris/eurec4a-data/AIRCRAFT/ATR/vapour/ATR_RF20_20200213_info_Picarro.yaml

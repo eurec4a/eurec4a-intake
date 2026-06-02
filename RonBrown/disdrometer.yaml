@@ -1,28 +1,60 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  31844e21cfea9d5c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/disdrometer/EUREC4A_ATOMIC_RonBrown_disdrometer_rain_dropcount_dbz_10sec_20200109-20200212_v1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b74d96a4e3e8e45f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/disdrometer/EUREC4A_ATOMIC_RonBrown_disdrometer_rain_1min_20200109-20200212_v1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  31511d7806e53c43:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/disdrometer/EUREC4A_ATOMIC_RonBrown_disdrometer_rain_10min_20200109-20200212_v1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   rain_dropcount_dbz_10sec:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(31844e21cfea9d5c)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/disdrometer/EUREC4A_ATOMIC_RonBrown_disdrometer_rain_dropcount_dbz_10sec_20200109-20200212_v1.nc
-    driver: opendap
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   rain_1min:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b74d96a4e3e8e45f)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/disdrometer/EUREC4A_ATOMIC_RonBrown_disdrometer_rain_1min_20200109-20200212_v1.nc
-    driver: opendap
-    
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   rain_10min:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(31511d7806e53c43)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/disdrometer/EUREC4A_ATOMIC_RonBrown_disdrometer_rain_10min_20200109-20200212_v1.nc
-    driver: opendap   
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''

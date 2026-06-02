@@ -1,40 +1,76 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  9fb3560f8d601db9:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/LIMRAD94.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  bb9d52c875f1a061:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_Meteor_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  efd39bf16a4ad622:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SHIPS/RV-METEOR/surface_fluxes/EUREC4A_Meteor_surface_heat_fluxes_20200115_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  32b7f07e76dcccc7:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: https://tcodata.mpimet.mpg.de/METEOR/EUREC4A/catalog.yaml
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   LIMRAD94:
-    args:
-      path: "{{CATALOG_DIR}}/LIMRAD94.yaml"
-    description: 'W-band radar data'
-    driver: yaml_file_cat
-    metadata: {}
-
-  track:
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_Meteor_v1.0.nc
-      auth: null
-      chunks: { }
-      engine: netcdf4
-    driver: opendap
-    description: Meteor track
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(9fb3560f8d601db9)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
     metadata:
-      tags:
-        - track
-
-  surface_fluxes:
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/SHIPS/RV-METEOR/surface_fluxes/EUREC4A_Meteor_surface_heat_fluxes_20200115_v1.0.nc
-      auth: null
-      chunks: { }
+      description: W-band radar data
+  track:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bb9d52c875f1a061)}'
+      chunks: {}
       engine: netcdf4
-    driver: opendap
-    description: Surface heat fluxes measured on-board R/V Meteor
-    metadata: {}
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Meteor track
+      tags:
+      - track
+  surface_fluxes:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(efd39bf16a4ad622)}'
+      chunks: {}
+      engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Surface heat fluxes measured on-board R/V Meteor
   LICHT_LIDAR:
-    description: Observations made with the LICHT LIDAR on R/V Meteor
-    args:
-      path: "https://tcodata.mpimet.mpg.de/METEOR/EUREC4A/catalog.yaml"
-    driver: intake.catalog.local.YAMLFileCatalog
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(32b7f07e76dcccc7)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Observations made with the LICHT LIDAR on R/V Meteor

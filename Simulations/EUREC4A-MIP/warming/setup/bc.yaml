@@ -1,28 +1,57 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
-
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  9049ec1ec2116f48:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/deltas.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  669ab546d089d3af:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: reference://
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  2050614ce217dc5b:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{{CATALOG_DIR}}/cosmo.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   deltas:
-    args:
-      path: "{{CATALOG_DIR}}/deltas.yaml"
-    description: "Boundary conditions differences of pseudo global warming experiment"
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(9049ec1ec2116f48)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Boundary conditions differences of pseudo global warming experiment
   ERA5:
-    driver: zarr
-    description: Boundary conditions for storm resolving models
-    args:
-      urlpath: reference://
-      storage_options:
-        fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/PGW+4K/PGW+4K.ref
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(669ab546d089d3af)}'
+      chunks: {}
       consolidated: false
-    metadata: {}
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Boundary conditions for storm resolving models
   COSMO:
-    args:
-      path: "{{CATALOG_DIR}}/cosmo.yaml"
-    description: "Boundary conditions for large eddy models"
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(2050614ce217dc5b)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Boundary conditions for large eddy models
