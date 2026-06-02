@@ -17,20 +17,13 @@ jobs:
     - uses: actions/checkout@v3
       with:
         fetch-depth: 0  # required to analyze which files are modified in this branch
-    - name: Set up conda
-      uses: conda-incubator/setup-miniconda@v3
+    - name: Install uv
+      uses: astral-sh/setup-uv@v5
       with:
-        auto-update-conda: false
-        python-version: "3.10"
-        activate-environment: eurec4a
+        python-version: "3.12"
+        activate-environment: true
     - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-        conda install netCDF4
-    - name: Conda info
-      run: conda info
-    - name: Conda list
-      run: conda list
+      run: uv pip install -r requirements.txt
     - name: Install local ipfs node
       run: |
         sudo apt-get update
@@ -38,7 +31,5 @@ jobs:
         bash <(curl https://raw.githubusercontent.com/eurec4a/ipfs_tools/main/install_and_run_ipfs.sh) ${{ matrix.ipfs-version }}
     - name: Test with pytest
       run: |
-        pip install pytest pytest-xdist sh pytest-timeout
-        # the intake-xarray puts it's source in src/ because we're installing
-        # from github directly, but we don't want to run its tests
-        python -m pytest --ignore=src/ -n 20 --timeout=300
+        uv pip install pytest pytest-xdist sh pytest-timeout
+        python -m pytest -n 20 --timeout=300
