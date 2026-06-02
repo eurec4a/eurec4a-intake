@@ -51,6 +51,13 @@ data:
       root: ''
     metadata: {}
     user_parameters: {}
+  110af782d976eaa7:
+    datatype: intake.readers.datatypes:JSONFile
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_params_records.json.zip
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
 entries:
   profiles:
     reader: intake.readers.readers:XArrayDatasetReader
@@ -119,10 +126,11 @@ entries:
     metadata:
       description: Radiation fields
   parameters:
-    reader: intake.readers.readers:JSONReader
+    reader: intake.readers.readers:DaskJSON
     kwargs:
-      url: https://swift.dkrz.de/v1/dkrz_b42c6bc6-439f-4efb-9491-db3de70ad9ba/botany_1536_01D/botany_1536_params_records.json.zip
-    output_instance: builtins:dict
+      args:
+      - '{data(110af782d976eaa7)}'
+    output_instance: dask.dataframe:DataFrame
     user_parameters: {}
     metadata:
       description: Parameters of experiments

@@ -164,13 +164,14 @@ def _convert_source(name: str, src: dict) -> tuple[dict, dict]:
         }
 
     elif driver in JSON_DRIVERS:
-        # Keep json as a passthrough note — intake 2 has no direct json reader
-        # that matches v1 semantics; emit a comment-style placeholder entry
         json_url = _convert_catalog_dir_template(args.get("urlpath", args.get("path", "")))
+        data_kwargs = {"url": json_url, "storage_options": None}
+        tok, data_entry = _make_data_entry("intake.readers.datatypes:JSONFile", data_kwargs)
+        data_entries[tok] = data_entry
         reader_entry = {
-            "reader": "intake.readers.readers:JSONReader",
-            "kwargs": {"url": json_url},
-            "output_instance": "builtins:dict",
+            "reader": "intake.readers.readers:DaskJSON",
+            "kwargs": {"args": [f"{{data({tok})}}"]},
+            "output_instance": "dask.dataframe:DataFrame",
             "user_parameters": user_parameters,
             "metadata": {"description": description, **metadata},
         }

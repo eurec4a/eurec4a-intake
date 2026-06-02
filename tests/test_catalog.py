@@ -85,8 +85,8 @@ def test_get_intake_source(cat_and_name):
     output = reader.output_instance
     if output == "xarray:Dataset":
         _ = reader.to_dask()
-    elif output in ("builtins:dict",):
-        _ = reader.read()
+    elif output == "dask.dataframe:DataFrame":
+        _ = reader.to_dask()
     else:
         raise Exception(f"Unknown output_instance: {output} for entry {name}")
 
