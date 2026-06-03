@@ -1,12 +1,24 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  734b78010dbb64d5:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/AXBT/EUREC4A_ATOMIC_P3_AXBT_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   Level_3:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(734b78010dbb64d5)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/AXBT/EUREC4A_ATOMIC_P3_AXBT_v1.0.nc
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''

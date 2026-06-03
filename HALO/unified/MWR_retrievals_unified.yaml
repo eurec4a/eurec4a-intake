@@ -1,124 +1,276 @@
-plugins:
-  source:
-    - module: intake_xarray
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  1361c42d70872bcb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200119093425.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  0c87a83c4609a53a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200122145736.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  11a48182b9619a31:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200124092931.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  84ff41109b43938e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200126120530.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  60138c921f9769cf:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200128145834.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  610318afab046449:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200130111934.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  369509e7bde94831:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200131150836.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7d10b2b26cab537c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200202112802.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  66672317590767bd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200205091552.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  093431736549350c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200207120224.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f259c238746b55bd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200209091432.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8ce80635a2eda763:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200211122905.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e724c51e4fba3bcf:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200213075611.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  aa7cfb62f2154c76:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200215150731.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  669cd0c012515bb1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200218101105.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0119:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200119093425.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1361c42d70872bcb)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0122:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200122145736.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0c87a83c4609a53a)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0124:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200124092931.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(11a48182b9619a31)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0126:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200126120530.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(84ff41109b43938e)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0128:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200128145834.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(60138c921f9769cf)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0130:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200130111934.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(610318afab046449)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0131:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200131150836.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(369509e7bde94831)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0202:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200202112802.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7d10b2b26cab537c)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0205:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200205091552.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(66672317590767bd)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0207:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200207120224.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(093431736549350c)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0209:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200209091432.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f259c238746b55bd)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0211:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200211122905.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8ce80635a2eda763)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0213:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200213075611.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e724c51e4fba3bcf)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0215:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200215150731.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(aa7cfb62f2154c76)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
   HALO-0218:
-    description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/HAMP/LWP_IWV_v0.9.2/EUREC4A_HALO_HAMP_lwpiwv_l2_any_v0.9.2_20200218101105.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(669cd0c012515bb1)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: HAMP Microwave Radiometer retrieval products of LWP, RWP and IWV

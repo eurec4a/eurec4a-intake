@@ -1,28 +1,60 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  151b8b3443d30a19:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ceilometer/EUREC4A_ATOMIC_RonBrown_Ceilometer_15s_20200109-20200212_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4dc20b69d47249f3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ceilometer/EUREC4A_ATOMIC_RonBrown_Ceilometer_10min_20200109-20200212_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2d25ffca7346e235:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ceilometer/EUREC4A_ATOMIC_RonBrown_Ceilometer_1hour_20200109-20200212_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   15_s:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(151b8b3443d30a19)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ceilometer/EUREC4A_ATOMIC_RonBrown_Ceilometer_15s_20200109-20200212_v1.1.nc
-    driver: opendap
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   10_min:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4dc20b69d47249f3)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ceilometer/EUREC4A_ATOMIC_RonBrown_Ceilometer_10min_20200109-20200212_v1.1.nc
-    driver: opendap
-    
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   1_hour:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2d25ffca7346e235)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/ceilometer/EUREC4A_ATOMIC_RonBrown_Ceilometer_1hour_20200109-20200212_v1.1.nc
-    driver: opendap   
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''

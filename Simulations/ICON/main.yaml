@@ -1,23 +1,57 @@
-plugins:
-  source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  7e3950a54169ca5d:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/LES_CampaignDomain_highCCN.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  bc9b3f0c6780939c:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/LES_CampaignDomain_control.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  baf7007524b6fa53:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/SRM.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   LES_CampaignDomain_highCCN:
-    args:
-      path: "{{CATALOG_DIR}}/LES_CampaignDomain_highCCN.yaml"
-    description: 'ICON LES simulation with an CCN concentration of 1700cm-3 covering the entire campaign domain.'
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(7e3950a54169ca5d)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: ICON LES simulation with an CCN concentration of 1700cm-3 covering
+        the entire campaign domain.
   LES_CampaignDomain_control:
-    args:
-      path: "{{CATALOG_DIR}}/LES_CampaignDomain_control.yaml"
-    description: 'ICON LES simulation with a `realistic` CCN concentration of 130cm-3 covering the entire campaign domain.'
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(bc9b3f0c6780939c)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: ICON LES simulation with a `realistic` CCN concentration of 130cm-3
+        covering the entire campaign domain.
   SRM:
-    args:
-      path: "{{CATALOG_DIR}}/SRM.yaml"
-    description: 'ICON storm-resolving simulation with a horizontal grid-spacing of 1.25km'
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(baf7007524b6fa53)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: ICON storm-resolving simulation with a horizontal grid-spacing
+        of 1.25km

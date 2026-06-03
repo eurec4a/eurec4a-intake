@@ -1,31 +1,62 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  f891505362b2f19e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/nav_met_sea_flux/EUREC4A_ATOMIC_RonBrown_atm_ocean_near_surface_profiles_20200109-20200212_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9a276bf51ec6304b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/nav_met_sea_flux/EUREC4A_ATOMIC_RonBrown_1min_nav_met_sea_20200109-20200212_v1.3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e68ca64059e253d9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/nav_met_sea_flux/EUREC4A_ATOMIC_RonBrown_10min_nav_met_sea_flux_20200109-20200212_v1.3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   profile:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f891505362b2f19e)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/nav_met_sea_flux/EUREC4A_ATOMIC_RonBrown_atm_ocean_near_surface_profiles_20200109-20200212_v1.1.nc
-    description: atmospheric and oceanic profiles, ten minute data
-    driver: opendap
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: atmospheric and oceanic profiles, ten minute data
   1min:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9a276bf51ec6304b)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/nav_met_sea_flux/EUREC4A_ATOMIC_RonBrown_1min_nav_met_sea_20200109-20200212_v1.3.nc
-    description: Surface meteorological, near-surface seawater, ship navigation, one minute data
-    driver: opendap
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Surface meteorological, near-surface seawater, ship navigation,
+        one minute data
   10min:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e68ca64059e253d9)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/rhb/nav_met_sea_flux/EUREC4A_ATOMIC_RonBrown_10min_nav_met_sea_flux_20200109-20200212_v1.3.nc
-    description: Surface meteorological, near-surface seawater, ship navigation, ten minute data
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Surface meteorological, near-surface seawater, ship navigation,
+        ten minute data

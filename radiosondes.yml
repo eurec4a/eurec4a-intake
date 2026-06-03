@@ -1,53 +1,107 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  ab1045c4c144962a:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Atalante_Meteomodem-RS_L2_v3.0.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ddc14cfd63805916:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Atalante_Vaisala-RS_L2_v3.0.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  262c30f198716377:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_BCO_Vaisala-RS_L2_v3.0.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e0effa4f38c37a53:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Meteor_Vaisala-RS_L2_v3.0.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f1df945ddd1f49f6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_RonBrown_Vaisala-RS_L2_v3.0.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   atalante_meteomodem:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Atalante_Meteomodem-RS_L2_v3.0.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ab1045c4c144962a)}'
       chunks: null
       engine: netcdf4
-    description: Meteomodem-RS on Atalante
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Meteomodem-RS on Atalante
   atalante_vaisala:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Atalante_Vaisala-RS_L2_v3.0.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ddc14cfd63805916)}'
       chunks: null
       engine: netcdf4
-    description: Vaisala-RS on Atalante
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Vaisala-RS on Atalante
   bco:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_BCO_Vaisala-RS_L2_v3.0.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(262c30f198716377)}'
       chunks: null
       engine: netcdf4
-    description: Vaisala-RS on BCO
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Vaisala-RS on BCO
   meteor:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_Meteor_Vaisala-RS_L2_v3.0.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e0effa4f38c37a53)}'
       chunks: null
       engine: netcdf4
-    description: Vaisala-RS on Meteor
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Vaisala-RS on Meteor
   ms_merian:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_BCO_Vaisala-RS_L2_v3.0.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(262c30f198716377)}'
       chunks: null
       engine: netcdf4
-    description: Vaisala-RS on MS-Merian
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Vaisala-RS on MS-Merian
   ronbrown:
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/MERGED-MEASUREMENTS/RADIOSOUNDINGS/v3.0.0/level2/EUREC4A_RonBrown_Vaisala-RS_L2_v3.0.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f1df945ddd1f49f6)}'
       chunks: null
       engine: netcdf4
-    description: Vaisala-RS on RonBrown
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Vaisala-RS on RonBrown

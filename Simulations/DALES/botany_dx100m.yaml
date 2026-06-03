@@ -1,18 +1,40 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  c3fccec69ac256b9:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/botany_dx100m_nx1536.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  00e787a85cc2104f:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/botany_dx100m_nx96.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   nx1536:
-    args:
-      path: "{{CATALOG_DIR}}/botany_dx100m_nx1536.yaml"
-    description: 'Cloud botany: DALES LES ensemble with varied forcings at 100m grid spacing, 153.6 km domain'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(c3fccec69ac256b9)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: 'Cloud botany: DALES LES ensemble with varied forcings at 100m
+        grid spacing, 153.6 km domain'
   nx96:
-    args:
-      path: "{{CATALOG_DIR}}/botany_dx100m_nx96.yaml"
-    description: 'Cloud botany: DALES LES ensemble with varied forcings at 100m grid spacing, 9.6 km domain'
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(00e787a85cc2104f)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: 'Cloud botany: DALES LES ensemble with varied forcings at 100m
+        grid spacing, 9.6 km domain'

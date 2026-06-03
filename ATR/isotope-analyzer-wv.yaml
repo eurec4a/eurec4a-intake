@@ -1,9 +1,25 @@
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  85651e58c5243ed3:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/isotope-analyzer-wv.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   CRDS:
-    args:
-      path: "{{CATALOG_DIR}}/isotope-analyzer-wv.yaml"
-      description: 'Calibrated stable water vapor isotope measurements on board the ATR-42'
-    driver: yaml_file_cat
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(85651e58c5243ed3)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
     metadata:
-      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie Villiger <leonie.villiger[at]env.ethz.ch>
+      description: ''
+      maintainer: Franziska Aemisegger <franziska.aemisegger[at]env.ethz.ch>, Leonie
+        Villiger <leonie.villiger[at]env.ethz.ch>
       doi: https://doi.org/10.25326/244

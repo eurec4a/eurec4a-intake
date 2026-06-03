@@ -1,108 +1,253 @@
-plugins:
-  source:
-    - module: intake_xarray
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  b2e05ba690916ddd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200122_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ef9a2cc3e05291e0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200124_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ecc4ede39b271183:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200126_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  112c791fa50ae081:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200128_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9b5a64733e7a1bc7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200130_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5e7295213061b727:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200131_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  416d1b9832f8f4a6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200202_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ecd8b98eae029ff2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200205_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  414e96ef5b103f1c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200207_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7d6f094ba19cd14c:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200209_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  6537795608d43f57:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200211_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ecd4eb396d4d3cd1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200213_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  81f629b35ca5d34b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200215_V2.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0122:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200122_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b2e05ba690916ddd)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0124:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200124_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ef9a2cc3e05291e0)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0126:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200126_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ecc4ede39b271183)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0128:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200128_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(112c791fa50ae081)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0130:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200130_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9b5a64733e7a1bc7)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0131:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200131_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5e7295213061b727)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0202:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200202_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(416d1b9832f8f4a6)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0205:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200205_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ecd8b98eae029ff2)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0207:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200207_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(414e96ef5b103f1c)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0209:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200209_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7d6f094ba19cd14c)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0211:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200211_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(6537795608d43f57)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0213:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200213_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ecd4eb396d4d3cd1)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   HALO-0215:
-    description: WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/cloudtop/EUREC4A_HALO_WALES_cloudtop_20200215_V2.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(81f629b35ca5d34b)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.

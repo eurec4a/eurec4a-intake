@@ -1,25 +1,36 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
-
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  669ab546d089d3af:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: reference://
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+entries:
   2D:
-    driver: zarr
-    description: 2D fields
-    args:
-      urlpath: reference://
-      storage_options:
-        fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/COSMO_PGW_BC_2D/COSMO_PGW_BC_2D.ref
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(669ab546d089d3af)}'
+      chunks: {}
       consolidated: false
-    metadata: {}
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: 2D fields
   3D:
-    driver: zarr
-    description: 2D fields
-    args:
-      urlpath: reference://
-      storage_options:
-        fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/COSMO_PGW_BC_3D/COSMO_PGW_BC_3D.ref
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(669ab546d089d3af)}'
+      chunks: {}
       consolidated: false
-    metadata: {}
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: 2D fields

@@ -1,7 +1,22 @@
-sources:
-  cloudmask:
-    args:
-      path: "{{CATALOG_DIR}}/kt19_cloudmask.yaml"
-    description: 'KT-19 thermal radiometer cloud mask product'
-    driver: yaml_file_cat
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  cc8ab948fbf02f80:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/kt19_cloudmask.yaml'
+      storage_options: null
     metadata: {}
+    user_parameters: {}
+entries:
+  cloudmask:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(cc8ab948fbf02f80)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: KT-19 thermal radiometer cloud mask product

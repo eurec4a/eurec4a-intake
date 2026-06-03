@@ -1,18 +1,38 @@
-plugins:
-  source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  d2748a94c3989ec7:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/control/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  4508b2b366f335e9:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/warming/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   control:
-    args:
-      path: "{{CATALOG_DIR}}/control/main.yaml"
-    description: "EUREC4A-MIP simulations based on realistic boundary conditions"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(d2748a94c3989ec7)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: EUREC4A-MIP simulations based on realistic boundary conditions
   warming:
-    args:
-      path: "{{CATALOG_DIR}}/warming/main.yaml"
-    description: "EUREC4A-MIP simulations based on 4K warming"
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(4508b2b366f335e9)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: EUREC4A-MIP simulations based on 4K warming

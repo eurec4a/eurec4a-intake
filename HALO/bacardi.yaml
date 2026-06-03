@@ -1,7 +1,23 @@
-sources:
-  irradiances:
-    args:
-      path: "{{CATALOG_DIR}}/bacardi_irradiances.yaml"
-    description: 'BACARDI upward and downward irradiances in the solar and terrestrial spctral range'
-    driver: yaml_file_cat
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  bfae91920f514d84:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/bacardi_irradiances.yaml'
+      storage_options: null
     metadata: {}
+    user_parameters: {}
+entries:
+  irradiances:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(bfae91920f514d84)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: BACARDI upward and downward irradiances in the solar and terrestrial
+        spctral range

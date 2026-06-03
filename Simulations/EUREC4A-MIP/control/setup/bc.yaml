@@ -1,22 +1,41 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
-
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  669ab546d089d3af:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: reference://
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  63ab004b4070c8dc:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/cosmo.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   ERA5:
-    driver: zarr
-    description: Boundary conditions for storm resolving models
-    args:
-      urlpath: reference://
-      storage_options:
-        fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/CTRL_ERA5/CTRL_ERA5.ref
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(669ab546d089d3af)}'
+      chunks: {}
       consolidated: false
-    metadata: {}
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Boundary conditions for storm resolving models
   COSMO:
-    args:
-      path: "{{CATALOG_DIR}}/cosmo.yaml"
-    description: "Boundary conditions for large eddy models"
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(63ab004b4070c8dc)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Boundary conditions for large eddy models

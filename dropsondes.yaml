@@ -1,11 +1,23 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
-  JOANNE:
-    args:
-      path: "{{CATALOG_DIR}}/JOANNE/main.yaml"
-    description: The EUREC4A dropsonde dataset JOANNE contains HALO and P3 dropsonde data.
-    driver: yaml_file_cat
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  f0825fb31592ef41:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/JOANNE/main.yaml'
+      storage_options: null
     metadata: {}
+    user_parameters: {}
+entries:
+  JOANNE:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(f0825fb31592ef41)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: The EUREC4A dropsonde dataset JOANNE contains HALO and P3 dropsonde
+        data.

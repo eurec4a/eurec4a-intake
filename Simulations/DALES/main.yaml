@@ -1,11 +1,22 @@
-plugins:
-  source:
-     - module: intake_xarray
-
-sources:
-  botany:
-    args:
-      path: "{{CATALOG_DIR}}/botany.yaml"
-    description: 'Cloud botany LES ensemble'
-    driver: yaml_file_cat
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  b356faab3987d5a6:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/botany.yaml'
+      storage_options: null
     metadata: {}
+    user_parameters: {}
+entries:
+  botany:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(b356faab3987d5a6)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Cloud botany LES ensemble

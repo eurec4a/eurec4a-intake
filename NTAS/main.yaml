@@ -1,13 +1,24 @@
-plugins:
-  source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  9e88ef0646b68338:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/NTAS/EUREC4A_ATOMIC_NTAS_all_v1.2.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   all:
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9e88ef0646b68338)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/NTAS/EUREC4A_ATOMIC_NTAS_all_v1.2.nc
-    description: NTAS mooring, all data fields
-    driver: opendap
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: NTAS mooring, all data fields

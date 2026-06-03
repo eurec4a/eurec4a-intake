@@ -1,18 +1,38 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  89276b1cc7d1703b:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/BAHAMAS_QL.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  be93da16052141ef:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/BAHAMAS_PositionAttitude.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   QL:
-    args:
-      path: "{{CATALOG_DIR}}/BAHAMAS_QL.yaml"
-    description: 'BAHAMAS QL data'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(89276b1cc7d1703b)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: BAHAMAS QL data
   PositionAttitude:
-    args:
-      path: "{{CATALOG_DIR}}/BAHAMAS_PositionAttitude.yaml"
-    description: 'BAHAMAS subset containint Position and Attitude data for ESSD publication'
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(be93da16052141ef)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: BAHAMAS subset containint Position and Attitude data for ESSD publication

@@ -1,101 +1,222 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  b477f6686222e8ff:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_03_20200124/EUREC4A_HALO_VELOX_cloudmask_20200124_v3.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c55d005dfe030286:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_04_20200126/EUREC4A_HALO_VELOX_cloudmask_20200126_v3.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  25ff76db9a780d3d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_05_20200128/EUREC4A_HALO_VELOX_cloudmask_20200128_v3.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a39b269e1d107bf5:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_06_20200130/EUREC4A_HALO_VELOX_cloudmask_20200130_v3.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d23b287692a0e9fc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_07_20200131/EUREC4A_HALO_VELOX_cloudmask_20200131_v3.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  145462ee8ce6fdab:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_08_20200202/EUREC4A_HALO_VELOX_cloudmask_20200202_v3.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  059c89cee038fdad:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_09_20200205/EUREC4A_HALO_VELOX_cloudmask_20200205_v3.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  aff323cc7c8fd1d9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_10_20200207/EUREC4A_HALO_VELOX_cloudmask_20200207_v3.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d0898dcaf22101a9:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_11_20200209/EUREC4A_HALO_VELOX_cloudmask_20200209_v3.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  10ce527d69333065:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_12_20200211/EUREC4A_HALO_VELOX_cloudmask_20200211_v3.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5f502a9289897ccd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_13_20200213/EUREC4A_HALO_VELOX_cloudmask_20200213_v3.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b9b377e0e52a77fd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_14_20200215/EUREC4A_HALO_VELOX_cloudmask_20200215_v3.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0124:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_03_20200124/EUREC4A_HALO_VELOX_cloudmask_20200124_v3.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b477f6686222e8ff)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask
   HALO-0126:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_04_20200126/EUREC4A_HALO_VELOX_cloudmask_20200126_v3.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c55d005dfe030286)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask
   HALO-0128:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_05_20200128/EUREC4A_HALO_VELOX_cloudmask_20200128_v3.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(25ff76db9a780d3d)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask
   HALO-0130:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_06_20200130/EUREC4A_HALO_VELOX_cloudmask_20200130_v3.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a39b269e1d107bf5)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask
   HALO-0131:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_07_20200131/EUREC4A_HALO_VELOX_cloudmask_20200131_v3.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d23b287692a0e9fc)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask
   HALO-0202:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_08_20200202/EUREC4A_HALO_VELOX_cloudmask_20200202_v3.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(145462ee8ce6fdab)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask
   HALO-0205:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_09_20200205/EUREC4A_HALO_VELOX_cloudmask_20200205_v3.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(059c89cee038fdad)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask
   HALO-0207:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_10_20200207/EUREC4A_HALO_VELOX_cloudmask_20200207_v3.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(aff323cc7c8fd1d9)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask
   HALO-0209:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_11_20200209/EUREC4A_HALO_VELOX_cloudmask_20200209_v3.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d0898dcaf22101a9)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask
   HALO-0211:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_12_20200211/EUREC4A_HALO_VELOX_cloudmask_20200211_v3.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(10ce527d69333065)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask
   HALO-0213:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_13_20200213/EUREC4A_HALO_VELOX_cloudmask_20200213_v3.1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5f502a9289897ccd)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask
   HALO-0215:
-    description: VELOX cloud mask 
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/VELOX/RF_14_20200215/EUREC4A_HALO_VELOX_cloudmask_20200215_v3.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b9b377e0e52a77fd)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: VELOX cloud mask

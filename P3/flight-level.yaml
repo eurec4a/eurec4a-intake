@@ -1,92 +1,204 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  439d52d3d18938dd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200117_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  79ec243fd8a599dd:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200119_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d5b8dea7bd56020e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200123_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  b894b5b1aec66f85:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200124_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  18f2c5827902c4c2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200131_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  0a2f19be328d31d7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200203_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  133e76da4622893d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200204_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  780ac0e21bef77fc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200205_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  44d97cf575888bc5:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200209_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  240958b962b3bf52:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200210_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  522f35a220f6a814:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200211_v1.1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   P3-0117:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(439d52d3d18938dd)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200117_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0119:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(79ec243fd8a599dd)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200119_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0123:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d5b8dea7bd56020e)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200123_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0124:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b894b5b1aec66f85)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200124_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0131:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(18f2c5827902c4c2)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200131_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0203:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0a2f19be328d31d7)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200203_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0204:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(133e76da4622893d)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200204_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0205:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(780ac0e21bef77fc)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200205_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0209:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(44d97cf575888bc5)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200209_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0210:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(240958b962b3bf52)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200210_v1.1.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0211:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(522f35a220f6a814)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200211_v1.1.nc
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''

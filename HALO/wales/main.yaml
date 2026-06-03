@@ -1,35 +1,87 @@
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  ea2817ba14e29fdb:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/wales_cloudtop.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  0a18933eef253649:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/wales_wv.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  fb784926a1f53a61:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/wales_adepg.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  40a365c4c6622085:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/wales_bsri.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  aa5ea3c49227f274:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/wales_bsrg.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   cloudparameter:
-    args:
-      path: "{{CATALOG_DIR}}/wales_cloudtop.yaml"
-    description: 'WALES-Lidar cloud top height, cloud optical thickness and cloud flag data.'
-    driver: yaml_file_cat 
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(ea2817ba14e29fdb)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar cloud top height, cloud optical thickness and cloud
+        flag data.
   wv:
-    args:
-      path: "{{CATALOG_DIR}}/wales_wv.yaml"
-    description: 'WALES Lidar water wapour volume mixing ratio in ppm'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(0a18933eef253649)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: WALES Lidar water wapour volume mixing ratio in ppm
   adepg:
-    args:
-      path: "{{CATALOG_DIR}}/wales_adepg.yaml"
-    description: 'WALES Lidar aerosol depolarisation at 532 nm'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(fb784926a1f53a61)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: WALES Lidar aerosol depolarisation at 532 nm
   bsri:
-    args:
-      path: "{{CATALOG_DIR}}/wales_bsri.yaml"
-    description: 'WALES Lidar Backscatter Ratio at 1064 nm (parallel polarisation)'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(40a365c4c6622085)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: WALES Lidar Backscatter Ratio at 1064 nm (parallel polarisation)
   bsrg:
-    args:
-      path: "{{CATALOG_DIR}}/wales_bsrg.yaml"
-    description: 'WALES Lidar Backscatter Ratio at 532 nm (parallel polarisation)'
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(aa5ea3c49227f274)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: WALES Lidar Backscatter Ratio at 532 nm (parallel polarisation)

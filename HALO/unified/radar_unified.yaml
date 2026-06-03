@@ -1,124 +1,276 @@
-plugins:
-  source:
-    - module: intake_xarray
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  48adbd9f40a90018:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200119_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5b6666bbabae7527:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200122_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  a9f073256ff43c64:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200124_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9fb02988c32339c8:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200126_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9d54cd70b5a9eb43:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200128_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2da8233bb592fa3b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200130_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c42b129c01dde46b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200131_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  01d61a189626f5b4:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200202_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  da206c069f29c7e2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200205_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  914c34eea67207cb:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200207_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  37484fd799035fd5:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200209_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  bdab82fbc59eeb78:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200211_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1efc7fb45946c2bf:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200213_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  f0a46bca0d80607f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200215_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  83e465b049f2639e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200218_v0.9.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0119:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200119_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(48adbd9f40a90018)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0122:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200122_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5b6666bbabae7527)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0124:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200124_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a9f073256ff43c64)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0126:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200126_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9fb02988c32339c8)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0128:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200128_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9d54cd70b5a9eb43)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0130:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200130_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2da8233bb592fa3b)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0131:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200131_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c42b129c01dde46b)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0202:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200202_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(01d61a189626f5b4)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0205:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200205_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(da206c069f29c7e2)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0207:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200207_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(914c34eea67207cb)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0209:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200209_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(37484fd799035fd5)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0211:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200211_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bdab82fbc59eeb78)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0213:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200213_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1efc7fb45946c2bf)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0215:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200215_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(f0a46bca0d80607f)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.
   HALO-0218:
-    description: radar data from the HALO unified dataset.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/UNIFIED/EUREC4A_HALO_radar_20200218_v0.9.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(83e465b049f2639e)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: radar data from the HALO unified dataset.

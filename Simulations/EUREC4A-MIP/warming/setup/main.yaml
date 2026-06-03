@@ -1,11 +1,22 @@
-plugins:
-  source:
-     - module: intake_xarray
-
-sources:
-  boundary_conditions:
-    args:
-      path: "{{CATALOG_DIR}}/bc.yaml"
-    description: "Boundary conditions"
-    driver: yaml_file_cat
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  cc3c451edf68d133:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/bc.yaml'
+      storage_options: null
     metadata: {}
+    user_parameters: {}
+entries:
+  boundary_conditions:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(cc3c451edf68d133)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Boundary conditions

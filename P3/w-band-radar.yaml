@@ -1,92 +1,204 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  765b9173455a4335:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200117_v2.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5be9d2ae073c6773:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200119_v2.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  831ad2d74892c8a1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200123_v2.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  5051238463a7d0b6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200124_v2.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3b5eefdad64d1840:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200131_v2.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8ee47ace35a1ab8b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200203_v2.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  bb89d5a19c4980b6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200204_v2.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c3c2001e9c8e83d8:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200205_v2.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  799149d713f1cae8:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200209_v2.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  204ab8ce7a9a221e:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200210_v2.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  665cf3c15e122fc2:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200211_v2.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   P3-0117:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(765b9173455a4335)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200117_v2.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0119:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5be9d2ae073c6773)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200119_v2.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0123:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(831ad2d74892c8a1)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200123_v2.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0124:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5051238463a7d0b6)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200124_v2.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0131:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3b5eefdad64d1840)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200131_v2.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0203:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8ee47ace35a1ab8b)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200203_v2.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0204:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bb89d5a19c4980b6)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200204_v2.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0205:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c3c2001e9c8e83d8)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200205_v2.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0209:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(799149d713f1cae8)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200209_v2.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0210:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(204ab8ce7a9a221e)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200210_v2.0.nc
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''
   P3-0211:
-    driver: opendap
-    args:
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(665cf3c15e122fc2)}'
       chunks: null
       engine: netcdf4
-      urlpath: https://www.ncei.noaa.gov/thredds-ocean/dodsC/psl/atomic/p3/W-band-radar/EUREC4A_ATOMIC_P3_W-band-radar_20200211_v2.0.nc
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: ''

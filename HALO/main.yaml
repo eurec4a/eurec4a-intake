@@ -1,72 +1,154 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  9948ca6b68d476f4:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/BAHAMAS.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  fbae61171f32ae44:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/specmacs/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  e5e04deae0f7b580:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/unified/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  49c7323afa011489:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/smart.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  582a98b7a919f0f4:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/velox.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  b80033969b749688:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/kt19.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  4fc4ddf9905b1b77:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/wales/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  ead4eefbbb86c31a:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/bacardi.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  68b5f02a5bfe87bc:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_HALO_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   BAHAMAS:
-    args:
-      path: "{{CATALOG_DIR}}/BAHAMAS.yaml"
-    description: 'Basic instrumentation data'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(9948ca6b68d476f4)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Basic instrumentation data
   specMACS:
-    args:
-      path: "{{CATALOG_DIR}}/specmacs/main.yaml"
-    description: specMACS cloud imager data
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(fbae61171f32ae44)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: specMACS cloud imager data
   UNIFIED:
-    args:
-      path: "{{CATALOG_DIR}}/unified/main.yaml"
-    description: Heike Konows UNIFIED dataset
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(e5e04deae0f7b580)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Heike Konows UNIFIED dataset
   SMART:
-    args:
-      path: "{{CATALOG_DIR}}/smart.yaml"
-    description: SMART dataset
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(49c7323afa011489)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: SMART dataset
   VELOX:
-    args:
-      path: "{{CATALOG_DIR}}/velox.yaml"
-    description: VELOX dataset
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(582a98b7a919f0f4)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: VELOX dataset
   KT19:
-    args:
-      path: "{{CATALOG_DIR}}/kt19.yaml"
-    description: KT-19 thermal infrared radiometer data
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(b80033969b749688)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: KT-19 thermal infrared radiometer data
   WALES:
-    args:
-      path: "{{CATALOG_DIR}}/wales/main.yaml"
-    description: WALES Lidar data
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(4fc4ddf9905b1b77)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: WALES Lidar data
   BACARDI:
-    args:
-      path: "{{CATALOG_DIR}}/bacardi.yaml"
-    description: 'Broadband radiometers'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(ead4eefbbb86c31a)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Broadband radiometers
   track:
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_HALO_v1.0.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(68b5f02a5bfe87bc)}'
       chunks: null
       engine: netcdf4
-    driver: opendap
-    description: HALO track
+    output_instance: xarray:Dataset
+    user_parameters: {}
     metadata:
+      description: HALO track
       tags:
-        - track
+      - track

@@ -1,108 +1,240 @@
-plugins:
-  source:
-    - module: intake_xarray
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  7c724b8f98a602cf:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_22/EUREC4A_HALO_WALES_bsri_20200122a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8929f7bd898c0fd1:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_24/EUREC4A_HALO_WALES_bsri_20200124a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  eb9626d12a86cc1f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_26/EUREC4A_HALO_WALES_bsri_20200126a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  3523fff2c024d9a7:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_28/EUREC4A_HALO_WALES_bsri_20200128a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  414d198dbd6504df:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_30/EUREC4A_HALO_WALES_bsri_20200130a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  358db69a80e2ff51:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_31/EUREC4A_HALO_WALES_bsri_20200131a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e6b7a599b58936f3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_02/EUREC4A_HALO_WALES_bsri_20200202a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8509a8f3d24fde42:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_05/EUREC4A_HALO_WALES_bsri_20200205a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  cdd6adf2acadd77b:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_07/EUREC4A_HALO_WALES_bsri_20200207a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  12d1894e09738878:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_09/EUREC4A_HALO_WALES_bsri_20200209a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ec4e0d59491dbf03:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_11/EUREC4A_HALO_WALES_bsri_20200211a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  ebd5a5032bfdbee0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_13/EUREC4A_HALO_WALES_bsri_20200213a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  d45242a2db60a6e6:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_15/EUREC4A_HALO_WALES_bsri_20200215a_V1.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0122:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_22/EUREC4A_HALO_WALES_bsri_20200122a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7c724b8f98a602cf)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0124:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_24/EUREC4A_HALO_WALES_bsri_20200124a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8929f7bd898c0fd1)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0126:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_26/EUREC4A_HALO_WALES_bsri_20200126a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(eb9626d12a86cc1f)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0128:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_28/EUREC4A_HALO_WALES_bsri_20200128a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(3523fff2c024d9a7)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0130:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_30/EUREC4A_HALO_WALES_bsri_20200130a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(414d198dbd6504df)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0131:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_01_31/EUREC4A_HALO_WALES_bsri_20200131a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(358db69a80e2ff51)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0202:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_02/EUREC4A_HALO_WALES_bsri_20200202a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e6b7a599b58936f3)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0205:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_05/EUREC4A_HALO_WALES_bsri_20200205a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8509a8f3d24fde42)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0207:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_07/EUREC4A_HALO_WALES_bsri_20200207a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(cdd6adf2acadd77b)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0209:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_09/EUREC4A_HALO_WALES_bsri_20200209a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(12d1894e09738878)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0211:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_11/EUREC4A_HALO_WALES_bsri_20200211a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ec4e0d59491dbf03)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0213:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_13/EUREC4A_HALO_WALES_bsri_20200213a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ebd5a5032bfdbee0)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
   HALO-0215:
-    description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/WALES-LIDAR/2020/2020_02_15/EUREC4A_HALO_WALES_bsri_20200215a_V1.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d45242a2db60a6e6)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: WALES-Lidar Backscatter Ratio at 1064 nm (parallel polarisation).

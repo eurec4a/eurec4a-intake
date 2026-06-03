@@ -1,47 +1,120 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
-
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  fbe2cc44b865290c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmeDBcyYt3WV43xK9ZHgHUjqvmorWtkxSPd1WjEoHb9cpP
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  c9648dcd5a090c08:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmTgNWjZfZR4kLPqP75W4N7fQHrsC1E5bQqiySCjSYGhJF
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  09c3944422cb9d0c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmYnsmVTvzHjhjuyBhtjzvAmiobW1zXqxf9LjnVymZQtAR
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  ab60e6d07c6ca4bc:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmPywoK4Rt3NdF95XZoyXsdQDx5oAUeyHrknWZ2Z5ftv6d
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  06a09981b2531c49:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmUZuLJ971M4DZpzXUcQdsiUEpDSeT3gVDCfzhV3XWYjKm
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  a83c604ab3d80ec0:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmSkWkGcEAgKWuPANxcyEBgwSvhFD8genV5191WBgZZLqb
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+entries:
   meteogram_BCO:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(fbe2cc44b865290c)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://QmeDBcyYt3WV43xK9ZHgHUjqvmorWtkxSPd1WjEoHb9cpP
-    description: Meteogram at the BCO
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Meteogram at the BCO
   synthetic_radar_BCO:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c9648dcd5a090c08)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://QmTgNWjZfZR4kLPqP75W4N7fQHrsC1E5bQqiySCjSYGhJF
-    description: Synthetic radar at BCO
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic radar at BCO
   meteogram_NTAS:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(09c3944422cb9d0c)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://QmYnsmVTvzHjhjuyBhtjzvAmiobW1zXqxf9LjnVymZQtAR
-    description: Meteogram at the NTAS buoy
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Meteogram at the NTAS buoy
   synthetic_radar_NTAS:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ab60e6d07c6ca4bc)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://QmPywoK4Rt3NdF95XZoyXsdQDx5oAUeyHrknWZ2Z5ftv6d
-    description: Synthetic radar at BCO
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic radar at BCO
   meteogram_HALO_circle:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(06a09981b2531c49)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://QmUZuLJ971M4DZpzXUcQdsiUEpDSeT3gVDCfzhV3XWYjKm
-    description: Meteogram at position 13.5N 57.5W within the HALO circle.
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Meteogram at position 13.5N 57.5W within the HALO circle.
   synthetic_radar_HALO_circle:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a83c604ab3d80ec0)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://QmSkWkGcEAgKWuPANxcyEBgwSvhFD8genV5191WBgZZLqb
-    description: Synthetic radar at BCO
-    driver: zarr
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Synthetic radar at BCO

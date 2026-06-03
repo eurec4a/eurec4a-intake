@@ -1,33 +1,86 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
-
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  9d04b2f74b3f56bf:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM01.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  df1f173a3b55ad01:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM02.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  0b1a497a3ede16bf:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM03.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  d40d6a730a7cdb3e:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_constants_DOM01.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+entries:
   6b59890b-99f3-939b-e76a-0a3ad2e43140:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9d04b2f74b3f56bf)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM01.zarr
-    description: Horizontal grid of ICON-LES DOM01 (EUREC4A_PR1250m_DOM01) including information about cell, vertex and edge coordinates.
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Horizontal grid of ICON-LES DOM01 (EUREC4A_PR1250m_DOM01) including
+        information about cell, vertex and edge coordinates.
   3c7523ba-f78c-c23e-6654-012805ba3300:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(df1f173a3b55ad01)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM02.zarr
-    description: Horizontal grid of ICON-LES DOM02 (EUREC4A_PR1250m_DOM02) including information about cell, vertex and edge coordinates.
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Horizontal grid of ICON-LES DOM02 (EUREC4A_PR1250m_DOM02) including
+        information about cell, vertex and edge coordinates.
   88fe7c0a-f61d-e582-d5e1-b00866e33000:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(0b1a497a3ede16bf)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_PR1250m_DOM03.zarr
-    description: Horizontal grid of ICON-LES DOM03 (EUREC4A_PR1250m_DOM03) including information about cell, vertex and edge coordinates.
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Horizontal grid of ICON-LES DOM03 (EUREC4A_PR1250m_DOM03) including
+        information about cell, vertex and edge coordinates.
   ecf22d17-dcee-1510-a807-11ae4a612be0:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(d40d6a730a7cdb3e)}'
+      chunks: {}
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/grids/EUREC4A_constants_DOM01.zarr
-    description: Vertical grid of DOM01 (EUREC4A_PR1250m_DOM01) including geometric height information.
-    driver: zarr
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Vertical grid of DOM01 (EUREC4A_PR1250m_DOM01) including geometric
+        height information.

@@ -1,11 +1,27 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  8ad33a44bd184869:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/bco_data/eurec4a/EUREC4A_BCO_Ceilometer_CloudBaseHeight_10s_20200101-20200229_v1.0.0.zarr
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+entries:
   CBH:
-    args:
-      consolidated: True
-      urlpath: https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/bco_data/eurec4a/EUREC4A_BCO_Ceilometer_CloudBaseHeight_10s_20200101-20200229_v1.0.0.zarr
-    driver: zarr
-    description: Cloud base height retrieved from ceilometer measurements taken at the Barbados Cloud Observatory. This product is combined with microwave rain radar (MRR) measurements to flag retrievals during rain events.
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8ad33a44bd184869)}'
+      chunks: {}
+      consolidated: true
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Cloud base height retrieved from ceilometer measurements taken
+        at the Barbados Cloud Observatory. This product is combined with microwave
+        rain radar (MRR) measurements to flag retrievals during rain events.

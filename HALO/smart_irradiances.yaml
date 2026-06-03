@@ -1,109 +1,240 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  759d7771923f3a46:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF02_20200122/EUREC4A_HALO_SMART_spectral_irradiances_20200122_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  62d1828304896875:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF03_20200124/EUREC4A_HALO_SMART_spectral_irradiances_20200124_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  e0cfe7593f7c9a83:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF04_20200126/EUREC4A_HALO_SMART_spectral_irradiances_20200126_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  bca0af4487dee060:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF05_20200128/EUREC4A_HALO_SMART_spectral_irradiances_20200128_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  1f95a71d540e1bd3:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF06_20200130/EUREC4A_HALO_SMART_spectral_irradiances_20200130_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  4e23c76e65f12311:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF07_20200131/EUREC4A_HALO_SMART_spectral_irradiances_20200131_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7e7b70b3a939e84d:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF08_20200202/EUREC4A_HALO_SMART_spectral_irradiances_20200202_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c5a6b72f7fa33522:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF09_20200205/EUREC4A_HALO_SMART_spectral_irradiances_20200205_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  7716a83f91f622ee:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF10_20200207/EUREC4A_HALO_SMART_spectral_irradiances_20200207_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  cc56ca16910dead0:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF11_20200209/EUREC4A_HALO_SMART_spectral_irradiances_20200209_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  2401f753f448d201:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF12_20200211/EUREC4A_HALO_SMART_spectral_irradiances_20200211_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  8f3f852209d5768f:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF13_20200213/EUREC4A_HALO_SMART_spectral_irradiances_20200213_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  c52fd97f71d67114:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF14_20200215/EUREC4A_HALO_SMART_spectral_irradiances_20200215_R3.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+entries:
   HALO-0122:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF02_20200122/EUREC4A_HALO_SMART_spectral_irradiances_20200122_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(759d7771923f3a46)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0124:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF03_20200124/EUREC4A_HALO_SMART_spectral_irradiances_20200124_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(62d1828304896875)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0126:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF04_20200126/EUREC4A_HALO_SMART_spectral_irradiances_20200126_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(e0cfe7593f7c9a83)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0128:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF05_20200128/EUREC4A_HALO_SMART_spectral_irradiances_20200128_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(bca0af4487dee060)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0130:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF06_20200130/EUREC4A_HALO_SMART_spectral_irradiances_20200130_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(1f95a71d540e1bd3)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0131:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF07_20200131/EUREC4A_HALO_SMART_spectral_irradiances_20200131_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(4e23c76e65f12311)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0202:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF08_20200202/EUREC4A_HALO_SMART_spectral_irradiances_20200202_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7e7b70b3a939e84d)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0205:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF09_20200205/EUREC4A_HALO_SMART_spectral_irradiances_20200205_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c5a6b72f7fa33522)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0207:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF10_20200207/EUREC4A_HALO_SMART_spectral_irradiances_20200207_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(7716a83f91f622ee)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0209:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF11_20200209/EUREC4A_HALO_SMART_spectral_irradiances_20200209_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(cc56ca16910dead0)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0211:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF12_20200211/EUREC4A_HALO_SMART_spectral_irradiances_20200211_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(2401f753f448d201)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0213:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF13_20200213/EUREC4A_HALO_SMART_spectral_irradiances_20200213_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(8f3f852209d5768f)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.
   HALO-0215:
-    description: SMART spectral irradiances.
-    driver: opendap
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/AIRCRAFT/HALO/SMART/2020/RF14_20200215/EUREC4A_HALO_SMART_spectral_irradiances_20200215_R3.nc
-      auth: null
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c52fd97f71d67114)}'
       chunks: null
       engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: SMART spectral irradiances.

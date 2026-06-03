@@ -1,32 +1,72 @@
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  b434c087e084298b:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/cloudmaskSWIR.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  36dae4f7d7e35ffc:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/geometrypoints.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  43802e085c4a3f26:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/specMACS_polLL_cdsd.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  c4b0c906e65a77e3:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/specMACS_polLR_cdsd.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   cloudmaskSWIR:
-    args:
-      path: "{{CATALOG_DIR}}/cloudmaskSWIR.yaml"
-    description: "specMACS cloudmask based on SWIR camera, see [description](https://macsserver.physik.uni-muenchen.de/campaigns/EUREC4A/products/cloudmask/)"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(b434c087e084298b)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: specMACS cloudmask based on SWIR camera, see [description](https://macsserver.physik.uni-muenchen.de/campaigns/EUREC4A/products/cloudmask/)
   cloud_geometry:
-    args:
-      path: "{{CATALOG_DIR}}/geometrypoints.yaml"
-    description: "points on cloud surface from 3-D stereographic reconstruction"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(36dae4f7d7e35ffc)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: points on cloud surface from 3-D stereographic reconstruction
   cdsd_polLL:
-    args:
-      path: "{{CATALOG_DIR}}/specMACS_polLL_cdsd.yaml"
-    description: "cloud droplet size distribution of liquid water clouds from cloudbow observations of lower left specMACS polarization camera"
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(43802e085c4a3f26)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: cloud droplet size distribution of liquid water clouds from cloudbow
+        observations of lower left specMACS polarization camera
   cdsd_polLR:
-    args:
-      path: "{{CATALOG_DIR}}/specMACS_polLR_cdsd.yaml"
-    description: "cloud droplet size distribution of liquid water clouds from cloudbow observations of lower right specMACS polarization camera"
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(c4b0c906e65a77e3)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: cloud droplet size distribution of liquid water clouds from cloudbow
+        observations of lower right specMACS polarization camera

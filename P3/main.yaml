@@ -1,58 +1,122 @@
-plugins:
-   source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  38a24eaa61e67561:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/axbts.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  5585445af118ccf8:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/flight-level.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  a60480c09d9c8d60:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/isotope-analyzer.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  552138af42c13067:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/remote-sensing.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  9b1104ef0ba71d06:
+    datatype: intake.readers.datatypes:OpenDAP
+    kwargs:
+      url: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_P3_v1.0.nc
+      options: {}
+    metadata: {}
+    user_parameters: {}
+  9c6b69b28cf99c97:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/w-band-radar.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  e06d5befaa056acd:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/WSRA.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   AXBT:
-    args:
-      path: "{{CATALOG_DIR}}/axbts.yaml"
-    description: 'AXBT data'
-    driver: yaml_file_cat
-    metadata: {}
-
-  flight_level:
-    args:
-      path: "{{CATALOG_DIR}}/flight-level.yaml"
-    description: 'Flight level data'
-    driver: yaml_file_cat
-    metadata: {}
-
-  isotope_analyzer:
-    args:
-      path: "{{CATALOG_DIR}}/isotope-analyzer.yaml"
-    description: 'Isotope analyzer data'
-    driver: yaml_file_cat
-    metadata: {}
-
-  remote_sensing:
-    args:
-      path: "{{CATALOG_DIR}}/remote-sensing.yaml"
-    description: 'W-band and SFMR data'
-    driver: yaml_file_cat
-    metadata: {}
-
-  track:
-    args:
-      urlpath: https://observations.ipsl.fr/thredds/dodsC/EUREC4A/PRODUCTS/TRACKS/EUREC4A_tracks_P3_v1.0.nc
-      auth: null
-      chunks: { }
-      engine: netcdf4
-    description: P3 track
-    driver: opendap
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(38a24eaa61e67561)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
     metadata:
+      description: AXBT data
+  flight_level:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(5585445af118ccf8)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Flight level data
+  isotope_analyzer:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(a60480c09d9c8d60)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Isotope analyzer data
+  remote_sensing:
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(552138af42c13067)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: W-band and SFMR data
+  track:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(9b1104ef0ba71d06)}'
+      chunks: {}
+      engine: netcdf4
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: P3 track
       tags:
-        - track
-
+      - track
   w_band_radar:
-    args:
-      path: "{{CATALOG_DIR}}/w-band-radar.yaml"
-    description: 'W-band radar data'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(9c6b69b28cf99c97)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: W-band radar data
   wsra:
-    args:
-      path: "{{CATALOG_DIR}}/WSRA.yaml"
-    description: 'Wide swath radar altimeter data'
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(e06d5befaa056acd)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Wide swath radar altimeter data

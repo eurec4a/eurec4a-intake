@@ -1,32 +1,70 @@
-plugins:
-  source:
-     - module: intake_xarray
-
-sources:
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  d1fb6ebe004f27b5:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/ICON/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  1e251444bd075928:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/DALES/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  c45efab6ad809f7b:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/grids.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+  f3335ff354d52e3e:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      url: '{CATALOG_DIR}/EUREC4A-MIP/main.yaml'
+      storage_options: null
+    metadata: {}
+    user_parameters: {}
+entries:
   ICON:
-    args:
-      path: "{{CATALOG_DIR}}/ICON/main.yaml"
-    description: 'ICON simulations'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(d1fb6ebe004f27b5)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: ICON simulations
   DALES:
-    args:
-      path: "{{CATALOG_DIR}}/DALES/main.yaml"
-    description: 'DALES simulations'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(1e251444bd075928)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: DALES simulations
   grids:
-    args:
-      path: "{{CATALOG_DIR}}/grids.yaml"
-    description: 'Grids of simulations'
-    driver: yaml_file_cat
-    metadata: {}
-
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(c45efab6ad809f7b)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: Grids of simulations
   EUREC4A_MIP:
-    args:
-      path: "{{CATALOG_DIR}}/EUREC4A-MIP/main.yaml"
-    description: "EUREC4A Model intercomparison (MIP) simulations and setup"
-    driver: yaml_file_cat
-    metadata: {}
+    reader: intake.readers.readers:YAMLCatalogReader
+    kwargs:
+      args:
+      - '{data(f3335ff354d52e3e)}'
+    output_instance: intake.readers.entry:Catalog
+    user_parameters: {}
+    metadata:
+      description: EUREC4A Model intercomparison (MIP) simulations and setup

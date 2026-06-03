@@ -1,50 +1,145 @@
-sources:
-
+version: 2
+metadata: {}
+user_parameters: {}
+aliases: {}
+data:
+  b23dea41021e0713:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmTHe5NYteNixxcjYVs49tSeGgrRBN8u8yJ5vmhaVXH16h
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  ee83c4fa7b6f6afe:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://Qmck6BAwT53RmmqgMbKnfnQYz9nobkxouUtfLEmaL7NMGZ
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  152832deaced867a:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmVeN9RRWmNkoXvH1u8p78ufzZqBw54meeB3TQFD7RJhGk
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  c73812426e2369d0:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmRDFjQ7Gxu6cHWFKaQXrodaujCu1VmvNKM3dpZsJzYt88
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  5fa528dcd2bb6db7:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmWkQzqYMJMbFMGt6wy5jjYELmEx49QpwqXKa6aru2JMxj
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  a099eff225b7bc2a:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://Qma5WhX9XBCtoWRDWb25NyKEWASC3a7oGZ68pZeVRNaNp3
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+  56ce24906843755c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      url: ipfs://QmfHxHDRcqqkpah2WPBiaqwFMU3DS4hXYikmC8xYskus9W
+      storage_options: null
+      root: ''
+    metadata: {}
+    user_parameters: {}
+entries:
   level2:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(b23dea41021e0713)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://QmTHe5NYteNixxcjYVs49tSeGgrRBN8u8yJ5vmhaVXH16h
-    description: Level-2 dataset of manual classifications.
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Level-2 dataset of manual classifications.
   level3_ICON-albedo_instant:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(ee83c4fa7b6f6afe)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://Qmck6BAwT53RmmqgMbKnfnQYz9nobkxouUtfLEmaL7NMGZ
-    description: Level-3 dataset of manual classifications based on pseudo-albedo from ICON simulation and composed on each timestep.
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Level-3 dataset of manual classifications based on pseudo-albedo
+        from ICON simulation and composed on each timestep.
   level3_ICON-albedo_daily:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(152832deaced867a)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://QmVeN9RRWmNkoXvH1u8p78ufzZqBw54meeB3TQFD7RJhGk
-    description: Level-3 dataset of manual classifications based on pseudo-albedo from ICON simulation and composed daily.
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Level-3 dataset of manual classifications based on pseudo-albedo
+        from ICON simulation and composed daily.
   level3_IR_instant:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(c73812426e2369d0)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://QmRDFjQ7Gxu6cHWFKaQXrodaujCu1VmvNKM3dpZsJzYt88
-    description: Level-3 dataset of manual classifications based on infrared satellite images and composed on each timestep.
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Level-3 dataset of manual classifications based on infrared satellite
+        images and composed on each timestep.
   level3_IR_daily:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(5fa528dcd2bb6db7)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://QmWkQzqYMJMbFMGt6wy5jjYELmEx49QpwqXKa6aru2JMxj
-    description: Level-3 dataset of manual classifications based on infrared satellite images and composed daily.
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Level-3 dataset of manual classifications based on infrared satellite
+        images and composed daily.
   level3_VIS_instant:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(a099eff225b7bc2a)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://Qma5WhX9XBCtoWRDWb25NyKEWASC3a7oGZ68pZeVRNaNp3
-    description: Level-3 dataset of manual classifications based on visible satellite images and composed on each timestep.
-    driver: zarr
-
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Level-3 dataset of manual classifications based on visible satellite
+        images and composed on each timestep.
   level3_VIS_daily:
-    args:
+    reader: intake.readers.readers:XArrayDatasetReader
+    kwargs:
+      args:
+      - '{data(56ce24906843755c)}'
+      chunks: {}
       consolidated: true
-      urlpath: ipfs://QmfHxHDRcqqkpah2WPBiaqwFMU3DS4hXYikmC8xYskus9W
-    description: Level-3 dataset of manual classifications based on visible satellite images and composed daily.
-    driver: zarr
+    output_instance: xarray:Dataset
+    user_parameters: {}
+    metadata:
+      description: Level-3 dataset of manual classifications based on visible satellite
+        images and composed daily.
