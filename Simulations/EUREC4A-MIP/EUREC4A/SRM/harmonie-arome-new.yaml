@@ -24,6 +24,13 @@ sources:
     description: Table 2 - 2D fields
     driver: zarr
 
+  2D_pr:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_NEW_2500m/Output_2D_Table_2_NEW_JanFeb_av.zarr
+    description: Table 2 - 2D fields (time-averaged); currently contains pr only
+    driver: zarr
+
   cross:
     args:
       consolidated: true
