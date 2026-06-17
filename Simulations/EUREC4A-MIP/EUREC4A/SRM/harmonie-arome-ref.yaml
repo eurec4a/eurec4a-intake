@@ -41,6 +41,6 @@ sources:
   3D:
     args:
       consolidated: true
-      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_3D_Table_5_REF_JanFeb.zarr
-    description: Table 5 - 3D fields
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_3D_Table_5_REF_JanFeb_incl_uniquetime.zarr
+    description: Table 5 - 3D fields (now includes cloud fraction clt and geopotential phi)
     driver: zarr
