@@ -25,15 +25,17 @@ sources:
       consolidated: true
 
   3D_circle:
-    description: Table 4 - Vertical profiles around EUREC4A circle centre
+    description: Full 3D fields over the inner nest (d03, ~0.6 km) covering the EUREC4A circle region
     driver: zarr
     args:
-      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/WRF_CTL/WRF_CTL_TBL4.zarr
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/WRF_CTL/WRF_CTL_TBL5.zarr_0616
       consolidated: true
+      group: d03
 
   3D:
-    description: Table 5 - Full 3D domain fields
+    description: Table 5 - Full 3D domain fields (d02 nest, ~1.8 km)
     driver: zarr
     args:
-      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/WRF_CTL_TBL5.zarr/d03
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/WRF_CTL/WRF_CTL_TBL5.zarr_0616
       consolidated: true
+      group: d02
