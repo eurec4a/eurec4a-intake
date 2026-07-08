@@ -8,7 +8,8 @@ sources:
     description: EUREC4A/ATOMIC JOANNE Level-3 gridded dropsonde dataset
     args:
       chunks: null
-      decode_times: false
+      xarray_kwargs:
+        decode_times: false
       urlpath: simplecache::https://observations.ipsl.fr/aeris/eurec4a-data/PRODUCTS/MERGED-MEASUREMENTS/JOANNE/v2.0.0/Level_3/EUREC4A_JOANNE_Dropsonde-RD41_Level_3_v2.0.0.nc
   level4:
     driver: netcdf
