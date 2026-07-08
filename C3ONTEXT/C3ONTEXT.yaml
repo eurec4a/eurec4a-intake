@@ -3,48 +3,48 @@ sources:
   level2:
     args:
       consolidated: true
-      urlpath: ipfs://QmTHe5NYteNixxcjYVs49tSeGgrRBN8u8yJ5vmhaVXH16h
+      urlpath: ipfs://QmTKshEf8T9DkLo9utz81p9sNqNT5zJ2RDxTaWp8g9TgYp
     description: Level-2 dataset of manual classifications.
     driver: zarr
 
   level3_ICON-albedo_instant:
     args:
       consolidated: true
-      urlpath: ipfs://Qmck6BAwT53RmmqgMbKnfnQYz9nobkxouUtfLEmaL7NMGZ
+      urlpath: ipfs://QmW7maJK2jZipsudfBbKEKj8RJVkNhB5qmKXgfsraqaomb
     description: Level-3 dataset of manual classifications based on pseudo-albedo from ICON simulation and composed on each timestep.
     driver: zarr
 
   level3_ICON-albedo_daily:
     args:
       consolidated: true
-      urlpath: ipfs://QmVeN9RRWmNkoXvH1u8p78ufzZqBw54meeB3TQFD7RJhGk
+      urlpath: ipfs://Qmcc9NkfUVaChcXpStFRM2EpKCEBPg5EoAvujUoooywydb
     description: Level-3 dataset of manual classifications based on pseudo-albedo from ICON simulation and composed daily.
     driver: zarr
 
   level3_IR_instant:
     args:
       consolidated: true
-      urlpath: ipfs://QmRDFjQ7Gxu6cHWFKaQXrodaujCu1VmvNKM3dpZsJzYt88
+      urlpath: ipfs://QmVdNdTdnKprVa2iEWYSwffEi7M1GB3CwnTvS5T3Rnv2f9
     description: Level-3 dataset of manual classifications based on infrared satellite images and composed on each timestep.
     driver: zarr
 
   level3_IR_daily:
     args:
       consolidated: true
-      urlpath: ipfs://QmWkQzqYMJMbFMGt6wy5jjYELmEx49QpwqXKa6aru2JMxj
+      urlpath: ipfs://QmbFmJVwV5uwim7urqNfx2fbtXJ2ASsBTe1F9TYQaadSet
     description: Level-3 dataset of manual classifications based on infrared satellite images and composed daily.
     driver: zarr
 
   level3_VIS_instant:
     args:
       consolidated: true
-      urlpath: ipfs://Qma5WhX9XBCtoWRDWb25NyKEWASC3a7oGZ68pZeVRNaNp3
+      urlpath: ipfs://QmeoTtFymJ2VkGNppuxzTwLZzpJtJnwr6XWg2zTUNCh9U6
     description: Level-3 dataset of manual classifications based on visible satellite images and composed on each timestep.
     driver: zarr
 
   level3_VIS_daily:
     args:
       consolidated: true
-      urlpath: ipfs://QmfHxHDRcqqkpah2WPBiaqwFMU3DS4hXYikmC8xYskus9W
+      urlpath: ipfs://QmZ5qm5Cod3wgLMhjumAh54xn8vTz4iMiqvLL43nJURVqL
     description: Level-3 dataset of manual classifications based on visible satellite images and composed daily.
     driver: zarr
