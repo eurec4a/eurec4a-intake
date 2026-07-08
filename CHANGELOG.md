@@ -18,7 +18,10 @@
 * Add VELOX brightness temperature in a continuous dataset (#174). By [Lukas Kluft](https://github.com/lkluft)
 ### Removed Datasets
 ### Fixes
+* Fix `ValueError: Reference-FS's target filesystem must have same value of asynchronous` with zarr ≥3.1.5 by adding `remote_options: {asynchronous: true}` to kerchunk/reference filesystem entries in `barbados/BCO/poldirad.yaml` and `Simulations/EUREC4A-MIP/` catalog files (#179).
 ### Internal Changes
+* Update CI test environments to Python 3.12 and modernize GitHub Actions versions (`actions/checkout@v4`, `actions/setup-python@v5`) (#179).
+* Add `setuptools` to `requirements.txt` for Python 3.12 compatibility (#179).
 * update IPFS version in CI to 0.23.0 to improve access times and make weekly_test more reliable (#149). By [Hauke Schulz](https://github.com/observingClouds)
 * add citation recommendations (#155). By [Hauke Schulz](https://github.com/observingClouds)
 * install dependencies via python eurec4a package. By [Tobias Kölling](https://github.com/d70-t)
