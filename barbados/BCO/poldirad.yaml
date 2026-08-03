@@ -9,6 +9,9 @@ sources:
     args:
       urlpath: reference::ipfs://QmRq663s4S9pwmRpbovzZJ7dRVXyoriSdBALxo7oCxGVUG
       consolidated: false
+      storage_options:
+        remote_options:
+          asynchronous: true
     metadata:
       doi: https://doi.org/10.25326/217
       maintainer: Martin Hagen <martin.hagen[at]dlr.de>, Florian Ewald <florian.ewald[at]dlr.de>

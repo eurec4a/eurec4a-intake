@@ -1,1 +1,2 @@
+setuptools
 eurec4a[data]>=0.0.6
