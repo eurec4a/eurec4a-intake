@@ -6,8 +6,6 @@ sources:
   2D_surface_toa:
     args:
       consolidated: true
-      remote_options:
-        asynchronous: true
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_1_REF_JanFeb_av.zarr
     description: Table 1 - Surface, top-of-atmosphere 2D fields
     driver: zarr
@@ -15,8 +13,6 @@ sources:
   2D_surface_toa_5min:
     args:
       consolidated: true
-      remote_options:
-        asynchronous: true
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_1_REF_JanFeb_inst_uniquetime.zarr
     description: Table 1 - Surface, top-of-atmosphere 2D fields at 5 min time resolution
     driver: zarr
@@ -24,8 +20,6 @@ sources:
   2D:
     args:
       consolidated: true
-      remote_options:
-        asynchronous: true
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_2_REF_JanFeb_inst_uniquetime.zarr
     description: Table 2 - 2D fields
     driver: zarr
@@ -33,8 +27,6 @@ sources:
   2D_pr:
     args:
       consolidated: true
-      remote_options:
-        asynchronous: true
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_2_REF_JanFeb_av.zarr
     description: Table 2 - 2D fields (time-averaged); currently contains pr only
     driver: zarr
@@ -42,8 +34,6 @@ sources:
   cross:
     args:
       consolidated: true
-      remote_options:
-        asynchronous: true
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_2D_Table_3_REF_JanFeb_uniquetime.zarr
     description: Table 3 - 2D cross-sections
     driver: zarr
@@ -51,8 +41,6 @@ sources:
   3D:
     args:
       consolidated: true
-      remote_options:
-        asynchronous: true
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_CTL_REF_2500m/Output_3D_Table_5_REF_JanFeb_incl_uniquetime.zarr
     description: Table 5 - 3D fields (now includes cloud fraction clt and geopotential phi)
     driver: zarr

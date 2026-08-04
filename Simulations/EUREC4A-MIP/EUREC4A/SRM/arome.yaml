@@ -20,8 +20,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/AROME_CTL/AROME_CTL_TBL1.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   2D:
     description: Table 2 - Column and near-surface 2D fields (hourly; tcc derived by random overlap of hcc/lcc/mcc)
@@ -29,8 +27,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/AROME_CTL/AROME_CTL_TBL2.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   cross:
     description: "Table 3 - 2D cross-sections at pressure levels (hourly; 6 levels: 1000/950/900/850/700/500 hPa)"
@@ -38,8 +34,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/AROME_CTL/AROME_CTL_TBL3.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   3D:
     description: Table 5 - Full 3D domain fields (6-hourly; 19 pressure levels; cc3d and g3d from supplementary store)
@@ -47,5 +41,3 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/AROME_CTL/AROME_CTL_TBL5.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true

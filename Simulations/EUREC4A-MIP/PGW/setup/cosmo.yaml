@@ -11,6 +11,8 @@ sources:
       urlpath: reference://
       storage_options:
         fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/COSMO_PGW_BC_2D/COSMO_PGW_BC_2D.ref
+        remote_options:
+          asynchronous: true
       consolidated: false
     metadata: {}
 
@@ -21,5 +23,7 @@ sources:
       urlpath: reference://
       storage_options:
         fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/COSMO_PGW_BC_3D/COSMO_PGW_BC_3D.ref
+        remote_options:
+          asynchronous: true
       consolidated: false
     metadata: {}

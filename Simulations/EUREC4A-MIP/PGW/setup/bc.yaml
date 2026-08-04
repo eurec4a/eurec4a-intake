@@ -17,6 +17,8 @@ sources:
       urlpath: reference://
       storage_options:
         fo: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/PGW+4K/PGW+4K.ref
+        remote_options:
+          asynchronous: true
       consolidated: false
     metadata: {}
 

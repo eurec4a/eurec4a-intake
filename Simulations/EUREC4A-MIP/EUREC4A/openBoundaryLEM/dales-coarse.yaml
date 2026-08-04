@@ -19,8 +19,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/DALES_coarse_latlon/tab1_profile.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   2D_surface_toa:
     description: LEM Table 3 - 2D surface, TOA and TOM radiation and surface flux fields (hourly)
@@ -28,8 +26,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/DALES_coarse_latlon/tab3_2D.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   2D:
     description: LEM Table 4 - 2D column and near-surface fields (5-min)
@@ -37,8 +33,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/DALES_coarse_latlon/tab4_2D.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   3D:
     description: LEM Table 7 - Full 3D domain fields u, v, w, t, thl, q, clwc (6-hourly)
@@ -46,5 +40,3 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/DALES_coarse_latlon/tab7_3D.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true

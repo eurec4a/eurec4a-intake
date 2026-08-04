@@ -9,8 +9,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/WRF_CTL/WRF_CTL_TBL1.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   2D:
     description: Table 2 - 2D column and near-surface fields
@@ -18,8 +16,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/WRF_CTL/WRF_CTL_TBL2.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   cross:
     description: Table 3 - 2D cross-sections at pressure levels
@@ -27,8 +23,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/WRF_CTL/WRF_CTL_TBL3.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   3D_circle:
     description: Full 3D fields over the inner nest (d03, ~0.6 km) covering the EUREC4A circle region
@@ -36,8 +30,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/WRF_CTL/WRF_CTL_TBL5.zarr_0616
       consolidated: true
-      remote_options:
-        asynchronous: true
       group: d03
 
   3D:
@@ -46,6 +38,4 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/WRF_CTL/WRF_CTL_TBL5.zarr_0616
       consolidated: true
-      remote_options:
-        asynchronous: true
       group: d02

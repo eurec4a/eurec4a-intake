@@ -20,8 +20,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MicroHH_Periodic_Fine/Eurec4a_Eulerian_10day_01D_MicroHH.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   2D_surface_toa:
     description: LEM Table 3 - 2D surface, TOA and TOM radiation and surface flux fields (5-min)
@@ -29,8 +27,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MicroHH_Periodic_Fine/MicroHH_TBL3.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   2D:
     description: LEM Table 4 - 2D column and near-surface fields (5-min)
@@ -38,8 +34,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MicroHH_Periodic_Fine/MicroHH_TBL4.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   cross:
     description: LEM Table 5 - 2D cross-sections at fixed heights (5-min; z = [10, 400, 1000, 1520, 3000, 5000, 7013] m)
@@ -47,8 +41,6 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MicroHH_Periodic_Fine/MicroHH_TBL5.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
 
   3D:
     description: LEM Table 7 - Full 3D domain fields u, v, w, T, qt, ql, thl, p (6-hourly)
@@ -56,5 +48,3 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MicroHH_Periodic_Fine/MicroHH_TBL7.zarr
       consolidated: true
-      remote_options:
-        asynchronous: true
