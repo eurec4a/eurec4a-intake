@@ -1,0 +1,60 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  harmonie_arome_ref:
+    args:
+      path: "{{CATALOG_DIR}}/harmonie-arome-ref.yaml"
+    description: "Harmonie-Arome reference"
+    driver: yaml_file_cat
+    metadata: {}
+
+  harmonie_arome_new:
+    args:
+      path: "{{CATALOG_DIR}}/harmonie-arome-new.yaml"
+    description: "Harmonie-Arome with scale-aware convection scheme"
+    driver: yaml_file_cat
+    metadata: {}
+
+  harmonie_arome_cdnc70:
+    args:
+      path: "{{CATALOG_DIR}}/harmonie-arome-cdnc70.yaml"
+    description: "Harmonie-Arome CDNC70"
+    driver: yaml_file_cat
+    metadata: {}
+
+  unifiedmodel_ctl:
+    args:
+      path: "{{CATALOG_DIR}}/unified-model-ctl.yaml"
+    description: "UK Met Office Unified Model CTL reference"
+    driver: yaml_file_cat
+    metadata: {}
+
+  unifiedmodel_cdnc150:
+    args:
+      path: "{{CATALOG_DIR}}/unified-model-cdnc150.yaml"
+    description: "UK Met Office Unified Model CDNC=150 cm-3"
+    driver: yaml_file_cat
+    metadata: {}
+
+  unifiedmodel_cdnc70:
+    args:
+      path: "{{CATALOG_DIR}}/unified-model-cdnc70.yaml"
+    description: "UK Met Office Unified Model CDNC=70 cm-3"
+    driver: yaml_file_cat
+    metadata: {}
+
+  arome:
+    args:
+      path: "{{CATALOG_DIR}}/arome.yaml"
+    description: "AROME CTL reference"
+    driver: yaml_file_cat
+    metadata: {}
+
+  wrf:
+    args:
+      path: "{{CATALOG_DIR}}/wrf.yaml"
+    description: "WRF CTL reference"
+    driver: yaml_file_cat
+    metadata: {}

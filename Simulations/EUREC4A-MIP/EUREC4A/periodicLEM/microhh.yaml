@@ -1,0 +1,50 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+description: >
+  MicroHH fine-resolution periodic large-eddy simulation on a 1024×1024 grid
+  at 200 m horizontal spacing, centred at 13.3°N, 57.7°W. Provides LEM Tables 1,
+  3, 4, 5 and 7; Tables 2 and 6 were not submitted. Notes on deviations from the
+  MIP data protocol: rsus was not submitted (only rsuscs available); rsdt, rsut and
+  rlut are not available (7 km model top = domain top); ewss and nsss were not
+  submitted; Table 3 is at 5-min frequency rather than the requested 60 min;
+  cross-section heights (Table 5) are fixed model levels in metres, not pressure
+  levels.
+
+sources:
+
+  profiles:
+    description: LEM Table 1 - Domain-averaged vertical profiles (5-min)
+    driver: zarr
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MicroHH_Periodic_Fine/Eurec4a_Eulerian_10day_01D_MicroHH.zarr
+      consolidated: true
+
+  2D_surface_toa:
+    description: LEM Table 3 - 2D surface, TOA and TOM radiation and surface flux fields (5-min)
+    driver: zarr
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MicroHH_Periodic_Fine/MicroHH_TBL3.zarr
+      consolidated: true
+
+  2D:
+    description: LEM Table 4 - 2D column and near-surface fields (5-min)
+    driver: zarr
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MicroHH_Periodic_Fine/MicroHH_TBL4.zarr
+      consolidated: true
+
+  cross:
+    description: LEM Table 5 - 2D cross-sections at fixed heights (5-min; z = [10, 400, 1000, 1520, 3000, 5000, 7013] m)
+    driver: zarr
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MicroHH_Periodic_Fine/MicroHH_TBL5.zarr
+      consolidated: true
+
+  3D:
+    description: LEM Table 7 - Full 3D domain fields u, v, w, T, qt, ql, thl, p (6-hourly)
+    driver: zarr
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/MicroHH_Periodic_Fine/MicroHH_TBL7.zarr
+      consolidated: true

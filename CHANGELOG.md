@@ -3,6 +3,7 @@
 ## (unreleased)
 
 ### New Datasets
+* Add EUREC4A-MIP simulation output catalogue (`Simulations/EUREC4A-MIP/`), covering SRM and LEM output for the EUREC4A period (and structure for PGW experiments) from Harmonie-Arome, UM, WRF, AROME, DALES and MicroHH (#181). By [Martin Janssens](https://github.com/martinjanssens/) and [Hauke Schulz](https://github.com/observingClouds)
 * Add EURECA-MIP boundary conditions deltas (#165). By [torresalavez](https://github.com/torresalavez) and [Hauke Schulz](https://github.com/observingClouds)
 * Add isotope data from BCO (#152). By [Hauke Schulz](https://github.com/observingClouds)
 * Add isotope data from ATR (#158). By [Leonie Villiger](https://github.com/leonie-villiger)

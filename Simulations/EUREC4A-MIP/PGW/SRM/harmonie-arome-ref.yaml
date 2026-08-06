@@ -1,0 +1,39 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  2D_surface_toa:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_SST4_REF_2500m/Output_2D_Table_1_REF_SST4_JanFeb_av.zarr
+    description: Table 1 - Surface, top-of-atmosphere 2D fields
+    driver: zarr
+
+  2D_surface_toa_5min:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_SST4_REF_2500m/Output_2D_Table_1_REF_SST4_JanFeb_inst.zarr
+    description: Table 1 - Surface, top-of-atmosphere 2D fields at 5 min time resolution
+    driver: zarr
+
+  2D:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_SST4_REF_2500m/Output_2D_Table_2_REF_SST4_JanFeb_inst.zarr
+    description: Table 2 - 2D fields
+    driver: zarr
+
+  cross:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_SST4_REF_2500m/Output_2D_Table_3_REF_SST4_JanFeb.zarr
+    description: Table 3 - 2D cross-sections
+    driver: zarr
+
+  3D:
+    args:
+      consolidated: true
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/HARMONIE_SST4_REF_2500m/Output_3D_Table_5_REF_SST4_JanFeb.zarr
+    description: Table 5 - 3D fields
+    driver: zarr
