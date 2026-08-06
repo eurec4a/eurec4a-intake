@@ -3,6 +3,7 @@
 ## (unreleased)
 
 ### New Datasets
+* Add EUREC4A-MIP simulation output catalogue (`Simulations/EUREC4A-MIP/`), covering SRM and LEM output for the EUREC4A period (and structure for PGW experiments) from Harmonie-Arome, UM, WRF, AROME, DALES and MicroHH (#181). By [Martin Janssens](https://github.com/martinjanssens/) and [Hauke Schulz](https://github.com/observingClouds)
 * Add EURECA-MIP boundary conditions deltas (#165). By [torresalavez](https://github.com/torresalavez) and [Hauke Schulz](https://github.com/observingClouds)
 * Add isotope data from BCO (#152). By [Hauke Schulz](https://github.com/observingClouds)
 * Add isotope data from ATR (#158). By [Leonie Villiger](https://github.com/leonie-villiger)
@@ -10,17 +11,24 @@
 * Add cloud droplet size distribution from specMACS instrument. By [Veronika Pörtge](https://github.com/vpoertge)
 * Add LICHT lidar data from RV Meteor as provided by the MPI-TCO catalog (#12). By [Leif Denby](https://github.com/leifdenby), [Hauke Schulz](https://github.com/observingClouds), [Tobias Kölling](https://github.com/d70-t) and [Nina Robbins](https://github.com/ninarobbins)
 ### Updated Datasets
+* Updated C3ONTEXT dataset from version v0.4.0 to v0.4.1 (#185). By [Hauke Schulz](https://github.com/observingClouds)
+* Updated P3 W-Band radar dataset from version v1.0 to v2.0 (#166, #167). By [Hauke Schulz](https://github.com/observingClouds)
 * Updated variable type of `flag` in precipitation isotope dataset from BCO (#164). By [Hauke Schulz](https://github.com/observingClouds)
 * Updated RV Meteor cloud radar data (LIMRAD94) to version 1.2, in which the variable hydrometeor_mask was added which tells you whether there is a signal in the processed reflectivity or not
 * Add gridded POLDIRAD product with kerchunk references to provide a continous dataset (#160). By [Hauke Schulz](https://github.com/observingClouds)
+* Add VELOX brightness temperature in a continuous dataset (#174). By [Lukas Kluft](https://github.com/lkluft)
 ### Removed Datasets
 * Remove ICON-LES highCCN ddt_temp_radlw and ddt_temp_radsw data as part of the radiation datasets as it was incomplete and uses a lot of storage space while not being used. Data is still available on tape (#141). By [Hauke Schulz](https://github.com/observingClouds)
 ### Fixes
 * Fixes ICON-LES highCCN radiation dataset timeseries which was previously incomplete (#141). By [Hauke Schulz](https://github.com/observingClouds)
+* Fix `ValueError: Reference-FS's target filesystem must have same value of asynchronous` with zarr ≥3.1.5 by adding `remote_options: {asynchronous: true}` to kerchunk/reference filesystem entries in `barbados/BCO/poldirad.yaml` and `Simulations/EUREC4A-MIP/` catalog files (#179).
 ### Internal Changes
+* Update CI test environments to Python 3.12 and modernize GitHub Actions versions (`actions/checkout@v4`, `actions/setup-python@v5`) (#179).
+* Add `setuptools` to `requirements.txt` for Python 3.12 compatibility (#179).
 * update IPFS version in CI to 0.23.0 to improve access times and make weekly_test more reliable (#149). By [Hauke Schulz](https://github.com/observingClouds)
 * add citation recommendations (#155). By [Hauke Schulz](https://github.com/observingClouds)
 * install dependencies via python eurec4a package. By [Tobias Kölling](https://github.com/d70-t)
+* update conda environment github action in weekly test (#168). By [Hauke Schulz](https://github.com/observingClouds)
 
 ## 1.0.0
 

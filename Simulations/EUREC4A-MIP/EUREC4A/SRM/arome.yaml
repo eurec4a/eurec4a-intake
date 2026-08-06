@@ -1,0 +1,43 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+description: >
+  AROME CTL reference run (2.5 km). Notes on deviations from the MIP data
+  protocol: Tables 1-3 are at hourly frequency (Table 2 was requested at 5-min).
+  Table 4 (circle profiles) was not provided. Radiation variables (ssr, str, tsr,
+  ttr and clear-sky variants) are net fluxes in ECMWF convention rather than
+  individual upwelling/downwelling components. Table 3 has 6 pressure levels
+  (1000/950/900/850/700/500 hPa) rather than the 5 requested. Missing MIP
+  variables include sst, clwvi, clivi, rwp, q10m, w400m (Tables 1-2) and q2d
+  (Table 3).
+
+sources:
+
+  2D_surface_toa:
+    description: Table 1 - Surface and top-of-atmosphere 2D fields (hourly)
+    driver: zarr
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/AROME_CTL/AROME_CTL_TBL1.zarr
+      consolidated: true
+
+  2D:
+    description: Table 2 - Column and near-surface 2D fields (hourly; tcc derived by random overlap of hcc/lcc/mcc)
+    driver: zarr
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/AROME_CTL/AROME_CTL_TBL2.zarr
+      consolidated: true
+
+  cross:
+    description: "Table 3 - 2D cross-sections at pressure levels (hourly; 6 levels: 1000/950/900/850/700/500 hPa)"
+    driver: zarr
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/AROME_CTL/AROME_CTL_TBL3.zarr
+      consolidated: true
+
+  3D:
+    description: Table 5 - Full 3D domain fields (6-hourly; 19 pressure levels; cc3d and g3d from supplementary store)
+    driver: zarr
+    args:
+      urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/AROME_CTL/AROME_CTL_TBL5.zarr
+      consolidated: true

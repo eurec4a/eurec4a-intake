@@ -1,0 +1,11 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  microhh:
+    args:
+      path: "{{CATALOG_DIR}}/microhh.yaml"
+    description: "MicroHH fine-resolution periodic LEM"
+    driver: yaml_file_cat
+    metadata: {}
