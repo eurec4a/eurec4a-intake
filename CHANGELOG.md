@@ -18,7 +18,9 @@
 * Add gridded POLDIRAD product with kerchunk references to provide a continous dataset (#160). By [Hauke Schulz](https://github.com/observingClouds)
 * Add VELOX brightness temperature in a continuous dataset (#174). By [Lukas Kluft](https://github.com/lkluft)
 ### Removed Datasets
+* Remove ICON-LES highCCN ddt_temp_radlw and ddt_temp_radsw data as part of the radiation datasets as it was incomplete and uses a lot of storage space while not being used. Data is still available on tape (#141). By [Hauke Schulz](https://github.com/observingClouds)
 ### Fixes
+* Fixes ICON-LES highCCN radiation dataset timeseries which was previously incomplete (#141). By [Hauke Schulz](https://github.com/observingClouds)
 * Fix `ValueError: Reference-FS's target filesystem must have same value of asynchronous` with zarr ≥3.1.5 by adding `remote_options: {asynchronous: true}` to kerchunk/reference filesystem entries in `barbados/BCO/poldirad.yaml` and `Simulations/EUREC4A-MIP/` catalog files (#179).
 ### Internal Changes
 * Update CI test environments to Python 3.12 and modernize GitHub Actions versions (`actions/checkout@v4`, `actions/setup-python@v5`) (#179).
